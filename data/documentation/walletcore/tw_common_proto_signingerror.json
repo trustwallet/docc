@@ -1,0 +1,1112 @@
+{
+  "abstract" : [
+    {
+      "text" : "No overview available.",
+      "type" : "text"
+    }
+  ],
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Common_Proto_SigningError"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "s:10WalletCore28TW_Common_Proto_SigningErrorO",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "enum"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "TW_Common_Proto_SigningError"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "WalletCore"
+      }
+    ],
+    "navigatorTitle" : [
+      {
+        "kind" : "identifier",
+        "text" : "TW_Common_Proto_SigningError"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Enumeration",
+    "symbolKind" : "enum",
+    "title" : "TW_Common_Proto_SigningError"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "iOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "enum"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "TW_Common_Proto_SigningError"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "relationshipsSections" : [
+    {
+      "identifiers" : [
+        "doc:\/\/com.trustwallet.WalletCore\/s12CaseIterableP",
+        "doc:\/\/com.trustwallet.WalletCore\/SQ",
+        "doc:\/\/com.trustwallet.WalletCore\/SH",
+        "doc:\/\/com.trustwallet.WalletCore\/SY",
+        "doc:\/\/com.trustwallet.WalletCore\/13SwiftProtobuf4EnumP"
+      ],
+      "kind" : "relationships",
+      "title" : "Conforms To",
+      "type" : "conformsTo"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 2,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "topicSections" : [
+    {
+      "identifiers" : [
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Common_Proto_SigningError\/UNRECOGNIZED(_:)",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Common_Proto_SigningError\/errorGeneral",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Common_Proto_SigningError\/errorInputParse",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Common_Proto_SigningError\/errorInternal",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Common_Proto_SigningError\/errorInvalidAddress",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Common_Proto_SigningError\/errorInvalidMemo",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Common_Proto_SigningError\/errorInvalidParams",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Common_Proto_SigningError\/errorInvalidPrivateKey",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Common_Proto_SigningError\/errorInvalidRequestedTokenAmount",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Common_Proto_SigningError\/errorInvalidUtxo",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Common_Proto_SigningError\/errorInvalidUtxoAmount",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Common_Proto_SigningError\/errorLowBalance",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Common_Proto_SigningError\/errorMissingInputUtxos",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Common_Proto_SigningError\/errorMissingPrivateKey",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Common_Proto_SigningError\/errorNoSupportN2N",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Common_Proto_SigningError\/errorNotEnoughUtxos",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Common_Proto_SigningError\/errorScriptOutput",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Common_Proto_SigningError\/errorScriptRedeem",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Common_Proto_SigningError\/errorScriptWitnessProgram",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Common_Proto_SigningError\/errorSignaturesCount",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Common_Proto_SigningError\/errorSigning",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Common_Proto_SigningError\/errorTxTooBig",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Common_Proto_SigningError\/errorWrongFee",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Common_Proto_SigningError\/errorZeroAmountRequested",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Common_Proto_SigningError\/ok"
+      ],
+      "title" : "Enumeration Cases"
+    },
+    {
+      "identifiers" : [
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Common_Proto_SigningError\/init()",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Common_Proto_SigningError\/init(rawValue:)"
+      ],
+      "title" : "Initializers"
+    },
+    {
+      "identifiers" : [
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Common_Proto_SigningError\/rawValue-swift.property"
+      ],
+      "title" : "Instance Properties"
+    },
+    {
+      "identifiers" : [
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Common_Proto_SigningError\/RawValue-swift.typealias"
+      ],
+      "title" : "Type Aliases"
+    },
+    {
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Common_Proto_SigningError\/CaseIterable-Implementations",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Common_Proto_SigningError\/Equatable-Implementations",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Common_Proto_SigningError\/Hashable-Implementations",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Common_Proto_SigningError\/RawRepresentable-Implementations"
+      ],
+      "title" : "Default Implementations"
+    }
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/walletcore\/tw_common_proto_signingerror"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://com.trustwallet.WalletCore/13SwiftProtobuf4EnumP": {
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/13SwiftProtobuf4EnumP",
+  "title" : "SwiftProtobuf.Enum",
+  "type" : "unresolvable"
+},
+"doc://com.trustwallet.WalletCore/SH": {
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/SH",
+  "title" : "Swift.Hashable",
+  "type" : "unresolvable"
+},
+"doc://com.trustwallet.WalletCore/SQ": {
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/SQ",
+  "title" : "Swift.Equatable",
+  "type" : "unresolvable"
+},
+"doc://com.trustwallet.WalletCore/SY": {
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/SY",
+  "title" : "Swift.RawRepresentable",
+  "type" : "unresolvable"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "WalletCore",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Common_Proto_SigningError": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "enum"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "TW_Common_Proto_SigningError"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Common_Proto_SigningError",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "TW_Common_Proto_SigningError"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "TW_Common_Proto_SigningError",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_common_proto_signingerror"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Common_Proto_SigningError/CaseIterable-Implementations": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Common_Proto_SigningError\/CaseIterable-Implementations",
+  "kind" : "article",
+  "role" : "collectionGroup",
+  "title" : "CaseIterable Implementations",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_common_proto_signingerror\/caseiterable-implementations"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Common_Proto_SigningError/Equatable-Implementations": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Common_Proto_SigningError\/Equatable-Implementations",
+  "kind" : "article",
+  "role" : "collectionGroup",
+  "title" : "Equatable Implementations",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_common_proto_signingerror\/equatable-implementations"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Common_Proto_SigningError/Hashable-Implementations": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Common_Proto_SigningError\/Hashable-Implementations",
+  "kind" : "article",
+  "role" : "collectionGroup",
+  "title" : "Hashable Implementations",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_common_proto_signingerror\/hashable-implementations"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Common_Proto_SigningError/RawRepresentable-Implementations": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Common_Proto_SigningError\/RawRepresentable-Implementations",
+  "kind" : "article",
+  "role" : "collectionGroup",
+  "title" : "RawRepresentable Implementations",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_common_proto_signingerror\/rawrepresentable-implementations"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Common_Proto_SigningError/RawValue-swift.typealias": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "typealias"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "RawValue"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Common_Proto_SigningError\/RawValue-swift.typealias",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "RawValue"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "TW_Common_Proto_SigningError.RawValue",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_common_proto_signingerror\/rawvalue-swift.typealias"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Common_Proto_SigningError/UNRECOGNIZED(_:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "UNRECOGNIZED"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Si",
+      "text" : "Int"
+    },
+    {
+      "kind" : "text",
+      "text" : ")"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Common_Proto_SigningError\/UNRECOGNIZED(_:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "TW_Common_Proto_SigningError.UNRECOGNIZED(_:)",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_common_proto_signingerror\/unrecognized(_:)"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Common_Proto_SigningError/errorGeneral": {
+  "abstract" : [
+    {
+      "text" : "chain-generic, generic",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "errorGeneral"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Common_Proto_SigningError\/errorGeneral",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "TW_Common_Proto_SigningError.errorGeneral",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_common_proto_signingerror\/errorgeneral"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Common_Proto_SigningError/errorInputParse": {
+  "abstract" : [
+    {
+      "text" : "e.g. Invalid input data",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "errorInputParse"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Common_Proto_SigningError\/errorInputParse",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "TW_Common_Proto_SigningError.errorInputParse",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_common_proto_signingerror\/errorinputparse"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Common_Proto_SigningError/errorInternal": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "errorInternal"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Common_Proto_SigningError\/errorInternal",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "TW_Common_Proto_SigningError.errorInternal",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_common_proto_signingerror\/errorinternal"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Common_Proto_SigningError/errorInvalidAddress": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "errorInvalidAddress"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Common_Proto_SigningError\/errorInvalidAddress",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "TW_Common_Proto_SigningError.errorInvalidAddress",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_common_proto_signingerror\/errorinvalidaddress"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Common_Proto_SigningError/errorInvalidMemo": {
+  "abstract" : [
+    {
+      "text" : "e.g. [XRP] Invalid tag",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "errorInvalidMemo"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Common_Proto_SigningError\/errorInvalidMemo",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "TW_Common_Proto_SigningError.errorInvalidMemo",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_common_proto_signingerror\/errorinvalidmemo"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Common_Proto_SigningError/errorInvalidParams": {
+  "abstract" : [
+    {
+      "text" : "Incorrect parameters",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "errorInvalidParams"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Common_Proto_SigningError\/errorInvalidParams",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "TW_Common_Proto_SigningError.errorInvalidParams",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_common_proto_signingerror\/errorinvalidparams"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Common_Proto_SigningError/errorInvalidPrivateKey": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "errorInvalidPrivateKey"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Common_Proto_SigningError\/errorInvalidPrivateKey",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "TW_Common_Proto_SigningError.errorInvalidPrivateKey",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_common_proto_signingerror\/errorinvalidprivatekey"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Common_Proto_SigningError/errorInvalidRequestedTokenAmount": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "errorInvalidRequestedTokenAmount"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Common_Proto_SigningError\/errorInvalidRequestedTokenAmount",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "TW_Common_Proto_SigningError.errorInvalidRequestedTokenAmount",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_common_proto_signingerror\/errorinvalidrequestedtokenamount"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Common_Proto_SigningError/errorInvalidUtxo": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "errorInvalidUtxo"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Common_Proto_SigningError\/errorInvalidUtxo",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "TW_Common_Proto_SigningError.errorInvalidUtxo",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_common_proto_signingerror\/errorinvalidutxo"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Common_Proto_SigningError/errorInvalidUtxoAmount": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "errorInvalidUtxoAmount"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Common_Proto_SigningError\/errorInvalidUtxoAmount",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "TW_Common_Proto_SigningError.errorInvalidUtxoAmount",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_common_proto_signingerror\/errorinvalidutxoamount"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Common_Proto_SigningError/errorLowBalance": {
+  "abstract" : [
+    {
+      "text" : "chain-generic, input",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "errorLowBalance"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Common_Proto_SigningError\/errorLowBalance",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "TW_Common_Proto_SigningError.errorLowBalance",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_common_proto_signingerror\/errorlowbalance"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Common_Proto_SigningError/errorMissingInputUtxos": {
+  "abstract" : [
+    {
+      "text" : "UTXO-chain specific, inputs",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "errorMissingInputUtxos"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Common_Proto_SigningError\/errorMissingInputUtxos",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "TW_Common_Proto_SigningError.errorMissingInputUtxos",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_common_proto_signingerror\/errormissinginpututxos"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Common_Proto_SigningError/errorMissingPrivateKey": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "errorMissingPrivateKey"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Common_Proto_SigningError\/errorMissingPrivateKey",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "TW_Common_Proto_SigningError.errorMissingPrivateKey",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_common_proto_signingerror\/errormissingprivatekey"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Common_Proto_SigningError/errorNoSupportN2N": {
+  "abstract" : [
+    {
+      "text" : "e.g. Not support multi-input and multi-output transaction",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "errorNoSupportN2N"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Common_Proto_SigningError\/errorNoSupportN2N",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "TW_Common_Proto_SigningError.errorNoSupportN2N",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_common_proto_signingerror\/errornosupportn2n"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Common_Proto_SigningError/errorNotEnoughUtxos": {
+  "abstract" : [
+    {
+      "text" : "Not enough non-dust input UTXOs to cover requested amount (dust UTXOs are filtered out) [BTC]",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "errorNotEnoughUtxos"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Common_Proto_SigningError\/errorNotEnoughUtxos",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "TW_Common_Proto_SigningError.errorNotEnoughUtxos",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_common_proto_signingerror\/errornotenoughutxos"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Common_Proto_SigningError/errorScriptOutput": {
+  "abstract" : [
+    {
+      "text" : "[BTC] Invalid output script",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "errorScriptOutput"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Common_Proto_SigningError\/errorScriptOutput",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "TW_Common_Proto_SigningError.errorScriptOutput",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_common_proto_signingerror\/errorscriptoutput"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Common_Proto_SigningError/errorScriptRedeem": {
+  "abstract" : [
+    {
+      "text" : "UTXO-chain specific, script",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "errorScriptRedeem"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Common_Proto_SigningError\/errorScriptRedeem",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "TW_Common_Proto_SigningError.errorScriptRedeem",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_common_proto_signingerror\/errorscriptredeem"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Common_Proto_SigningError/errorScriptWitnessProgram": {
+  "abstract" : [
+    {
+      "text" : "[BTC] Unrecognized witness program",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "errorScriptWitnessProgram"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Common_Proto_SigningError\/errorScriptWitnessProgram",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "TW_Common_Proto_SigningError.errorScriptWitnessProgram",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_common_proto_signingerror\/errorscriptwitnessprogram"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Common_Proto_SigningError/errorSignaturesCount": {
+  "abstract" : [
+    {
+      "text" : "Incorrect count of signatures passed to compile",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "errorSignaturesCount"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Common_Proto_SigningError\/errorSignaturesCount",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "TW_Common_Proto_SigningError.errorSignaturesCount",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_common_proto_signingerror\/errorsignaturescount"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Common_Proto_SigningError/errorSigning": {
+  "abstract" : [
+    {
+      "text" : "chain-generic, signing",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "errorSigning"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Common_Proto_SigningError\/errorSigning",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "TW_Common_Proto_SigningError.errorSigning",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_common_proto_signingerror\/errorsigning"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Common_Proto_SigningError/errorTxTooBig": {
+  "abstract" : [
+    {
+      "text" : "[NEO] Transaction too big, fee in GAS needed or try send by parts",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "errorTxTooBig"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Common_Proto_SigningError\/errorTxTooBig",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "TW_Common_Proto_SigningError.errorTxTooBig",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_common_proto_signingerror\/errortxtoobig"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Common_Proto_SigningError/errorWrongFee": {
+  "abstract" : [
+    {
+      "text" : "chain-generic, fee",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "errorWrongFee"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Common_Proto_SigningError\/errorWrongFee",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "TW_Common_Proto_SigningError.errorWrongFee",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_common_proto_signingerror\/errorwrongfee"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Common_Proto_SigningError/errorZeroAmountRequested": {
+  "abstract" : [
+    {
+      "text" : "Requested amount is zero",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "errorZeroAmountRequested"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Common_Proto_SigningError\/errorZeroAmountRequested",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "TW_Common_Proto_SigningError.errorZeroAmountRequested",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_common_proto_signingerror\/errorzeroamountrequested"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Common_Proto_SigningError/init()": {
+  "abstract" : [
+    {
+      "text" : "Creates a new instance of the enum initialized to its default value.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "init"
+    },
+    {
+      "kind" : "text",
+      "text" : "()"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Common_Proto_SigningError\/init()",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "init()",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_common_proto_signingerror\/init()"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Common_Proto_SigningError/init(rawValue:)": {
+  "abstract" : [
+    {
+      "text" : "Creates a new instance of the enum from the given raw integer value.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "init"
+    },
+    {
+      "kind" : "text",
+      "text" : "?("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "rawValue"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Si",
+      "text" : "Int"
+    },
+    {
+      "kind" : "text",
+      "text" : ")"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Common_Proto_SigningError\/init(rawValue:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "init(rawValue:)",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_common_proto_signingerror\/init(rawvalue:)"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Common_Proto_SigningError/ok": {
+  "abstract" : [
+    {
+      "text" : "OK",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "ok"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Common_Proto_SigningError\/ok",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "TW_Common_Proto_SigningError.ok",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_common_proto_signingerror\/ok"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Common_Proto_SigningError/rawValue-swift.property": {
+  "abstract" : [
+    {
+      "text" : "The raw integer value of the enum value.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "rawValue"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Si",
+      "text" : "Int"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Common_Proto_SigningError\/rawValue-swift.property",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "rawValue",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_common_proto_signingerror\/rawvalue-swift.property"
+},
+"doc://com.trustwallet.WalletCore/s12CaseIterableP": {
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/s12CaseIterableP",
+  "title" : "Swift.CaseIterable",
+  "type" : "unresolvable"
+}
+}
+}

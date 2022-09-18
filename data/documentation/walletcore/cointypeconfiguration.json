@@ -1,0 +1,568 @@
+{
+  "abstract" : [
+    {
+      "text" : "CoinTypeConfiguration functions",
+      "type" : "text"
+    }
+  ],
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/CoinTypeConfiguration"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "s:10WalletCore21CoinTypeConfigurationV",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "struct"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "CoinTypeConfiguration"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "WalletCore"
+      }
+    ],
+    "navigatorTitle" : [
+      {
+        "kind" : "identifier",
+        "text" : "CoinTypeConfiguration"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Structure",
+    "symbolKind" : "struct",
+    "title" : "CoinTypeConfiguration"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "iOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "struct"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "CoinTypeConfiguration"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 2,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "topicSections" : [
+    {
+      "identifiers" : [
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/CoinTypeConfiguration\/getAccountURL(type:accountID:)",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/CoinTypeConfiguration\/getDecimals(type:)",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/CoinTypeConfiguration\/getID(type:)",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/CoinTypeConfiguration\/getName(type:)",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/CoinTypeConfiguration\/getSymbol(type:)",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/CoinTypeConfiguration\/getTransactionURL(type:transactionID:)"
+      ],
+      "title" : "Type Methods"
+    }
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/walletcore\/cointypeconfiguration"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://com.trustwallet.WalletCore/documentation/WalletCore": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "WalletCore",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/CoinTypeConfiguration": {
+  "abstract" : [
+    {
+      "text" : "CoinTypeConfiguration functions",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "CoinTypeConfiguration"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/CoinTypeConfiguration",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "CoinTypeConfiguration"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "CoinTypeConfiguration",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/cointypeconfiguration"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/CoinTypeConfiguration/getAccountURL(type:accountID:)": {
+  "abstract" : [
+    {
+      "text" : "Returns account url in blockchain explorer",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "static"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "getAccountURL"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "type"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10WalletCore8CoinTypeO",
+      "text" : "CoinType"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "accountID"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/CoinTypeConfiguration\/getAccountURL(type:accountID:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "getAccountURL(type:accountID:)",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/cointypeconfiguration\/getaccounturl(type:accountid:)"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/CoinTypeConfiguration/getDecimals(type:)": {
+  "abstract" : [
+    {
+      "text" : "Returns max count decimal places for minimal coin unit",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "static"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "getDecimals"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "type"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10WalletCore8CoinTypeO",
+      "text" : "CoinType"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:s5Int32V",
+      "text" : "Int32"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/CoinTypeConfiguration\/getDecimals(type:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "getDecimals(type:)",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/cointypeconfiguration\/getdecimals(type:)"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/CoinTypeConfiguration/getID(type:)": {
+  "abstract" : [
+    {
+      "text" : "Returns full name of coin in lower case",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "static"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "getID"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "type"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10WalletCore8CoinTypeO",
+      "text" : "CoinType"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/CoinTypeConfiguration\/getID(type:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "getID(type:)",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/cointypeconfiguration\/getid(type:)"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/CoinTypeConfiguration/getName(type:)": {
+  "abstract" : [
+    {
+      "text" : "Returns full name of coin",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "static"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "getName"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "type"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10WalletCore8CoinTypeO",
+      "text" : "CoinType"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/CoinTypeConfiguration\/getName(type:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "getName(type:)",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/cointypeconfiguration\/getname(type:)"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/CoinTypeConfiguration/getSymbol(type:)": {
+  "abstract" : [
+    {
+      "text" : "Returns stock symbol of coin",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "static"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "getSymbol"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "type"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10WalletCore8CoinTypeO",
+      "text" : "CoinType"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/CoinTypeConfiguration\/getSymbol(type:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "getSymbol(type:)",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/cointypeconfiguration\/getsymbol(type:)"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/CoinTypeConfiguration/getTransactionURL(type:transactionID:)": {
+  "abstract" : [
+    {
+      "text" : "Returns transaction url in blockchain explorer",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "static"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "getTransactionURL"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "type"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10WalletCore8CoinTypeO",
+      "text" : "CoinType"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "transactionID"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/CoinTypeConfiguration\/getTransactionURL(type:transactionID:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "getTransactionURL(type:transactionID:)",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/cointypeconfiguration\/gettransactionurl(type:transactionid:)"
+}
+}
+}

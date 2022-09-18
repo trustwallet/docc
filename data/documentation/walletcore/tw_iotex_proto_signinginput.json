@@ -1,0 +1,1032 @@
+{
+  "abstract" : [
+    {
+      "text" : "transaction signing input",
+      "type" : "text"
+    }
+  ],
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_IoTeX_Proto_SigningInput"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "s:10WalletCore27TW_IoTeX_Proto_SigningInputV",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "struct"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "TW_IoTeX_Proto_SigningInput"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "WalletCore"
+      }
+    ],
+    "navigatorTitle" : [
+      {
+        "kind" : "identifier",
+        "text" : "TW_IoTeX_Proto_SigningInput"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Structure",
+    "symbolKind" : "struct",
+    "title" : "TW_IoTeX_Proto_SigningInput"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "iOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "struct"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "TW_IoTeX_Proto_SigningInput"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "relationshipsSections" : [
+    {
+      "identifiers" : [
+        "doc:\/\/com.trustwallet.WalletCore\/s28CustomDebugStringConvertibleP",
+        "doc:\/\/com.trustwallet.WalletCore\/SQ",
+        "doc:\/\/com.trustwallet.WalletCore\/SH",
+        "doc:\/\/com.trustwallet.WalletCore\/13SwiftProtobuf7MessageP"
+      ],
+      "kind" : "relationships",
+      "title" : "Conforms To",
+      "type" : "conformsTo"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 2,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "topicSections" : [
+    {
+      "identifiers" : [
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_IoTeX_Proto_SigningInput\/init()"
+      ],
+      "title" : "Initializers"
+    },
+    {
+      "identifiers" : [
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_IoTeX_Proto_SigningInput\/action",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_IoTeX_Proto_SigningInput\/call",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_IoTeX_Proto_SigningInput\/candidateRegister",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_IoTeX_Proto_SigningInput\/candidateUpdate",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_IoTeX_Proto_SigningInput\/gasLimit",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_IoTeX_Proto_SigningInput\/gasPrice",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_IoTeX_Proto_SigningInput\/nonce",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_IoTeX_Proto_SigningInput\/privateKey",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_IoTeX_Proto_SigningInput\/stakeAddDeposit",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_IoTeX_Proto_SigningInput\/stakeChangeCandidate",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_IoTeX_Proto_SigningInput\/stakeCreate",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_IoTeX_Proto_SigningInput\/stakeRestake",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_IoTeX_Proto_SigningInput\/stakeTransferOwnership",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_IoTeX_Proto_SigningInput\/stakeUnstake",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_IoTeX_Proto_SigningInput\/stakeWithdraw",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_IoTeX_Proto_SigningInput\/transfer",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_IoTeX_Proto_SigningInput\/unknownFields",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_IoTeX_Proto_SigningInput\/version"
+      ],
+      "title" : "Instance Properties"
+    },
+    {
+      "identifiers" : [
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_IoTeX_Proto_SigningInput\/OneOf_Action"
+      ],
+      "title" : "Enumerations"
+    },
+    {
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_IoTeX_Proto_SigningInput\/Equatable-Implementations",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_IoTeX_Proto_SigningInput\/Message-Implementations"
+      ],
+      "title" : "Default Implementations"
+    }
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/walletcore\/tw_iotex_proto_signinginput"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://com.trustwallet.WalletCore/13SwiftProtobuf7MessageP": {
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/13SwiftProtobuf7MessageP",
+  "title" : "SwiftProtobuf.Message",
+  "type" : "unresolvable"
+},
+"doc://com.trustwallet.WalletCore/SH": {
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/SH",
+  "title" : "Swift.Hashable",
+  "type" : "unresolvable"
+},
+"doc://com.trustwallet.WalletCore/SQ": {
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/SQ",
+  "title" : "Swift.Equatable",
+  "type" : "unresolvable"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "WalletCore",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_IoTeX_Proto_SigningInput": {
+  "abstract" : [
+    {
+      "text" : "transaction signing input",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "TW_IoTeX_Proto_SigningInput"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_IoTeX_Proto_SigningInput",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "TW_IoTeX_Proto_SigningInput"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "TW_IoTeX_Proto_SigningInput",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_iotex_proto_signinginput"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_IoTeX_Proto_SigningInput/Equatable-Implementations": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_IoTeX_Proto_SigningInput\/Equatable-Implementations",
+  "kind" : "article",
+  "role" : "collectionGroup",
+  "title" : "Equatable Implementations",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_iotex_proto_signinginput\/equatable-implementations"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_IoTeX_Proto_SigningInput/Message-Implementations": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_IoTeX_Proto_SigningInput\/Message-Implementations",
+  "kind" : "article",
+  "role" : "collectionGroup",
+  "title" : "Message Implementations",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_iotex_proto_signinginput\/message-implementations"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_IoTeX_Proto_SigningInput/OneOf_Action": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "enum"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "OneOf_Action"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_IoTeX_Proto_SigningInput\/OneOf_Action",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "OneOf_Action"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "TW_IoTeX_Proto_SigningInput.OneOf_Action",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_iotex_proto_signinginput\/oneof_action"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_IoTeX_Proto_SigningInput/action": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "action"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10WalletCore27TW_IoTeX_Proto_SigningInputV",
+      "text" : "TW_IoTeX_Proto_SigningInput"
+    },
+    {
+      "kind" : "text",
+      "text" : "."
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10WalletCore27TW_IoTeX_Proto_SigningInputV12OneOf_ActionO",
+      "text" : "OneOf_Action"
+    },
+    {
+      "kind" : "text",
+      "text" : "?"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_IoTeX_Proto_SigningInput\/action",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "action",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_iotex_proto_signinginput\/action"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_IoTeX_Proto_SigningInput/call": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "call"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10WalletCore27TW_IoTeX_Proto_ContractCallV",
+      "text" : "TW_IoTeX_Proto_ContractCall"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_IoTeX_Proto_SigningInput\/call",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "call",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_iotex_proto_signinginput\/call"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_IoTeX_Proto_SigningInput/candidateRegister": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "candidateRegister"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10WalletCore22TW_IoTeX_Proto_StakingV",
+      "text" : "TW_IoTeX_Proto_Staking"
+    },
+    {
+      "kind" : "text",
+      "text" : "."
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10WalletCore22TW_IoTeX_Proto_StakingV17CandidateRegisterV",
+      "text" : "CandidateRegister"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_IoTeX_Proto_SigningInput\/candidateRegister",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "candidateRegister",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_iotex_proto_signinginput\/candidateregister"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_IoTeX_Proto_SigningInput/candidateUpdate": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "candidateUpdate"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10WalletCore22TW_IoTeX_Proto_StakingV",
+      "text" : "TW_IoTeX_Proto_Staking"
+    },
+    {
+      "kind" : "text",
+      "text" : "."
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10WalletCore22TW_IoTeX_Proto_StakingV18CandidateBasicInfoV",
+      "text" : "CandidateBasicInfo"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_IoTeX_Proto_SigningInput\/candidateUpdate",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "candidateUpdate",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_iotex_proto_signinginput\/candidateupdate"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_IoTeX_Proto_SigningInput/gasLimit": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "gasLimit"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:s6UInt64V",
+      "text" : "UInt64"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_IoTeX_Proto_SigningInput\/gasLimit",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "gasLimit",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_iotex_proto_signinginput\/gaslimit"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_IoTeX_Proto_SigningInput/gasPrice": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "gasPrice"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_IoTeX_Proto_SigningInput\/gasPrice",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "gasPrice",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_iotex_proto_signinginput\/gasprice"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_IoTeX_Proto_SigningInput/init()": {
+  "abstract" : [
+    {
+      "text" : "Creates a new message with all of its fields initialized to their default",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "values.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "init"
+    },
+    {
+      "kind" : "text",
+      "text" : "()"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_IoTeX_Proto_SigningInput\/init()",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "init()",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_iotex_proto_signinginput\/init()"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_IoTeX_Proto_SigningInput/nonce": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "nonce"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:s6UInt64V",
+      "text" : "UInt64"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_IoTeX_Proto_SigningInput\/nonce",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "nonce",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_iotex_proto_signinginput\/nonce"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_IoTeX_Proto_SigningInput/privateKey": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "privateKey"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10Foundation4DataV",
+      "text" : "Data"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_IoTeX_Proto_SigningInput\/privateKey",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "privateKey",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_iotex_proto_signinginput\/privatekey"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_IoTeX_Proto_SigningInput/stakeAddDeposit": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "stakeAddDeposit"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10WalletCore22TW_IoTeX_Proto_StakingV",
+      "text" : "TW_IoTeX_Proto_Staking"
+    },
+    {
+      "kind" : "text",
+      "text" : "."
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10WalletCore22TW_IoTeX_Proto_StakingV10AddDepositV",
+      "text" : "AddDeposit"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_IoTeX_Proto_SigningInput\/stakeAddDeposit",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "stakeAddDeposit",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_iotex_proto_signinginput\/stakeadddeposit"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_IoTeX_Proto_SigningInput/stakeChangeCandidate": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "stakeChangeCandidate"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10WalletCore22TW_IoTeX_Proto_StakingV",
+      "text" : "TW_IoTeX_Proto_Staking"
+    },
+    {
+      "kind" : "text",
+      "text" : "."
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10WalletCore22TW_IoTeX_Proto_StakingV15ChangeCandidateV",
+      "text" : "ChangeCandidate"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_IoTeX_Proto_SigningInput\/stakeChangeCandidate",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "stakeChangeCandidate",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_iotex_proto_signinginput\/stakechangecandidate"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_IoTeX_Proto_SigningInput/stakeCreate": {
+  "abstract" : [
+    {
+      "text" : "Native staking",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "stakeCreate"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10WalletCore22TW_IoTeX_Proto_StakingV",
+      "text" : "TW_IoTeX_Proto_Staking"
+    },
+    {
+      "kind" : "text",
+      "text" : "."
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10WalletCore22TW_IoTeX_Proto_StakingV6CreateV",
+      "text" : "Create"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_IoTeX_Proto_SigningInput\/stakeCreate",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "stakeCreate",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_iotex_proto_signinginput\/stakecreate"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_IoTeX_Proto_SigningInput/stakeRestake": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "stakeRestake"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10WalletCore22TW_IoTeX_Proto_StakingV",
+      "text" : "TW_IoTeX_Proto_Staking"
+    },
+    {
+      "kind" : "text",
+      "text" : "."
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10WalletCore22TW_IoTeX_Proto_StakingV7RestakeV",
+      "text" : "Restake"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_IoTeX_Proto_SigningInput\/stakeRestake",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "stakeRestake",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_iotex_proto_signinginput\/stakerestake"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_IoTeX_Proto_SigningInput/stakeTransferOwnership": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "stakeTransferOwnership"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10WalletCore22TW_IoTeX_Proto_StakingV",
+      "text" : "TW_IoTeX_Proto_Staking"
+    },
+    {
+      "kind" : "text",
+      "text" : "."
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10WalletCore22TW_IoTeX_Proto_StakingV17TransferOwnershipV",
+      "text" : "TransferOwnership"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_IoTeX_Proto_SigningInput\/stakeTransferOwnership",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "stakeTransferOwnership",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_iotex_proto_signinginput\/staketransferownership"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_IoTeX_Proto_SigningInput/stakeUnstake": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "stakeUnstake"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10WalletCore22TW_IoTeX_Proto_StakingV",
+      "text" : "TW_IoTeX_Proto_Staking"
+    },
+    {
+      "kind" : "text",
+      "text" : "."
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10WalletCore22TW_IoTeX_Proto_StakingV7ReclaimV",
+      "text" : "Reclaim"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_IoTeX_Proto_SigningInput\/stakeUnstake",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "stakeUnstake",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_iotex_proto_signinginput\/stakeunstake"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_IoTeX_Proto_SigningInput/stakeWithdraw": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "stakeWithdraw"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10WalletCore22TW_IoTeX_Proto_StakingV",
+      "text" : "TW_IoTeX_Proto_Staking"
+    },
+    {
+      "kind" : "text",
+      "text" : "."
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10WalletCore22TW_IoTeX_Proto_StakingV7ReclaimV",
+      "text" : "Reclaim"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_IoTeX_Proto_SigningInput\/stakeWithdraw",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "stakeWithdraw",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_iotex_proto_signinginput\/stakewithdraw"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_IoTeX_Proto_SigningInput/transfer": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "transfer"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10WalletCore23TW_IoTeX_Proto_TransferV",
+      "text" : "TW_IoTeX_Proto_Transfer"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_IoTeX_Proto_SigningInput\/transfer",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "transfer",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_iotex_proto_signinginput\/transfer"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_IoTeX_Proto_SigningInput/unknownFields": {
+  "abstract" : [
+    {
+      "text" : "Some formats include enough information to transport fields that were",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "not known at generation time. When encountered, they are stored here.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "unknownFields"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:13SwiftProtobuf14UnknownStorageV",
+      "text" : "UnknownStorage"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_IoTeX_Proto_SigningInput\/unknownFields",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "unknownFields",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_iotex_proto_signinginput\/unknownfields"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_IoTeX_Proto_SigningInput/version": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "version"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:s6UInt32V",
+      "text" : "UInt32"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_IoTeX_Proto_SigningInput\/version",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "version",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_iotex_proto_signinginput\/version"
+},
+"doc://com.trustwallet.WalletCore/s28CustomDebugStringConvertibleP": {
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/s28CustomDebugStringConvertibleP",
+  "title" : "Swift.CustomDebugStringConvertible",
+  "type" : "unresolvable"
+}
+}
+}

@@ -1,0 +1,677 @@
+{
+  "abstract" : [
+    {
+      "text" : "Predefined error codes",
+      "type" : "text"
+    }
+  ],
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_THORChainSwap_Proto_ErrorCode"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "s:10WalletCore32TW_THORChainSwap_Proto_ErrorCodeO",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "enum"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "TW_THORChainSwap_Proto_ErrorCode"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "WalletCore"
+      }
+    ],
+    "navigatorTitle" : [
+      {
+        "kind" : "identifier",
+        "text" : "TW_THORChainSwap_Proto_ErrorCode"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Enumeration",
+    "symbolKind" : "enum",
+    "title" : "TW_THORChainSwap_Proto_ErrorCode"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "iOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "enum"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "TW_THORChainSwap_Proto_ErrorCode"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "relationshipsSections" : [
+    {
+      "identifiers" : [
+        "doc:\/\/com.trustwallet.WalletCore\/s12CaseIterableP",
+        "doc:\/\/com.trustwallet.WalletCore\/SQ",
+        "doc:\/\/com.trustwallet.WalletCore\/SH",
+        "doc:\/\/com.trustwallet.WalletCore\/SY",
+        "doc:\/\/com.trustwallet.WalletCore\/13SwiftProtobuf4EnumP"
+      ],
+      "kind" : "relationships",
+      "title" : "Conforms To",
+      "type" : "conformsTo"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 2,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "topicSections" : [
+    {
+      "identifiers" : [
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_THORChainSwap_Proto_ErrorCode\/UNRECOGNIZED(_:)",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_THORChainSwap_Proto_ErrorCode\/errorGeneral",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_THORChainSwap_Proto_ErrorCode\/errorInputProtoDeserialization",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_THORChainSwap_Proto_ErrorCode\/errorInvalidFromAddress",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_THORChainSwap_Proto_ErrorCode\/errorInvalidRouterAddress",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_THORChainSwap_Proto_ErrorCode\/errorInvalidToAddress",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_THORChainSwap_Proto_ErrorCode\/errorInvalidVaultAddress",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_THORChainSwap_Proto_ErrorCode\/errorUnsupportedFromChain",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_THORChainSwap_Proto_ErrorCode\/errorUnsupportedToChain",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_THORChainSwap_Proto_ErrorCode\/ok"
+      ],
+      "title" : "Enumeration Cases"
+    },
+    {
+      "identifiers" : [
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_THORChainSwap_Proto_ErrorCode\/init()",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_THORChainSwap_Proto_ErrorCode\/init(rawValue:)"
+      ],
+      "title" : "Initializers"
+    },
+    {
+      "identifiers" : [
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_THORChainSwap_Proto_ErrorCode\/rawValue-swift.property"
+      ],
+      "title" : "Instance Properties"
+    },
+    {
+      "identifiers" : [
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_THORChainSwap_Proto_ErrorCode\/RawValue-swift.typealias"
+      ],
+      "title" : "Type Aliases"
+    },
+    {
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_THORChainSwap_Proto_ErrorCode\/CaseIterable-Implementations",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_THORChainSwap_Proto_ErrorCode\/Equatable-Implementations",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_THORChainSwap_Proto_ErrorCode\/Hashable-Implementations",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_THORChainSwap_Proto_ErrorCode\/RawRepresentable-Implementations"
+      ],
+      "title" : "Default Implementations"
+    }
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/walletcore\/tw_thorchainswap_proto_errorcode"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://com.trustwallet.WalletCore/13SwiftProtobuf4EnumP": {
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/13SwiftProtobuf4EnumP",
+  "title" : "SwiftProtobuf.Enum",
+  "type" : "unresolvable"
+},
+"doc://com.trustwallet.WalletCore/SH": {
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/SH",
+  "title" : "Swift.Hashable",
+  "type" : "unresolvable"
+},
+"doc://com.trustwallet.WalletCore/SQ": {
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/SQ",
+  "title" : "Swift.Equatable",
+  "type" : "unresolvable"
+},
+"doc://com.trustwallet.WalletCore/SY": {
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/SY",
+  "title" : "Swift.RawRepresentable",
+  "type" : "unresolvable"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "WalletCore",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_THORChainSwap_Proto_ErrorCode": {
+  "abstract" : [
+    {
+      "text" : "Predefined error codes",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "enum"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "TW_THORChainSwap_Proto_ErrorCode"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_THORChainSwap_Proto_ErrorCode",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "TW_THORChainSwap_Proto_ErrorCode"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "TW_THORChainSwap_Proto_ErrorCode",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_thorchainswap_proto_errorcode"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_THORChainSwap_Proto_ErrorCode/CaseIterable-Implementations": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_THORChainSwap_Proto_ErrorCode\/CaseIterable-Implementations",
+  "kind" : "article",
+  "role" : "collectionGroup",
+  "title" : "CaseIterable Implementations",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_thorchainswap_proto_errorcode\/caseiterable-implementations"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_THORChainSwap_Proto_ErrorCode/Equatable-Implementations": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_THORChainSwap_Proto_ErrorCode\/Equatable-Implementations",
+  "kind" : "article",
+  "role" : "collectionGroup",
+  "title" : "Equatable Implementations",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_thorchainswap_proto_errorcode\/equatable-implementations"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_THORChainSwap_Proto_ErrorCode/Hashable-Implementations": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_THORChainSwap_Proto_ErrorCode\/Hashable-Implementations",
+  "kind" : "article",
+  "role" : "collectionGroup",
+  "title" : "Hashable Implementations",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_thorchainswap_proto_errorcode\/hashable-implementations"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_THORChainSwap_Proto_ErrorCode/RawRepresentable-Implementations": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_THORChainSwap_Proto_ErrorCode\/RawRepresentable-Implementations",
+  "kind" : "article",
+  "role" : "collectionGroup",
+  "title" : "RawRepresentable Implementations",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_thorchainswap_proto_errorcode\/rawrepresentable-implementations"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_THORChainSwap_Proto_ErrorCode/RawValue-swift.typealias": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "typealias"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "RawValue"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_THORChainSwap_Proto_ErrorCode\/RawValue-swift.typealias",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "RawValue"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "TW_THORChainSwap_Proto_ErrorCode.RawValue",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_thorchainswap_proto_errorcode\/rawvalue-swift.typealias"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_THORChainSwap_Proto_ErrorCode/UNRECOGNIZED(_:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "UNRECOGNIZED"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Si",
+      "text" : "Int"
+    },
+    {
+      "kind" : "text",
+      "text" : ")"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_THORChainSwap_Proto_ErrorCode\/UNRECOGNIZED(_:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "TW_THORChainSwap_Proto_ErrorCode.UNRECOGNIZED(_:)",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_thorchainswap_proto_errorcode\/unrecognized(_:)"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_THORChainSwap_Proto_ErrorCode/errorGeneral": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "errorGeneral"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_THORChainSwap_Proto_ErrorCode\/errorGeneral",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "TW_THORChainSwap_Proto_ErrorCode.errorGeneral",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_thorchainswap_proto_errorcode\/errorgeneral"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_THORChainSwap_Proto_ErrorCode/errorInputProtoDeserialization": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "errorInputProtoDeserialization"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_THORChainSwap_Proto_ErrorCode\/errorInputProtoDeserialization",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "TW_THORChainSwap_Proto_ErrorCode.errorInputProtoDeserialization",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_thorchainswap_proto_errorcode\/errorinputprotodeserialization"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_THORChainSwap_Proto_ErrorCode/errorInvalidFromAddress": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "errorInvalidFromAddress"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_THORChainSwap_Proto_ErrorCode\/errorInvalidFromAddress",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "TW_THORChainSwap_Proto_ErrorCode.errorInvalidFromAddress",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_thorchainswap_proto_errorcode\/errorinvalidfromaddress"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_THORChainSwap_Proto_ErrorCode/errorInvalidRouterAddress": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "errorInvalidRouterAddress"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_THORChainSwap_Proto_ErrorCode\/errorInvalidRouterAddress",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "TW_THORChainSwap_Proto_ErrorCode.errorInvalidRouterAddress",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_thorchainswap_proto_errorcode\/errorinvalidrouteraddress"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_THORChainSwap_Proto_ErrorCode/errorInvalidToAddress": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "errorInvalidToAddress"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_THORChainSwap_Proto_ErrorCode\/errorInvalidToAddress",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "TW_THORChainSwap_Proto_ErrorCode.errorInvalidToAddress",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_thorchainswap_proto_errorcode\/errorinvalidtoaddress"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_THORChainSwap_Proto_ErrorCode/errorInvalidVaultAddress": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "errorInvalidVaultAddress"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_THORChainSwap_Proto_ErrorCode\/errorInvalidVaultAddress",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "TW_THORChainSwap_Proto_ErrorCode.errorInvalidVaultAddress",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_thorchainswap_proto_errorcode\/errorinvalidvaultaddress"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_THORChainSwap_Proto_ErrorCode/errorUnsupportedFromChain": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "errorUnsupportedFromChain"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_THORChainSwap_Proto_ErrorCode\/errorUnsupportedFromChain",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "TW_THORChainSwap_Proto_ErrorCode.errorUnsupportedFromChain",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_thorchainswap_proto_errorcode\/errorunsupportedfromchain"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_THORChainSwap_Proto_ErrorCode/errorUnsupportedToChain": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "errorUnsupportedToChain"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_THORChainSwap_Proto_ErrorCode\/errorUnsupportedToChain",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "TW_THORChainSwap_Proto_ErrorCode.errorUnsupportedToChain",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_thorchainswap_proto_errorcode\/errorunsupportedtochain"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_THORChainSwap_Proto_ErrorCode/init()": {
+  "abstract" : [
+    {
+      "text" : "Creates a new instance of the enum initialized to its default value.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "init"
+    },
+    {
+      "kind" : "text",
+      "text" : "()"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_THORChainSwap_Proto_ErrorCode\/init()",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "init()",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_thorchainswap_proto_errorcode\/init()"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_THORChainSwap_Proto_ErrorCode/init(rawValue:)": {
+  "abstract" : [
+    {
+      "text" : "Creates a new instance of the enum from the given raw integer value.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "init"
+    },
+    {
+      "kind" : "text",
+      "text" : "?("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "rawValue"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Si",
+      "text" : "Int"
+    },
+    {
+      "kind" : "text",
+      "text" : ")"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_THORChainSwap_Proto_ErrorCode\/init(rawValue:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "init(rawValue:)",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_thorchainswap_proto_errorcode\/init(rawvalue:)"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_THORChainSwap_Proto_ErrorCode/ok": {
+  "abstract" : [
+    {
+      "text" : "OK",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "ok"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_THORChainSwap_Proto_ErrorCode\/ok",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "TW_THORChainSwap_Proto_ErrorCode.ok",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_thorchainswap_proto_errorcode\/ok"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_THORChainSwap_Proto_ErrorCode/rawValue-swift.property": {
+  "abstract" : [
+    {
+      "text" : "The raw integer value of the enum value.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "rawValue"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Si",
+      "text" : "Int"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_THORChainSwap_Proto_ErrorCode\/rawValue-swift.property",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "rawValue",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_thorchainswap_proto_errorcode\/rawvalue-swift.property"
+},
+"doc://com.trustwallet.WalletCore/s12CaseIterableP": {
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/s12CaseIterableP",
+  "title" : "Swift.CaseIterable",
+  "type" : "unresolvable"
+}
+}
+}

@@ -1,0 +1,671 @@
+{
+  "abstract" : [
+    {
+      "text" : "No overview available.",
+      "type" : "text"
+    }
+  ],
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Harmony_Proto_StakingMessage"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "s:10WalletCore31TW_Harmony_Proto_StakingMessageV",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "struct"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "TW_Harmony_Proto_StakingMessage"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "WalletCore"
+      }
+    ],
+    "navigatorTitle" : [
+      {
+        "kind" : "identifier",
+        "text" : "TW_Harmony_Proto_StakingMessage"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Structure",
+    "symbolKind" : "struct",
+    "title" : "TW_Harmony_Proto_StakingMessage"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "iOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "struct"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "TW_Harmony_Proto_StakingMessage"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "relationshipsSections" : [
+    {
+      "identifiers" : [
+        "doc:\/\/com.trustwallet.WalletCore\/s28CustomDebugStringConvertibleP",
+        "doc:\/\/com.trustwallet.WalletCore\/SQ",
+        "doc:\/\/com.trustwallet.WalletCore\/SH",
+        "doc:\/\/com.trustwallet.WalletCore\/13SwiftProtobuf7MessageP"
+      ],
+      "kind" : "relationships",
+      "title" : "Conforms To",
+      "type" : "conformsTo"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 2,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "topicSections" : [
+    {
+      "identifiers" : [
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Harmony_Proto_StakingMessage\/init()"
+      ],
+      "title" : "Initializers"
+    },
+    {
+      "identifiers" : [
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Harmony_Proto_StakingMessage\/collectRewards",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Harmony_Proto_StakingMessage\/createValidatorMessage",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Harmony_Proto_StakingMessage\/delegateMessage",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Harmony_Proto_StakingMessage\/editValidatorMessage",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Harmony_Proto_StakingMessage\/gasLimit",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Harmony_Proto_StakingMessage\/gasPrice",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Harmony_Proto_StakingMessage\/nonce",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Harmony_Proto_StakingMessage\/stakeMsg",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Harmony_Proto_StakingMessage\/undelegateMessage",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Harmony_Proto_StakingMessage\/unknownFields"
+      ],
+      "title" : "Instance Properties"
+    },
+    {
+      "identifiers" : [
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Harmony_Proto_StakingMessage\/OneOf_StakeMsg"
+      ],
+      "title" : "Enumerations"
+    },
+    {
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Harmony_Proto_StakingMessage\/Equatable-Implementations",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Harmony_Proto_StakingMessage\/Message-Implementations"
+      ],
+      "title" : "Default Implementations"
+    }
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/walletcore\/tw_harmony_proto_stakingmessage"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://com.trustwallet.WalletCore/13SwiftProtobuf7MessageP": {
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/13SwiftProtobuf7MessageP",
+  "title" : "SwiftProtobuf.Message",
+  "type" : "unresolvable"
+},
+"doc://com.trustwallet.WalletCore/SH": {
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/SH",
+  "title" : "Swift.Hashable",
+  "type" : "unresolvable"
+},
+"doc://com.trustwallet.WalletCore/SQ": {
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/SQ",
+  "title" : "Swift.Equatable",
+  "type" : "unresolvable"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "WalletCore",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Harmony_Proto_StakingMessage": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "TW_Harmony_Proto_StakingMessage"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Harmony_Proto_StakingMessage",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "TW_Harmony_Proto_StakingMessage"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "TW_Harmony_Proto_StakingMessage",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_harmony_proto_stakingmessage"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Harmony_Proto_StakingMessage/Equatable-Implementations": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Harmony_Proto_StakingMessage\/Equatable-Implementations",
+  "kind" : "article",
+  "role" : "collectionGroup",
+  "title" : "Equatable Implementations",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_harmony_proto_stakingmessage\/equatable-implementations"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Harmony_Proto_StakingMessage/Message-Implementations": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Harmony_Proto_StakingMessage\/Message-Implementations",
+  "kind" : "article",
+  "role" : "collectionGroup",
+  "title" : "Message Implementations",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_harmony_proto_stakingmessage\/message-implementations"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Harmony_Proto_StakingMessage/OneOf_StakeMsg": {
+  "abstract" : [
+    {
+      "text" : "StakeMsg",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "enum"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "OneOf_StakeMsg"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Harmony_Proto_StakingMessage\/OneOf_StakeMsg",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "OneOf_StakeMsg"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "TW_Harmony_Proto_StakingMessage.OneOf_StakeMsg",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_harmony_proto_stakingmessage\/oneof_stakemsg"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Harmony_Proto_StakingMessage/collectRewards": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "collectRewards"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10WalletCore40TW_Harmony_Proto_DirectiveCollectRewardsV",
+      "text" : "TW_Harmony_Proto_DirectiveCollectRewards"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Harmony_Proto_StakingMessage\/collectRewards",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "collectRewards",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_harmony_proto_stakingmessage\/collectrewards"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Harmony_Proto_StakingMessage/createValidatorMessage": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "createValidatorMessage"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10WalletCore41TW_Harmony_Proto_DirectiveCreateValidatorV",
+      "text" : "TW_Harmony_Proto_DirectiveCreateValidator"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Harmony_Proto_StakingMessage\/createValidatorMessage",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "createValidatorMessage",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_harmony_proto_stakingmessage\/createvalidatormessage"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Harmony_Proto_StakingMessage/delegateMessage": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "delegateMessage"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10WalletCore34TW_Harmony_Proto_DirectiveDelegateV",
+      "text" : "TW_Harmony_Proto_DirectiveDelegate"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Harmony_Proto_StakingMessage\/delegateMessage",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "delegateMessage",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_harmony_proto_stakingmessage\/delegatemessage"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Harmony_Proto_StakingMessage/editValidatorMessage": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "editValidatorMessage"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10WalletCore39TW_Harmony_Proto_DirectiveEditValidatorV",
+      "text" : "TW_Harmony_Proto_DirectiveEditValidator"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Harmony_Proto_StakingMessage\/editValidatorMessage",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "editValidatorMessage",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_harmony_proto_stakingmessage\/editvalidatormessage"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Harmony_Proto_StakingMessage/gasLimit": {
+  "abstract" : [
+    {
+      "text" : "Gas limit (256-bit number)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "gasLimit"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10Foundation4DataV",
+      "text" : "Data"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Harmony_Proto_StakingMessage\/gasLimit",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "gasLimit",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_harmony_proto_stakingmessage\/gaslimit"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Harmony_Proto_StakingMessage/gasPrice": {
+  "abstract" : [
+    {
+      "text" : "Gas price (256-bit number)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "gasPrice"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10Foundation4DataV",
+      "text" : "Data"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Harmony_Proto_StakingMessage\/gasPrice",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "gasPrice",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_harmony_proto_stakingmessage\/gasprice"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Harmony_Proto_StakingMessage/init()": {
+  "abstract" : [
+    {
+      "text" : "Creates a new message with all of its fields initialized to their default",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "values.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "init"
+    },
+    {
+      "kind" : "text",
+      "text" : "()"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Harmony_Proto_StakingMessage\/init()",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "init()",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_harmony_proto_stakingmessage\/init()"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Harmony_Proto_StakingMessage/nonce": {
+  "abstract" : [
+    {
+      "text" : "Nonce (256-bit number)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "nonce"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10Foundation4DataV",
+      "text" : "Data"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Harmony_Proto_StakingMessage\/nonce",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "nonce",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_harmony_proto_stakingmessage\/nonce"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Harmony_Proto_StakingMessage/stakeMsg": {
+  "abstract" : [
+    {
+      "text" : "StakeMsg",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "stakeMsg"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10WalletCore31TW_Harmony_Proto_StakingMessageV14OneOf_StakeMsgO",
+      "text" : "OneOf_StakeMsg"
+    },
+    {
+      "kind" : "text",
+      "text" : "?"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Harmony_Proto_StakingMessage\/stakeMsg",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "stakeMsg",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_harmony_proto_stakingmessage\/stakemsg"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Harmony_Proto_StakingMessage/undelegateMessage": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "undelegateMessage"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10WalletCore36TW_Harmony_Proto_DirectiveUndelegateV",
+      "text" : "TW_Harmony_Proto_DirectiveUndelegate"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Harmony_Proto_StakingMessage\/undelegateMessage",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "undelegateMessage",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_harmony_proto_stakingmessage\/undelegatemessage"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Harmony_Proto_StakingMessage/unknownFields": {
+  "abstract" : [
+    {
+      "text" : "Some formats include enough information to transport fields that were",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "not known at generation time. When encountered, they are stored here.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "unknownFields"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:13SwiftProtobuf14UnknownStorageV",
+      "text" : "UnknownStorage"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Harmony_Proto_StakingMessage\/unknownFields",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "unknownFields",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_harmony_proto_stakingmessage\/unknownfields"
+},
+"doc://com.trustwallet.WalletCore/s28CustomDebugStringConvertibleP": {
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/s28CustomDebugStringConvertibleP",
+  "title" : "Swift.CustomDebugStringConvertible",
+  "type" : "unresolvable"
+}
+}
+}

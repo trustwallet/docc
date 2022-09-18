@@ -1,0 +1,452 @@
+{
+  "abstract" : [
+    {
+      "text" : "Action for registering a FIO name; register_fio_address",
+      "type" : "text"
+    }
+  ],
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_FIO_Proto_Action"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_FIO_Proto_Action\/RegisterFioAddress"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "s:10WalletCore19TW_FIO_Proto_ActionV18RegisterFioAddressV",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "struct"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "RegisterFioAddress"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "WalletCore"
+      }
+    ],
+    "navigatorTitle" : [
+      {
+        "kind" : "identifier",
+        "text" : "RegisterFioAddress"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Structure",
+    "symbolKind" : "struct",
+    "title" : "TW_FIO_Proto_Action.RegisterFioAddress"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "iOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "struct"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "RegisterFioAddress"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "relationshipsSections" : [
+    {
+      "identifiers" : [
+        "doc:\/\/com.trustwallet.WalletCore\/s28CustomDebugStringConvertibleP",
+        "doc:\/\/com.trustwallet.WalletCore\/SQ",
+        "doc:\/\/com.trustwallet.WalletCore\/SH",
+        "doc:\/\/com.trustwallet.WalletCore\/13SwiftProtobuf7MessageP"
+      ],
+      "kind" : "relationships",
+      "title" : "Conforms To",
+      "type" : "conformsTo"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 2,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "topicSections" : [
+    {
+      "identifiers" : [
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_FIO_Proto_Action\/RegisterFioAddress\/init()"
+      ],
+      "title" : "Initializers"
+    },
+    {
+      "identifiers" : [
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_FIO_Proto_Action\/RegisterFioAddress\/fee",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_FIO_Proto_Action\/RegisterFioAddress\/fioAddress",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_FIO_Proto_Action\/RegisterFioAddress\/ownerFioPublicKey",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_FIO_Proto_Action\/RegisterFioAddress\/unknownFields"
+      ],
+      "title" : "Instance Properties"
+    },
+    {
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_FIO_Proto_Action\/RegisterFioAddress\/Equatable-Implementations",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_FIO_Proto_Action\/RegisterFioAddress\/Message-Implementations"
+      ],
+      "title" : "Default Implementations"
+    }
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/walletcore\/tw_fio_proto_action\/registerfioaddress"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://com.trustwallet.WalletCore/13SwiftProtobuf7MessageP": {
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/13SwiftProtobuf7MessageP",
+  "title" : "SwiftProtobuf.Message",
+  "type" : "unresolvable"
+},
+"doc://com.trustwallet.WalletCore/SH": {
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/SH",
+  "title" : "Swift.Hashable",
+  "type" : "unresolvable"
+},
+"doc://com.trustwallet.WalletCore/SQ": {
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/SQ",
+  "title" : "Swift.Equatable",
+  "type" : "unresolvable"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "WalletCore",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_FIO_Proto_Action": {
+  "abstract" : [
+    {
+      "text" : "Different Actions",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "TW_FIO_Proto_Action"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_FIO_Proto_Action",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "TW_FIO_Proto_Action"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "TW_FIO_Proto_Action",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_fio_proto_action"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_FIO_Proto_Action/RegisterFioAddress": {
+  "abstract" : [
+    {
+      "text" : "Action for registering a FIO name; register_fio_address",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "RegisterFioAddress"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_FIO_Proto_Action\/RegisterFioAddress",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "RegisterFioAddress"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "TW_FIO_Proto_Action.RegisterFioAddress",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_fio_proto_action\/registerfioaddress"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_FIO_Proto_Action/RegisterFioAddress/Equatable-Implementations": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_FIO_Proto_Action\/RegisterFioAddress\/Equatable-Implementations",
+  "kind" : "article",
+  "role" : "collectionGroup",
+  "title" : "Equatable Implementations",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_fio_proto_action\/registerfioaddress\/equatable-implementations"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_FIO_Proto_Action/RegisterFioAddress/Message-Implementations": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_FIO_Proto_Action\/RegisterFioAddress\/Message-Implementations",
+  "kind" : "article",
+  "role" : "collectionGroup",
+  "title" : "Message Implementations",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_fio_proto_action\/registerfioaddress\/message-implementations"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_FIO_Proto_Action/RegisterFioAddress/fee": {
+  "abstract" : [
+    {
+      "text" : "Max fee to spend, can be obtained using get_fee API.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "fee"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:s6UInt64V",
+      "text" : "UInt64"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_FIO_Proto_Action\/RegisterFioAddress\/fee",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "fee",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_fio_proto_action\/registerfioaddress\/fee"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_FIO_Proto_Action/RegisterFioAddress/fioAddress": {
+  "abstract" : [
+    {
+      "text" : "The FIO name to be registered. Ex.: “alice@trust”",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "fioAddress"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_FIO_Proto_Action\/RegisterFioAddress\/fioAddress",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "fioAddress",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_fio_proto_action\/registerfioaddress\/fioaddress"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_FIO_Proto_Action/RegisterFioAddress/init()": {
+  "abstract" : [
+    {
+      "text" : "Creates a new message with all of its fields initialized to their default",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "values.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "init"
+    },
+    {
+      "kind" : "text",
+      "text" : "()"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_FIO_Proto_Action\/RegisterFioAddress\/init()",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "init()",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_fio_proto_action\/registerfioaddress\/init()"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_FIO_Proto_Action/RegisterFioAddress/ownerFioPublicKey": {
+  "abstract" : [
+    {
+      "text" : "FIO address of the owner. Ex.: “FIO6m1fMdTpRkRBnedvYshXCxLFiC5suRU8KDfx8xxtXp2hntxpnf”",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "ownerFioPublicKey"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_FIO_Proto_Action\/RegisterFioAddress\/ownerFioPublicKey",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "ownerFioPublicKey",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_fio_proto_action\/registerfioaddress\/ownerfiopublickey"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_FIO_Proto_Action/RegisterFioAddress/unknownFields": {
+  "abstract" : [
+    {
+      "text" : "Some formats include enough information to transport fields that were",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "not known at generation time. When encountered, they are stored here.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "unknownFields"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:13SwiftProtobuf14UnknownStorageV",
+      "text" : "UnknownStorage"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_FIO_Proto_Action\/RegisterFioAddress\/unknownFields",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "unknownFields",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_fio_proto_action\/registerfioaddress\/unknownfields"
+},
+"doc://com.trustwallet.WalletCore/s28CustomDebugStringConvertibleP": {
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/s28CustomDebugStringConvertibleP",
+  "title" : "Swift.CustomDebugStringConvertible",
+  "type" : "unresolvable"
+}
+}
+}

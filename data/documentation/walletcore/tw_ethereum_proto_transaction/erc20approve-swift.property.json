@@ -1,0 +1,279 @@
+{
+  "abstract" : [
+    {
+      "text" : "No overview available.",
+      "type" : "text"
+    }
+  ],
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Ethereum_Proto_Transaction"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Ethereum_Proto_Transaction\/erc20Approve-swift.property"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "s:10WalletCore29TW_Ethereum_Proto_TransactionV12erc20ApproveAC05ERC20H0Vvp",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "var"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "erc20Approve"
+      },
+      {
+        "kind" : "text",
+        "text" : ": "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:10WalletCore29TW_Ethereum_Proto_TransactionV",
+        "text" : "TW_Ethereum_Proto_Transaction"
+      },
+      {
+        "kind" : "text",
+        "text" : "."
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:10WalletCore29TW_Ethereum_Proto_TransactionV12ERC20ApproveV",
+        "text" : "ERC20Approve"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "WalletCore"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Instance Property",
+    "symbolKind" : "property",
+    "title" : "erc20Approve"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "iOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "var"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "erc20Approve"
+            },
+            {
+              "kind" : "text",
+              "text" : ": "
+            },
+            {
+              "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Ethereum_Proto_Transaction",
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:10WalletCore29TW_Ethereum_Proto_TransactionV",
+              "text" : "TW_Ethereum_Proto_Transaction"
+            },
+            {
+              "kind" : "text",
+              "text" : "."
+            },
+            {
+              "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Ethereum_Proto_Transaction\/ERC20Approve-swift.struct",
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:10WalletCore29TW_Ethereum_Proto_TransactionV12ERC20ApproveV",
+              "text" : "ERC20Approve"
+            },
+            {
+              "kind" : "text",
+              "text" : " { "
+            },
+            {
+              "kind" : "keyword",
+              "text" : "get"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "keyword",
+              "text" : "set"
+            },
+            {
+              "kind" : "text",
+              "text" : " }"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 2,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/walletcore\/tw_ethereum_proto_transaction\/erc20approve-swift.property"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://com.trustwallet.WalletCore/documentation/WalletCore": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "WalletCore",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Ethereum_Proto_Transaction": {
+  "abstract" : [
+    {
+      "text" : "Transaction (transfer, smart contract call, …)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "TW_Ethereum_Proto_Transaction"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Ethereum_Proto_Transaction",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "TW_Ethereum_Proto_Transaction"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "TW_Ethereum_Proto_Transaction",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_ethereum_proto_transaction"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Ethereum_Proto_Transaction/ERC20Approve-swift.struct": {
+  "abstract" : [
+    {
+      "text" : "ERC20 approve transaction",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "ERC20Approve"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Ethereum_Proto_Transaction\/ERC20Approve-swift.struct",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "ERC20Approve"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "TW_Ethereum_Proto_Transaction.ERC20Approve",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_ethereum_proto_transaction\/erc20approve-swift.struct"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Ethereum_Proto_Transaction/erc20Approve-swift.property": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "erc20Approve"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10WalletCore29TW_Ethereum_Proto_TransactionV",
+      "text" : "TW_Ethereum_Proto_Transaction"
+    },
+    {
+      "kind" : "text",
+      "text" : "."
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10WalletCore29TW_Ethereum_Proto_TransactionV12ERC20ApproveV",
+      "text" : "ERC20Approve"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Ethereum_Proto_Transaction\/erc20Approve-swift.property",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "erc20Approve",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_ethereum_proto_transaction\/erc20approve-swift.property"
+}
+}
+}

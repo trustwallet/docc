@@ -1,0 +1,275 @@
+{
+  "abstract" : [
+    {
+      "text" : "No overview available.",
+      "type" : "text"
+    }
+  ],
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Waves_Proto_SigningInput",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Waves_Proto_SigningInput\/OneOf_MessageOneof"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Waves_Proto_SigningInput\/OneOf_MessageOneof\/transferMessage(_:)"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "s:10WalletCore27TW_Waves_Proto_SigningInputV18OneOf_MessageOneofO08transferJ0yAeA0c1_d1_e9_TransferJ0VcAEmF",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "case"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "transferMessage"
+      },
+      {
+        "kind" : "text",
+        "text" : "("
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:10WalletCore30TW_Waves_Proto_TransferMessageV",
+        "text" : "TW_Waves_Proto_TransferMessage"
+      },
+      {
+        "kind" : "text",
+        "text" : ")"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "WalletCore"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Case",
+    "symbolKind" : "case",
+    "title" : "TW_Waves_Proto_SigningInput.OneOf_MessageOneof.transferMessage(_:)"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "iOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "case"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "transferMessage"
+            },
+            {
+              "kind" : "text",
+              "text" : "("
+            },
+            {
+              "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Waves_Proto_TransferMessage",
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:10WalletCore30TW_Waves_Proto_TransferMessageV",
+              "text" : "TW_Waves_Proto_TransferMessage"
+            },
+            {
+              "kind" : "text",
+              "text" : ")"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 2,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/walletcore\/tw_waves_proto_signinginput\/oneof_messageoneof\/transfermessage(_:)"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://com.trustwallet.WalletCore/documentation/WalletCore": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "WalletCore",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Waves_Proto_SigningInput": {
+  "abstract" : [
+    {
+      "text" : "Input data necessary to create a signed transaction.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "TW_Waves_Proto_SigningInput"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Waves_Proto_SigningInput",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "TW_Waves_Proto_SigningInput"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "TW_Waves_Proto_SigningInput",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_waves_proto_signinginput"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Waves_Proto_SigningInput/OneOf_MessageOneof": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "enum"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "OneOf_MessageOneof"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Waves_Proto_SigningInput\/OneOf_MessageOneof",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "OneOf_MessageOneof"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "TW_Waves_Proto_SigningInput.OneOf_MessageOneof",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_waves_proto_signinginput\/oneof_messageoneof"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Waves_Proto_SigningInput/OneOf_MessageOneof/transferMessage(_:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "transferMessage"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10WalletCore30TW_Waves_Proto_TransferMessageV",
+      "text" : "TW_Waves_Proto_TransferMessage"
+    },
+    {
+      "kind" : "text",
+      "text" : ")"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Waves_Proto_SigningInput\/OneOf_MessageOneof\/transferMessage(_:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "TW_Waves_Proto_SigningInput.OneOf_MessageOneof.transferMessage(_:)",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_waves_proto_signinginput\/oneof_messageoneof\/transfermessage(_:)"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Waves_Proto_TransferMessage": {
+  "abstract" : [
+    {
+      "text" : "Transfer transaction",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "TW_Waves_Proto_TransferMessage"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Waves_Proto_TransferMessage",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "TW_Waves_Proto_TransferMessage"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "TW_Waves_Proto_TransferMessage",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_waves_proto_transfermessage"
+}
+}
+}

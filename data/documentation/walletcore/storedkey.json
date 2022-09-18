@@ -1,0 +1,1962 @@
+{
+  "abstract" : [
+    {
+      "text" : "Represents a key stored as an encrypted file.",
+      "type" : "text"
+    }
+  ],
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/StoredKey"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "s:10WalletCore9StoredKeyC",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "class"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "StoredKey"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "WalletCore"
+      }
+    ],
+    "navigatorTitle" : [
+      {
+        "kind" : "identifier",
+        "text" : "StoredKey"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Class",
+    "symbolKind" : "class",
+    "title" : "StoredKey"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "iOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "final"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "keyword",
+              "text" : "class"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "StoredKey"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 2,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "topicSections" : [
+    {
+      "identifiers" : [
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/StoredKey\/init(name:password:)",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/StoredKey\/init(name:password:encryptionLevel:)"
+      ],
+      "title" : "Initializers"
+    },
+    {
+      "identifiers" : [
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/StoredKey\/accountCount",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/StoredKey\/encryptionParameters",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/StoredKey\/identifier",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/StoredKey\/isMnemonic",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/StoredKey\/name"
+      ],
+      "title" : "Instance Properties"
+    },
+    {
+      "identifiers" : [
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/StoredKey\/account(index:)",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/StoredKey\/accountForCoin(coin:wallet:)",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/StoredKey\/accountForCoinDerivation(coin:derivation:wallet:)",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/StoredKey\/addAccount(address:coin:derivationPath:publicKey:extendedPublicKey:)",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/StoredKey\/addAccountDerivation(address:coin:derivation:derivationPath:publicKey:extendedPublicKey:)",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/StoredKey\/decryptMnemonic(password:)",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/StoredKey\/decryptPrivateKey(password:)",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/StoredKey\/exportJSON()",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/StoredKey\/fixAddresses(password:)",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/StoredKey\/privateKey(coin:password:)",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/StoredKey\/removeAccountForCoin(coin:)",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/StoredKey\/removeAccountForCoinDerivation(coin:derivation:)",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/StoredKey\/removeAccountForCoinDerivationPath(coin:derivationPath:)",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/StoredKey\/store(path:)",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/StoredKey\/wallet(password:)"
+      ],
+      "title" : "Instance Methods"
+    },
+    {
+      "identifiers" : [
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/StoredKey\/importHDWallet(mnemonic:name:password:coin:)",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/StoredKey\/importJSON(json:)",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/StoredKey\/importPrivateKey(privateKey:name:password:coin:)",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/StoredKey\/load(path:)"
+      ],
+      "title" : "Type Methods"
+    }
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/walletcore\/storedkey"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://com.trustwallet.WalletCore/documentation/WalletCore": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "WalletCore",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/StoredKey": {
+  "abstract" : [
+    {
+      "text" : "Represents a key stored as an encrypted file.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "StoredKey"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/StoredKey",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "StoredKey"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "StoredKey",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/storedkey"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/StoredKey/account(index:)": {
+  "abstract" : [
+    {
+      "text" : "Returns the account at a given index.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "account"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "index"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Si",
+      "text" : "Int"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10WalletCore7AccountC",
+      "text" : "Account"
+    },
+    {
+      "kind" : "text",
+      "text" : "?"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/StoredKey\/account(index:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "account(index:)",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/storedkey\/account(index:)"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/StoredKey/accountCount": {
+  "abstract" : [
+    {
+      "text" : "The number of accounts.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "accountCount"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Si",
+      "text" : "Int"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/StoredKey\/accountCount",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "accountCount",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/storedkey\/accountcount"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/StoredKey/accountForCoin(coin:wallet:)": {
+  "abstract" : [
+    {
+      "text" : "Returns the account for a specific coin, creating it if necessary.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "accountForCoin"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "coin"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10WalletCore8CoinTypeO",
+      "text" : "CoinType"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "wallet"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10WalletCore8HDWalletC",
+      "text" : "HDWallet"
+    },
+    {
+      "kind" : "text",
+      "text" : "?) -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10WalletCore7AccountC",
+      "text" : "Account"
+    },
+    {
+      "kind" : "text",
+      "text" : "?"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/StoredKey\/accountForCoin(coin:wallet:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "accountForCoin(coin:wallet:)",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/storedkey\/accountforcoin(coin:wallet:)"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/StoredKey/accountForCoinDerivation(coin:derivation:wallet:)": {
+  "abstract" : [
+    {
+      "text" : "Returns the account for a specific coin + derivation, creating it if necessary.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "accountForCoinDerivation"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "coin"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10WalletCore8CoinTypeO",
+      "text" : "CoinType"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "derivation"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10WalletCore10DerivationO",
+      "text" : "Derivation"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "wallet"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10WalletCore8HDWalletC",
+      "text" : "HDWallet"
+    },
+    {
+      "kind" : "text",
+      "text" : "?) -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10WalletCore7AccountC",
+      "text" : "Account"
+    },
+    {
+      "kind" : "text",
+      "text" : "?"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/StoredKey\/accountForCoinDerivation(coin:derivation:wallet:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "accountForCoinDerivation(coin:derivation:wallet:)",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/storedkey\/accountforcoinderivation(coin:derivation:wallet:)"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/StoredKey/addAccount(address:coin:derivationPath:publicKey:extendedPublicKey:)": {
+  "abstract" : [
+    {
+      "text" : "Adds a new account, using given derivation path.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "addAccount"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "address"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "coin"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10WalletCore8CoinTypeO",
+      "text" : "CoinType"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "derivationPath"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "publicKey"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "extendedPublicKey"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    },
+    {
+      "kind" : "text",
+      "text" : ")"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/StoredKey\/addAccount(address:coin:derivationPath:publicKey:extendedPublicKey:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "addAccount(address:coin:derivationPath:publicKey:extendedPublicKey:)",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/storedkey\/addaccount(address:coin:derivationpath:publickey:extendedpublickey:)"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/StoredKey/addAccountDerivation(address:coin:derivation:derivationPath:publicKey:extendedPublicKey:)": {
+  "abstract" : [
+    {
+      "text" : "Adds a new account, using given derivation (usually TWDerivationDefault)",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "and derivation path (usually matches path from derivation, but custom possible).",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "addAccountDerivation"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "address"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "coin"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10WalletCore8CoinTypeO",
+      "text" : "CoinType"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "derivation"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10WalletCore10DerivationO",
+      "text" : "Derivation"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "derivationPath"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "publicKey"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "extendedPublicKey"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    },
+    {
+      "kind" : "text",
+      "text" : ")"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/StoredKey\/addAccountDerivation(address:coin:derivation:derivationPath:publicKey:extendedPublicKey:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "addAccountDerivation(address:coin:derivation:derivationPath:publicKey:extendedPublicKey:)",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/storedkey\/addaccountderivation(address:coin:derivation:derivationpath:publickey:extendedpublickey:)"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/StoredKey/decryptMnemonic(password:)": {
+  "abstract" : [
+    {
+      "text" : "Decrypts the mnemonic phrase.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "decryptMnemonic"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "password"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10Foundation4DataV",
+      "text" : "Data"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    },
+    {
+      "kind" : "text",
+      "text" : "?"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/StoredKey\/decryptMnemonic(password:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "decryptMnemonic(password:)",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/storedkey\/decryptmnemonic(password:)"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/StoredKey/decryptPrivateKey(password:)": {
+  "abstract" : [
+    {
+      "text" : "Decrypts the private key.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "decryptPrivateKey"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "password"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10Foundation4DataV",
+      "text" : "Data"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10Foundation4DataV",
+      "text" : "Data"
+    },
+    {
+      "kind" : "text",
+      "text" : "?"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/StoredKey\/decryptPrivateKey(password:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "decryptPrivateKey(password:)",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/storedkey\/decryptprivatekey(password:)"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/StoredKey/encryptionParameters": {
+  "abstract" : [
+    {
+      "text" : "Retrieve stored key encoding parameters, as JSON string.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "encryptionParameters"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    },
+    {
+      "kind" : "text",
+      "text" : "?"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/StoredKey\/encryptionParameters",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "encryptionParameters",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/storedkey\/encryptionparameters"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/StoredKey/exportJSON()": {
+  "abstract" : [
+    {
+      "text" : "Exports the key as JSON",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "exportJSON"
+    },
+    {
+      "kind" : "text",
+      "text" : "() -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10Foundation4DataV",
+      "text" : "Data"
+    },
+    {
+      "kind" : "text",
+      "text" : "?"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/StoredKey\/exportJSON()",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "exportJSON()",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/storedkey\/exportjson()"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/StoredKey/fixAddresses(password:)": {
+  "abstract" : [
+    {
+      "text" : "Fills in empty and invalid addresses.",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "This method needs the encryption password to re-derive addresses from private keys.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "fixAddresses"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "password"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10Foundation4DataV",
+      "text" : "Data"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Sb",
+      "text" : "Bool"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/StoredKey\/fixAddresses(password:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "fixAddresses(password:)",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/storedkey\/fixaddresses(password:)"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/StoredKey/identifier": {
+  "abstract" : [
+    {
+      "text" : "Stored key unique identifier.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "identifier"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    },
+    {
+      "kind" : "text",
+      "text" : "?"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/StoredKey\/identifier",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "identifier",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/storedkey\/identifier"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/StoredKey/importHDWallet(mnemonic:name:password:coin:)": {
+  "abstract" : [
+    {
+      "text" : "Imports an HD wallet.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "static"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "importHDWallet"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "mnemonic"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "name"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "password"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10Foundation4DataV",
+      "text" : "Data"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "coin"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10WalletCore8CoinTypeO",
+      "text" : "CoinType"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10WalletCore9StoredKeyC",
+      "text" : "StoredKey"
+    },
+    {
+      "kind" : "text",
+      "text" : "?"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/StoredKey\/importHDWallet(mnemonic:name:password:coin:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "importHDWallet(mnemonic:name:password:coin:)",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/storedkey\/importhdwallet(mnemonic:name:password:coin:)"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/StoredKey/importJSON(json:)": {
+  "abstract" : [
+    {
+      "text" : "Imports a key from JSON.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "static"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "importJSON"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "json"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10Foundation4DataV",
+      "text" : "Data"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10WalletCore9StoredKeyC",
+      "text" : "StoredKey"
+    },
+    {
+      "kind" : "text",
+      "text" : "?"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/StoredKey\/importJSON(json:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "importJSON(json:)",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/storedkey\/importjson(json:)"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/StoredKey/importPrivateKey(privateKey:name:password:coin:)": {
+  "abstract" : [
+    {
+      "text" : "Imports a private key.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "static"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "importPrivateKey"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "privateKey"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10Foundation4DataV",
+      "text" : "Data"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "name"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "password"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10Foundation4DataV",
+      "text" : "Data"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "coin"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10WalletCore8CoinTypeO",
+      "text" : "CoinType"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10WalletCore9StoredKeyC",
+      "text" : "StoredKey"
+    },
+    {
+      "kind" : "text",
+      "text" : "?"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/StoredKey\/importPrivateKey(privateKey:name:password:coin:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "importPrivateKey(privateKey:name:password:coin:)",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/storedkey\/importprivatekey(privatekey:name:password:coin:)"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/StoredKey/init(name:password:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "init"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "name"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "password"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10Foundation4DataV",
+      "text" : "Data"
+    },
+    {
+      "kind" : "text",
+      "text" : ")"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/StoredKey\/init(name:password:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "init(name:password:)",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/storedkey\/init(name:password:)"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/StoredKey/init(name:password:encryptionLevel:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "init"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "name"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "password"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10Foundation4DataV",
+      "text" : "Data"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "encryptionLevel"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10WalletCore24StoredKeyEncryptionLevelO",
+      "text" : "StoredKeyEncryptionLevel"
+    },
+    {
+      "kind" : "text",
+      "text" : ")"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/StoredKey\/init(name:password:encryptionLevel:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "init(name:password:encryptionLevel:)",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/storedkey\/init(name:password:encryptionlevel:)"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/StoredKey/isMnemonic": {
+  "abstract" : [
+    {
+      "text" : "Whether this key is a mnemonic phrase for a HD wallet.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "isMnemonic"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Sb",
+      "text" : "Bool"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/StoredKey\/isMnemonic",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "isMnemonic",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/storedkey\/ismnemonic"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/StoredKey/load(path:)": {
+  "abstract" : [
+    {
+      "text" : "Loads a key from a file.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "static"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "load"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "path"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10WalletCore9StoredKeyC",
+      "text" : "StoredKey"
+    },
+    {
+      "kind" : "text",
+      "text" : "?"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/StoredKey\/load(path:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "load(path:)",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/storedkey\/load(path:)"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/StoredKey/name": {
+  "abstract" : [
+    {
+      "text" : "Stored key namer.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "name"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/StoredKey\/name",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "name",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/storedkey\/name"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/StoredKey/privateKey(coin:password:)": {
+  "abstract" : [
+    {
+      "text" : "Returns the private key for a specific coin.  Returned object needs to be deleted.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "privateKey"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "coin"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10WalletCore8CoinTypeO",
+      "text" : "CoinType"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "password"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10Foundation4DataV",
+      "text" : "Data"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10WalletCore10PrivateKeyC",
+      "text" : "PrivateKey"
+    },
+    {
+      "kind" : "text",
+      "text" : "?"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/StoredKey\/privateKey(coin:password:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "privateKey(coin:password:)",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/storedkey\/privatekey(coin:password:)"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/StoredKey/removeAccountForCoin(coin:)": {
+  "abstract" : [
+    {
+      "text" : "Remove the account for a specific coin",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "removeAccountForCoin"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "coin"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10WalletCore8CoinTypeO",
+      "text" : "CoinType"
+    },
+    {
+      "kind" : "text",
+      "text" : ")"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/StoredKey\/removeAccountForCoin(coin:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "removeAccountForCoin(coin:)",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/storedkey\/removeaccountforcoin(coin:)"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/StoredKey/removeAccountForCoinDerivation(coin:derivation:)": {
+  "abstract" : [
+    {
+      "text" : "Remove the account for a specific coin with the given derivation.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "removeAccountForCoinDerivation"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "coin"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10WalletCore8CoinTypeO",
+      "text" : "CoinType"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "derivation"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10WalletCore10DerivationO",
+      "text" : "Derivation"
+    },
+    {
+      "kind" : "text",
+      "text" : ")"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/StoredKey\/removeAccountForCoinDerivation(coin:derivation:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "removeAccountForCoinDerivation(coin:derivation:)",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/storedkey\/removeaccountforcoinderivation(coin:derivation:)"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/StoredKey/removeAccountForCoinDerivationPath(coin:derivationPath:)": {
+  "abstract" : [
+    {
+      "text" : "Remove the account for a specific coin with the given derivation path.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "removeAccountForCoinDerivationPath"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "coin"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10WalletCore8CoinTypeO",
+      "text" : "CoinType"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "derivationPath"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    },
+    {
+      "kind" : "text",
+      "text" : ")"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/StoredKey\/removeAccountForCoinDerivationPath(coin:derivationPath:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "removeAccountForCoinDerivationPath(coin:derivationPath:)",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/storedkey\/removeaccountforcoinderivationpath(coin:derivationpath:)"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/StoredKey/store(path:)": {
+  "abstract" : [
+    {
+      "text" : "Saves the key to a file.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "store"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "path"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Sb",
+      "text" : "Bool"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/StoredKey\/store(path:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "store(path:)",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/storedkey\/store(path:)"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/StoredKey/wallet(password:)": {
+  "abstract" : [
+    {
+      "text" : "Decrypts and returns the HD Wallet for mnemonic phrase keys.  Returned object needs to be deleted.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "wallet"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "password"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10Foundation4DataV",
+      "text" : "Data"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10WalletCore8HDWalletC",
+      "text" : "HDWallet"
+    },
+    {
+      "kind" : "text",
+      "text" : "?"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/StoredKey\/wallet(password:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "wallet(password:)",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/storedkey\/wallet(password:)"
+}
+}
+}

@@ -1,0 +1,597 @@
+{
+  "abstract" : [
+    {
+      "text" : "Generic action. Using one of the more specific actions (e.g. transfers, see below) is recommended.",
+      "type" : "text"
+    }
+  ],
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Elrond_Proto_GenericAction"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "s:10WalletCore29TW_Elrond_Proto_GenericActionV",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "struct"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "TW_Elrond_Proto_GenericAction"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "WalletCore"
+      }
+    ],
+    "navigatorTitle" : [
+      {
+        "kind" : "identifier",
+        "text" : "TW_Elrond_Proto_GenericAction"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Structure",
+    "symbolKind" : "struct",
+    "title" : "TW_Elrond_Proto_GenericAction"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "iOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "struct"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "TW_Elrond_Proto_GenericAction"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "relationshipsSections" : [
+    {
+      "identifiers" : [
+        "doc:\/\/com.trustwallet.WalletCore\/s28CustomDebugStringConvertibleP",
+        "doc:\/\/com.trustwallet.WalletCore\/SQ",
+        "doc:\/\/com.trustwallet.WalletCore\/SH",
+        "doc:\/\/com.trustwallet.WalletCore\/13SwiftProtobuf7MessageP"
+      ],
+      "kind" : "relationships",
+      "title" : "Conforms To",
+      "type" : "conformsTo"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 2,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "topicSections" : [
+    {
+      "identifiers" : [
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Elrond_Proto_GenericAction\/init()"
+      ],
+      "title" : "Initializers"
+    },
+    {
+      "identifiers" : [
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Elrond_Proto_GenericAction\/accounts",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Elrond_Proto_GenericAction\/data",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Elrond_Proto_GenericAction\/hasAccounts",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Elrond_Proto_GenericAction\/options",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Elrond_Proto_GenericAction\/unknownFields",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Elrond_Proto_GenericAction\/value",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Elrond_Proto_GenericAction\/version"
+      ],
+      "title" : "Instance Properties"
+    },
+    {
+      "identifiers" : [
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Elrond_Proto_GenericAction\/clearAccounts()"
+      ],
+      "title" : "Instance Methods"
+    },
+    {
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Elrond_Proto_GenericAction\/Equatable-Implementations",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Elrond_Proto_GenericAction\/Message-Implementations"
+      ],
+      "title" : "Default Implementations"
+    }
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/walletcore\/tw_elrond_proto_genericaction"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://com.trustwallet.WalletCore/13SwiftProtobuf7MessageP": {
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/13SwiftProtobuf7MessageP",
+  "title" : "SwiftProtobuf.Message",
+  "type" : "unresolvable"
+},
+"doc://com.trustwallet.WalletCore/SH": {
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/SH",
+  "title" : "Swift.Hashable",
+  "type" : "unresolvable"
+},
+"doc://com.trustwallet.WalletCore/SQ": {
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/SQ",
+  "title" : "Swift.Equatable",
+  "type" : "unresolvable"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "WalletCore",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Elrond_Proto_GenericAction": {
+  "abstract" : [
+    {
+      "text" : "Generic action. Using one of the more specific actions (e.g. transfers, see below) is recommended.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "TW_Elrond_Proto_GenericAction"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Elrond_Proto_GenericAction",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "TW_Elrond_Proto_GenericAction"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "TW_Elrond_Proto_GenericAction",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_elrond_proto_genericaction"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Elrond_Proto_GenericAction/Equatable-Implementations": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Elrond_Proto_GenericAction\/Equatable-Implementations",
+  "kind" : "article",
+  "role" : "collectionGroup",
+  "title" : "Equatable Implementations",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_elrond_proto_genericaction\/equatable-implementations"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Elrond_Proto_GenericAction/Message-Implementations": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Elrond_Proto_GenericAction\/Message-Implementations",
+  "kind" : "article",
+  "role" : "collectionGroup",
+  "title" : "Message Implementations",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_elrond_proto_genericaction\/message-implementations"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Elrond_Proto_GenericAction/accounts": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "accounts"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10WalletCore24TW_Elrond_Proto_AccountsV",
+      "text" : "TW_Elrond_Proto_Accounts"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Elrond_Proto_GenericAction\/accounts",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "accounts",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_elrond_proto_genericaction\/accounts"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Elrond_Proto_GenericAction/clearAccounts()": {
+  "abstract" : [
+    {
+      "text" : "Clears the value of ",
+      "type" : "text"
+    },
+    {
+      "code" : "accounts",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : ". Subsequent reads from it will return its default value.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "clearAccounts"
+    },
+    {
+      "kind" : "text",
+      "text" : "()"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Elrond_Proto_GenericAction\/clearAccounts()",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "clearAccounts()",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_elrond_proto_genericaction\/clearaccounts()"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Elrond_Proto_GenericAction/data": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "data"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Elrond_Proto_GenericAction\/data",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "data",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_elrond_proto_genericaction\/data"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Elrond_Proto_GenericAction/hasAccounts": {
+  "abstract" : [
+    {
+      "text" : "Returns true if ",
+      "type" : "text"
+    },
+    {
+      "code" : "accounts",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : " has been explicitly set.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "hasAccounts"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Sb",
+      "text" : "Bool"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Elrond_Proto_GenericAction\/hasAccounts",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "hasAccounts",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_elrond_proto_genericaction\/hasaccounts"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Elrond_Proto_GenericAction/init()": {
+  "abstract" : [
+    {
+      "text" : "Creates a new message with all of its fields initialized to their default",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "values.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "init"
+    },
+    {
+      "kind" : "text",
+      "text" : "()"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Elrond_Proto_GenericAction\/init()",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "init()",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_elrond_proto_genericaction\/init()"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Elrond_Proto_GenericAction/options": {
+  "abstract" : [
+    {
+      "text" : "Currently, the “options” field should be ignored (not set) by applications using TW Core.",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "In the future, TW Core will handle specific transaction options",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "(such as the “SignedWithHash” flag, as seen in https:\/\/github.com\/ElrondNetwork\/elrond-go-core\/blob\/main\/core\/versioning\/txVersionChecker.go)",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "when building and signing transactions.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "options"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:s6UInt32V",
+      "text" : "UInt32"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Elrond_Proto_GenericAction\/options",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "options",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_elrond_proto_genericaction\/options"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Elrond_Proto_GenericAction/unknownFields": {
+  "abstract" : [
+    {
+      "text" : "Some formats include enough information to transport fields that were",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "not known at generation time. When encountered, they are stored here.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "unknownFields"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:13SwiftProtobuf14UnknownStorageV",
+      "text" : "UnknownStorage"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Elrond_Proto_GenericAction\/unknownFields",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "unknownFields",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_elrond_proto_genericaction\/unknownfields"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Elrond_Proto_GenericAction/value": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "value"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Elrond_Proto_GenericAction\/value",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "value",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_elrond_proto_genericaction\/value"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Elrond_Proto_GenericAction/version": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "version"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:s6UInt32V",
+      "text" : "UInt32"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Elrond_Proto_GenericAction\/version",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "version",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_elrond_proto_genericaction\/version"
+},
+"doc://com.trustwallet.WalletCore/s28CustomDebugStringConvertibleP": {
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/s28CustomDebugStringConvertibleP",
+  "title" : "Swift.CustomDebugStringConvertible",
+  "type" : "unresolvable"
+}
+}
+}

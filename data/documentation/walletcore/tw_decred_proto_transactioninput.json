@@ -1,0 +1,614 @@
+{
+  "abstract" : [
+    {
+      "text" : "Decred transaction input.",
+      "type" : "text"
+    }
+  ],
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Decred_Proto_TransactionInput"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "s:10WalletCore32TW_Decred_Proto_TransactionInputV",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "struct"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "TW_Decred_Proto_TransactionInput"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "WalletCore"
+      }
+    ],
+    "navigatorTitle" : [
+      {
+        "kind" : "identifier",
+        "text" : "TW_Decred_Proto_TransactionInput"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Structure",
+    "symbolKind" : "struct",
+    "title" : "TW_Decred_Proto_TransactionInput"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "iOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "struct"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "TW_Decred_Proto_TransactionInput"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "relationshipsSections" : [
+    {
+      "identifiers" : [
+        "doc:\/\/com.trustwallet.WalletCore\/s28CustomDebugStringConvertibleP",
+        "doc:\/\/com.trustwallet.WalletCore\/SQ",
+        "doc:\/\/com.trustwallet.WalletCore\/SH",
+        "doc:\/\/com.trustwallet.WalletCore\/13SwiftProtobuf7MessageP"
+      ],
+      "kind" : "relationships",
+      "title" : "Conforms To",
+      "type" : "conformsTo"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 2,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "topicSections" : [
+    {
+      "identifiers" : [
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Decred_Proto_TransactionInput\/init()"
+      ],
+      "title" : "Initializers"
+    },
+    {
+      "identifiers" : [
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Decred_Proto_TransactionInput\/blockHeight",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Decred_Proto_TransactionInput\/blockIndex",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Decred_Proto_TransactionInput\/hasPreviousOutput",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Decred_Proto_TransactionInput\/previousOutput",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Decred_Proto_TransactionInput\/script",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Decred_Proto_TransactionInput\/sequence",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Decred_Proto_TransactionInput\/unknownFields",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Decred_Proto_TransactionInput\/valueIn"
+      ],
+      "title" : "Instance Properties"
+    },
+    {
+      "identifiers" : [
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Decred_Proto_TransactionInput\/clearPreviousOutput()"
+      ],
+      "title" : "Instance Methods"
+    },
+    {
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Decred_Proto_TransactionInput\/Equatable-Implementations",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Decred_Proto_TransactionInput\/Message-Implementations"
+      ],
+      "title" : "Default Implementations"
+    }
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/walletcore\/tw_decred_proto_transactioninput"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://com.trustwallet.WalletCore/13SwiftProtobuf7MessageP": {
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/13SwiftProtobuf7MessageP",
+  "title" : "SwiftProtobuf.Message",
+  "type" : "unresolvable"
+},
+"doc://com.trustwallet.WalletCore/SH": {
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/SH",
+  "title" : "Swift.Hashable",
+  "type" : "unresolvable"
+},
+"doc://com.trustwallet.WalletCore/SQ": {
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/SQ",
+  "title" : "Swift.Equatable",
+  "type" : "unresolvable"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "WalletCore",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Decred_Proto_TransactionInput": {
+  "abstract" : [
+    {
+      "text" : "Decred transaction input.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "TW_Decred_Proto_TransactionInput"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Decred_Proto_TransactionInput",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "TW_Decred_Proto_TransactionInput"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "TW_Decred_Proto_TransactionInput",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_decred_proto_transactioninput"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Decred_Proto_TransactionInput/Equatable-Implementations": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Decred_Proto_TransactionInput\/Equatable-Implementations",
+  "kind" : "article",
+  "role" : "collectionGroup",
+  "title" : "Equatable Implementations",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_decred_proto_transactioninput\/equatable-implementations"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Decred_Proto_TransactionInput/Message-Implementations": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Decred_Proto_TransactionInput\/Message-Implementations",
+  "kind" : "article",
+  "role" : "collectionGroup",
+  "title" : "Message Implementations",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_decred_proto_transactioninput\/message-implementations"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Decred_Proto_TransactionInput/blockHeight": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "blockHeight"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:s6UInt32V",
+      "text" : "UInt32"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Decred_Proto_TransactionInput\/blockHeight",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "blockHeight",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_decred_proto_transactioninput\/blockheight"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Decred_Proto_TransactionInput/blockIndex": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "blockIndex"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:s6UInt32V",
+      "text" : "UInt32"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Decred_Proto_TransactionInput\/blockIndex",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "blockIndex",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_decred_proto_transactioninput\/blockindex"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Decred_Proto_TransactionInput/clearPreviousOutput()": {
+  "abstract" : [
+    {
+      "text" : "Clears the value of ",
+      "type" : "text"
+    },
+    {
+      "code" : "previousOutput",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : ". Subsequent reads from it will return its default value.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "clearPreviousOutput"
+    },
+    {
+      "kind" : "text",
+      "text" : "()"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Decred_Proto_TransactionInput\/clearPreviousOutput()",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "clearPreviousOutput()",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_decred_proto_transactioninput\/clearpreviousoutput()"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Decred_Proto_TransactionInput/hasPreviousOutput": {
+  "abstract" : [
+    {
+      "text" : "Returns true if ",
+      "type" : "text"
+    },
+    {
+      "code" : "previousOutput",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : " has been explicitly set.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "hasPreviousOutput"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Sb",
+      "text" : "Bool"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Decred_Proto_TransactionInput\/hasPreviousOutput",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "hasPreviousOutput",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_decred_proto_transactioninput\/haspreviousoutput"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Decred_Proto_TransactionInput/init()": {
+  "abstract" : [
+    {
+      "text" : "Creates a new message with all of its fields initialized to their default",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "values.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "init"
+    },
+    {
+      "kind" : "text",
+      "text" : "()"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Decred_Proto_TransactionInput\/init()",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "init()",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_decred_proto_transactioninput\/init()"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Decred_Proto_TransactionInput/previousOutput": {
+  "abstract" : [
+    {
+      "text" : "Reference to the previous transaction’s output.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "previousOutput"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10WalletCore25TW_Bitcoin_Proto_OutPointV",
+      "text" : "TW_Bitcoin_Proto_OutPoint"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Decred_Proto_TransactionInput\/previousOutput",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "previousOutput",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_decred_proto_transactioninput\/previousoutput"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Decred_Proto_TransactionInput/script": {
+  "abstract" : [
+    {
+      "text" : "Computational script for confirming transaction authorization.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "script"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10Foundation4DataV",
+      "text" : "Data"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Decred_Proto_TransactionInput\/script",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "script",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_decred_proto_transactioninput\/script"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Decred_Proto_TransactionInput/sequence": {
+  "abstract" : [
+    {
+      "text" : "Transaction version as defined by the sender.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "sequence"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:s6UInt32V",
+      "text" : "UInt32"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Decred_Proto_TransactionInput\/sequence",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "sequence",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_decred_proto_transactioninput\/sequence"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Decred_Proto_TransactionInput/unknownFields": {
+  "abstract" : [
+    {
+      "text" : "Some formats include enough information to transport fields that were",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "not known at generation time. When encountered, they are stored here.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "unknownFields"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:13SwiftProtobuf14UnknownStorageV",
+      "text" : "UnknownStorage"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Decred_Proto_TransactionInput\/unknownFields",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "unknownFields",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_decred_proto_transactioninput\/unknownfields"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Decred_Proto_TransactionInput/valueIn": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "valueIn"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:s5Int64V",
+      "text" : "Int64"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Decred_Proto_TransactionInput\/valueIn",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "valueIn",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_decred_proto_transactioninput\/valuein"
+},
+"doc://com.trustwallet.WalletCore/s28CustomDebugStringConvertibleP": {
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/s28CustomDebugStringConvertibleP",
+  "title" : "Swift.CustomDebugStringConvertible",
+  "type" : "unresolvable"
+}
+}
+}

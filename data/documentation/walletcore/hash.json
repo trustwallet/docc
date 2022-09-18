@@ -1,0 +1,1307 @@
+{
+  "abstract" : [
+    {
+      "text" : "Hash functions",
+      "type" : "text"
+    }
+  ],
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/Hash"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "s:10WalletCore4HashV",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "struct"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "Hash"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "WalletCore"
+      }
+    ],
+    "navigatorTitle" : [
+      {
+        "kind" : "identifier",
+        "text" : "Hash"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Structure",
+    "symbolKind" : "struct",
+    "title" : "Hash"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "iOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "struct"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "Hash"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 2,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "topicSections" : [
+    {
+      "identifiers" : [
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/Hash\/blake256(data:)",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/Hash\/blake256Blake256(data:)",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/Hash\/blake256RIPEMD(data:)",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/Hash\/blake2b(data:size:)",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/Hash\/groestl512(data:)",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/Hash\/groestl512Groestl512(data:)",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/Hash\/keccak256(data:)",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/Hash\/keccak512(data:)",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/Hash\/ripemd(data:)",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/Hash\/sha1(data:)",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/Hash\/sha256(data:)",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/Hash\/sha256RIPEMD(data:)",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/Hash\/sha256SHA256(data:)",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/Hash\/sha3_256(data:)",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/Hash\/sha3_256RIPEMD(data:)",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/Hash\/sha3_512(data:)",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/Hash\/sha512(data:)",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/Hash\/sha512_256(data:)"
+      ],
+      "title" : "Type Methods"
+    }
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/walletcore\/hash"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://com.trustwallet.WalletCore/documentation/WalletCore": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "WalletCore",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/Hash": {
+  "abstract" : [
+    {
+      "text" : "Hash functions",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "Hash"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/Hash",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "Hash"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "Hash",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/hash"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/Hash/blake256(data:)": {
+  "abstract" : [
+    {
+      "text" : "Computes the Blake256 of a block of data.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "static"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "blake256"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "data"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10Foundation4DataV",
+      "text" : "Data"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10Foundation4DataV",
+      "text" : "Data"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/Hash\/blake256(data:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "blake256(data:)",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/hash\/blake256(data:)"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/Hash/blake256Blake256(data:)": {
+  "abstract" : [
+    {
+      "text" : "Computes the Blake256D of a block of data.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "static"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "blake256Blake256"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "data"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10Foundation4DataV",
+      "text" : "Data"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10Foundation4DataV",
+      "text" : "Data"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/Hash\/blake256Blake256(data:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "blake256Blake256(data:)",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/hash\/blake256blake256(data:)"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/Hash/blake256RIPEMD(data:)": {
+  "abstract" : [
+    {
+      "text" : "Computes the Blake256RIPEMD of a block of data.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "static"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "blake256RIPEMD"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "data"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10Foundation4DataV",
+      "text" : "Data"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10Foundation4DataV",
+      "text" : "Data"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/Hash\/blake256RIPEMD(data:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "blake256RIPEMD(data:)",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/hash\/blake256ripemd(data:)"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/Hash/blake2b(data:size:)": {
+  "abstract" : [
+    {
+      "text" : "Computes the Blake2b of a block of data.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "static"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "blake2b"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "data"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10Foundation4DataV",
+      "text" : "Data"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "size"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Si",
+      "text" : "Int"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10Foundation4DataV",
+      "text" : "Data"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/Hash\/blake2b(data:size:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "blake2b(data:size:)",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/hash\/blake2b(data:size:)"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/Hash/groestl512(data:)": {
+  "abstract" : [
+    {
+      "text" : "Computes the Groestl512 of a block of data.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "static"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "groestl512"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "data"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10Foundation4DataV",
+      "text" : "Data"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10Foundation4DataV",
+      "text" : "Data"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/Hash\/groestl512(data:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "groestl512(data:)",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/hash\/groestl512(data:)"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/Hash/groestl512Groestl512(data:)": {
+  "abstract" : [
+    {
+      "text" : "Computes the Groestl512D of a block of data.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "static"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "groestl512Groestl512"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "data"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10Foundation4DataV",
+      "text" : "Data"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10Foundation4DataV",
+      "text" : "Data"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/Hash\/groestl512Groestl512(data:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "groestl512Groestl512(data:)",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/hash\/groestl512groestl512(data:)"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/Hash/keccak256(data:)": {
+  "abstract" : [
+    {
+      "text" : "Computes the Keccak256 of a block of data.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "static"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "keccak256"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "data"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10Foundation4DataV",
+      "text" : "Data"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10Foundation4DataV",
+      "text" : "Data"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/Hash\/keccak256(data:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "keccak256(data:)",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/hash\/keccak256(data:)"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/Hash/keccak512(data:)": {
+  "abstract" : [
+    {
+      "text" : "Computes the Keccak512 of a block of data.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "static"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "keccak512"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "data"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10Foundation4DataV",
+      "text" : "Data"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10Foundation4DataV",
+      "text" : "Data"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/Hash\/keccak512(data:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "keccak512(data:)",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/hash\/keccak512(data:)"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/Hash/ripemd(data:)": {
+  "abstract" : [
+    {
+      "text" : "Computes the RIPEMD of a block of data.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "static"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "ripemd"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "data"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10Foundation4DataV",
+      "text" : "Data"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10Foundation4DataV",
+      "text" : "Data"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/Hash\/ripemd(data:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "ripemd(data:)",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/hash\/ripemd(data:)"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/Hash/sha1(data:)": {
+  "abstract" : [
+    {
+      "text" : "Computes the SHA1 of a block of data.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "static"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "sha1"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "data"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10Foundation4DataV",
+      "text" : "Data"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10Foundation4DataV",
+      "text" : "Data"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/Hash\/sha1(data:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "sha1(data:)",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/hash\/sha1(data:)"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/Hash/sha256(data:)": {
+  "abstract" : [
+    {
+      "text" : "Computes the SHA256 of a block of data.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "static"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "sha256"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "data"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10Foundation4DataV",
+      "text" : "Data"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10Foundation4DataV",
+      "text" : "Data"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/Hash\/sha256(data:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "sha256(data:)",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/hash\/sha256(data:)"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/Hash/sha256RIPEMD(data:)": {
+  "abstract" : [
+    {
+      "text" : "Computes the SHA256RIPEMD of a block of data.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "static"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "sha256RIPEMD"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "data"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10Foundation4DataV",
+      "text" : "Data"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10Foundation4DataV",
+      "text" : "Data"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/Hash\/sha256RIPEMD(data:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "sha256RIPEMD(data:)",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/hash\/sha256ripemd(data:)"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/Hash/sha256SHA256(data:)": {
+  "abstract" : [
+    {
+      "text" : "Computes the SHA256D of a block of data.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "static"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "sha256SHA256"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "data"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10Foundation4DataV",
+      "text" : "Data"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10Foundation4DataV",
+      "text" : "Data"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/Hash\/sha256SHA256(data:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "sha256SHA256(data:)",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/hash\/sha256sha256(data:)"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/Hash/sha3_256(data:)": {
+  "abstract" : [
+    {
+      "text" : "Computes the SHA3_256 of a block of data.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "static"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "sha3_256"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "data"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10Foundation4DataV",
+      "text" : "Data"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10Foundation4DataV",
+      "text" : "Data"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/Hash\/sha3_256(data:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "sha3_256(data:)",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/hash\/sha3_256(data:)"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/Hash/sha3_256RIPEMD(data:)": {
+  "abstract" : [
+    {
+      "text" : "Computes the SHA3_256RIPEMD of a block of data.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "static"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "sha3_256RIPEMD"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "data"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10Foundation4DataV",
+      "text" : "Data"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10Foundation4DataV",
+      "text" : "Data"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/Hash\/sha3_256RIPEMD(data:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "sha3_256RIPEMD(data:)",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/hash\/sha3_256ripemd(data:)"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/Hash/sha3_512(data:)": {
+  "abstract" : [
+    {
+      "text" : "Computes the SHA3_512 of a block of data.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "static"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "sha3_512"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "data"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10Foundation4DataV",
+      "text" : "Data"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10Foundation4DataV",
+      "text" : "Data"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/Hash\/sha3_512(data:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "sha3_512(data:)",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/hash\/sha3_512(data:)"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/Hash/sha512(data:)": {
+  "abstract" : [
+    {
+      "text" : "Computes the SHA512 of a block of data.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "static"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "sha512"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "data"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10Foundation4DataV",
+      "text" : "Data"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10Foundation4DataV",
+      "text" : "Data"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/Hash\/sha512(data:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "sha512(data:)",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/hash\/sha512(data:)"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/Hash/sha512_256(data:)": {
+  "abstract" : [
+    {
+      "text" : "Computes the SHA512_256 of a block of data.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "static"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "sha512_256"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "data"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10Foundation4DataV",
+      "text" : "Data"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10Foundation4DataV",
+      "text" : "Data"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/Hash\/sha512_256(data:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "sha512_256(data:)",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/hash\/sha512_256(data:)"
+}
+}
+}

@@ -1,0 +1,282 @@
+{
+  "abstract" : [
+    {
+      "text" : "Operation specific data depending on the type of the operation.",
+      "type" : "text"
+    }
+  ],
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Tezos_Proto_Operation"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Tezos_Proto_Operation\/operationData"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "s:10WalletCore24TW_Tezos_Proto_OperationV13operationDataAC06OneOf_fH0OSgvp",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "var"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "operationData"
+      },
+      {
+        "kind" : "text",
+        "text" : ": "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:10WalletCore24TW_Tezos_Proto_OperationV",
+        "text" : "TW_Tezos_Proto_Operation"
+      },
+      {
+        "kind" : "text",
+        "text" : "."
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:10WalletCore24TW_Tezos_Proto_OperationV06OneOf_F4DataO",
+        "text" : "OneOf_OperationData"
+      },
+      {
+        "kind" : "text",
+        "text" : "?"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "WalletCore"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Instance Property",
+    "symbolKind" : "property",
+    "title" : "operationData"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "iOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "var"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "operationData"
+            },
+            {
+              "kind" : "text",
+              "text" : ": "
+            },
+            {
+              "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Tezos_Proto_Operation",
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:10WalletCore24TW_Tezos_Proto_OperationV",
+              "text" : "TW_Tezos_Proto_Operation"
+            },
+            {
+              "kind" : "text",
+              "text" : "."
+            },
+            {
+              "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Tezos_Proto_Operation\/OneOf_OperationData",
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:10WalletCore24TW_Tezos_Proto_OperationV06OneOf_F4DataO",
+              "text" : "OneOf_OperationData"
+            },
+            {
+              "kind" : "text",
+              "text" : "?"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 2,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/walletcore\/tw_tezos_proto_operation\/operationdata"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://com.trustwallet.WalletCore/documentation/WalletCore": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "WalletCore",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Tezos_Proto_Operation": {
+  "abstract" : [
+    {
+      "text" : "An operation that can be applied to the Tezos blockchain.",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "Next field: 12",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "TW_Tezos_Proto_Operation"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Tezos_Proto_Operation",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "TW_Tezos_Proto_Operation"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "TW_Tezos_Proto_Operation",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_tezos_proto_operation"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Tezos_Proto_Operation/OneOf_OperationData": {
+  "abstract" : [
+    {
+      "text" : "Operation specific data depending on the type of the operation.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "enum"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "OneOf_OperationData"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Tezos_Proto_Operation\/OneOf_OperationData",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "OneOf_OperationData"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "TW_Tezos_Proto_Operation.OneOf_OperationData",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_tezos_proto_operation\/oneof_operationdata"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Tezos_Proto_Operation/operationData": {
+  "abstract" : [
+    {
+      "text" : "Operation specific data depending on the type of the operation.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "operationData"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10WalletCore24TW_Tezos_Proto_OperationV",
+      "text" : "TW_Tezos_Proto_Operation"
+    },
+    {
+      "kind" : "text",
+      "text" : "."
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10WalletCore24TW_Tezos_Proto_OperationV06OneOf_F4DataO",
+      "text" : "OneOf_OperationData"
+    },
+    {
+      "kind" : "text",
+      "text" : "?"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Tezos_Proto_Operation\/operationData",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "operationData",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_tezos_proto_operation\/operationdata"
+}
+}
+}

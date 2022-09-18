@@ -1,0 +1,245 @@
+{
+  "abstract" : [
+    {
+      "text" : "No overview available.",
+      "type" : "text"
+    }
+  ],
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Harmony_Proto_StakingMessage"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Harmony_Proto_StakingMessage\/createValidatorMessage"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "s:10WalletCore31TW_Harmony_Proto_StakingMessageV015createValidatorG0AA0c1_d1_e16_DirectiveCreateI0Vvp",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "var"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "createValidatorMessage"
+      },
+      {
+        "kind" : "text",
+        "text" : ": "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:10WalletCore41TW_Harmony_Proto_DirectiveCreateValidatorV",
+        "text" : "TW_Harmony_Proto_DirectiveCreateValidator"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "WalletCore"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Instance Property",
+    "symbolKind" : "property",
+    "title" : "createValidatorMessage"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "iOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "var"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "createValidatorMessage"
+            },
+            {
+              "kind" : "text",
+              "text" : ": "
+            },
+            {
+              "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Harmony_Proto_DirectiveCreateValidator",
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:10WalletCore41TW_Harmony_Proto_DirectiveCreateValidatorV",
+              "text" : "TW_Harmony_Proto_DirectiveCreateValidator"
+            },
+            {
+              "kind" : "text",
+              "text" : " { "
+            },
+            {
+              "kind" : "keyword",
+              "text" : "get"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "keyword",
+              "text" : "set"
+            },
+            {
+              "kind" : "text",
+              "text" : " }"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 2,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/walletcore\/tw_harmony_proto_stakingmessage\/createvalidatormessage"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://com.trustwallet.WalletCore/documentation/WalletCore": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "WalletCore",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Harmony_Proto_DirectiveCreateValidator": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "TW_Harmony_Proto_DirectiveCreateValidator"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Harmony_Proto_DirectiveCreateValidator",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "TW_Harmony_Proto_DirectiveCreateValidator"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "TW_Harmony_Proto_DirectiveCreateValidator",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_harmony_proto_directivecreatevalidator"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Harmony_Proto_StakingMessage": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "TW_Harmony_Proto_StakingMessage"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Harmony_Proto_StakingMessage",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "TW_Harmony_Proto_StakingMessage"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "TW_Harmony_Proto_StakingMessage",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_harmony_proto_stakingmessage"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Harmony_Proto_StakingMessage/createValidatorMessage": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "createValidatorMessage"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10WalletCore41TW_Harmony_Proto_DirectiveCreateValidatorV",
+      "text" : "TW_Harmony_Proto_DirectiveCreateValidator"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Harmony_Proto_StakingMessage\/createValidatorMessage",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "createValidatorMessage",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_harmony_proto_stakingmessage\/createvalidatormessage"
+}
+}
+}

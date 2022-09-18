@@ -1,0 +1,303 @@
+{
+  "abstract" : [
+    {
+      "text" : "No overview available.",
+      "type" : "text"
+    }
+  ],
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_FIO_Proto_Action",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_FIO_Proto_Action\/OneOf_MessageOneof"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_FIO_Proto_Action\/OneOf_MessageOneof\/addPubAddressMessage(_:)"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "s:10WalletCore19TW_FIO_Proto_ActionV18OneOf_MessageOneofO013addPubAddressI0yAeC03AddlM0VcAEmF",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "case"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "addPubAddressMessage"
+      },
+      {
+        "kind" : "text",
+        "text" : "("
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:10WalletCore19TW_FIO_Proto_ActionV",
+        "text" : "TW_FIO_Proto_Action"
+      },
+      {
+        "kind" : "text",
+        "text" : "."
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:10WalletCore19TW_FIO_Proto_ActionV13AddPubAddressV",
+        "text" : "AddPubAddress"
+      },
+      {
+        "kind" : "text",
+        "text" : ")"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "WalletCore"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Case",
+    "symbolKind" : "case",
+    "title" : "TW_FIO_Proto_Action.OneOf_MessageOneof.addPubAddressMessage(_:)"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "iOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "case"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "addPubAddressMessage"
+            },
+            {
+              "kind" : "text",
+              "text" : "("
+            },
+            {
+              "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_FIO_Proto_Action",
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:10WalletCore19TW_FIO_Proto_ActionV",
+              "text" : "TW_FIO_Proto_Action"
+            },
+            {
+              "kind" : "text",
+              "text" : "."
+            },
+            {
+              "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_FIO_Proto_Action\/AddPubAddress",
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:10WalletCore19TW_FIO_Proto_ActionV13AddPubAddressV",
+              "text" : "AddPubAddress"
+            },
+            {
+              "kind" : "text",
+              "text" : ")"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 2,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/walletcore\/tw_fio_proto_action\/oneof_messageoneof\/addpubaddressmessage(_:)"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://com.trustwallet.WalletCore/documentation/WalletCore": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "WalletCore",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_FIO_Proto_Action": {
+  "abstract" : [
+    {
+      "text" : "Different Actions",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "TW_FIO_Proto_Action"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_FIO_Proto_Action",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "TW_FIO_Proto_Action"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "TW_FIO_Proto_Action",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_fio_proto_action"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_FIO_Proto_Action/AddPubAddress": {
+  "abstract" : [
+    {
+      "text" : "Acion for adding public chain addresses to a FIO name; add_pub_address",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "AddPubAddress"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_FIO_Proto_Action\/AddPubAddress",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "AddPubAddress"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "TW_FIO_Proto_Action.AddPubAddress",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_fio_proto_action\/addpubaddress"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_FIO_Proto_Action/OneOf_MessageOneof": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "enum"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "OneOf_MessageOneof"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_FIO_Proto_Action\/OneOf_MessageOneof",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "OneOf_MessageOneof"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "TW_FIO_Proto_Action.OneOf_MessageOneof",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_fio_proto_action\/oneof_messageoneof"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_FIO_Proto_Action/OneOf_MessageOneof/addPubAddressMessage(_:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "addPubAddressMessage"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10WalletCore19TW_FIO_Proto_ActionV",
+      "text" : "TW_FIO_Proto_Action"
+    },
+    {
+      "kind" : "text",
+      "text" : "."
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10WalletCore19TW_FIO_Proto_ActionV13AddPubAddressV",
+      "text" : "AddPubAddress"
+    },
+    {
+      "kind" : "text",
+      "text" : ")"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_FIO_Proto_Action\/OneOf_MessageOneof\/addPubAddressMessage(_:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "TW_FIO_Proto_Action.OneOf_MessageOneof.addPubAddressMessage(_:)",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_fio_proto_action\/oneof_messageoneof\/addpubaddressmessage(_:)"
+}
+}
+}

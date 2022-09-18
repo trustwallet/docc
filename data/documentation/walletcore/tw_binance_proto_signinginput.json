@@ -1,0 +1,1263 @@
+{
+  "abstract" : [
+    {
+      "text" : "Input data necessary to create a signed order.",
+      "type" : "text"
+    }
+  ],
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Binance_Proto_SigningInput"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "s:10WalletCore29TW_Binance_Proto_SigningInputV",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "struct"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "TW_Binance_Proto_SigningInput"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "WalletCore"
+      }
+    ],
+    "navigatorTitle" : [
+      {
+        "kind" : "identifier",
+        "text" : "TW_Binance_Proto_SigningInput"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Structure",
+    "symbolKind" : "struct",
+    "title" : "TW_Binance_Proto_SigningInput"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "iOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "struct"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "TW_Binance_Proto_SigningInput"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "relationshipsSections" : [
+    {
+      "identifiers" : [
+        "doc:\/\/com.trustwallet.WalletCore\/s28CustomDebugStringConvertibleP",
+        "doc:\/\/com.trustwallet.WalletCore\/SQ",
+        "doc:\/\/com.trustwallet.WalletCore\/SH",
+        "doc:\/\/com.trustwallet.WalletCore\/13SwiftProtobuf7MessageP"
+      ],
+      "kind" : "relationships",
+      "title" : "Conforms To",
+      "type" : "conformsTo"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 2,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "topicSections" : [
+    {
+      "identifiers" : [
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Binance_Proto_SigningInput\/init()"
+      ],
+      "title" : "Initializers"
+    },
+    {
+      "identifiers" : [
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Binance_Proto_SigningInput\/accountNumber",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Binance_Proto_SigningInput\/burnOrder",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Binance_Proto_SigningInput\/cancelTradeOrder",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Binance_Proto_SigningInput\/chainID",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Binance_Proto_SigningInput\/claimHtltOrder",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Binance_Proto_SigningInput\/depositHtltOrder",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Binance_Proto_SigningInput\/freezeOrder",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Binance_Proto_SigningInput\/htltOrder",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Binance_Proto_SigningInput\/issueOrder",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Binance_Proto_SigningInput\/memo",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Binance_Proto_SigningInput\/mintOrder",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Binance_Proto_SigningInput\/orderOneof",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Binance_Proto_SigningInput\/privateKey",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Binance_Proto_SigningInput\/refundHtltOrder",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Binance_Proto_SigningInput\/sendOrder",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Binance_Proto_SigningInput\/sequence",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Binance_Proto_SigningInput\/sideDelegateOrder",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Binance_Proto_SigningInput\/sideRedelegateOrder",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Binance_Proto_SigningInput\/sideUndelegateOrder",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Binance_Proto_SigningInput\/source",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Binance_Proto_SigningInput\/timeLockOrder",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Binance_Proto_SigningInput\/timeRelockOrder",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Binance_Proto_SigningInput\/timeUnlockOrder",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Binance_Proto_SigningInput\/tradeOrder",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Binance_Proto_SigningInput\/transferOutOrder",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Binance_Proto_SigningInput\/unfreezeOrder",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Binance_Proto_SigningInput\/unknownFields"
+      ],
+      "title" : "Instance Properties"
+    },
+    {
+      "identifiers" : [
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Binance_Proto_SigningInput\/OneOf_OrderOneof"
+      ],
+      "title" : "Enumerations"
+    },
+    {
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Binance_Proto_SigningInput\/Equatable-Implementations",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Binance_Proto_SigningInput\/Message-Implementations"
+      ],
+      "title" : "Default Implementations"
+    }
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/walletcore\/tw_binance_proto_signinginput"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://com.trustwallet.WalletCore/13SwiftProtobuf7MessageP": {
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/13SwiftProtobuf7MessageP",
+  "title" : "SwiftProtobuf.Message",
+  "type" : "unresolvable"
+},
+"doc://com.trustwallet.WalletCore/SH": {
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/SH",
+  "title" : "Swift.Hashable",
+  "type" : "unresolvable"
+},
+"doc://com.trustwallet.WalletCore/SQ": {
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/SQ",
+  "title" : "Swift.Equatable",
+  "type" : "unresolvable"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "WalletCore",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Binance_Proto_SigningInput": {
+  "abstract" : [
+    {
+      "text" : "Input data necessary to create a signed order.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "TW_Binance_Proto_SigningInput"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Binance_Proto_SigningInput",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "TW_Binance_Proto_SigningInput"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "TW_Binance_Proto_SigningInput",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_binance_proto_signinginput"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Binance_Proto_SigningInput/Equatable-Implementations": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Binance_Proto_SigningInput\/Equatable-Implementations",
+  "kind" : "article",
+  "role" : "collectionGroup",
+  "title" : "Equatable Implementations",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_binance_proto_signinginput\/equatable-implementations"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Binance_Proto_SigningInput/Message-Implementations": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Binance_Proto_SigningInput\/Message-Implementations",
+  "kind" : "article",
+  "role" : "collectionGroup",
+  "title" : "Message Implementations",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_binance_proto_signinginput\/message-implementations"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Binance_Proto_SigningInput/OneOf_OrderOneof": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "enum"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "OneOf_OrderOneof"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Binance_Proto_SigningInput\/OneOf_OrderOneof",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "OneOf_OrderOneof"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "TW_Binance_Proto_SigningInput.OneOf_OrderOneof",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_binance_proto_signinginput\/oneof_orderoneof"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Binance_Proto_SigningInput/accountNumber": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "accountNumber"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:s5Int64V",
+      "text" : "Int64"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Binance_Proto_SigningInput\/accountNumber",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "accountNumber",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_binance_proto_signinginput\/accountnumber"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Binance_Proto_SigningInput/burnOrder": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "burnOrder"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10WalletCore31TW_Binance_Proto_TokenBurnOrderV",
+      "text" : "TW_Binance_Proto_TokenBurnOrder"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Binance_Proto_SigningInput\/burnOrder",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "burnOrder",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_binance_proto_signinginput\/burnorder"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Binance_Proto_SigningInput/cancelTradeOrder": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "cancelTradeOrder"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10WalletCore33TW_Binance_Proto_CancelTradeOrderV",
+      "text" : "TW_Binance_Proto_CancelTradeOrder"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Binance_Proto_SigningInput\/cancelTradeOrder",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "cancelTradeOrder",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_binance_proto_signinginput\/canceltradeorder"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Binance_Proto_SigningInput/chainID": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "chainID"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Binance_Proto_SigningInput\/chainID",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "chainID",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_binance_proto_signinginput\/chainid"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Binance_Proto_SigningInput/claimHtltOrder": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "claimHtltOrder"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10WalletCore30TW_Binance_Proto_ClaimHTLOrderV",
+      "text" : "TW_Binance_Proto_ClaimHTLOrder"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Binance_Proto_SigningInput\/claimHtltOrder",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "claimHtltOrder",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_binance_proto_signinginput\/claimhtltorder"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Binance_Proto_SigningInput/depositHtltOrder": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "depositHtltOrder"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10WalletCore33TW_Binance_Proto_DepositHTLTOrderV",
+      "text" : "TW_Binance_Proto_DepositHTLTOrder"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Binance_Proto_SigningInput\/depositHtltOrder",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "depositHtltOrder",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_binance_proto_signinginput\/deposithtltorder"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Binance_Proto_SigningInput/freezeOrder": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "freezeOrder"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10WalletCore33TW_Binance_Proto_TokenFreezeOrderV",
+      "text" : "TW_Binance_Proto_TokenFreezeOrder"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Binance_Proto_SigningInput\/freezeOrder",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "freezeOrder",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_binance_proto_signinginput\/freezeorder"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Binance_Proto_SigningInput/htltOrder": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "htltOrder"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10WalletCore26TW_Binance_Proto_HTLTOrderV",
+      "text" : "TW_Binance_Proto_HTLTOrder"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Binance_Proto_SigningInput\/htltOrder",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "htltOrder",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_binance_proto_signinginput\/htltorder"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Binance_Proto_SigningInput/init()": {
+  "abstract" : [
+    {
+      "text" : "Creates a new message with all of its fields initialized to their default",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "values.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "init"
+    },
+    {
+      "kind" : "text",
+      "text" : "()"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Binance_Proto_SigningInput\/init()",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "init()",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_binance_proto_signinginput\/init()"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Binance_Proto_SigningInput/issueOrder": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "issueOrder"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10WalletCore32TW_Binance_Proto_TokenIssueOrderV",
+      "text" : "TW_Binance_Proto_TokenIssueOrder"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Binance_Proto_SigningInput\/issueOrder",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "issueOrder",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_binance_proto_signinginput\/issueorder"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Binance_Proto_SigningInput/memo": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "memo"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Binance_Proto_SigningInput\/memo",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "memo",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_binance_proto_signinginput\/memo"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Binance_Proto_SigningInput/mintOrder": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "mintOrder"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10WalletCore31TW_Binance_Proto_TokenMintOrderV",
+      "text" : "TW_Binance_Proto_TokenMintOrder"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Binance_Proto_SigningInput\/mintOrder",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "mintOrder",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_binance_proto_signinginput\/mintorder"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Binance_Proto_SigningInput/orderOneof": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "orderOneof"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10WalletCore29TW_Binance_Proto_SigningInputV",
+      "text" : "TW_Binance_Proto_SigningInput"
+    },
+    {
+      "kind" : "text",
+      "text" : "."
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10WalletCore29TW_Binance_Proto_SigningInputV16OneOf_OrderOneofO",
+      "text" : "OneOf_OrderOneof"
+    },
+    {
+      "kind" : "text",
+      "text" : "?"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Binance_Proto_SigningInput\/orderOneof",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "orderOneof",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_binance_proto_signinginput\/orderoneof"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Binance_Proto_SigningInput/privateKey": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "privateKey"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10Foundation4DataV",
+      "text" : "Data"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Binance_Proto_SigningInput\/privateKey",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "privateKey",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_binance_proto_signinginput\/privatekey"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Binance_Proto_SigningInput/refundHtltOrder": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "refundHtltOrder"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10WalletCore32TW_Binance_Proto_RefundHTLTOrderV",
+      "text" : "TW_Binance_Proto_RefundHTLTOrder"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Binance_Proto_SigningInput\/refundHtltOrder",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "refundHtltOrder",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_binance_proto_signinginput\/refundhtltorder"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Binance_Proto_SigningInput/sendOrder": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "sendOrder"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10WalletCore26TW_Binance_Proto_SendOrderV",
+      "text" : "TW_Binance_Proto_SendOrder"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Binance_Proto_SigningInput\/sendOrder",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "sendOrder",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_binance_proto_signinginput\/sendorder"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Binance_Proto_SigningInput/sequence": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "sequence"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:s5Int64V",
+      "text" : "Int64"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Binance_Proto_SigningInput\/sequence",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "sequence",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_binance_proto_signinginput\/sequence"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Binance_Proto_SigningInput/sideDelegateOrder": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "sideDelegateOrder"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10WalletCore34TW_Binance_Proto_SideChainDelegateV",
+      "text" : "TW_Binance_Proto_SideChainDelegate"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Binance_Proto_SigningInput\/sideDelegateOrder",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "sideDelegateOrder",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_binance_proto_signinginput\/sidedelegateorder"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Binance_Proto_SigningInput/sideRedelegateOrder": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "sideRedelegateOrder"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10WalletCore36TW_Binance_Proto_SideChainRedelegateV",
+      "text" : "TW_Binance_Proto_SideChainRedelegate"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Binance_Proto_SigningInput\/sideRedelegateOrder",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "sideRedelegateOrder",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_binance_proto_signinginput\/sideredelegateorder"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Binance_Proto_SigningInput/sideUndelegateOrder": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "sideUndelegateOrder"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10WalletCore36TW_Binance_Proto_SideChainUndelegateV",
+      "text" : "TW_Binance_Proto_SideChainUndelegate"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Binance_Proto_SigningInput\/sideUndelegateOrder",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "sideUndelegateOrder",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_binance_proto_signinginput\/sideundelegateorder"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Binance_Proto_SigningInput/source": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "source"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:s5Int64V",
+      "text" : "Int64"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Binance_Proto_SigningInput\/source",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "source",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_binance_proto_signinginput\/source"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Binance_Proto_SigningInput/timeLockOrder": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "timeLockOrder"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10WalletCore30TW_Binance_Proto_TimeLockOrderV",
+      "text" : "TW_Binance_Proto_TimeLockOrder"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Binance_Proto_SigningInput\/timeLockOrder",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "timeLockOrder",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_binance_proto_signinginput\/timelockorder"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Binance_Proto_SigningInput/timeRelockOrder": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "timeRelockOrder"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10WalletCore32TW_Binance_Proto_TimeRelockOrderV",
+      "text" : "TW_Binance_Proto_TimeRelockOrder"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Binance_Proto_SigningInput\/timeRelockOrder",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "timeRelockOrder",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_binance_proto_signinginput\/timerelockorder"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Binance_Proto_SigningInput/timeUnlockOrder": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "timeUnlockOrder"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10WalletCore32TW_Binance_Proto_TimeUnlockOrderV",
+      "text" : "TW_Binance_Proto_TimeUnlockOrder"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Binance_Proto_SigningInput\/timeUnlockOrder",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "timeUnlockOrder",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_binance_proto_signinginput\/timeunlockorder"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Binance_Proto_SigningInput/tradeOrder": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "tradeOrder"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10WalletCore27TW_Binance_Proto_TradeOrderV",
+      "text" : "TW_Binance_Proto_TradeOrder"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Binance_Proto_SigningInput\/tradeOrder",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "tradeOrder",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_binance_proto_signinginput\/tradeorder"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Binance_Proto_SigningInput/transferOutOrder": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "transferOutOrder"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10WalletCore28TW_Binance_Proto_TransferOutV",
+      "text" : "TW_Binance_Proto_TransferOut"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Binance_Proto_SigningInput\/transferOutOrder",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "transferOutOrder",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_binance_proto_signinginput\/transferoutorder"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Binance_Proto_SigningInput/unfreezeOrder": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "unfreezeOrder"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10WalletCore35TW_Binance_Proto_TokenUnfreezeOrderV",
+      "text" : "TW_Binance_Proto_TokenUnfreezeOrder"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Binance_Proto_SigningInput\/unfreezeOrder",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "unfreezeOrder",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_binance_proto_signinginput\/unfreezeorder"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Binance_Proto_SigningInput/unknownFields": {
+  "abstract" : [
+    {
+      "text" : "Some formats include enough information to transport fields that were",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "not known at generation time. When encountered, they are stored here.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "unknownFields"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:13SwiftProtobuf14UnknownStorageV",
+      "text" : "UnknownStorage"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Binance_Proto_SigningInput\/unknownFields",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "unknownFields",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_binance_proto_signinginput\/unknownfields"
+},
+"doc://com.trustwallet.WalletCore/s28CustomDebugStringConvertibleP": {
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/s28CustomDebugStringConvertibleP",
+  "title" : "Swift.CustomDebugStringConvertible",
+  "type" : "unresolvable"
+}
+}
+}

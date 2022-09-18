@@ -1,0 +1,946 @@
+{
+  "abstract" : [
+    {
+      "text" : "Represents Ethereum ABI value",
+      "type" : "text"
+    }
+  ],
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/EthereumAbiValue"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "s:10WalletCore16EthereumAbiValueV",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "struct"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "EthereumAbiValue"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "WalletCore"
+      }
+    ],
+    "navigatorTitle" : [
+      {
+        "kind" : "identifier",
+        "text" : "EthereumAbiValue"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Structure",
+    "symbolKind" : "struct",
+    "title" : "EthereumAbiValue"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "iOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "struct"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "EthereumAbiValue"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 2,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "topicSections" : [
+    {
+      "identifiers" : [
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/EthereumAbiValue\/decodeArray(input:type:)",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/EthereumAbiValue\/decodeUInt256(input:)",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/EthereumAbiValue\/decodeValue(input:type:)",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/EthereumAbiValue\/encodeAddress(value:)",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/EthereumAbiValue\/encodeBool(value:)",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/EthereumAbiValue\/encodeBytes(value:)",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/EthereumAbiValue\/encodeBytesDyn(value:)",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/EthereumAbiValue\/encodeInt256(value:)",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/EthereumAbiValue\/encodeInt32(value:)",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/EthereumAbiValue\/encodeString(value:)",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/EthereumAbiValue\/encodeUInt256(value:)",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/EthereumAbiValue\/encodeUInt32(value:)"
+      ],
+      "title" : "Type Methods"
+    }
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/walletcore\/ethereumabivalue"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://com.trustwallet.WalletCore/documentation/WalletCore": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "WalletCore",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/EthereumAbiValue": {
+  "abstract" : [
+    {
+      "text" : "Represents Ethereum ABI value",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "EthereumAbiValue"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/EthereumAbiValue",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "EthereumAbiValue"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "EthereumAbiValue",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/ethereumabivalue"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/EthereumAbiValue/decodeArray(input:type:)": {
+  "abstract" : [
+    {
+      "text" : "Decode an array of given simple types.  Return a ‘\\n’-separated string of elements",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "static"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "decodeArray"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "input"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10Foundation4DataV",
+      "text" : "Data"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "type"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/EthereumAbiValue\/decodeArray(input:type:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "decodeArray(input:type:)",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/ethereumabivalue\/decodearray(input:type:)"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/EthereumAbiValue/decodeUInt256(input:)": {
+  "abstract" : [
+    {
+      "text" : "Decodes input data (bytes longer than 32 will be truncated) as uint256",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "static"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "decodeUInt256"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "input"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10Foundation4DataV",
+      "text" : "Data"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/EthereumAbiValue\/decodeUInt256(input:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "decodeUInt256(input:)",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/ethereumabivalue\/decodeuint256(input:)"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/EthereumAbiValue/decodeValue(input:type:)": {
+  "abstract" : [
+    {
+      "text" : "Decode an arbitrary type, return value as string",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "static"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "decodeValue"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "input"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10Foundation4DataV",
+      "text" : "Data"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "type"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/EthereumAbiValue\/decodeValue(input:type:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "decodeValue(input:type:)",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/ethereumabivalue\/decodevalue(input:type:)"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/EthereumAbiValue/encodeAddress(value:)": {
+  "abstract" : [
+    {
+      "text" : "Encode an address according to Ethereum ABI, 20 bytes of the address.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "static"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "encodeAddress"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "value"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10Foundation4DataV",
+      "text" : "Data"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10Foundation4DataV",
+      "text" : "Data"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/EthereumAbiValue\/encodeAddress(value:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "encodeAddress(value:)",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/ethereumabivalue\/encodeaddress(value:)"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/EthereumAbiValue/encodeBool(value:)": {
+  "abstract" : [
+    {
+      "text" : "Encode a bool according to Ethereum ABI, into 32 bytes.  Values are padded by 0 on the left, unless specified otherwise",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "static"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "encodeBool"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "value"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Sb",
+      "text" : "Bool"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10Foundation4DataV",
+      "text" : "Data"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/EthereumAbiValue\/encodeBool(value:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "encodeBool(value:)",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/ethereumabivalue\/encodebool(value:)"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/EthereumAbiValue/encodeBytes(value:)": {
+  "abstract" : [
+    {
+      "text" : "Encode a number of bytes, up to 32 bytes, padded on the right.  Longer arrays are truncated.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "static"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "encodeBytes"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "value"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10Foundation4DataV",
+      "text" : "Data"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10Foundation4DataV",
+      "text" : "Data"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/EthereumAbiValue\/encodeBytes(value:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "encodeBytes(value:)",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/ethereumabivalue\/encodebytes(value:)"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/EthereumAbiValue/encodeBytesDyn(value:)": {
+  "abstract" : [
+    {
+      "text" : "Encode a dynamic number of bytes by encoding its hash",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "static"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "encodeBytesDyn"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "value"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10Foundation4DataV",
+      "text" : "Data"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10Foundation4DataV",
+      "text" : "Data"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/EthereumAbiValue\/encodeBytesDyn(value:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "encodeBytesDyn(value:)",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/ethereumabivalue\/encodebytesdyn(value:)"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/EthereumAbiValue/encodeInt256(value:)": {
+  "abstract" : [
+    {
+      "text" : "Encode a int256 according to Ethereum ABI, into 32 bytes.  Values are padded by 0 on the left, unless specified otherwise",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "static"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "encodeInt256"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "value"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10Foundation4DataV",
+      "text" : "Data"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10Foundation4DataV",
+      "text" : "Data"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/EthereumAbiValue\/encodeInt256(value:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "encodeInt256(value:)",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/ethereumabivalue\/encodeint256(value:)"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/EthereumAbiValue/encodeInt32(value:)": {
+  "abstract" : [
+    {
+      "text" : "Encode a int32 according to Ethereum ABI, into 32 bytes. Values are padded by 0 on the left, unless specified otherwise",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "static"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "encodeInt32"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "value"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:s5Int32V",
+      "text" : "Int32"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10Foundation4DataV",
+      "text" : "Data"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/EthereumAbiValue\/encodeInt32(value:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "encodeInt32(value:)",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/ethereumabivalue\/encodeint32(value:)"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/EthereumAbiValue/encodeString(value:)": {
+  "abstract" : [
+    {
+      "text" : "Encode a string according to Ethereum ABI by encoding its hash.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "static"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "encodeString"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "value"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10Foundation4DataV",
+      "text" : "Data"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/EthereumAbiValue\/encodeString(value:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "encodeString(value:)",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/ethereumabivalue\/encodestring(value:)"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/EthereumAbiValue/encodeUInt256(value:)": {
+  "abstract" : [
+    {
+      "text" : "Encode an int256 according to Ethereum ABI, into 32 bytes.  Values are padded by 0 on the left, unless specified otherwise",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "static"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "encodeUInt256"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "value"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10Foundation4DataV",
+      "text" : "Data"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10Foundation4DataV",
+      "text" : "Data"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/EthereumAbiValue\/encodeUInt256(value:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "encodeUInt256(value:)",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/ethereumabivalue\/encodeuint256(value:)"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/EthereumAbiValue/encodeUInt32(value:)": {
+  "abstract" : [
+    {
+      "text" : "Encode a uint32 according to Ethereum ABI, into 32 bytes.  Values are padded by 0 on the left, unless specified otherwise",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "static"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "encodeUInt32"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "value"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:s6UInt32V",
+      "text" : "UInt32"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10Foundation4DataV",
+      "text" : "Data"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/EthereumAbiValue\/encodeUInt32(value:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "encodeUInt32(value:)",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/ethereumabivalue\/encodeuint32(value:)"
+}
+}
+}

@@ -1,0 +1,474 @@
+{
+  "abstract" : [
+    {
+      "text" : "Bitcoin SIGHASH type.",
+      "type" : "text"
+    }
+  ],
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/BitcoinSigHashType"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "s:10WalletCore18BitcoinSigHashTypeO",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "enum"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "BitcoinSigHashType"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "WalletCore"
+      }
+    ],
+    "navigatorTitle" : [
+      {
+        "kind" : "identifier",
+        "text" : "BitcoinSigHashType"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Enumeration",
+    "symbolKind" : "enum",
+    "title" : "BitcoinSigHashType"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "iOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "enum"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "BitcoinSigHashType"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "relationshipsSections" : [
+    {
+      "identifiers" : [
+        "doc:\/\/com.trustwallet.WalletCore\/s12CaseIterableP",
+        "doc:\/\/com.trustwallet.WalletCore\/SQ",
+        "doc:\/\/com.trustwallet.WalletCore\/SH",
+        "doc:\/\/com.trustwallet.WalletCore\/SY"
+      ],
+      "kind" : "relationships",
+      "title" : "Conforms To",
+      "type" : "conformsTo"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 2,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "topicSections" : [
+    {
+      "identifiers" : [
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/BitcoinSigHashType\/all",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/BitcoinSigHashType\/fork",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/BitcoinSigHashType\/forkBTG",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/BitcoinSigHashType\/none",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/BitcoinSigHashType\/single"
+      ],
+      "title" : "Enumeration Cases"
+    },
+    {
+      "identifiers" : [
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/BitcoinSigHashType\/init(rawValue:)"
+      ],
+      "title" : "Initializers"
+    },
+    {
+      "identifiers" : [
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/BitcoinSigHashType\/isNone()",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/BitcoinSigHashType\/isSingle()"
+      ],
+      "title" : "Instance Methods"
+    },
+    {
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/BitcoinSigHashType\/Equatable-Implementations",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/BitcoinSigHashType\/RawRepresentable-Implementations"
+      ],
+      "title" : "Default Implementations"
+    }
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/walletcore\/bitcoinsighashtype"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://com.trustwallet.WalletCore/SH": {
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/SH",
+  "title" : "Swift.Hashable",
+  "type" : "unresolvable"
+},
+"doc://com.trustwallet.WalletCore/SQ": {
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/SQ",
+  "title" : "Swift.Equatable",
+  "type" : "unresolvable"
+},
+"doc://com.trustwallet.WalletCore/SY": {
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/SY",
+  "title" : "Swift.RawRepresentable",
+  "type" : "unresolvable"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "WalletCore",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/BitcoinSigHashType": {
+  "abstract" : [
+    {
+      "text" : "Bitcoin SIGHASH type.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "enum"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "BitcoinSigHashType"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/BitcoinSigHashType",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "BitcoinSigHashType"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "BitcoinSigHashType",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/bitcoinsighashtype"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/BitcoinSigHashType/Equatable-Implementations": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/BitcoinSigHashType\/Equatable-Implementations",
+  "kind" : "article",
+  "role" : "collectionGroup",
+  "title" : "Equatable Implementations",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/bitcoinsighashtype\/equatable-implementations"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/BitcoinSigHashType/RawRepresentable-Implementations": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/BitcoinSigHashType\/RawRepresentable-Implementations",
+  "kind" : "article",
+  "role" : "collectionGroup",
+  "title" : "RawRepresentable Implementations",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/bitcoinsighashtype\/rawrepresentable-implementations"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/BitcoinSigHashType/all": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "all"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/BitcoinSigHashType\/all",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "BitcoinSigHashType.all",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/bitcoinsighashtype\/all"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/BitcoinSigHashType/fork": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "fork"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/BitcoinSigHashType\/fork",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "BitcoinSigHashType.fork",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/bitcoinsighashtype\/fork"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/BitcoinSigHashType/forkBTG": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "forkBTG"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/BitcoinSigHashType\/forkBTG",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "BitcoinSigHashType.forkBTG",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/bitcoinsighashtype\/forkbtg"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/BitcoinSigHashType/init(rawValue:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "init"
+    },
+    {
+      "kind" : "text",
+      "text" : "?("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "rawValue"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:s6UInt32V",
+      "text" : "UInt32"
+    },
+    {
+      "kind" : "text",
+      "text" : ")"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/BitcoinSigHashType\/init(rawValue:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "init(rawValue:)",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/bitcoinsighashtype\/init(rawvalue:)"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/BitcoinSigHashType/isNone()": {
+  "abstract" : [
+    {
+      "text" : "Determines if the given sig hash is none",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "isNone"
+    },
+    {
+      "kind" : "text",
+      "text" : "() -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Sb",
+      "text" : "Bool"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/BitcoinSigHashType\/isNone()",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "isNone()",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/bitcoinsighashtype\/isnone()"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/BitcoinSigHashType/isSingle()": {
+  "abstract" : [
+    {
+      "text" : "Determines if the given sig hash is single",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "isSingle"
+    },
+    {
+      "kind" : "text",
+      "text" : "() -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Sb",
+      "text" : "Bool"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/BitcoinSigHashType\/isSingle()",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "isSingle()",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/bitcoinsighashtype\/issingle()"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/BitcoinSigHashType/none": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "none"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/BitcoinSigHashType\/none",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "BitcoinSigHashType.none",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/bitcoinsighashtype\/none"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/BitcoinSigHashType/single": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "single"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/BitcoinSigHashType\/single",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "BitcoinSigHashType.single",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/bitcoinsighashtype\/single"
+},
+"doc://com.trustwallet.WalletCore/s12CaseIterableP": {
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/s12CaseIterableP",
+  "title" : "Swift.CaseIterable",
+  "type" : "unresolvable"
+}
+}
+}

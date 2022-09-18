@@ -1,0 +1,422 @@
+{
+  "abstract" : [
+    {
+      "text" : "No overview available.",
+      "type" : "text"
+    }
+  ],
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/Address"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "s:10WalletCore7AddressP",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "protocol"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "Address"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "WalletCore"
+      }
+    ],
+    "navigatorTitle" : [
+      {
+        "kind" : "identifier",
+        "text" : "Address"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Protocol",
+    "symbolKind" : "protocol",
+    "title" : "Address"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "iOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "protocol"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "Address"
+            },
+            {
+              "kind" : "text",
+              "text" : " : "
+            },
+            {
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:s23CustomStringConvertibleP",
+              "text" : "CustomStringConvertible"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "relationshipsSections" : [
+    {
+      "identifiers" : [
+        "doc:\/\/com.trustwallet.WalletCore\/s23CustomStringConvertibleP"
+      ],
+      "kind" : "relationships",
+      "title" : "Inherits From",
+      "type" : "inheritsFrom"
+    },
+    {
+      "identifiers" : [
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/AnyAddress",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/BitcoinAddress",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/GroestlcoinAddress",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/NervosAddress",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/RippleXAddress",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/SegwitAddress",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/SolanaAddress"
+      ],
+      "kind" : "relationships",
+      "title" : "Conforming Types",
+      "type" : "conformingTypes"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 2,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/walletcore\/address"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://com.trustwallet.WalletCore/documentation/WalletCore": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "WalletCore",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/Address": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "protocol"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "Address"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/Address",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "Address"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "Address",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/address"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/AnyAddress": {
+  "abstract" : [
+    {
+      "text" : "Represents an address in C++ for almost any blockchain.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "AnyAddress"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/AnyAddress",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "AnyAddress"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "AnyAddress",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/anyaddress"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/BitcoinAddress": {
+  "abstract" : [
+    {
+      "text" : "Represents a legacy Bitcoin address in C++.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "BitcoinAddress"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/BitcoinAddress",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "BitcoinAddress"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "BitcoinAddress",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/bitcoinaddress"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/GroestlcoinAddress": {
+  "abstract" : [
+    {
+      "text" : "Represents a legacy Groestlcoin address.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "GroestlcoinAddress"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/GroestlcoinAddress",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "GroestlcoinAddress"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "GroestlcoinAddress",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/groestlcoinaddress"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/NervosAddress": {
+  "abstract" : [
+    {
+      "text" : "Represents a Nervos address.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "NervosAddress"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/NervosAddress",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "NervosAddress"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "NervosAddress",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/nervosaddress"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/RippleXAddress": {
+  "abstract" : [
+    {
+      "text" : "Represents a Ripple X-address.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "RippleXAddress"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/RippleXAddress",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "RippleXAddress"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "RippleXAddress",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/ripplexaddress"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/SegwitAddress": {
+  "abstract" : [
+    {
+      "text" : "Represents a BIP 0173 address.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "SegwitAddress"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/SegwitAddress",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "SegwitAddress"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "SegwitAddress",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/segwitaddress"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/SolanaAddress": {
+  "abstract" : [
+    {
+      "text" : "Solana address helper functions",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "SolanaAddress"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/SolanaAddress",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "SolanaAddress"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "SolanaAddress",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/solanaaddress"
+},
+"doc://com.trustwallet.WalletCore/s23CustomStringConvertibleP": {
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/s23CustomStringConvertibleP",
+  "title" : "Swift.CustomStringConvertible",
+  "type" : "unresolvable"
+}
+}
+}

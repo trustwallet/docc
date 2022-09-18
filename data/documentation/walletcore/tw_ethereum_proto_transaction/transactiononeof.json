@@ -1,0 +1,268 @@
+{
+  "abstract" : [
+    {
+      "text" : "No overview available.",
+      "type" : "text"
+    }
+  ],
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Ethereum_Proto_Transaction"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Ethereum_Proto_Transaction\/transactionOneof"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "s:10WalletCore29TW_Ethereum_Proto_TransactionV16transactionOneofAC06OneOf_fH0OSgvp",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "var"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "transactionOneof"
+      },
+      {
+        "kind" : "text",
+        "text" : ": "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:10WalletCore29TW_Ethereum_Proto_TransactionV",
+        "text" : "TW_Ethereum_Proto_Transaction"
+      },
+      {
+        "kind" : "text",
+        "text" : "."
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:10WalletCore29TW_Ethereum_Proto_TransactionV06OneOf_F5OneofO",
+        "text" : "OneOf_TransactionOneof"
+      },
+      {
+        "kind" : "text",
+        "text" : "?"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "WalletCore"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Instance Property",
+    "symbolKind" : "property",
+    "title" : "transactionOneof"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "iOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "var"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "transactionOneof"
+            },
+            {
+              "kind" : "text",
+              "text" : ": "
+            },
+            {
+              "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Ethereum_Proto_Transaction",
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:10WalletCore29TW_Ethereum_Proto_TransactionV",
+              "text" : "TW_Ethereum_Proto_Transaction"
+            },
+            {
+              "kind" : "text",
+              "text" : "."
+            },
+            {
+              "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Ethereum_Proto_Transaction\/OneOf_TransactionOneof",
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:10WalletCore29TW_Ethereum_Proto_TransactionV06OneOf_F5OneofO",
+              "text" : "OneOf_TransactionOneof"
+            },
+            {
+              "kind" : "text",
+              "text" : "?"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 2,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/walletcore\/tw_ethereum_proto_transaction\/transactiononeof"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://com.trustwallet.WalletCore/documentation/WalletCore": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "WalletCore",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Ethereum_Proto_Transaction": {
+  "abstract" : [
+    {
+      "text" : "Transaction (transfer, smart contract call, …)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "TW_Ethereum_Proto_Transaction"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Ethereum_Proto_Transaction",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "TW_Ethereum_Proto_Transaction"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "TW_Ethereum_Proto_Transaction",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_ethereum_proto_transaction"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Ethereum_Proto_Transaction/OneOf_TransactionOneof": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "enum"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "OneOf_TransactionOneof"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Ethereum_Proto_Transaction\/OneOf_TransactionOneof",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "OneOf_TransactionOneof"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "TW_Ethereum_Proto_Transaction.OneOf_TransactionOneof",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_ethereum_proto_transaction\/oneof_transactiononeof"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Ethereum_Proto_Transaction/transactionOneof": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "transactionOneof"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10WalletCore29TW_Ethereum_Proto_TransactionV",
+      "text" : "TW_Ethereum_Proto_Transaction"
+    },
+    {
+      "kind" : "text",
+      "text" : "."
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10WalletCore29TW_Ethereum_Proto_TransactionV06OneOf_F5OneofO",
+      "text" : "OneOf_TransactionOneof"
+    },
+    {
+      "kind" : "text",
+      "text" : "?"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Ethereum_Proto_Transaction\/transactionOneof",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "transactionOneof",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_ethereum_proto_transaction\/transactiononeof"
+}
+}
+}

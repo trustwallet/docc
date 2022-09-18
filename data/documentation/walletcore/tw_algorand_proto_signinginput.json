@@ -1,0 +1,759 @@
+{
+  "abstract" : [
+    {
+      "text" : "Input data necessary to create a signed transaction.",
+      "type" : "text"
+    }
+  ],
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Algorand_Proto_SigningInput"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "s:10WalletCore30TW_Algorand_Proto_SigningInputV",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "struct"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "TW_Algorand_Proto_SigningInput"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "WalletCore"
+      }
+    ],
+    "navigatorTitle" : [
+      {
+        "kind" : "identifier",
+        "text" : "TW_Algorand_Proto_SigningInput"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Structure",
+    "symbolKind" : "struct",
+    "title" : "TW_Algorand_Proto_SigningInput"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "iOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "struct"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "TW_Algorand_Proto_SigningInput"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "relationshipsSections" : [
+    {
+      "identifiers" : [
+        "doc:\/\/com.trustwallet.WalletCore\/s28CustomDebugStringConvertibleP",
+        "doc:\/\/com.trustwallet.WalletCore\/SQ",
+        "doc:\/\/com.trustwallet.WalletCore\/SH",
+        "doc:\/\/com.trustwallet.WalletCore\/13SwiftProtobuf7MessageP"
+      ],
+      "kind" : "relationships",
+      "title" : "Conforms To",
+      "type" : "conformsTo"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 2,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "topicSections" : [
+    {
+      "identifiers" : [
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Algorand_Proto_SigningInput\/init()"
+      ],
+      "title" : "Initializers"
+    },
+    {
+      "identifiers" : [
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Algorand_Proto_SigningInput\/assetOptIn",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Algorand_Proto_SigningInput\/assetTransfer",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Algorand_Proto_SigningInput\/fee",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Algorand_Proto_SigningInput\/firstRound",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Algorand_Proto_SigningInput\/genesisHash",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Algorand_Proto_SigningInput\/genesisID",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Algorand_Proto_SigningInput\/lastRound",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Algorand_Proto_SigningInput\/messageOneof",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Algorand_Proto_SigningInput\/note",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Algorand_Proto_SigningInput\/privateKey",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Algorand_Proto_SigningInput\/transfer",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Algorand_Proto_SigningInput\/unknownFields"
+      ],
+      "title" : "Instance Properties"
+    },
+    {
+      "identifiers" : [
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Algorand_Proto_SigningInput\/OneOf_MessageOneof"
+      ],
+      "title" : "Enumerations"
+    },
+    {
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Algorand_Proto_SigningInput\/Equatable-Implementations",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Algorand_Proto_SigningInput\/Message-Implementations"
+      ],
+      "title" : "Default Implementations"
+    }
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/walletcore\/tw_algorand_proto_signinginput"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://com.trustwallet.WalletCore/13SwiftProtobuf7MessageP": {
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/13SwiftProtobuf7MessageP",
+  "title" : "SwiftProtobuf.Message",
+  "type" : "unresolvable"
+},
+"doc://com.trustwallet.WalletCore/SH": {
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/SH",
+  "title" : "Swift.Hashable",
+  "type" : "unresolvable"
+},
+"doc://com.trustwallet.WalletCore/SQ": {
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/SQ",
+  "title" : "Swift.Equatable",
+  "type" : "unresolvable"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "WalletCore",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Algorand_Proto_SigningInput": {
+  "abstract" : [
+    {
+      "text" : "Input data necessary to create a signed transaction.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "TW_Algorand_Proto_SigningInput"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Algorand_Proto_SigningInput",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "TW_Algorand_Proto_SigningInput"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "TW_Algorand_Proto_SigningInput",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_algorand_proto_signinginput"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Algorand_Proto_SigningInput/Equatable-Implementations": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Algorand_Proto_SigningInput\/Equatable-Implementations",
+  "kind" : "article",
+  "role" : "collectionGroup",
+  "title" : "Equatable Implementations",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_algorand_proto_signinginput\/equatable-implementations"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Algorand_Proto_SigningInput/Message-Implementations": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Algorand_Proto_SigningInput\/Message-Implementations",
+  "kind" : "article",
+  "role" : "collectionGroup",
+  "title" : "Message Implementations",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_algorand_proto_signinginput\/message-implementations"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Algorand_Proto_SigningInput/OneOf_MessageOneof": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "enum"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "OneOf_MessageOneof"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Algorand_Proto_SigningInput\/OneOf_MessageOneof",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "OneOf_MessageOneof"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "TW_Algorand_Proto_SigningInput.OneOf_MessageOneof",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_algorand_proto_signinginput\/oneof_messageoneof"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Algorand_Proto_SigningInput/assetOptIn": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "assetOptIn"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10WalletCore28TW_Algorand_Proto_AssetOptInV",
+      "text" : "TW_Algorand_Proto_AssetOptIn"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Algorand_Proto_SigningInput\/assetOptIn",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "assetOptIn",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_algorand_proto_signinginput\/assetoptin"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Algorand_Proto_SigningInput/assetTransfer": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "assetTransfer"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10WalletCore31TW_Algorand_Proto_AssetTransferV",
+      "text" : "TW_Algorand_Proto_AssetTransfer"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Algorand_Proto_SigningInput\/assetTransfer",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "assetTransfer",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_algorand_proto_signinginput\/assettransfer"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Algorand_Proto_SigningInput/fee": {
+  "abstract" : [
+    {
+      "text" : "fee",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "fee"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:s6UInt64V",
+      "text" : "UInt64"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Algorand_Proto_SigningInput\/fee",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "fee",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_algorand_proto_signinginput\/fee"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Algorand_Proto_SigningInput/firstRound": {
+  "abstract" : [
+    {
+      "text" : "network \/ first round",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "firstRound"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:s6UInt64V",
+      "text" : "UInt64"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Algorand_Proto_SigningInput\/firstRound",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "firstRound",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_algorand_proto_signinginput\/firstround"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Algorand_Proto_SigningInput/genesisHash": {
+  "abstract" : [
+    {
+      "text" : "network \/ chain hash",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "genesisHash"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10Foundation4DataV",
+      "text" : "Data"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Algorand_Proto_SigningInput\/genesisHash",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "genesisHash",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_algorand_proto_signinginput\/genesishash"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Algorand_Proto_SigningInput/genesisID": {
+  "abstract" : [
+    {
+      "text" : "network \/ chain id",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "genesisID"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Algorand_Proto_SigningInput\/genesisID",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "genesisID",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_algorand_proto_signinginput\/genesisid"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Algorand_Proto_SigningInput/init()": {
+  "abstract" : [
+    {
+      "text" : "Creates a new message with all of its fields initialized to their default",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "values.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "init"
+    },
+    {
+      "kind" : "text",
+      "text" : "()"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Algorand_Proto_SigningInput\/init()",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "init()",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_algorand_proto_signinginput\/init()"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Algorand_Proto_SigningInput/lastRound": {
+  "abstract" : [
+    {
+      "text" : "network \/ last round",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "lastRound"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:s6UInt64V",
+      "text" : "UInt64"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Algorand_Proto_SigningInput\/lastRound",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "lastRound",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_algorand_proto_signinginput\/lastround"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Algorand_Proto_SigningInput/messageOneof": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "messageOneof"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10WalletCore30TW_Algorand_Proto_SigningInputV",
+      "text" : "TW_Algorand_Proto_SigningInput"
+    },
+    {
+      "kind" : "text",
+      "text" : "."
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10WalletCore30TW_Algorand_Proto_SigningInputV18OneOf_MessageOneofO",
+      "text" : "OneOf_MessageOneof"
+    },
+    {
+      "kind" : "text",
+      "text" : "?"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Algorand_Proto_SigningInput\/messageOneof",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "messageOneof",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_algorand_proto_signinginput\/messageoneof"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Algorand_Proto_SigningInput/note": {
+  "abstract" : [
+    {
+      "text" : "binary note data",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "note"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10Foundation4DataV",
+      "text" : "Data"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Algorand_Proto_SigningInput\/note",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "note",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_algorand_proto_signinginput\/note"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Algorand_Proto_SigningInput/privateKey": {
+  "abstract" : [
+    {
+      "text" : "private key",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "privateKey"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10Foundation4DataV",
+      "text" : "Data"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Algorand_Proto_SigningInput\/privateKey",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "privateKey",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_algorand_proto_signinginput\/privatekey"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Algorand_Proto_SigningInput/transfer": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "transfer"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10WalletCore26TW_Algorand_Proto_TransferV",
+      "text" : "TW_Algorand_Proto_Transfer"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Algorand_Proto_SigningInput\/transfer",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "transfer",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_algorand_proto_signinginput\/transfer"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Algorand_Proto_SigningInput/unknownFields": {
+  "abstract" : [
+    {
+      "text" : "Some formats include enough information to transport fields that were",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "not known at generation time. When encountered, they are stored here.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "unknownFields"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:13SwiftProtobuf14UnknownStorageV",
+      "text" : "UnknownStorage"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Algorand_Proto_SigningInput\/unknownFields",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "unknownFields",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_algorand_proto_signinginput\/unknownfields"
+},
+"doc://com.trustwallet.WalletCore/s28CustomDebugStringConvertibleP": {
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/s28CustomDebugStringConvertibleP",
+  "title" : "Swift.CustomDebugStringConvertible",
+  "type" : "unresolvable"
+}
+}
+}

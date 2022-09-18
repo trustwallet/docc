@@ -1,0 +1,234 @@
+{
+  "abstract" : [
+    {
+      "text" : "Amount to send in wei (256-bit number)",
+      "type" : "text"
+    }
+  ],
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Ethereum_Proto_Transaction",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Ethereum_Proto_Transaction\/Transfer-swift.struct"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Ethereum_Proto_Transaction\/Transfer-swift.struct\/amount"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "s:10WalletCore29TW_Ethereum_Proto_TransactionV8TransferV6amount10Foundation4DataVvp",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "var"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "amount"
+      },
+      {
+        "kind" : "text",
+        "text" : ": "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:10Foundation4DataV",
+        "text" : "Data"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "WalletCore"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Instance Property",
+    "symbolKind" : "property",
+    "title" : "amount"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "iOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "var"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "amount"
+            },
+            {
+              "kind" : "text",
+              "text" : ": "
+            },
+            {
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:10Foundation4DataV",
+              "text" : "Data"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 2,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/walletcore\/tw_ethereum_proto_transaction\/transfer-swift.struct\/amount"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://com.trustwallet.WalletCore/documentation/WalletCore": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "WalletCore",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Ethereum_Proto_Transaction": {
+  "abstract" : [
+    {
+      "text" : "Transaction (transfer, smart contract call, …)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "TW_Ethereum_Proto_Transaction"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Ethereum_Proto_Transaction",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "TW_Ethereum_Proto_Transaction"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "TW_Ethereum_Proto_Transaction",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_ethereum_proto_transaction"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Ethereum_Proto_Transaction/Transfer-swift.struct": {
+  "abstract" : [
+    {
+      "text" : "Native coin transfer transaction",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "Transfer"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Ethereum_Proto_Transaction\/Transfer-swift.struct",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "Transfer"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "TW_Ethereum_Proto_Transaction.Transfer",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_ethereum_proto_transaction\/transfer-swift.struct"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Ethereum_Proto_Transaction/Transfer-swift.struct/amount": {
+  "abstract" : [
+    {
+      "text" : "Amount to send in wei (256-bit number)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "amount"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10Foundation4DataV",
+      "text" : "Data"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Ethereum_Proto_Transaction\/Transfer-swift.struct\/amount",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "amount",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_ethereum_proto_transaction\/transfer-swift.struct\/amount"
+}
+}
+}

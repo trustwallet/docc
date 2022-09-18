@@ -1,0 +1,794 @@
+{
+  "abstract" : [
+    {
+      "text" : "No overview available.",
+      "type" : "text"
+    }
+  ],
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Harmony_Proto_DirectiveEditValidator"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "s:10WalletCore39TW_Harmony_Proto_DirectiveEditValidatorV",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "struct"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "TW_Harmony_Proto_DirectiveEditValidator"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "WalletCore"
+      }
+    ],
+    "navigatorTitle" : [
+      {
+        "kind" : "identifier",
+        "text" : "TW_Harmony_Proto_DirectiveEditValidator"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Structure",
+    "symbolKind" : "struct",
+    "title" : "TW_Harmony_Proto_DirectiveEditValidator"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "iOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "struct"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "TW_Harmony_Proto_DirectiveEditValidator"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "relationshipsSections" : [
+    {
+      "identifiers" : [
+        "doc:\/\/com.trustwallet.WalletCore\/s28CustomDebugStringConvertibleP",
+        "doc:\/\/com.trustwallet.WalletCore\/SQ",
+        "doc:\/\/com.trustwallet.WalletCore\/SH",
+        "doc:\/\/com.trustwallet.WalletCore\/13SwiftProtobuf7MessageP"
+      ],
+      "kind" : "relationships",
+      "title" : "Conforms To",
+      "type" : "conformsTo"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 2,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "topicSections" : [
+    {
+      "identifiers" : [
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Harmony_Proto_DirectiveEditValidator\/init()"
+      ],
+      "title" : "Initializers"
+    },
+    {
+      "identifiers" : [
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Harmony_Proto_DirectiveEditValidator\/active",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Harmony_Proto_DirectiveEditValidator\/commissionRate",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Harmony_Proto_DirectiveEditValidator\/description_p",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Harmony_Proto_DirectiveEditValidator\/hasCommissionRate",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Harmony_Proto_DirectiveEditValidator\/hasDescription_p",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Harmony_Proto_DirectiveEditValidator\/maxTotalDelegation",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Harmony_Proto_DirectiveEditValidator\/minSelfDelegation",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Harmony_Proto_DirectiveEditValidator\/slotKeyToAdd",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Harmony_Proto_DirectiveEditValidator\/slotKeyToAddSig",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Harmony_Proto_DirectiveEditValidator\/slotKeyToRemove",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Harmony_Proto_DirectiveEditValidator\/unknownFields",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Harmony_Proto_DirectiveEditValidator\/validatorAddress"
+      ],
+      "title" : "Instance Properties"
+    },
+    {
+      "identifiers" : [
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Harmony_Proto_DirectiveEditValidator\/clearCommissionRate()",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Harmony_Proto_DirectiveEditValidator\/clearDescription_p()"
+      ],
+      "title" : "Instance Methods"
+    },
+    {
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Harmony_Proto_DirectiveEditValidator\/Equatable-Implementations",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Harmony_Proto_DirectiveEditValidator\/Message-Implementations"
+      ],
+      "title" : "Default Implementations"
+    }
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/walletcore\/tw_harmony_proto_directiveeditvalidator"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://com.trustwallet.WalletCore/13SwiftProtobuf7MessageP": {
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/13SwiftProtobuf7MessageP",
+  "title" : "SwiftProtobuf.Message",
+  "type" : "unresolvable"
+},
+"doc://com.trustwallet.WalletCore/SH": {
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/SH",
+  "title" : "Swift.Hashable",
+  "type" : "unresolvable"
+},
+"doc://com.trustwallet.WalletCore/SQ": {
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/SQ",
+  "title" : "Swift.Equatable",
+  "type" : "unresolvable"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "WalletCore",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Harmony_Proto_DirectiveEditValidator": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "TW_Harmony_Proto_DirectiveEditValidator"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Harmony_Proto_DirectiveEditValidator",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "TW_Harmony_Proto_DirectiveEditValidator"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "TW_Harmony_Proto_DirectiveEditValidator",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_harmony_proto_directiveeditvalidator"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Harmony_Proto_DirectiveEditValidator/Equatable-Implementations": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Harmony_Proto_DirectiveEditValidator\/Equatable-Implementations",
+  "kind" : "article",
+  "role" : "collectionGroup",
+  "title" : "Equatable Implementations",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_harmony_proto_directiveeditvalidator\/equatable-implementations"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Harmony_Proto_DirectiveEditValidator/Message-Implementations": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Harmony_Proto_DirectiveEditValidator\/Message-Implementations",
+  "kind" : "article",
+  "role" : "collectionGroup",
+  "title" : "Message Implementations",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_harmony_proto_directiveeditvalidator\/message-implementations"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Harmony_Proto_DirectiveEditValidator/active": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "active"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10Foundation4DataV",
+      "text" : "Data"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Harmony_Proto_DirectiveEditValidator\/active",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "active",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_harmony_proto_directiveeditvalidator\/active"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Harmony_Proto_DirectiveEditValidator/clearCommissionRate()": {
+  "abstract" : [
+    {
+      "text" : "Clears the value of ",
+      "type" : "text"
+    },
+    {
+      "code" : "commissionRate",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : ". Subsequent reads from it will return its default value.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "clearCommissionRate"
+    },
+    {
+      "kind" : "text",
+      "text" : "()"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Harmony_Proto_DirectiveEditValidator\/clearCommissionRate()",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "clearCommissionRate()",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_harmony_proto_directiveeditvalidator\/clearcommissionrate()"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Harmony_Proto_DirectiveEditValidator/clearDescription_p()": {
+  "abstract" : [
+    {
+      "text" : "Clears the value of ",
+      "type" : "text"
+    },
+    {
+      "code" : "description_p",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : ". Subsequent reads from it will return its default value.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "clearDescription_p"
+    },
+    {
+      "kind" : "text",
+      "text" : "()"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Harmony_Proto_DirectiveEditValidator\/clearDescription_p()",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "clearDescription_p()",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_harmony_proto_directiveeditvalidator\/cleardescription_p()"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Harmony_Proto_DirectiveEditValidator/commissionRate": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "commissionRate"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10WalletCore24TW_Harmony_Proto_DecimalV",
+      "text" : "TW_Harmony_Proto_Decimal"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Harmony_Proto_DirectiveEditValidator\/commissionRate",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "commissionRate",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_harmony_proto_directiveeditvalidator\/commissionrate"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Harmony_Proto_DirectiveEditValidator/description_p": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "description_p"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10WalletCore28TW_Harmony_Proto_DescriptionV",
+      "text" : "TW_Harmony_Proto_Description"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Harmony_Proto_DirectiveEditValidator\/description_p",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "description_p",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_harmony_proto_directiveeditvalidator\/description_p"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Harmony_Proto_DirectiveEditValidator/hasCommissionRate": {
+  "abstract" : [
+    {
+      "text" : "Returns true if ",
+      "type" : "text"
+    },
+    {
+      "code" : "commissionRate",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : " has been explicitly set.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "hasCommissionRate"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Sb",
+      "text" : "Bool"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Harmony_Proto_DirectiveEditValidator\/hasCommissionRate",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "hasCommissionRate",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_harmony_proto_directiveeditvalidator\/hascommissionrate"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Harmony_Proto_DirectiveEditValidator/hasDescription_p": {
+  "abstract" : [
+    {
+      "text" : "Returns true if ",
+      "type" : "text"
+    },
+    {
+      "code" : "description_p",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : " has been explicitly set.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "hasDescription_p"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Sb",
+      "text" : "Bool"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Harmony_Proto_DirectiveEditValidator\/hasDescription_p",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "hasDescription_p",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_harmony_proto_directiveeditvalidator\/hasdescription_p"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Harmony_Proto_DirectiveEditValidator/init()": {
+  "abstract" : [
+    {
+      "text" : "Creates a new message with all of its fields initialized to their default",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "values.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "init"
+    },
+    {
+      "kind" : "text",
+      "text" : "()"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Harmony_Proto_DirectiveEditValidator\/init()",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "init()",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_harmony_proto_directiveeditvalidator\/init()"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Harmony_Proto_DirectiveEditValidator/maxTotalDelegation": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "maxTotalDelegation"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10Foundation4DataV",
+      "text" : "Data"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Harmony_Proto_DirectiveEditValidator\/maxTotalDelegation",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "maxTotalDelegation",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_harmony_proto_directiveeditvalidator\/maxtotaldelegation"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Harmony_Proto_DirectiveEditValidator/minSelfDelegation": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "minSelfDelegation"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10Foundation4DataV",
+      "text" : "Data"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Harmony_Proto_DirectiveEditValidator\/minSelfDelegation",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "minSelfDelegation",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_harmony_proto_directiveeditvalidator\/minselfdelegation"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Harmony_Proto_DirectiveEditValidator/slotKeyToAdd": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "slotKeyToAdd"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10Foundation4DataV",
+      "text" : "Data"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Harmony_Proto_DirectiveEditValidator\/slotKeyToAdd",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "slotKeyToAdd",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_harmony_proto_directiveeditvalidator\/slotkeytoadd"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Harmony_Proto_DirectiveEditValidator/slotKeyToAddSig": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "slotKeyToAddSig"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10Foundation4DataV",
+      "text" : "Data"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Harmony_Proto_DirectiveEditValidator\/slotKeyToAddSig",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "slotKeyToAddSig",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_harmony_proto_directiveeditvalidator\/slotkeytoaddsig"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Harmony_Proto_DirectiveEditValidator/slotKeyToRemove": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "slotKeyToRemove"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10Foundation4DataV",
+      "text" : "Data"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Harmony_Proto_DirectiveEditValidator\/slotKeyToRemove",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "slotKeyToRemove",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_harmony_proto_directiveeditvalidator\/slotkeytoremove"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Harmony_Proto_DirectiveEditValidator/unknownFields": {
+  "abstract" : [
+    {
+      "text" : "Some formats include enough information to transport fields that were",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "not known at generation time. When encountered, they are stored here.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "unknownFields"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:13SwiftProtobuf14UnknownStorageV",
+      "text" : "UnknownStorage"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Harmony_Proto_DirectiveEditValidator\/unknownFields",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "unknownFields",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_harmony_proto_directiveeditvalidator\/unknownfields"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Harmony_Proto_DirectiveEditValidator/validatorAddress": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "validatorAddress"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Harmony_Proto_DirectiveEditValidator\/validatorAddress",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "validatorAddress",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_harmony_proto_directiveeditvalidator\/validatoraddress"
+},
+"doc://com.trustwallet.WalletCore/s28CustomDebugStringConvertibleP": {
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/s28CustomDebugStringConvertibleP",
+  "title" : "Swift.CustomDebugStringConvertible",
+  "type" : "unresolvable"
+}
+}
+}

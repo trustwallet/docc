@@ -1,0 +1,773 @@
+{
+  "abstract" : [
+    {
+      "text" : "Input data necessary to create a signed transaction.",
+      "type" : "text"
+    }
+  ],
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Solana_Proto_SigningInput"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "s:10WalletCore28TW_Solana_Proto_SigningInputV",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "struct"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "TW_Solana_Proto_SigningInput"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "WalletCore"
+      }
+    ],
+    "navigatorTitle" : [
+      {
+        "kind" : "identifier",
+        "text" : "TW_Solana_Proto_SigningInput"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Structure",
+    "symbolKind" : "struct",
+    "title" : "TW_Solana_Proto_SigningInput"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "iOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "struct"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "TW_Solana_Proto_SigningInput"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "relationshipsSections" : [
+    {
+      "identifiers" : [
+        "doc:\/\/com.trustwallet.WalletCore\/s28CustomDebugStringConvertibleP",
+        "doc:\/\/com.trustwallet.WalletCore\/SQ",
+        "doc:\/\/com.trustwallet.WalletCore\/SH",
+        "doc:\/\/com.trustwallet.WalletCore\/13SwiftProtobuf7MessageP"
+      ],
+      "kind" : "relationships",
+      "title" : "Conforms To",
+      "type" : "conformsTo"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 2,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "topicSections" : [
+    {
+      "identifiers" : [
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Solana_Proto_SigningInput\/init()"
+      ],
+      "title" : "Initializers"
+    },
+    {
+      "identifiers" : [
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Solana_Proto_SigningInput\/createAndTransferTokenTransaction",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Solana_Proto_SigningInput\/createTokenAccountTransaction",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Solana_Proto_SigningInput\/deactivateAllStakeTransaction",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Solana_Proto_SigningInput\/deactivateStakeTransaction",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Solana_Proto_SigningInput\/delegateStakeTransaction",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Solana_Proto_SigningInput\/privateKey",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Solana_Proto_SigningInput\/recentBlockhash",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Solana_Proto_SigningInput\/tokenTransferTransaction",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Solana_Proto_SigningInput\/transactionType",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Solana_Proto_SigningInput\/transferTransaction",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Solana_Proto_SigningInput\/unknownFields",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Solana_Proto_SigningInput\/withdrawAllTransaction",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Solana_Proto_SigningInput\/withdrawTransaction"
+      ],
+      "title" : "Instance Properties"
+    },
+    {
+      "identifiers" : [
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Solana_Proto_SigningInput\/OneOf_TransactionType"
+      ],
+      "title" : "Enumerations"
+    },
+    {
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Solana_Proto_SigningInput\/Equatable-Implementations",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Solana_Proto_SigningInput\/Message-Implementations"
+      ],
+      "title" : "Default Implementations"
+    }
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/walletcore\/tw_solana_proto_signinginput"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://com.trustwallet.WalletCore/13SwiftProtobuf7MessageP": {
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/13SwiftProtobuf7MessageP",
+  "title" : "SwiftProtobuf.Message",
+  "type" : "unresolvable"
+},
+"doc://com.trustwallet.WalletCore/SH": {
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/SH",
+  "title" : "Swift.Hashable",
+  "type" : "unresolvable"
+},
+"doc://com.trustwallet.WalletCore/SQ": {
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/SQ",
+  "title" : "Swift.Equatable",
+  "type" : "unresolvable"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "WalletCore",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Solana_Proto_SigningInput": {
+  "abstract" : [
+    {
+      "text" : "Input data necessary to create a signed transaction.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "TW_Solana_Proto_SigningInput"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Solana_Proto_SigningInput",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "TW_Solana_Proto_SigningInput"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "TW_Solana_Proto_SigningInput",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_solana_proto_signinginput"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Solana_Proto_SigningInput/Equatable-Implementations": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Solana_Proto_SigningInput\/Equatable-Implementations",
+  "kind" : "article",
+  "role" : "collectionGroup",
+  "title" : "Equatable Implementations",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_solana_proto_signinginput\/equatable-implementations"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Solana_Proto_SigningInput/Message-Implementations": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Solana_Proto_SigningInput\/Message-Implementations",
+  "kind" : "article",
+  "role" : "collectionGroup",
+  "title" : "Message Implementations",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_solana_proto_signinginput\/message-implementations"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Solana_Proto_SigningInput/OneOf_TransactionType": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "enum"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "OneOf_TransactionType"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Solana_Proto_SigningInput\/OneOf_TransactionType",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "OneOf_TransactionType"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "TW_Solana_Proto_SigningInput.OneOf_TransactionType",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_solana_proto_signinginput\/oneof_transactiontype"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Solana_Proto_SigningInput/createAndTransferTokenTransaction": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "createAndTransferTokenTransaction"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10WalletCore38TW_Solana_Proto_CreateAndTransferTokenV",
+      "text" : "TW_Solana_Proto_CreateAndTransferToken"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Solana_Proto_SigningInput\/createAndTransferTokenTransaction",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "createAndTransferTokenTransaction",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_solana_proto_signinginput\/createandtransfertokentransaction"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Solana_Proto_SigningInput/createTokenAccountTransaction": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "createTokenAccountTransaction"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10WalletCore34TW_Solana_Proto_CreateTokenAccountV",
+      "text" : "TW_Solana_Proto_CreateTokenAccount"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Solana_Proto_SigningInput\/createTokenAccountTransaction",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "createTokenAccountTransaction",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_solana_proto_signinginput\/createtokenaccounttransaction"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Solana_Proto_SigningInput/deactivateAllStakeTransaction": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "deactivateAllStakeTransaction"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10WalletCore34TW_Solana_Proto_DeactivateAllStakeV",
+      "text" : "TW_Solana_Proto_DeactivateAllStake"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Solana_Proto_SigningInput\/deactivateAllStakeTransaction",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "deactivateAllStakeTransaction",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_solana_proto_signinginput\/deactivateallstaketransaction"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Solana_Proto_SigningInput/deactivateStakeTransaction": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "deactivateStakeTransaction"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10WalletCore31TW_Solana_Proto_DeactivateStakeV",
+      "text" : "TW_Solana_Proto_DeactivateStake"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Solana_Proto_SigningInput\/deactivateStakeTransaction",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "deactivateStakeTransaction",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_solana_proto_signinginput\/deactivatestaketransaction"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Solana_Proto_SigningInput/delegateStakeTransaction": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "delegateStakeTransaction"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10WalletCore29TW_Solana_Proto_DelegateStakeV",
+      "text" : "TW_Solana_Proto_DelegateStake"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Solana_Proto_SigningInput\/delegateStakeTransaction",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "delegateStakeTransaction",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_solana_proto_signinginput\/delegatestaketransaction"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Solana_Proto_SigningInput/init()": {
+  "abstract" : [
+    {
+      "text" : "Creates a new message with all of its fields initialized to their default",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "values.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "init"
+    },
+    {
+      "kind" : "text",
+      "text" : "()"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Solana_Proto_SigningInput\/init()",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "init()",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_solana_proto_signinginput\/init()"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Solana_Proto_SigningInput/privateKey": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "privateKey"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10Foundation4DataV",
+      "text" : "Data"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Solana_Proto_SigningInput\/privateKey",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "privateKey",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_solana_proto_signinginput\/privatekey"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Solana_Proto_SigningInput/recentBlockhash": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "recentBlockhash"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Solana_Proto_SigningInput\/recentBlockhash",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "recentBlockhash",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_solana_proto_signinginput\/recentblockhash"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Solana_Proto_SigningInput/tokenTransferTransaction": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "tokenTransferTransaction"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10WalletCore29TW_Solana_Proto_TokenTransferV",
+      "text" : "TW_Solana_Proto_TokenTransfer"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Solana_Proto_SigningInput\/tokenTransferTransaction",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "tokenTransferTransaction",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_solana_proto_signinginput\/tokentransfertransaction"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Solana_Proto_SigningInput/transactionType": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "transactionType"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10WalletCore28TW_Solana_Proto_SigningInputV",
+      "text" : "TW_Solana_Proto_SigningInput"
+    },
+    {
+      "kind" : "text",
+      "text" : "."
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10WalletCore28TW_Solana_Proto_SigningInputV21OneOf_TransactionTypeO",
+      "text" : "OneOf_TransactionType"
+    },
+    {
+      "kind" : "text",
+      "text" : "?"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Solana_Proto_SigningInput\/transactionType",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "transactionType",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_solana_proto_signinginput\/transactiontype"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Solana_Proto_SigningInput/transferTransaction": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "transferTransaction"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10WalletCore24TW_Solana_Proto_TransferV",
+      "text" : "TW_Solana_Proto_Transfer"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Solana_Proto_SigningInput\/transferTransaction",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "transferTransaction",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_solana_proto_signinginput\/transfertransaction"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Solana_Proto_SigningInput/unknownFields": {
+  "abstract" : [
+    {
+      "text" : "Some formats include enough information to transport fields that were",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "not known at generation time. When encountered, they are stored here.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "unknownFields"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:13SwiftProtobuf14UnknownStorageV",
+      "text" : "UnknownStorage"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Solana_Proto_SigningInput\/unknownFields",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "unknownFields",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_solana_proto_signinginput\/unknownfields"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Solana_Proto_SigningInput/withdrawAllTransaction": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "withdrawAllTransaction"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10WalletCore32TW_Solana_Proto_WithdrawAllStakeV",
+      "text" : "TW_Solana_Proto_WithdrawAllStake"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Solana_Proto_SigningInput\/withdrawAllTransaction",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "withdrawAllTransaction",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_solana_proto_signinginput\/withdrawalltransaction"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Solana_Proto_SigningInput/withdrawTransaction": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "withdrawTransaction"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10WalletCore29TW_Solana_Proto_WithdrawStakeV",
+      "text" : "TW_Solana_Proto_WithdrawStake"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Solana_Proto_SigningInput\/withdrawTransaction",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "withdrawTransaction",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_solana_proto_signinginput\/withdrawtransaction"
+},
+"doc://com.trustwallet.WalletCore/s28CustomDebugStringConvertibleP": {
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/s28CustomDebugStringConvertibleP",
+  "title" : "Swift.CustomDebugStringConvertible",
+  "type" : "unresolvable"
+}
+}
+}

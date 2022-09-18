@@ -1,0 +1,1063 @@
+{
+  "abstract" : [
+    {
+      "text" : "Registered human-readable parts for BIP-0173",
+      "type" : "text"
+    }
+  ],
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/HRP"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "s:10WalletCore3HRPO",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "enum"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "HRP"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "WalletCore"
+      }
+    ],
+    "navigatorTitle" : [
+      {
+        "kind" : "identifier",
+        "text" : "HRP"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Enumeration",
+    "symbolKind" : "enum",
+    "title" : "HRP"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "iOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "enum"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "HRP"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "relationshipsSections" : [
+    {
+      "identifiers" : [
+        "doc:\/\/com.trustwallet.WalletCore\/s12CaseIterableP",
+        "doc:\/\/com.trustwallet.WalletCore\/s23CustomStringConvertibleP",
+        "doc:\/\/com.trustwallet.WalletCore\/SQ",
+        "doc:\/\/com.trustwallet.WalletCore\/SH",
+        "doc:\/\/com.trustwallet.WalletCore\/SY"
+      ],
+      "kind" : "relationships",
+      "title" : "Conforms To",
+      "type" : "conformsTo"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 2,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "topicSections" : [
+    {
+      "identifiers" : [
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/HRP\/bandChain",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/HRP\/binance",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/HRP\/bitcoin",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/HRP\/bitcoinCash",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/HRP\/bitcoinGold",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/HRP\/bluzelle",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/HRP\/cardano",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/HRP\/cosmos",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/HRP\/cryptoOrg",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/HRP\/digiByte",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/HRP\/ecash",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/HRP\/elrond",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/HRP\/groestlcoin",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/HRP\/harmony",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/HRP\/ioTeX",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/HRP\/kava",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/HRP\/litecoin",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/HRP\/monacoin",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/HRP\/nativeEvmos",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/HRP\/nervos",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/HRP\/oasis",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/HRP\/osmosis",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/HRP\/qtum",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/HRP\/terra",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/HRP\/terraV2",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/HRP\/thorchain",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/HRP\/unknown",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/HRP\/viacoin",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/HRP\/zilliqa"
+      ],
+      "title" : "Enumeration Cases"
+    },
+    {
+      "identifiers" : [
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/HRP\/init(rawValue:)"
+      ],
+      "title" : "Initializers"
+    },
+    {
+      "identifiers" : [
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/HRP\/description"
+      ],
+      "title" : "Instance Properties"
+    },
+    {
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/HRP\/Equatable-Implementations",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/HRP\/RawRepresentable-Implementations"
+      ],
+      "title" : "Default Implementations"
+    }
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/walletcore\/hrp"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://com.trustwallet.WalletCore/SH": {
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/SH",
+  "title" : "Swift.Hashable",
+  "type" : "unresolvable"
+},
+"doc://com.trustwallet.WalletCore/SQ": {
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/SQ",
+  "title" : "Swift.Equatable",
+  "type" : "unresolvable"
+},
+"doc://com.trustwallet.WalletCore/SY": {
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/SY",
+  "title" : "Swift.RawRepresentable",
+  "type" : "unresolvable"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "WalletCore",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/HRP": {
+  "abstract" : [
+    {
+      "text" : "Registered human-readable parts for BIP-0173",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "enum"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "HRP"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/HRP",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "HRP"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "HRP",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/hrp"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/HRP/Equatable-Implementations": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/HRP\/Equatable-Implementations",
+  "kind" : "article",
+  "role" : "collectionGroup",
+  "title" : "Equatable Implementations",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/hrp\/equatable-implementations"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/HRP/RawRepresentable-Implementations": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/HRP\/RawRepresentable-Implementations",
+  "kind" : "article",
+  "role" : "collectionGroup",
+  "title" : "RawRepresentable Implementations",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/hrp\/rawrepresentable-implementations"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/HRP/bandChain": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "bandChain"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/HRP\/bandChain",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "HRP.bandChain",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/hrp\/bandchain"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/HRP/binance": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "binance"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/HRP\/binance",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "HRP.binance",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/hrp\/binance"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/HRP/bitcoin": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "bitcoin"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/HRP\/bitcoin",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "HRP.bitcoin",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/hrp\/bitcoin"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/HRP/bitcoinCash": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "bitcoinCash"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/HRP\/bitcoinCash",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "HRP.bitcoinCash",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/hrp\/bitcoincash"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/HRP/bitcoinGold": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "bitcoinGold"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/HRP\/bitcoinGold",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "HRP.bitcoinGold",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/hrp\/bitcoingold"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/HRP/bluzelle": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "bluzelle"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/HRP\/bluzelle",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "HRP.bluzelle",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/hrp\/bluzelle"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/HRP/cardano": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "cardano"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/HRP\/cardano",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "HRP.cardano",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/hrp\/cardano"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/HRP/cosmos": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "cosmos"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/HRP\/cosmos",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "HRP.cosmos",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/hrp\/cosmos"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/HRP/cryptoOrg": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "cryptoOrg"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/HRP\/cryptoOrg",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "HRP.cryptoOrg",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/hrp\/cryptoorg"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/HRP/description": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "description"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/HRP\/description",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "description",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/hrp\/description"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/HRP/digiByte": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "digiByte"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/HRP\/digiByte",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "HRP.digiByte",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/hrp\/digibyte"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/HRP/ecash": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "ecash"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/HRP\/ecash",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "HRP.ecash",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/hrp\/ecash"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/HRP/elrond": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "elrond"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/HRP\/elrond",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "HRP.elrond",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/hrp\/elrond"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/HRP/groestlcoin": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "groestlcoin"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/HRP\/groestlcoin",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "HRP.groestlcoin",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/hrp\/groestlcoin"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/HRP/harmony": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "harmony"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/HRP\/harmony",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "HRP.harmony",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/hrp\/harmony"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/HRP/init(rawValue:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "init"
+    },
+    {
+      "kind" : "text",
+      "text" : "?("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "rawValue"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:s6UInt32V",
+      "text" : "UInt32"
+    },
+    {
+      "kind" : "text",
+      "text" : ")"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/HRP\/init(rawValue:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "init(rawValue:)",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/hrp\/init(rawvalue:)"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/HRP/ioTeX": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "ioTeX"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/HRP\/ioTeX",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "HRP.ioTeX",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/hrp\/iotex"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/HRP/kava": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "kava"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/HRP\/kava",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "HRP.kava",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/hrp\/kava"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/HRP/litecoin": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "litecoin"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/HRP\/litecoin",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "HRP.litecoin",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/hrp\/litecoin"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/HRP/monacoin": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "monacoin"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/HRP\/monacoin",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "HRP.monacoin",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/hrp\/monacoin"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/HRP/nativeEvmos": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "nativeEvmos"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/HRP\/nativeEvmos",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "HRP.nativeEvmos",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/hrp\/nativeevmos"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/HRP/nervos": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "nervos"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/HRP\/nervos",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "HRP.nervos",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/hrp\/nervos"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/HRP/oasis": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "oasis"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/HRP\/oasis",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "HRP.oasis",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/hrp\/oasis"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/HRP/osmosis": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "osmosis"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/HRP\/osmosis",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "HRP.osmosis",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/hrp\/osmosis"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/HRP/qtum": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "qtum"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/HRP\/qtum",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "HRP.qtum",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/hrp\/qtum"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/HRP/terra": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "terra"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/HRP\/terra",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "HRP.terra",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/hrp\/terra"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/HRP/terraV2": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "terraV2"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/HRP\/terraV2",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "HRP.terraV2",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/hrp\/terrav2"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/HRP/thorchain": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "thorchain"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/HRP\/thorchain",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "HRP.thorchain",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/hrp\/thorchain"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/HRP/unknown": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "unknown"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/HRP\/unknown",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "HRP.unknown",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/hrp\/unknown"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/HRP/viacoin": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "viacoin"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/HRP\/viacoin",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "HRP.viacoin",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/hrp\/viacoin"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/HRP/zilliqa": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "zilliqa"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/HRP\/zilliqa",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "HRP.zilliqa",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/hrp\/zilliqa"
+},
+"doc://com.trustwallet.WalletCore/s12CaseIterableP": {
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/s12CaseIterableP",
+  "title" : "Swift.CaseIterable",
+  "type" : "unresolvable"
+},
+"doc://com.trustwallet.WalletCore/s23CustomStringConvertibleP": {
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/s23CustomStringConvertibleP",
+  "title" : "Swift.CustomStringConvertible",
+  "type" : "unresolvable"
+}
+}
+}

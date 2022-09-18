@@ -1,0 +1,254 @@
+{
+  "abstract" : [
+    {
+      "text" : "Reference to the previous transaction’s output.",
+      "type" : "text"
+    }
+  ],
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Nervos_Proto_CellDep"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Nervos_Proto_CellDep\/outPoint"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "s:10WalletCore23TW_Nervos_Proto_CellDepV8outPointAA0c1_d1_e4_OutI0Vvp",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "var"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "outPoint"
+      },
+      {
+        "kind" : "text",
+        "text" : ": "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:10WalletCore24TW_Nervos_Proto_OutPointV",
+        "text" : "TW_Nervos_Proto_OutPoint"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "WalletCore"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Instance Property",
+    "symbolKind" : "property",
+    "title" : "outPoint"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "iOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "var"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "outPoint"
+            },
+            {
+              "kind" : "text",
+              "text" : ": "
+            },
+            {
+              "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Nervos_Proto_OutPoint",
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:10WalletCore24TW_Nervos_Proto_OutPointV",
+              "text" : "TW_Nervos_Proto_OutPoint"
+            },
+            {
+              "kind" : "text",
+              "text" : " { "
+            },
+            {
+              "kind" : "keyword",
+              "text" : "get"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "keyword",
+              "text" : "set"
+            },
+            {
+              "kind" : "text",
+              "text" : " }"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 2,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/walletcore\/tw_nervos_proto_celldep\/outpoint"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://com.trustwallet.WalletCore/documentation/WalletCore": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "WalletCore",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Nervos_Proto_CellDep": {
+  "abstract" : [
+    {
+      "text" : "Nervos cell dep.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "TW_Nervos_Proto_CellDep"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Nervos_Proto_CellDep",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "TW_Nervos_Proto_CellDep"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "TW_Nervos_Proto_CellDep",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_nervos_proto_celldep"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Nervos_Proto_CellDep/outPoint": {
+  "abstract" : [
+    {
+      "text" : "Reference to the previous transaction’s output.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "outPoint"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10WalletCore24TW_Nervos_Proto_OutPointV",
+      "text" : "TW_Nervos_Proto_OutPoint"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Nervos_Proto_CellDep\/outPoint",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "outPoint",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_nervos_proto_celldep\/outpoint"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Nervos_Proto_OutPoint": {
+  "abstract" : [
+    {
+      "text" : "Nervos transaction out-point reference.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "TW_Nervos_Proto_OutPoint"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Nervos_Proto_OutPoint",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "TW_Nervos_Proto_OutPoint"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "TW_Nervos_Proto_OutPoint",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_nervos_proto_outpoint"
+}
+}
+}

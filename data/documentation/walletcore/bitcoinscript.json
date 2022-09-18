@@ -1,0 +1,1324 @@
+{
+  "abstract" : [
+    {
+      "text" : "Bitcoin script manipulating functions",
+      "type" : "text"
+    }
+  ],
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/BitcoinScript"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "s:10WalletCore13BitcoinScriptC",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "class"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "BitcoinScript"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "WalletCore"
+      }
+    ],
+    "navigatorTitle" : [
+      {
+        "kind" : "identifier",
+        "text" : "BitcoinScript"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Class",
+    "symbolKind" : "class",
+    "title" : "BitcoinScript"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "iOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "final"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "keyword",
+              "text" : "class"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "BitcoinScript"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 2,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "topicSections" : [
+    {
+      "identifiers" : [
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/BitcoinScript\/==(_:_:)"
+      ],
+      "title" : "Operators"
+    },
+    {
+      "identifiers" : [
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/BitcoinScript\/init()",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/BitcoinScript\/init(data:)",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/BitcoinScript\/init(script:)"
+      ],
+      "title" : "Initializers"
+    },
+    {
+      "identifiers" : [
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/BitcoinScript\/data",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/BitcoinScript\/isPayToScriptHash",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/BitcoinScript\/isPayToWitnessPublicKeyHash",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/BitcoinScript\/isPayToWitnessScriptHash",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/BitcoinScript\/isWitnessProgram",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/BitcoinScript\/scriptHash",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/BitcoinScript\/size"
+      ],
+      "title" : "Instance Properties"
+    },
+    {
+      "identifiers" : [
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/BitcoinScript\/encode()",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/BitcoinScript\/matchPayToPubkey()",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/BitcoinScript\/matchPayToPubkeyHash()",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/BitcoinScript\/matchPayToScriptHash()",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/BitcoinScript\/matchPayToWitnessPublicKeyHash()",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/BitcoinScript\/matchPayToWitnessScriptHash()"
+      ],
+      "title" : "Instance Methods"
+    },
+    {
+      "identifiers" : [
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/BitcoinScript\/buildPayToPublicKey(pubkey:)",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/BitcoinScript\/buildPayToPublicKeyHash(hash:)",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/BitcoinScript\/buildPayToScriptHash(scriptHash:)",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/BitcoinScript\/buildPayToWitnessPubkeyHash(hash:)",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/BitcoinScript\/buildPayToWitnessScriptHash(scriptHash:)",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/BitcoinScript\/hashTypeForCoin(coinType:)",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/BitcoinScript\/lockScriptForAddress(address:coin:)"
+      ],
+      "title" : "Type Methods"
+    }
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/walletcore\/bitcoinscript"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://com.trustwallet.WalletCore/documentation/WalletCore": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "WalletCore",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/BitcoinScript": {
+  "abstract" : [
+    {
+      "text" : "Bitcoin script manipulating functions",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "BitcoinScript"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/BitcoinScript",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "BitcoinScript"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "BitcoinScript",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/bitcoinscript"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/BitcoinScript/==(_:_:)": {
+  "abstract" : [
+    {
+      "text" : "Determines whether 2 scripts have the same content",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "static"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "=="
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10WalletCore13BitcoinScriptC",
+      "text" : "BitcoinScript"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10WalletCore13BitcoinScriptC",
+      "text" : "BitcoinScript"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Sb",
+      "text" : "Bool"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/BitcoinScript\/==(_:_:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "==(_:_:)",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/bitcoinscript\/==(_:_:)"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/BitcoinScript/buildPayToPublicKey(pubkey:)": {
+  "abstract" : [
+    {
+      "text" : "Builds a standard ‘pay to public key’ script.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "static"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "buildPayToPublicKey"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "pubkey"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10Foundation4DataV",
+      "text" : "Data"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10WalletCore13BitcoinScriptC",
+      "text" : "BitcoinScript"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/BitcoinScript\/buildPayToPublicKey(pubkey:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "buildPayToPublicKey(pubkey:)",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/bitcoinscript\/buildpaytopublickey(pubkey:)"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/BitcoinScript/buildPayToPublicKeyHash(hash:)": {
+  "abstract" : [
+    {
+      "text" : "Builds a standard ‘pay to public key hash’ script.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "static"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "buildPayToPublicKeyHash"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "hash"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10Foundation4DataV",
+      "text" : "Data"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10WalletCore13BitcoinScriptC",
+      "text" : "BitcoinScript"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/BitcoinScript\/buildPayToPublicKeyHash(hash:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "buildPayToPublicKeyHash(hash:)",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/bitcoinscript\/buildpaytopublickeyhash(hash:)"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/BitcoinScript/buildPayToScriptHash(scriptHash:)": {
+  "abstract" : [
+    {
+      "text" : "Builds a standard ‘pay to script hash’ script.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "static"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "buildPayToScriptHash"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "scriptHash"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10Foundation4DataV",
+      "text" : "Data"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10WalletCore13BitcoinScriptC",
+      "text" : "BitcoinScript"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/BitcoinScript\/buildPayToScriptHash(scriptHash:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "buildPayToScriptHash(scriptHash:)",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/bitcoinscript\/buildpaytoscripthash(scripthash:)"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/BitcoinScript/buildPayToWitnessPubkeyHash(hash:)": {
+  "abstract" : [
+    {
+      "text" : "Builds a pay-to-witness-public-key-hash (P2WPKH) script..",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "static"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "buildPayToWitnessPubkeyHash"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "hash"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10Foundation4DataV",
+      "text" : "Data"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10WalletCore13BitcoinScriptC",
+      "text" : "BitcoinScript"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/BitcoinScript\/buildPayToWitnessPubkeyHash(hash:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "buildPayToWitnessPubkeyHash(hash:)",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/bitcoinscript\/buildpaytowitnesspubkeyhash(hash:)"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/BitcoinScript/buildPayToWitnessScriptHash(scriptHash:)": {
+  "abstract" : [
+    {
+      "text" : "Builds a pay-to-witness-script-hash (P2WSH) script.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "static"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "buildPayToWitnessScriptHash"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "scriptHash"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10Foundation4DataV",
+      "text" : "Data"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10WalletCore13BitcoinScriptC",
+      "text" : "BitcoinScript"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/BitcoinScript\/buildPayToWitnessScriptHash(scriptHash:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "buildPayToWitnessScriptHash(scriptHash:)",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/bitcoinscript\/buildpaytowitnessscripthash(scripthash:)"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/BitcoinScript/data": {
+  "abstract" : [
+    {
+      "text" : "Get data of a script",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "data"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10Foundation4DataV",
+      "text" : "Data"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/BitcoinScript\/data",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "data",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/bitcoinscript\/data"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/BitcoinScript/encode()": {
+  "abstract" : [
+    {
+      "text" : "Encodes the script.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "encode"
+    },
+    {
+      "kind" : "text",
+      "text" : "() -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10Foundation4DataV",
+      "text" : "Data"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/BitcoinScript\/encode()",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "encode()",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/bitcoinscript\/encode()"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/BitcoinScript/hashTypeForCoin(coinType:)": {
+  "abstract" : [
+    {
+      "text" : "Return the default HashType for the given coin, such as TWBitcoinSigHashTypeAll.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "static"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "hashTypeForCoin"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "coinType"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10WalletCore8CoinTypeO",
+      "text" : "CoinType"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:s6UInt32V",
+      "text" : "UInt32"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/BitcoinScript\/hashTypeForCoin(coinType:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "hashTypeForCoin(coinType:)",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/bitcoinscript\/hashtypeforcoin(cointype:)"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/BitcoinScript/init()": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "init"
+    },
+    {
+      "kind" : "text",
+      "text" : "()"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/BitcoinScript\/init()",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "init()",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/bitcoinscript\/init()"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/BitcoinScript/init(data:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "init"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "data"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10Foundation4DataV",
+      "text" : "Data"
+    },
+    {
+      "kind" : "text",
+      "text" : ")"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/BitcoinScript\/init(data:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "init(data:)",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/bitcoinscript\/init(data:)"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/BitcoinScript/init(script:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "init"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "script"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10WalletCore13BitcoinScriptC",
+      "text" : "BitcoinScript"
+    },
+    {
+      "kind" : "text",
+      "text" : ")"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/BitcoinScript\/init(script:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "init(script:)",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/bitcoinscript\/init(script:)"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/BitcoinScript/isPayToScriptHash": {
+  "abstract" : [
+    {
+      "text" : "Determines whether this is a pay-to-script-hash (P2SH) script.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "isPayToScriptHash"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Sb",
+      "text" : "Bool"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/BitcoinScript\/isPayToScriptHash",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "isPayToScriptHash",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/bitcoinscript\/ispaytoscripthash"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/BitcoinScript/isPayToWitnessPublicKeyHash": {
+  "abstract" : [
+    {
+      "text" : "Determines whether this is a pay-to-witness-public-key-hash (P2WPKH) script.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "isPayToWitnessPublicKeyHash"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Sb",
+      "text" : "Bool"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/BitcoinScript\/isPayToWitnessPublicKeyHash",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "isPayToWitnessPublicKeyHash",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/bitcoinscript\/ispaytowitnesspublickeyhash"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/BitcoinScript/isPayToWitnessScriptHash": {
+  "abstract" : [
+    {
+      "text" : "Determines whether this is a pay-to-witness-script-hash (P2WSH) script.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "isPayToWitnessScriptHash"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Sb",
+      "text" : "Bool"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/BitcoinScript\/isPayToWitnessScriptHash",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "isPayToWitnessScriptHash",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/bitcoinscript\/ispaytowitnessscripthash"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/BitcoinScript/isWitnessProgram": {
+  "abstract" : [
+    {
+      "text" : "Determines whether this is a witness program script.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "isWitnessProgram"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Sb",
+      "text" : "Bool"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/BitcoinScript\/isWitnessProgram",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "isWitnessProgram",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/bitcoinscript\/iswitnessprogram"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/BitcoinScript/lockScriptForAddress(address:coin:)": {
+  "abstract" : [
+    {
+      "text" : "Builds a appropriate lock script for the given address..",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "static"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "lockScriptForAddress"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "address"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "coin"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10WalletCore8CoinTypeO",
+      "text" : "CoinType"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10WalletCore13BitcoinScriptC",
+      "text" : "BitcoinScript"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/BitcoinScript\/lockScriptForAddress(address:coin:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "lockScriptForAddress(address:coin:)",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/bitcoinscript\/lockscriptforaddress(address:coin:)"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/BitcoinScript/matchPayToPubkey()": {
+  "abstract" : [
+    {
+      "text" : "Matches the script to a pay-to-public-key (P2PK) script.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "matchPayToPubkey"
+    },
+    {
+      "kind" : "text",
+      "text" : "() -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10Foundation4DataV",
+      "text" : "Data"
+    },
+    {
+      "kind" : "text",
+      "text" : "?"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/BitcoinScript\/matchPayToPubkey()",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "matchPayToPubkey()",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/bitcoinscript\/matchpaytopubkey()"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/BitcoinScript/matchPayToPubkeyHash()": {
+  "abstract" : [
+    {
+      "text" : "Matches the script to a pay-to-public-key-hash (P2PKH).",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "matchPayToPubkeyHash"
+    },
+    {
+      "kind" : "text",
+      "text" : "() -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10Foundation4DataV",
+      "text" : "Data"
+    },
+    {
+      "kind" : "text",
+      "text" : "?"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/BitcoinScript\/matchPayToPubkeyHash()",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "matchPayToPubkeyHash()",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/bitcoinscript\/matchpaytopubkeyhash()"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/BitcoinScript/matchPayToScriptHash()": {
+  "abstract" : [
+    {
+      "text" : "Matches the script to a pay-to-script-hash (P2SH).",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "matchPayToScriptHash"
+    },
+    {
+      "kind" : "text",
+      "text" : "() -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10Foundation4DataV",
+      "text" : "Data"
+    },
+    {
+      "kind" : "text",
+      "text" : "?"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/BitcoinScript\/matchPayToScriptHash()",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "matchPayToScriptHash()",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/bitcoinscript\/matchpaytoscripthash()"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/BitcoinScript/matchPayToWitnessPublicKeyHash()": {
+  "abstract" : [
+    {
+      "text" : "Matches the script to a pay-to-witness-public-key-hash (P2WPKH).",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "matchPayToWitnessPublicKeyHash"
+    },
+    {
+      "kind" : "text",
+      "text" : "() -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10Foundation4DataV",
+      "text" : "Data"
+    },
+    {
+      "kind" : "text",
+      "text" : "?"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/BitcoinScript\/matchPayToWitnessPublicKeyHash()",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "matchPayToWitnessPublicKeyHash()",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/bitcoinscript\/matchpaytowitnesspublickeyhash()"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/BitcoinScript/matchPayToWitnessScriptHash()": {
+  "abstract" : [
+    {
+      "text" : "Matches the script to a pay-to-witness-script-hash (P2WSH).",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "matchPayToWitnessScriptHash"
+    },
+    {
+      "kind" : "text",
+      "text" : "() -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10Foundation4DataV",
+      "text" : "Data"
+    },
+    {
+      "kind" : "text",
+      "text" : "?"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/BitcoinScript\/matchPayToWitnessScriptHash()",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "matchPayToWitnessScriptHash()",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/bitcoinscript\/matchpaytowitnessscripthash()"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/BitcoinScript/scriptHash": {
+  "abstract" : [
+    {
+      "text" : "Return script hash of a script",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "scriptHash"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10Foundation4DataV",
+      "text" : "Data"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/BitcoinScript\/scriptHash",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "scriptHash",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/bitcoinscript\/scripthash"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/BitcoinScript/size": {
+  "abstract" : [
+    {
+      "text" : "Get size of a script",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "size"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Si",
+      "text" : "Int"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/BitcoinScript\/size",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "size",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/bitcoinscript\/size"
+}
+}
+}

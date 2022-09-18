@@ -1,0 +1,231 @@
+{
+  "abstract" : [
+    {
+      "text" : "Optional error",
+      "type" : "text"
+    }
+  ],
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Bitcoin_Proto_SigningOutput"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Bitcoin_Proto_SigningOutput\/error"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "s:10WalletCore30TW_Bitcoin_Proto_SigningOutputV5errorAA0c8_Common_e1_F5ErrorOvp",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "var"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "error"
+      },
+      {
+        "kind" : "text",
+        "text" : ": "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:10WalletCore28TW_Common_Proto_SigningErrorO",
+        "text" : "TW_Common_Proto_SigningError"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "WalletCore"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Instance Property",
+    "symbolKind" : "property",
+    "title" : "error"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "iOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "var"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "error"
+            },
+            {
+              "kind" : "text",
+              "text" : ": "
+            },
+            {
+              "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Common_Proto_SigningError",
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:10WalletCore28TW_Common_Proto_SigningErrorO",
+              "text" : "TW_Common_Proto_SigningError"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 2,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/walletcore\/tw_bitcoin_proto_signingoutput\/error"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://com.trustwallet.WalletCore/documentation/WalletCore": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "WalletCore",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Bitcoin_Proto_SigningOutput": {
+  "abstract" : [
+    {
+      "text" : "Transaction signing output.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "TW_Bitcoin_Proto_SigningOutput"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Bitcoin_Proto_SigningOutput",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "TW_Bitcoin_Proto_SigningOutput"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "TW_Bitcoin_Proto_SigningOutput",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_bitcoin_proto_signingoutput"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Bitcoin_Proto_SigningOutput/error": {
+  "abstract" : [
+    {
+      "text" : "Optional error",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "error"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10WalletCore28TW_Common_Proto_SigningErrorO",
+      "text" : "TW_Common_Proto_SigningError"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Bitcoin_Proto_SigningOutput\/error",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "error",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_bitcoin_proto_signingoutput\/error"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Common_Proto_SigningError": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "enum"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "TW_Common_Proto_SigningError"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Common_Proto_SigningError",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "TW_Common_Proto_SigningError"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "TW_Common_Proto_SigningError",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_common_proto_signingerror"
+}
+}
+}

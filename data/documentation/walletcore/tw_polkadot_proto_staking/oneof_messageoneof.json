@@ -1,0 +1,602 @@
+{
+  "abstract" : [
+    {
+      "text" : "No overview available.",
+      "type" : "text"
+    }
+  ],
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Polkadot_Proto_Staking"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Polkadot_Proto_Staking\/OneOf_MessageOneof"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "s:10WalletCore25TW_Polkadot_Proto_StakingV18OneOf_MessageOneofO",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "enum"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "OneOf_MessageOneof"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "WalletCore"
+      }
+    ],
+    "navigatorTitle" : [
+      {
+        "kind" : "identifier",
+        "text" : "OneOf_MessageOneof"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Enumeration",
+    "symbolKind" : "enum",
+    "title" : "TW_Polkadot_Proto_Staking.OneOf_MessageOneof"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "iOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "enum"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "OneOf_MessageOneof"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "relationshipsSections" : [
+    {
+      "identifiers" : [
+        "doc:\/\/com.trustwallet.WalletCore\/SQ"
+      ],
+      "kind" : "relationships",
+      "title" : "Conforms To",
+      "type" : "conformsTo"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 2,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "topicSections" : [
+    {
+      "identifiers" : [
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Polkadot_Proto_Staking\/OneOf_MessageOneof\/bond(_:)",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Polkadot_Proto_Staking\/OneOf_MessageOneof\/bondAndNominate(_:)",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Polkadot_Proto_Staking\/OneOf_MessageOneof\/bondExtra(_:)",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Polkadot_Proto_Staking\/OneOf_MessageOneof\/chill(_:)",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Polkadot_Proto_Staking\/OneOf_MessageOneof\/chillAndUnbond(_:)",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Polkadot_Proto_Staking\/OneOf_MessageOneof\/nominate(_:)",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Polkadot_Proto_Staking\/OneOf_MessageOneof\/unbond(_:)",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Polkadot_Proto_Staking\/OneOf_MessageOneof\/withdrawUnbonded(_:)"
+      ],
+      "title" : "Enumeration Cases"
+    },
+    {
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Polkadot_Proto_Staking\/OneOf_MessageOneof\/Equatable-Implementations"
+      ],
+      "title" : "Default Implementations"
+    }
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/walletcore\/tw_polkadot_proto_staking\/oneof_messageoneof"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://com.trustwallet.WalletCore/SQ": {
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/SQ",
+  "title" : "Swift.Equatable",
+  "type" : "unresolvable"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "WalletCore",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Polkadot_Proto_Staking": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "TW_Polkadot_Proto_Staking"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Polkadot_Proto_Staking",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "TW_Polkadot_Proto_Staking"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "TW_Polkadot_Proto_Staking",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_polkadot_proto_staking"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Polkadot_Proto_Staking/OneOf_MessageOneof": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "enum"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "OneOf_MessageOneof"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Polkadot_Proto_Staking\/OneOf_MessageOneof",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "OneOf_MessageOneof"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "TW_Polkadot_Proto_Staking.OneOf_MessageOneof",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_polkadot_proto_staking\/oneof_messageoneof"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Polkadot_Proto_Staking/OneOf_MessageOneof/Equatable-Implementations": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Polkadot_Proto_Staking\/OneOf_MessageOneof\/Equatable-Implementations",
+  "kind" : "article",
+  "role" : "collectionGroup",
+  "title" : "Equatable Implementations",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_polkadot_proto_staking\/oneof_messageoneof\/equatable-implementations"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Polkadot_Proto_Staking/OneOf_MessageOneof/bond(_:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "bond"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10WalletCore25TW_Polkadot_Proto_StakingV",
+      "text" : "TW_Polkadot_Proto_Staking"
+    },
+    {
+      "kind" : "text",
+      "text" : "."
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10WalletCore25TW_Polkadot_Proto_StakingV4BondV",
+      "text" : "Bond"
+    },
+    {
+      "kind" : "text",
+      "text" : ")"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Polkadot_Proto_Staking\/OneOf_MessageOneof\/bond(_:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "TW_Polkadot_Proto_Staking.OneOf_MessageOneof.bond(_:)",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_polkadot_proto_staking\/oneof_messageoneof\/bond(_:)"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Polkadot_Proto_Staking/OneOf_MessageOneof/bondAndNominate(_:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "bondAndNominate"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10WalletCore25TW_Polkadot_Proto_StakingV",
+      "text" : "TW_Polkadot_Proto_Staking"
+    },
+    {
+      "kind" : "text",
+      "text" : "."
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10WalletCore25TW_Polkadot_Proto_StakingV15BondAndNominateV",
+      "text" : "BondAndNominate"
+    },
+    {
+      "kind" : "text",
+      "text" : ")"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Polkadot_Proto_Staking\/OneOf_MessageOneof\/bondAndNominate(_:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "TW_Polkadot_Proto_Staking.OneOf_MessageOneof.bondAndNominate(_:)",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_polkadot_proto_staking\/oneof_messageoneof\/bondandnominate(_:)"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Polkadot_Proto_Staking/OneOf_MessageOneof/bondExtra(_:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "bondExtra"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10WalletCore25TW_Polkadot_Proto_StakingV",
+      "text" : "TW_Polkadot_Proto_Staking"
+    },
+    {
+      "kind" : "text",
+      "text" : "."
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10WalletCore25TW_Polkadot_Proto_StakingV9BondExtraV",
+      "text" : "BondExtra"
+    },
+    {
+      "kind" : "text",
+      "text" : ")"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Polkadot_Proto_Staking\/OneOf_MessageOneof\/bondExtra(_:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "TW_Polkadot_Proto_Staking.OneOf_MessageOneof.bondExtra(_:)",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_polkadot_proto_staking\/oneof_messageoneof\/bondextra(_:)"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Polkadot_Proto_Staking/OneOf_MessageOneof/chill(_:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "chill"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10WalletCore25TW_Polkadot_Proto_StakingV",
+      "text" : "TW_Polkadot_Proto_Staking"
+    },
+    {
+      "kind" : "text",
+      "text" : "."
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10WalletCore25TW_Polkadot_Proto_StakingV5ChillV",
+      "text" : "Chill"
+    },
+    {
+      "kind" : "text",
+      "text" : ")"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Polkadot_Proto_Staking\/OneOf_MessageOneof\/chill(_:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "TW_Polkadot_Proto_Staking.OneOf_MessageOneof.chill(_:)",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_polkadot_proto_staking\/oneof_messageoneof\/chill(_:)"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Polkadot_Proto_Staking/OneOf_MessageOneof/chillAndUnbond(_:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "chillAndUnbond"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10WalletCore25TW_Polkadot_Proto_StakingV",
+      "text" : "TW_Polkadot_Proto_Staking"
+    },
+    {
+      "kind" : "text",
+      "text" : "."
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10WalletCore25TW_Polkadot_Proto_StakingV14ChillAndUnbondV",
+      "text" : "ChillAndUnbond"
+    },
+    {
+      "kind" : "text",
+      "text" : ")"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Polkadot_Proto_Staking\/OneOf_MessageOneof\/chillAndUnbond(_:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "TW_Polkadot_Proto_Staking.OneOf_MessageOneof.chillAndUnbond(_:)",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_polkadot_proto_staking\/oneof_messageoneof\/chillandunbond(_:)"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Polkadot_Proto_Staking/OneOf_MessageOneof/nominate(_:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "nominate"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10WalletCore25TW_Polkadot_Proto_StakingV",
+      "text" : "TW_Polkadot_Proto_Staking"
+    },
+    {
+      "kind" : "text",
+      "text" : "."
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10WalletCore25TW_Polkadot_Proto_StakingV8NominateV",
+      "text" : "Nominate"
+    },
+    {
+      "kind" : "text",
+      "text" : ")"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Polkadot_Proto_Staking\/OneOf_MessageOneof\/nominate(_:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "TW_Polkadot_Proto_Staking.OneOf_MessageOneof.nominate(_:)",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_polkadot_proto_staking\/oneof_messageoneof\/nominate(_:)"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Polkadot_Proto_Staking/OneOf_MessageOneof/unbond(_:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "unbond"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10WalletCore25TW_Polkadot_Proto_StakingV",
+      "text" : "TW_Polkadot_Proto_Staking"
+    },
+    {
+      "kind" : "text",
+      "text" : "."
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10WalletCore25TW_Polkadot_Proto_StakingV6UnbondV",
+      "text" : "Unbond"
+    },
+    {
+      "kind" : "text",
+      "text" : ")"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Polkadot_Proto_Staking\/OneOf_MessageOneof\/unbond(_:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "TW_Polkadot_Proto_Staking.OneOf_MessageOneof.unbond(_:)",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_polkadot_proto_staking\/oneof_messageoneof\/unbond(_:)"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Polkadot_Proto_Staking/OneOf_MessageOneof/withdrawUnbonded(_:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "withdrawUnbonded"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10WalletCore25TW_Polkadot_Proto_StakingV",
+      "text" : "TW_Polkadot_Proto_Staking"
+    },
+    {
+      "kind" : "text",
+      "text" : "."
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10WalletCore25TW_Polkadot_Proto_StakingV16WithdrawUnbondedV",
+      "text" : "WithdrawUnbonded"
+    },
+    {
+      "kind" : "text",
+      "text" : ")"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Polkadot_Proto_Staking\/OneOf_MessageOneof\/withdrawUnbonded(_:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "TW_Polkadot_Proto_Staking.OneOf_MessageOneof.withdrawUnbonded(_:)",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_polkadot_proto_staking\/oneof_messageoneof\/withdrawunbonded(_:)"
+}
+}
+}

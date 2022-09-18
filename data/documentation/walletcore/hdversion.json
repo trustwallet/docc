@@ -1,0 +1,754 @@
+{
+  "abstract" : [
+    {
+      "text" : "Registered HD version bytes",
+      "type" : "text"
+    }
+  ],
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/HDVersion"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "s:10WalletCore9HDVersionO",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "enum"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "HDVersion"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "WalletCore"
+      }
+    ],
+    "navigatorTitle" : [
+      {
+        "kind" : "identifier",
+        "text" : "HDVersion"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Enumeration",
+    "symbolKind" : "enum",
+    "title" : "HDVersion"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "iOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "enum"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "HDVersion"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    },
+    {
+      "content" : [
+        {
+          "anchor" : "overview",
+          "level" : 2,
+          "text" : "Overview",
+          "type" : "heading"
+        },
+        {
+          "inlineContent" : [
+            {
+              "text" : "\\see https:\/\/github.com\/satoshilabs\/slips\/blob\/master\/slip-0132.md",
+              "type" : "text"
+            }
+          ],
+          "type" : "paragraph"
+        }
+      ],
+      "kind" : "content"
+    }
+  ],
+  "relationshipsSections" : [
+    {
+      "identifiers" : [
+        "doc:\/\/com.trustwallet.WalletCore\/s12CaseIterableP",
+        "doc:\/\/com.trustwallet.WalletCore\/SQ",
+        "doc:\/\/com.trustwallet.WalletCore\/SH",
+        "doc:\/\/com.trustwallet.WalletCore\/SY"
+      ],
+      "kind" : "relationships",
+      "title" : "Conforms To",
+      "type" : "conformsTo"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 2,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "topicSections" : [
+    {
+      "identifiers" : [
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/HDVersion\/dgpv",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/HDVersion\/dgub",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/HDVersion\/dprv",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/HDVersion\/dpub",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/HDVersion\/ltpv",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/HDVersion\/ltub",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/HDVersion\/mtpv",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/HDVersion\/mtub",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/HDVersion\/none",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/HDVersion\/xprv",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/HDVersion\/xpub",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/HDVersion\/yprv",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/HDVersion\/ypub",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/HDVersion\/zprv",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/HDVersion\/zpub"
+      ],
+      "title" : "Enumeration Cases"
+    },
+    {
+      "identifiers" : [
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/HDVersion\/init(rawValue:)"
+      ],
+      "title" : "Initializers"
+    },
+    {
+      "identifiers" : [
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/HDVersion\/isPrivate",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/HDVersion\/isPublic"
+      ],
+      "title" : "Instance Properties"
+    },
+    {
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/HDVersion\/Equatable-Implementations",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/HDVersion\/RawRepresentable-Implementations"
+      ],
+      "title" : "Default Implementations"
+    }
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/walletcore\/hdversion"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://com.trustwallet.WalletCore/SH": {
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/SH",
+  "title" : "Swift.Hashable",
+  "type" : "unresolvable"
+},
+"doc://com.trustwallet.WalletCore/SQ": {
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/SQ",
+  "title" : "Swift.Equatable",
+  "type" : "unresolvable"
+},
+"doc://com.trustwallet.WalletCore/SY": {
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/SY",
+  "title" : "Swift.RawRepresentable",
+  "type" : "unresolvable"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "WalletCore",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/HDVersion": {
+  "abstract" : [
+    {
+      "text" : "Registered HD version bytes",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "enum"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "HDVersion"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/HDVersion",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "HDVersion"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "HDVersion",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/hdversion"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/HDVersion/Equatable-Implementations": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/HDVersion\/Equatable-Implementations",
+  "kind" : "article",
+  "role" : "collectionGroup",
+  "title" : "Equatable Implementations",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/hdversion\/equatable-implementations"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/HDVersion/RawRepresentable-Implementations": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/HDVersion\/RawRepresentable-Implementations",
+  "kind" : "article",
+  "role" : "collectionGroup",
+  "title" : "RawRepresentable Implementations",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/hdversion\/rawrepresentable-implementations"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/HDVersion/dgpv": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "dgpv"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/HDVersion\/dgpv",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "HDVersion.dgpv",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/hdversion\/dgpv"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/HDVersion/dgub": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "dgub"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/HDVersion\/dgub",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "HDVersion.dgub",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/hdversion\/dgub"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/HDVersion/dprv": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "dprv"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/HDVersion\/dprv",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "HDVersion.dprv",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/hdversion\/dprv"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/HDVersion/dpub": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "dpub"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/HDVersion\/dpub",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "HDVersion.dpub",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/hdversion\/dpub"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/HDVersion/init(rawValue:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "init"
+    },
+    {
+      "kind" : "text",
+      "text" : "?("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "rawValue"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:s6UInt32V",
+      "text" : "UInt32"
+    },
+    {
+      "kind" : "text",
+      "text" : ")"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/HDVersion\/init(rawValue:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "init(rawValue:)",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/hdversion\/init(rawvalue:)"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/HDVersion/isPrivate": {
+  "abstract" : [
+    {
+      "text" : "Determine if the HD Version is private",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "isPrivate"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Sb",
+      "text" : "Bool"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/HDVersion\/isPrivate",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "isPrivate",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/hdversion\/isprivate"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/HDVersion/isPublic": {
+  "abstract" : [
+    {
+      "text" : "Determine if the HD Version is public",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "isPublic"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Sb",
+      "text" : "Bool"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/HDVersion\/isPublic",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "isPublic",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/hdversion\/ispublic"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/HDVersion/ltpv": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "ltpv"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/HDVersion\/ltpv",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "HDVersion.ltpv",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/hdversion\/ltpv"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/HDVersion/ltub": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "ltub"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/HDVersion\/ltub",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "HDVersion.ltub",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/hdversion\/ltub"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/HDVersion/mtpv": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "mtpv"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/HDVersion\/mtpv",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "HDVersion.mtpv",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/hdversion\/mtpv"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/HDVersion/mtub": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "mtub"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/HDVersion\/mtub",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "HDVersion.mtub",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/hdversion\/mtub"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/HDVersion/none": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "none"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/HDVersion\/none",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "HDVersion.none",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/hdversion\/none"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/HDVersion/xprv": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "xprv"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/HDVersion\/xprv",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "HDVersion.xprv",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/hdversion\/xprv"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/HDVersion/xpub": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "xpub"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/HDVersion\/xpub",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "HDVersion.xpub",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/hdversion\/xpub"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/HDVersion/yprv": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "yprv"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/HDVersion\/yprv",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "HDVersion.yprv",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/hdversion\/yprv"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/HDVersion/ypub": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "ypub"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/HDVersion\/ypub",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "HDVersion.ypub",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/hdversion\/ypub"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/HDVersion/zprv": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "zprv"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/HDVersion\/zprv",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "HDVersion.zprv",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/hdversion\/zprv"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/HDVersion/zpub": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "zpub"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/HDVersion\/zpub",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "HDVersion.zpub",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/hdversion\/zpub"
+},
+"doc://com.trustwallet.WalletCore/s12CaseIterableP": {
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/s12CaseIterableP",
+  "title" : "Swift.CaseIterable",
+  "type" : "unresolvable"
+}
+}
+}

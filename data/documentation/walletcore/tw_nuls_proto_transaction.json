@@ -1,0 +1,852 @@
+{
+  "abstract" : [
+    {
+      "text" : "No overview available.",
+      "type" : "text"
+    }
+  ],
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_NULS_Proto_Transaction"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "s:10WalletCore25TW_NULS_Proto_TransactionV",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "struct"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "TW_NULS_Proto_Transaction"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "WalletCore"
+      }
+    ],
+    "navigatorTitle" : [
+      {
+        "kind" : "identifier",
+        "text" : "TW_NULS_Proto_Transaction"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Structure",
+    "symbolKind" : "struct",
+    "title" : "TW_NULS_Proto_Transaction"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "iOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "struct"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "TW_NULS_Proto_Transaction"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "relationshipsSections" : [
+    {
+      "identifiers" : [
+        "doc:\/\/com.trustwallet.WalletCore\/s28CustomDebugStringConvertibleP",
+        "doc:\/\/com.trustwallet.WalletCore\/SQ",
+        "doc:\/\/com.trustwallet.WalletCore\/SH",
+        "doc:\/\/com.trustwallet.WalletCore\/13SwiftProtobuf7MessageP"
+      ],
+      "kind" : "relationships",
+      "title" : "Conforms To",
+      "type" : "conformsTo"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 2,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "topicSections" : [
+    {
+      "identifiers" : [
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_NULS_Proto_Transaction\/init()"
+      ],
+      "title" : "Initializers"
+    },
+    {
+      "identifiers" : [
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_NULS_Proto_Transaction\/hasInput",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_NULS_Proto_Transaction\/hasOutput",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_NULS_Proto_Transaction\/hasTxSigs",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_NULS_Proto_Transaction\/hash",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_NULS_Proto_Transaction\/input",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_NULS_Proto_Transaction\/output",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_NULS_Proto_Transaction\/remark",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_NULS_Proto_Transaction\/timestamp",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_NULS_Proto_Transaction\/txData",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_NULS_Proto_Transaction\/txSigs",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_NULS_Proto_Transaction\/type",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_NULS_Proto_Transaction\/unknownFields"
+      ],
+      "title" : "Instance Properties"
+    },
+    {
+      "identifiers" : [
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_NULS_Proto_Transaction\/clearInput()",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_NULS_Proto_Transaction\/clearOutput()",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_NULS_Proto_Transaction\/clearTxSigs()"
+      ],
+      "title" : "Instance Methods"
+    },
+    {
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_NULS_Proto_Transaction\/Equatable-Implementations",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_NULS_Proto_Transaction\/Message-Implementations"
+      ],
+      "title" : "Default Implementations"
+    }
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/walletcore\/tw_nuls_proto_transaction"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://com.trustwallet.WalletCore/13SwiftProtobuf7MessageP": {
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/13SwiftProtobuf7MessageP",
+  "title" : "SwiftProtobuf.Message",
+  "type" : "unresolvable"
+},
+"doc://com.trustwallet.WalletCore/SH": {
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/SH",
+  "title" : "Swift.Hashable",
+  "type" : "unresolvable"
+},
+"doc://com.trustwallet.WalletCore/SQ": {
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/SQ",
+  "title" : "Swift.Equatable",
+  "type" : "unresolvable"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "WalletCore",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_NULS_Proto_Transaction": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "TW_NULS_Proto_Transaction"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_NULS_Proto_Transaction",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "TW_NULS_Proto_Transaction"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "TW_NULS_Proto_Transaction",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_nuls_proto_transaction"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_NULS_Proto_Transaction/Equatable-Implementations": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_NULS_Proto_Transaction\/Equatable-Implementations",
+  "kind" : "article",
+  "role" : "collectionGroup",
+  "title" : "Equatable Implementations",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_nuls_proto_transaction\/equatable-implementations"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_NULS_Proto_Transaction/Message-Implementations": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_NULS_Proto_Transaction\/Message-Implementations",
+  "kind" : "article",
+  "role" : "collectionGroup",
+  "title" : "Message Implementations",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_nuls_proto_transaction\/message-implementations"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_NULS_Proto_Transaction/clearInput()": {
+  "abstract" : [
+    {
+      "text" : "Clears the value of ",
+      "type" : "text"
+    },
+    {
+      "code" : "input",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : ". Subsequent reads from it will return its default value.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "clearInput"
+    },
+    {
+      "kind" : "text",
+      "text" : "()"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_NULS_Proto_Transaction\/clearInput()",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "clearInput()",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_nuls_proto_transaction\/clearinput()"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_NULS_Proto_Transaction/clearOutput()": {
+  "abstract" : [
+    {
+      "text" : "Clears the value of ",
+      "type" : "text"
+    },
+    {
+      "code" : "output",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : ". Subsequent reads from it will return its default value.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "clearOutput"
+    },
+    {
+      "kind" : "text",
+      "text" : "()"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_NULS_Proto_Transaction\/clearOutput()",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "clearOutput()",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_nuls_proto_transaction\/clearoutput()"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_NULS_Proto_Transaction/clearTxSigs()": {
+  "abstract" : [
+    {
+      "text" : "Clears the value of ",
+      "type" : "text"
+    },
+    {
+      "code" : "txSigs",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : ". Subsequent reads from it will return its default value.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "clearTxSigs"
+    },
+    {
+      "kind" : "text",
+      "text" : "()"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_NULS_Proto_Transaction\/clearTxSigs()",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "clearTxSigs()",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_nuls_proto_transaction\/cleartxsigs()"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_NULS_Proto_Transaction/hasInput": {
+  "abstract" : [
+    {
+      "text" : "Returns true if ",
+      "type" : "text"
+    },
+    {
+      "code" : "input",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : " has been explicitly set.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "hasInput"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Sb",
+      "text" : "Bool"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_NULS_Proto_Transaction\/hasInput",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "hasInput",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_nuls_proto_transaction\/hasinput"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_NULS_Proto_Transaction/hasOutput": {
+  "abstract" : [
+    {
+      "text" : "Returns true if ",
+      "type" : "text"
+    },
+    {
+      "code" : "output",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : " has been explicitly set.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "hasOutput"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Sb",
+      "text" : "Bool"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_NULS_Proto_Transaction\/hasOutput",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "hasOutput",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_nuls_proto_transaction\/hasoutput"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_NULS_Proto_Transaction/hasTxSigs": {
+  "abstract" : [
+    {
+      "text" : "Returns true if ",
+      "type" : "text"
+    },
+    {
+      "code" : "txSigs",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : " has been explicitly set.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "hasTxSigs"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Sb",
+      "text" : "Bool"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_NULS_Proto_Transaction\/hasTxSigs",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "hasTxSigs",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_nuls_proto_transaction\/hastxsigs"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_NULS_Proto_Transaction/hash": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "hash"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:s6UInt32V",
+      "text" : "UInt32"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_NULS_Proto_Transaction\/hash",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "hash",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_nuls_proto_transaction\/hash"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_NULS_Proto_Transaction/init()": {
+  "abstract" : [
+    {
+      "text" : "Creates a new message with all of its fields initialized to their default",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "values.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "init"
+    },
+    {
+      "kind" : "text",
+      "text" : "()"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_NULS_Proto_Transaction\/init()",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "init()",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_nuls_proto_transaction\/init()"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_NULS_Proto_Transaction/input": {
+  "abstract" : [
+    {
+      "text" : "CoinFrom",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "input"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10WalletCore33TW_NULS_Proto_TransactionCoinFromV",
+      "text" : "TW_NULS_Proto_TransactionCoinFrom"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_NULS_Proto_Transaction\/input",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "input",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_nuls_proto_transaction\/input"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_NULS_Proto_Transaction/output": {
+  "abstract" : [
+    {
+      "text" : "CoinTo",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "output"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10WalletCore31TW_NULS_Proto_TransactionCoinToV",
+      "text" : "TW_NULS_Proto_TransactionCoinTo"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_NULS_Proto_Transaction\/output",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "output",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_nuls_proto_transaction\/output"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_NULS_Proto_Transaction/remark": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "remark"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_NULS_Proto_Transaction\/remark",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "remark",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_nuls_proto_transaction\/remark"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_NULS_Proto_Transaction/timestamp": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "timestamp"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:s6UInt32V",
+      "text" : "UInt32"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_NULS_Proto_Transaction\/timestamp",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "timestamp",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_nuls_proto_transaction\/timestamp"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_NULS_Proto_Transaction/txData": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "txData"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10Foundation4DataV",
+      "text" : "Data"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_NULS_Proto_Transaction\/txData",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "txData",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_nuls_proto_transaction\/txdata"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_NULS_Proto_Transaction/txSigs": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "txSigs"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10WalletCore23TW_NULS_Proto_SignatureV",
+      "text" : "TW_NULS_Proto_Signature"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_NULS_Proto_Transaction\/txSigs",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "txSigs",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_nuls_proto_transaction\/txsigs"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_NULS_Proto_Transaction/type": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "type"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:s6UInt32V",
+      "text" : "UInt32"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_NULS_Proto_Transaction\/type",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "type",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_nuls_proto_transaction\/type"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_NULS_Proto_Transaction/unknownFields": {
+  "abstract" : [
+    {
+      "text" : "Some formats include enough information to transport fields that were",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "not known at generation time. When encountered, they are stored here.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "unknownFields"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:13SwiftProtobuf14UnknownStorageV",
+      "text" : "UnknownStorage"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_NULS_Proto_Transaction\/unknownFields",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "unknownFields",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_nuls_proto_transaction\/unknownfields"
+},
+"doc://com.trustwallet.WalletCore/s28CustomDebugStringConvertibleP": {
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/s28CustomDebugStringConvertibleP",
+  "title" : "Swift.CustomDebugStringConvertible",
+  "type" : "unresolvable"
+}
+}
+}

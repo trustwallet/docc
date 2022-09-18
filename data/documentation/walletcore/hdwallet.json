@@ -1,0 +1,1686 @@
+{
+  "abstract" : [
+    {
+      "text" : "Hierarchical Deterministic (HD) Wallet",
+      "type" : "text"
+    }
+  ],
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/HDWallet"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "s:10WalletCore8HDWalletC",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "class"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "HDWallet"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "WalletCore"
+      }
+    ],
+    "navigatorTitle" : [
+      {
+        "kind" : "identifier",
+        "text" : "HDWallet"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Class",
+    "symbolKind" : "class",
+    "title" : "HDWallet"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "iOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "final"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "keyword",
+              "text" : "class"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "HDWallet"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 2,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "topicSections" : [
+    {
+      "identifiers" : [
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/HDWallet\/init(entropy:passphrase:)",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/HDWallet\/init(mnemonic:passphrase:)",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/HDWallet\/init(mnemonic:passphrase:check:)",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/HDWallet\/init(strength:passphrase:)"
+      ],
+      "title" : "Initializers"
+    },
+    {
+      "identifiers" : [
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/HDWallet\/entropy",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/HDWallet\/mnemonic",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/HDWallet\/seed"
+      ],
+      "title" : "Instance Properties"
+    },
+    {
+      "identifiers" : [
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/HDWallet\/getAddressForCoin(coin:)",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/HDWallet\/getDerivedKey(coin:account:change:address:)",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/HDWallet\/getExtendedPrivateKey(purpose:coin:version:)",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/HDWallet\/getExtendedPrivateKeyAccount(purpose:coin:derivation:version:account:)",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/HDWallet\/getExtendedPrivateKeyDerivation(purpose:coin:derivation:version:)",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/HDWallet\/getExtendedPublicKey(purpose:coin:version:)",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/HDWallet\/getExtendedPublicKeyAccount(purpose:coin:derivation:version:account:)",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/HDWallet\/getExtendedPublicKeyDerivation(purpose:coin:derivation:version:)",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/HDWallet\/getKey(coin:derivationPath:)",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/HDWallet\/getKeyByCurve(curve:derivationPath:)",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/HDWallet\/getKeyForCoin(coin:)",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/HDWallet\/getMasterKey(curve:)"
+      ],
+      "title" : "Instance Methods"
+    },
+    {
+      "identifiers" : [
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/HDWallet\/getPublicKeyFromExtended(extended:coin:derivationPath:)"
+      ],
+      "title" : "Type Methods"
+    }
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/walletcore\/hdwallet"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://com.trustwallet.WalletCore/documentation/WalletCore": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "WalletCore",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/HDWallet": {
+  "abstract" : [
+    {
+      "text" : "Hierarchical Deterministic (HD) Wallet",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "HDWallet"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/HDWallet",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "HDWallet"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "HDWallet",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/hdwallet"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/HDWallet/entropy": {
+  "abstract" : [
+    {
+      "text" : "Wallet entropy",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "entropy"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10Foundation4DataV",
+      "text" : "Data"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/HDWallet\/entropy",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "entropy",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/hdwallet\/entropy"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/HDWallet/getAddressForCoin(coin:)": {
+  "abstract" : [
+    {
+      "text" : "Generates the default address for the specified coin (without exposing intermediary private key).",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "getAddressForCoin"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "coin"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10WalletCore8CoinTypeO",
+      "text" : "CoinType"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/HDWallet\/getAddressForCoin(coin:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "getAddressForCoin(coin:)",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/hdwallet\/getaddressforcoin(coin:)"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/HDWallet/getDerivedKey(coin:account:change:address:)": {
+  "abstract" : [
+    {
+      "text" : "Shortcut method to generate private key with the specified account\/change\/address (bip44 standard).",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "getDerivedKey"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "coin"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10WalletCore8CoinTypeO",
+      "text" : "CoinType"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "account"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:s6UInt32V",
+      "text" : "UInt32"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "change"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:s6UInt32V",
+      "text" : "UInt32"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "address"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:s6UInt32V",
+      "text" : "UInt32"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10WalletCore10PrivateKeyC",
+      "text" : "PrivateKey"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/HDWallet\/getDerivedKey(coin:account:change:address:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "getDerivedKey(coin:account:change:address:)",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/hdwallet\/getderivedkey(coin:account:change:address:)"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/HDWallet/getExtendedPrivateKey(purpose:coin:version:)": {
+  "abstract" : [
+    {
+      "text" : "Returns the extended private key (for default 0 account).",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "getExtendedPrivateKey"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "purpose"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10WalletCore7PurposeO",
+      "text" : "Purpose"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "coin"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10WalletCore8CoinTypeO",
+      "text" : "CoinType"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "version"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10WalletCore9HDVersionO",
+      "text" : "HDVersion"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/HDWallet\/getExtendedPrivateKey(purpose:coin:version:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "getExtendedPrivateKey(purpose:coin:version:)",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/hdwallet\/getextendedprivatekey(purpose:coin:version:)"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/HDWallet/getExtendedPrivateKeyAccount(purpose:coin:derivation:version:account:)": {
+  "abstract" : [
+    {
+      "text" : "Returns the extended private key, for custom account.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "getExtendedPrivateKeyAccount"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "purpose"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10WalletCore7PurposeO",
+      "text" : "Purpose"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "coin"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10WalletCore8CoinTypeO",
+      "text" : "CoinType"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "derivation"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10WalletCore10DerivationO",
+      "text" : "Derivation"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "version"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10WalletCore9HDVersionO",
+      "text" : "HDVersion"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "account"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:s6UInt32V",
+      "text" : "UInt32"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/HDWallet\/getExtendedPrivateKeyAccount(purpose:coin:derivation:version:account:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "getExtendedPrivateKeyAccount(purpose:coin:derivation:version:account:)",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/hdwallet\/getextendedprivatekeyaccount(purpose:coin:derivation:version:account:)"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/HDWallet/getExtendedPrivateKeyDerivation(purpose:coin:derivation:version:)": {
+  "abstract" : [
+    {
+      "text" : "Returns the extended private key (for default 0 account with derivation).",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "getExtendedPrivateKeyDerivation"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "purpose"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10WalletCore7PurposeO",
+      "text" : "Purpose"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "coin"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10WalletCore8CoinTypeO",
+      "text" : "CoinType"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "derivation"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10WalletCore10DerivationO",
+      "text" : "Derivation"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "version"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10WalletCore9HDVersionO",
+      "text" : "HDVersion"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/HDWallet\/getExtendedPrivateKeyDerivation(purpose:coin:derivation:version:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "getExtendedPrivateKeyDerivation(purpose:coin:derivation:version:)",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/hdwallet\/getextendedprivatekeyderivation(purpose:coin:derivation:version:)"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/HDWallet/getExtendedPublicKey(purpose:coin:version:)": {
+  "abstract" : [
+    {
+      "text" : "Returns the extended public key (for default 0 account).",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "getExtendedPublicKey"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "purpose"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10WalletCore7PurposeO",
+      "text" : "Purpose"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "coin"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10WalletCore8CoinTypeO",
+      "text" : "CoinType"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "version"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10WalletCore9HDVersionO",
+      "text" : "HDVersion"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/HDWallet\/getExtendedPublicKey(purpose:coin:version:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "getExtendedPublicKey(purpose:coin:version:)",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/hdwallet\/getextendedpublickey(purpose:coin:version:)"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/HDWallet/getExtendedPublicKeyAccount(purpose:coin:derivation:version:account:)": {
+  "abstract" : [
+    {
+      "text" : "Returns the extended public key, for custom account.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "getExtendedPublicKeyAccount"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "purpose"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10WalletCore7PurposeO",
+      "text" : "Purpose"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "coin"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10WalletCore8CoinTypeO",
+      "text" : "CoinType"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "derivation"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10WalletCore10DerivationO",
+      "text" : "Derivation"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "version"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10WalletCore9HDVersionO",
+      "text" : "HDVersion"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "account"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:s6UInt32V",
+      "text" : "UInt32"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/HDWallet\/getExtendedPublicKeyAccount(purpose:coin:derivation:version:account:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "getExtendedPublicKeyAccount(purpose:coin:derivation:version:account:)",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/hdwallet\/getextendedpublickeyaccount(purpose:coin:derivation:version:account:)"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/HDWallet/getExtendedPublicKeyDerivation(purpose:coin:derivation:version:)": {
+  "abstract" : [
+    {
+      "text" : "Returns the extended public key (for default 0 account with derivation).",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "getExtendedPublicKeyDerivation"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "purpose"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10WalletCore7PurposeO",
+      "text" : "Purpose"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "coin"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10WalletCore8CoinTypeO",
+      "text" : "CoinType"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "derivation"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10WalletCore10DerivationO",
+      "text" : "Derivation"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "version"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10WalletCore9HDVersionO",
+      "text" : "HDVersion"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/HDWallet\/getExtendedPublicKeyDerivation(purpose:coin:derivation:version:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "getExtendedPublicKeyDerivation(purpose:coin:derivation:version:)",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/hdwallet\/getextendedpublickeyderivation(purpose:coin:derivation:version:)"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/HDWallet/getKey(coin:derivationPath:)": {
+  "abstract" : [
+    {
+      "text" : "Generates the private key for the specified derivation path.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "getKey"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "coin"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10WalletCore8CoinTypeO",
+      "text" : "CoinType"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "derivationPath"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10WalletCore10PrivateKeyC",
+      "text" : "PrivateKey"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/HDWallet\/getKey(coin:derivationPath:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "getKey(coin:derivationPath:)",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/hdwallet\/getkey(coin:derivationpath:)"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/HDWallet/getKeyByCurve(curve:derivationPath:)": {
+  "abstract" : [
+    {
+      "text" : "Generates the private key for the specified derivation path and curve.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "getKeyByCurve"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "curve"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10WalletCore5CurveO",
+      "text" : "Curve"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "derivationPath"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10WalletCore10PrivateKeyC",
+      "text" : "PrivateKey"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/HDWallet\/getKeyByCurve(curve:derivationPath:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "getKeyByCurve(curve:derivationPath:)",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/hdwallet\/getkeybycurve(curve:derivationpath:)"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/HDWallet/getKeyForCoin(coin:)": {
+  "abstract" : [
+    {
+      "text" : "Generates the default private key for the specified coin.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "getKeyForCoin"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "coin"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10WalletCore8CoinTypeO",
+      "text" : "CoinType"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10WalletCore10PrivateKeyC",
+      "text" : "PrivateKey"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/HDWallet\/getKeyForCoin(coin:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "getKeyForCoin(coin:)",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/hdwallet\/getkeyforcoin(coin:)"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/HDWallet/getMasterKey(curve:)": {
+  "abstract" : [
+    {
+      "text" : "Returns master key.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "getMasterKey"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "curve"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10WalletCore5CurveO",
+      "text" : "Curve"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10WalletCore10PrivateKeyC",
+      "text" : "PrivateKey"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/HDWallet\/getMasterKey(curve:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "getMasterKey(curve:)",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/hdwallet\/getmasterkey(curve:)"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/HDWallet/getPublicKeyFromExtended(extended:coin:derivationPath:)": {
+  "abstract" : [
+    {
+      "text" : "Computes the public key from an extended public key representation.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "static"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "getPublicKeyFromExtended"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "extended"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "coin"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10WalletCore8CoinTypeO",
+      "text" : "CoinType"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "derivationPath"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10WalletCore9PublicKeyC",
+      "text" : "PublicKey"
+    },
+    {
+      "kind" : "text",
+      "text" : "?"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/HDWallet\/getPublicKeyFromExtended(extended:coin:derivationPath:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "getPublicKeyFromExtended(extended:coin:derivationPath:)",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/hdwallet\/getpublickeyfromextended(extended:coin:derivationpath:)"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/HDWallet/init(entropy:passphrase:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "init"
+    },
+    {
+      "kind" : "text",
+      "text" : "?("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "entropy"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10Foundation4DataV",
+      "text" : "Data"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "passphrase"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    },
+    {
+      "kind" : "text",
+      "text" : ")"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/HDWallet\/init(entropy:passphrase:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "init(entropy:passphrase:)",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/hdwallet\/init(entropy:passphrase:)"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/HDWallet/init(mnemonic:passphrase:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "init"
+    },
+    {
+      "kind" : "text",
+      "text" : "?("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "mnemonic"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "passphrase"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    },
+    {
+      "kind" : "text",
+      "text" : ")"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/HDWallet\/init(mnemonic:passphrase:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "init(mnemonic:passphrase:)",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/hdwallet\/init(mnemonic:passphrase:)"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/HDWallet/init(mnemonic:passphrase:check:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "init"
+    },
+    {
+      "kind" : "text",
+      "text" : "?("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "mnemonic"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "passphrase"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "check"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Sb",
+      "text" : "Bool"
+    },
+    {
+      "kind" : "text",
+      "text" : ")"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/HDWallet\/init(mnemonic:passphrase:check:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "init(mnemonic:passphrase:check:)",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/hdwallet\/init(mnemonic:passphrase:check:)"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/HDWallet/init(strength:passphrase:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "init"
+    },
+    {
+      "kind" : "text",
+      "text" : "?("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "strength"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:s5Int32V",
+      "text" : "Int32"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "passphrase"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    },
+    {
+      "kind" : "text",
+      "text" : ")"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/HDWallet\/init(strength:passphrase:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "init(strength:passphrase:)",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/hdwallet\/init(strength:passphrase:)"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/HDWallet/mnemonic": {
+  "abstract" : [
+    {
+      "text" : "Wallet Mnemonic",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "mnemonic"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/HDWallet\/mnemonic",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "mnemonic",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/hdwallet\/mnemonic"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/HDWallet/seed": {
+  "abstract" : [
+    {
+      "text" : "Wallet seed.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "seed"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10Foundation4DataV",
+      "text" : "Data"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/HDWallet\/seed",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "seed",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/hdwallet\/seed"
+}
+}
+}

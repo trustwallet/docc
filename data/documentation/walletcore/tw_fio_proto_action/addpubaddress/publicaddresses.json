@@ -1,0 +1,281 @@
+{
+  "abstract" : [
+    {
+      "text" : "List of public addresses to be registered, ex. {{“BTC”, “bc1qv…7v”},{“BNB”, “bnb1ts3…9s”}}",
+      "type" : "text"
+    }
+  ],
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_FIO_Proto_Action",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_FIO_Proto_Action\/AddPubAddress"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_FIO_Proto_Action\/AddPubAddress\/publicAddresses"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "s:10WalletCore19TW_FIO_Proto_ActionV13AddPubAddressV15publicAddressesSayAA0c1_d1_e7_PublicI0VGvp",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "var"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "publicAddresses"
+      },
+      {
+        "kind" : "text",
+        "text" : ": ["
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:10WalletCore26TW_FIO_Proto_PublicAddressV",
+        "text" : "TW_FIO_Proto_PublicAddress"
+      },
+      {
+        "kind" : "text",
+        "text" : "]"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "WalletCore"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Instance Property",
+    "symbolKind" : "property",
+    "title" : "publicAddresses"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "iOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "var"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "publicAddresses"
+            },
+            {
+              "kind" : "text",
+              "text" : ": ["
+            },
+            {
+              "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_FIO_Proto_PublicAddress",
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:10WalletCore26TW_FIO_Proto_PublicAddressV",
+              "text" : "TW_FIO_Proto_PublicAddress"
+            },
+            {
+              "kind" : "text",
+              "text" : "]"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 2,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/walletcore\/tw_fio_proto_action\/addpubaddress\/publicaddresses"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://com.trustwallet.WalletCore/documentation/WalletCore": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "WalletCore",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_FIO_Proto_Action": {
+  "abstract" : [
+    {
+      "text" : "Different Actions",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "TW_FIO_Proto_Action"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_FIO_Proto_Action",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "TW_FIO_Proto_Action"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "TW_FIO_Proto_Action",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_fio_proto_action"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_FIO_Proto_Action/AddPubAddress": {
+  "abstract" : [
+    {
+      "text" : "Acion for adding public chain addresses to a FIO name; add_pub_address",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "AddPubAddress"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_FIO_Proto_Action\/AddPubAddress",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "AddPubAddress"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "TW_FIO_Proto_Action.AddPubAddress",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_fio_proto_action\/addpubaddress"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_FIO_Proto_Action/AddPubAddress/publicAddresses": {
+  "abstract" : [
+    {
+      "text" : "List of public addresses to be registered, ex. {{“BTC”, “bc1qv…7v”},{“BNB”, “bnb1ts3…9s”}}",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "publicAddresses"
+    },
+    {
+      "kind" : "text",
+      "text" : ": ["
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10WalletCore26TW_FIO_Proto_PublicAddressV",
+      "text" : "TW_FIO_Proto_PublicAddress"
+    },
+    {
+      "kind" : "text",
+      "text" : "]"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_FIO_Proto_Action\/AddPubAddress\/publicAddresses",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "publicAddresses",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_fio_proto_action\/addpubaddress\/publicaddresses"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_FIO_Proto_PublicAddress": {
+  "abstract" : [
+    {
+      "text" : "A public blockchain address, such as {“BTC”, “bc1qvy4074rggkdr2pzw5vpnn62eg0smzlxwp70d7v”}",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "TW_FIO_Proto_PublicAddress"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_FIO_Proto_PublicAddress",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "TW_FIO_Proto_PublicAddress"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "TW_FIO_Proto_PublicAddress",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_fio_proto_publicaddress"
+}
+}
+}

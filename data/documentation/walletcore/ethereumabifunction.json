@@ -1,0 +1,3323 @@
+{
+  "abstract" : [
+    {
+      "text" : "Represents Ethereum ABI function",
+      "type" : "text"
+    }
+  ],
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/EthereumAbiFunction"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "s:10WalletCore19EthereumAbiFunctionC",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "class"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "EthereumAbiFunction"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "WalletCore"
+      }
+    ],
+    "navigatorTitle" : [
+      {
+        "kind" : "identifier",
+        "text" : "EthereumAbiFunction"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Class",
+    "symbolKind" : "class",
+    "title" : "EthereumAbiFunction"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "iOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "final"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "keyword",
+              "text" : "class"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "EthereumAbiFunction"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 2,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "topicSections" : [
+    {
+      "identifiers" : [
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/EthereumAbiFunction\/init(name:)"
+      ],
+      "title" : "Initializers"
+    },
+    {
+      "identifiers" : [
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/EthereumAbiFunction\/addInArrayParamAddress(arrayIdx:val:)",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/EthereumAbiFunction\/addInArrayParamBool(arrayIdx:val:)",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/EthereumAbiFunction\/addInArrayParamBytes(arrayIdx:val:)",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/EthereumAbiFunction\/addInArrayParamBytesFix(arrayIdx:size:val:)",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/EthereumAbiFunction\/addInArrayParamInt16(arrayIdx:val:)",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/EthereumAbiFunction\/addInArrayParamInt256(arrayIdx:val:)",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/EthereumAbiFunction\/addInArrayParamInt32(arrayIdx:val:)",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/EthereumAbiFunction\/addInArrayParamInt64(arrayIdx:val:)",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/EthereumAbiFunction\/addInArrayParamInt8(arrayIdx:val:)",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/EthereumAbiFunction\/addInArrayParamIntN(arrayIdx:bits:val:)",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/EthereumAbiFunction\/addInArrayParamString(arrayIdx:val:)",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/EthereumAbiFunction\/addInArrayParamUInt16(arrayIdx:val:)",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/EthereumAbiFunction\/addInArrayParamUInt256(arrayIdx:val:)",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/EthereumAbiFunction\/addInArrayParamUInt32(arrayIdx:val:)",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/EthereumAbiFunction\/addInArrayParamUInt64(arrayIdx:val:)",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/EthereumAbiFunction\/addInArrayParamUInt8(arrayIdx:val:)",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/EthereumAbiFunction\/addInArrayParamUIntN(arrayIdx:bits:val:)",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/EthereumAbiFunction\/addParamAddress(val:isOutput:)",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/EthereumAbiFunction\/addParamArray(isOutput:)",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/EthereumAbiFunction\/addParamBool(val:isOutput:)",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/EthereumAbiFunction\/addParamBytes(val:isOutput:)",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/EthereumAbiFunction\/addParamBytesFix(size:val:isOutput:)",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/EthereumAbiFunction\/addParamInt16(val:isOutput:)",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/EthereumAbiFunction\/addParamInt256(val:isOutput:)",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/EthereumAbiFunction\/addParamInt32(val:isOutput:)",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/EthereumAbiFunction\/addParamInt64(val:isOutput:)",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/EthereumAbiFunction\/addParamInt8(val:isOutput:)",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/EthereumAbiFunction\/addParamIntN(bits:val:isOutput:)",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/EthereumAbiFunction\/addParamString(val:isOutput:)",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/EthereumAbiFunction\/addParamUInt16(val:isOutput:)",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/EthereumAbiFunction\/addParamUInt256(val:isOutput:)",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/EthereumAbiFunction\/addParamUInt32(val:isOutput:)",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/EthereumAbiFunction\/addParamUInt64(val:isOutput:)",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/EthereumAbiFunction\/addParamUInt8(val:isOutput:)",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/EthereumAbiFunction\/addParamUIntN(bits:val:isOutput:)",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/EthereumAbiFunction\/getParamAddress(idx:isOutput:)",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/EthereumAbiFunction\/getParamBool(idx:isOutput:)",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/EthereumAbiFunction\/getParamString(idx:isOutput:)",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/EthereumAbiFunction\/getParamUInt256(idx:isOutput:)",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/EthereumAbiFunction\/getParamUInt64(idx:isOutput:)",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/EthereumAbiFunction\/getParamUInt8(idx:isOutput:)",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/EthereumAbiFunction\/getType()"
+      ],
+      "title" : "Instance Methods"
+    }
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/walletcore\/ethereumabifunction"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://com.trustwallet.WalletCore/documentation/WalletCore": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "WalletCore",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/EthereumAbiFunction": {
+  "abstract" : [
+    {
+      "text" : "Represents Ethereum ABI function",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "EthereumAbiFunction"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/EthereumAbiFunction",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "EthereumAbiFunction"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "EthereumAbiFunction",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/ethereumabifunction"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/EthereumAbiFunction/addInArrayParamAddress(arrayIdx:val:)": {
+  "abstract" : [
+    {
+      "text" : "Adding an address type parameter of to the top-level input parameter array",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "addInArrayParamAddress"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "arrayIdx"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:s5Int32V",
+      "text" : "Int32"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "val"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10Foundation4DataV",
+      "text" : "Data"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:s5Int32V",
+      "text" : "Int32"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/EthereumAbiFunction\/addInArrayParamAddress(arrayIdx:val:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "addInArrayParamAddress(arrayIdx:val:)",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/ethereumabifunction\/addinarrayparamaddress(arrayidx:val:)"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/EthereumAbiFunction/addInArrayParamBool(arrayIdx:val:)": {
+  "abstract" : [
+    {
+      "text" : "Adding a bool type parameter of to the top-level input parameter array",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "addInArrayParamBool"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "arrayIdx"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:s5Int32V",
+      "text" : "Int32"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "val"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Sb",
+      "text" : "Bool"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:s5Int32V",
+      "text" : "Int32"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/EthereumAbiFunction\/addInArrayParamBool(arrayIdx:val:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "addInArrayParamBool(arrayIdx:val:)",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/ethereumabifunction\/addinarrayparambool(arrayidx:val:)"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/EthereumAbiFunction/addInArrayParamBytes(arrayIdx:val:)": {
+  "abstract" : [
+    {
+      "text" : "Adding a bytes type parameter of to the top-level input parameter array",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "addInArrayParamBytes"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "arrayIdx"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:s5Int32V",
+      "text" : "Int32"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "val"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10Foundation4DataV",
+      "text" : "Data"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:s5Int32V",
+      "text" : "Int32"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/EthereumAbiFunction\/addInArrayParamBytes(arrayIdx:val:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "addInArrayParamBytes(arrayIdx:val:)",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/ethereumabifunction\/addinarrayparambytes(arrayidx:val:)"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/EthereumAbiFunction/addInArrayParamBytesFix(arrayIdx:size:val:)": {
+  "abstract" : [
+    {
+      "text" : "Adding a int64 type parameter of to the top-level input parameter array",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "addInArrayParamBytesFix"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "arrayIdx"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:s5Int32V",
+      "text" : "Int32"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "size"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Si",
+      "text" : "Int"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "val"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10Foundation4DataV",
+      "text" : "Data"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:s5Int32V",
+      "text" : "Int32"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/EthereumAbiFunction\/addInArrayParamBytesFix(arrayIdx:size:val:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "addInArrayParamBytesFix(arrayIdx:size:val:)",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/ethereumabifunction\/addinarrayparambytesfix(arrayidx:size:val:)"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/EthereumAbiFunction/addInArrayParamInt16(arrayIdx:val:)": {
+  "abstract" : [
+    {
+      "text" : "Adding a int16 type parameter of to the top-level input parameter array",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "addInArrayParamInt16"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "arrayIdx"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:s5Int32V",
+      "text" : "Int32"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "val"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:s5Int16V",
+      "text" : "Int16"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:s5Int32V",
+      "text" : "Int32"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/EthereumAbiFunction\/addInArrayParamInt16(arrayIdx:val:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "addInArrayParamInt16(arrayIdx:val:)",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/ethereumabifunction\/addinarrayparamint16(arrayidx:val:)"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/EthereumAbiFunction/addInArrayParamInt256(arrayIdx:val:)": {
+  "abstract" : [
+    {
+      "text" : "Adding a int256 type parameter of to the top-level input parameter array",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "addInArrayParamInt256"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "arrayIdx"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:s5Int32V",
+      "text" : "Int32"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "val"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10Foundation4DataV",
+      "text" : "Data"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:s5Int32V",
+      "text" : "Int32"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/EthereumAbiFunction\/addInArrayParamInt256(arrayIdx:val:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "addInArrayParamInt256(arrayIdx:val:)",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/ethereumabifunction\/addinarrayparamint256(arrayidx:val:)"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/EthereumAbiFunction/addInArrayParamInt32(arrayIdx:val:)": {
+  "abstract" : [
+    {
+      "text" : "Adding a int32 type parameter of to the top-level input parameter array",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "addInArrayParamInt32"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "arrayIdx"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:s5Int32V",
+      "text" : "Int32"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "val"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:s5Int32V",
+      "text" : "Int32"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:s5Int32V",
+      "text" : "Int32"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/EthereumAbiFunction\/addInArrayParamInt32(arrayIdx:val:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "addInArrayParamInt32(arrayIdx:val:)",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/ethereumabifunction\/addinarrayparamint32(arrayidx:val:)"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/EthereumAbiFunction/addInArrayParamInt64(arrayIdx:val:)": {
+  "abstract" : [
+    {
+      "text" : "Adding a int64 type parameter of to the top-level input parameter array",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "addInArrayParamInt64"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "arrayIdx"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:s5Int32V",
+      "text" : "Int32"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "val"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:s5Int64V",
+      "text" : "Int64"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:s5Int32V",
+      "text" : "Int32"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/EthereumAbiFunction\/addInArrayParamInt64(arrayIdx:val:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "addInArrayParamInt64(arrayIdx:val:)",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/ethereumabifunction\/addinarrayparamint64(arrayidx:val:)"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/EthereumAbiFunction/addInArrayParamInt8(arrayIdx:val:)": {
+  "abstract" : [
+    {
+      "text" : "Adding a int8 type parameter of to the top-level input parameter array",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "addInArrayParamInt8"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "arrayIdx"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:s5Int32V",
+      "text" : "Int32"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "val"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:s4Int8V",
+      "text" : "Int8"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:s5Int32V",
+      "text" : "Int32"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/EthereumAbiFunction\/addInArrayParamInt8(arrayIdx:val:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "addInArrayParamInt8(arrayIdx:val:)",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/ethereumabifunction\/addinarrayparamint8(arrayidx:val:)"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/EthereumAbiFunction/addInArrayParamIntN(arrayIdx:bits:val:)": {
+  "abstract" : [
+    {
+      "text" : "Adding a int[N] type parameter of to the top-level input parameter array",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "addInArrayParamIntN"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "arrayIdx"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:s5Int32V",
+      "text" : "Int32"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "bits"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:s5Int32V",
+      "text" : "Int32"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "val"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10Foundation4DataV",
+      "text" : "Data"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:s5Int32V",
+      "text" : "Int32"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/EthereumAbiFunction\/addInArrayParamIntN(arrayIdx:bits:val:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "addInArrayParamIntN(arrayIdx:bits:val:)",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/ethereumabifunction\/addinarrayparamintn(arrayidx:bits:val:)"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/EthereumAbiFunction/addInArrayParamString(arrayIdx:val:)": {
+  "abstract" : [
+    {
+      "text" : "Adding a string type parameter of to the top-level input parameter array",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "addInArrayParamString"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "arrayIdx"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:s5Int32V",
+      "text" : "Int32"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "val"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:s5Int32V",
+      "text" : "Int32"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/EthereumAbiFunction\/addInArrayParamString(arrayIdx:val:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "addInArrayParamString(arrayIdx:val:)",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/ethereumabifunction\/addinarrayparamstring(arrayidx:val:)"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/EthereumAbiFunction/addInArrayParamUInt16(arrayIdx:val:)": {
+  "abstract" : [
+    {
+      "text" : "Adding a uint16 type parameter of to the top-level input parameter array",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "addInArrayParamUInt16"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "arrayIdx"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:s5Int32V",
+      "text" : "Int32"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "val"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:s6UInt16V",
+      "text" : "UInt16"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:s5Int32V",
+      "text" : "Int32"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/EthereumAbiFunction\/addInArrayParamUInt16(arrayIdx:val:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "addInArrayParamUInt16(arrayIdx:val:)",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/ethereumabifunction\/addinarrayparamuint16(arrayidx:val:)"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/EthereumAbiFunction/addInArrayParamUInt256(arrayIdx:val:)": {
+  "abstract" : [
+    {
+      "text" : "Adding a uint256 type parameter of to the top-level input parameter array",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "addInArrayParamUInt256"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "arrayIdx"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:s5Int32V",
+      "text" : "Int32"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "val"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10Foundation4DataV",
+      "text" : "Data"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:s5Int32V",
+      "text" : "Int32"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/EthereumAbiFunction\/addInArrayParamUInt256(arrayIdx:val:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "addInArrayParamUInt256(arrayIdx:val:)",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/ethereumabifunction\/addinarrayparamuint256(arrayidx:val:)"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/EthereumAbiFunction/addInArrayParamUInt32(arrayIdx:val:)": {
+  "abstract" : [
+    {
+      "text" : "Adding a uint32 type parameter of to the top-level input parameter array",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "addInArrayParamUInt32"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "arrayIdx"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:s5Int32V",
+      "text" : "Int32"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "val"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:s6UInt32V",
+      "text" : "UInt32"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:s5Int32V",
+      "text" : "Int32"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/EthereumAbiFunction\/addInArrayParamUInt32(arrayIdx:val:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "addInArrayParamUInt32(arrayIdx:val:)",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/ethereumabifunction\/addinarrayparamuint32(arrayidx:val:)"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/EthereumAbiFunction/addInArrayParamUInt64(arrayIdx:val:)": {
+  "abstract" : [
+    {
+      "text" : "Adding a uint64 type parameter of to the top-level input parameter array",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "addInArrayParamUInt64"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "arrayIdx"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:s5Int32V",
+      "text" : "Int32"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "val"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:s6UInt64V",
+      "text" : "UInt64"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:s5Int32V",
+      "text" : "Int32"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/EthereumAbiFunction\/addInArrayParamUInt64(arrayIdx:val:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "addInArrayParamUInt64(arrayIdx:val:)",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/ethereumabifunction\/addinarrayparamuint64(arrayidx:val:)"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/EthereumAbiFunction/addInArrayParamUInt8(arrayIdx:val:)": {
+  "abstract" : [
+    {
+      "text" : "Methods for adding a parameter of the given type to a top-level input parameter array.  Returns the index of the parameter (0-based).",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "Note that nested ParamArrays are not possible through this API, could be done by using index paths like “1\/0”",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "Adding a uint8 type parameter of to the top-level input parameter array",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "addInArrayParamUInt8"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "arrayIdx"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:s5Int32V",
+      "text" : "Int32"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "val"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:s5UInt8V",
+      "text" : "UInt8"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:s5Int32V",
+      "text" : "Int32"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/EthereumAbiFunction\/addInArrayParamUInt8(arrayIdx:val:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "addInArrayParamUInt8(arrayIdx:val:)",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/ethereumabifunction\/addinarrayparamuint8(arrayidx:val:)"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/EthereumAbiFunction/addInArrayParamUIntN(arrayIdx:bits:val:)": {
+  "abstract" : [
+    {
+      "text" : "Adding a uint[N] type parameter of to the top-level input parameter array",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "addInArrayParamUIntN"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "arrayIdx"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:s5Int32V",
+      "text" : "Int32"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "bits"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:s5Int32V",
+      "text" : "Int32"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "val"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10Foundation4DataV",
+      "text" : "Data"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:s5Int32V",
+      "text" : "Int32"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/EthereumAbiFunction\/addInArrayParamUIntN(arrayIdx:bits:val:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "addInArrayParamUIntN(arrayIdx:bits:val:)",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/ethereumabifunction\/addinarrayparamuintn(arrayidx:bits:val:)"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/EthereumAbiFunction/addParamAddress(val:isOutput:)": {
+  "abstract" : [
+    {
+      "text" : "Add an address type parameter",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "addParamAddress"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "val"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10Foundation4DataV",
+      "text" : "Data"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "isOutput"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Sb",
+      "text" : "Bool"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:s5Int32V",
+      "text" : "Int32"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/EthereumAbiFunction\/addParamAddress(val:isOutput:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "addParamAddress(val:isOutput:)",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/ethereumabifunction\/addparamaddress(val:isoutput:)"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/EthereumAbiFunction/addParamArray(isOutput:)": {
+  "abstract" : [
+    {
+      "text" : "Add a type[] type parameter",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "addParamArray"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "isOutput"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Sb",
+      "text" : "Bool"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:s5Int32V",
+      "text" : "Int32"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/EthereumAbiFunction\/addParamArray(isOutput:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "addParamArray(isOutput:)",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/ethereumabifunction\/addparamarray(isoutput:)"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/EthereumAbiFunction/addParamBool(val:isOutput:)": {
+  "abstract" : [
+    {
+      "text" : "Add a bool type parameter",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "addParamBool"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "val"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Sb",
+      "text" : "Bool"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "isOutput"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Sb",
+      "text" : "Bool"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:s5Int32V",
+      "text" : "Int32"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/EthereumAbiFunction\/addParamBool(val:isOutput:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "addParamBool(val:isOutput:)",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/ethereumabifunction\/addparambool(val:isoutput:)"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/EthereumAbiFunction/addParamBytes(val:isOutput:)": {
+  "abstract" : [
+    {
+      "text" : "Add a bytes type parameter",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "addParamBytes"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "val"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10Foundation4DataV",
+      "text" : "Data"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "isOutput"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Sb",
+      "text" : "Bool"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:s5Int32V",
+      "text" : "Int32"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/EthereumAbiFunction\/addParamBytes(val:isOutput:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "addParamBytes(val:isOutput:)",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/ethereumabifunction\/addparambytes(val:isoutput:)"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/EthereumAbiFunction/addParamBytesFix(size:val:isOutput:)": {
+  "abstract" : [
+    {
+      "text" : "Add a bytes[N] type parameter",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "addParamBytesFix"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "size"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Si",
+      "text" : "Int"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "val"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10Foundation4DataV",
+      "text" : "Data"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "isOutput"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Sb",
+      "text" : "Bool"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:s5Int32V",
+      "text" : "Int32"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/EthereumAbiFunction\/addParamBytesFix(size:val:isOutput:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "addParamBytesFix(size:val:isOutput:)",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/ethereumabifunction\/addparambytesfix(size:val:isoutput:)"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/EthereumAbiFunction/addParamInt16(val:isOutput:)": {
+  "abstract" : [
+    {
+      "text" : "Add a int16 type parameter",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "addParamInt16"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "val"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:s5Int16V",
+      "text" : "Int16"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "isOutput"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Sb",
+      "text" : "Bool"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:s5Int32V",
+      "text" : "Int32"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/EthereumAbiFunction\/addParamInt16(val:isOutput:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "addParamInt16(val:isOutput:)",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/ethereumabifunction\/addparamint16(val:isoutput:)"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/EthereumAbiFunction/addParamInt256(val:isOutput:)": {
+  "abstract" : [
+    {
+      "text" : "Add a int256 type parameter",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "addParamInt256"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "val"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10Foundation4DataV",
+      "text" : "Data"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "isOutput"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Sb",
+      "text" : "Bool"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:s5Int32V",
+      "text" : "Int32"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/EthereumAbiFunction\/addParamInt256(val:isOutput:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "addParamInt256(val:isOutput:)",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/ethereumabifunction\/addparamint256(val:isoutput:)"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/EthereumAbiFunction/addParamInt32(val:isOutput:)": {
+  "abstract" : [
+    {
+      "text" : "Add a int32 type parameter",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "addParamInt32"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "val"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:s5Int32V",
+      "text" : "Int32"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "isOutput"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Sb",
+      "text" : "Bool"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:s5Int32V",
+      "text" : "Int32"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/EthereumAbiFunction\/addParamInt32(val:isOutput:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "addParamInt32(val:isOutput:)",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/ethereumabifunction\/addparamint32(val:isoutput:)"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/EthereumAbiFunction/addParamInt64(val:isOutput:)": {
+  "abstract" : [
+    {
+      "text" : "Add a int64 type parameter",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "addParamInt64"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "val"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:s5Int64V",
+      "text" : "Int64"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "isOutput"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Sb",
+      "text" : "Bool"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:s5Int32V",
+      "text" : "Int32"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/EthereumAbiFunction\/addParamInt64(val:isOutput:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "addParamInt64(val:isOutput:)",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/ethereumabifunction\/addparamint64(val:isoutput:)"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/EthereumAbiFunction/addParamInt8(val:isOutput:)": {
+  "abstract" : [
+    {
+      "text" : "Add a int8 type parameter",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "addParamInt8"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "val"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:s4Int8V",
+      "text" : "Int8"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "isOutput"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Sb",
+      "text" : "Bool"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:s5Int32V",
+      "text" : "Int32"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/EthereumAbiFunction\/addParamInt8(val:isOutput:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "addParamInt8(val:isOutput:)",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/ethereumabifunction\/addparamint8(val:isoutput:)"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/EthereumAbiFunction/addParamIntN(bits:val:isOutput:)": {
+  "abstract" : [
+    {
+      "text" : "Add a int(bits) type parameter",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "addParamIntN"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "bits"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:s5Int32V",
+      "text" : "Int32"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "val"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10Foundation4DataV",
+      "text" : "Data"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "isOutput"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Sb",
+      "text" : "Bool"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:s5Int32V",
+      "text" : "Int32"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/EthereumAbiFunction\/addParamIntN(bits:val:isOutput:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "addParamIntN(bits:val:isOutput:)",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/ethereumabifunction\/addparamintn(bits:val:isoutput:)"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/EthereumAbiFunction/addParamString(val:isOutput:)": {
+  "abstract" : [
+    {
+      "text" : "Add a string type parameter",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "addParamString"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "val"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "isOutput"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Sb",
+      "text" : "Bool"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:s5Int32V",
+      "text" : "Int32"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/EthereumAbiFunction\/addParamString(val:isOutput:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "addParamString(val:isOutput:)",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/ethereumabifunction\/addparamstring(val:isoutput:)"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/EthereumAbiFunction/addParamUInt16(val:isOutput:)": {
+  "abstract" : [
+    {
+      "text" : "Add a uint16 type parameter",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "addParamUInt16"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "val"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:s6UInt16V",
+      "text" : "UInt16"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "isOutput"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Sb",
+      "text" : "Bool"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:s5Int32V",
+      "text" : "Int32"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/EthereumAbiFunction\/addParamUInt16(val:isOutput:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "addParamUInt16(val:isOutput:)",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/ethereumabifunction\/addparamuint16(val:isoutput:)"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/EthereumAbiFunction/addParamUInt256(val:isOutput:)": {
+  "abstract" : [
+    {
+      "text" : "Add a uint256 type parameter",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "addParamUInt256"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "val"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10Foundation4DataV",
+      "text" : "Data"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "isOutput"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Sb",
+      "text" : "Bool"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:s5Int32V",
+      "text" : "Int32"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/EthereumAbiFunction\/addParamUInt256(val:isOutput:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "addParamUInt256(val:isOutput:)",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/ethereumabifunction\/addparamuint256(val:isoutput:)"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/EthereumAbiFunction/addParamUInt32(val:isOutput:)": {
+  "abstract" : [
+    {
+      "text" : "Add a uint32 type parameter",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "addParamUInt32"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "val"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:s6UInt32V",
+      "text" : "UInt32"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "isOutput"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Sb",
+      "text" : "Bool"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:s5Int32V",
+      "text" : "Int32"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/EthereumAbiFunction\/addParamUInt32(val:isOutput:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "addParamUInt32(val:isOutput:)",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/ethereumabifunction\/addparamuint32(val:isoutput:)"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/EthereumAbiFunction/addParamUInt64(val:isOutput:)": {
+  "abstract" : [
+    {
+      "text" : "Add a uint64 type parameter",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "addParamUInt64"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "val"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:s6UInt64V",
+      "text" : "UInt64"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "isOutput"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Sb",
+      "text" : "Bool"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:s5Int32V",
+      "text" : "Int32"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/EthereumAbiFunction\/addParamUInt64(val:isOutput:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "addParamUInt64(val:isOutput:)",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/ethereumabifunction\/addparamuint64(val:isoutput:)"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/EthereumAbiFunction/addParamUInt8(val:isOutput:)": {
+  "abstract" : [
+    {
+      "text" : "Methods for adding parameters of the given type (input or output).",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "For output parameters (isOutput=true) a value has to be specified, although usually not need;",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "Add a uint8 type parameter",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "addParamUInt8"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "val"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:s5UInt8V",
+      "text" : "UInt8"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "isOutput"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Sb",
+      "text" : "Bool"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:s5Int32V",
+      "text" : "Int32"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/EthereumAbiFunction\/addParamUInt8(val:isOutput:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "addParamUInt8(val:isOutput:)",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/ethereumabifunction\/addparamuint8(val:isoutput:)"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/EthereumAbiFunction/addParamUIntN(bits:val:isOutput:)": {
+  "abstract" : [
+    {
+      "text" : "Add a uint(bits) type parameter",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "addParamUIntN"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "bits"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:s5Int32V",
+      "text" : "Int32"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "val"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10Foundation4DataV",
+      "text" : "Data"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "isOutput"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Sb",
+      "text" : "Bool"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:s5Int32V",
+      "text" : "Int32"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/EthereumAbiFunction\/addParamUIntN(bits:val:isOutput:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "addParamUIntN(bits:val:isOutput:)",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/ethereumabifunction\/addparamuintn(bits:val:isoutput:)"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/EthereumAbiFunction/getParamAddress(idx:isOutput:)": {
+  "abstract" : [
+    {
+      "text" : "Get an address type parameter at the given index",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "getParamAddress"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "idx"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:s5Int32V",
+      "text" : "Int32"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "isOutput"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Sb",
+      "text" : "Bool"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10Foundation4DataV",
+      "text" : "Data"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/EthereumAbiFunction\/getParamAddress(idx:isOutput:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "getParamAddress(idx:isOutput:)",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/ethereumabifunction\/getparamaddress(idx:isoutput:)"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/EthereumAbiFunction/getParamBool(idx:isOutput:)": {
+  "abstract" : [
+    {
+      "text" : "Get a bool type parameter at the given index",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "getParamBool"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "idx"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:s5Int32V",
+      "text" : "Int32"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "isOutput"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Sb",
+      "text" : "Bool"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Sb",
+      "text" : "Bool"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/EthereumAbiFunction\/getParamBool(idx:isOutput:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "getParamBool(idx:isOutput:)",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/ethereumabifunction\/getparambool(idx:isoutput:)"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/EthereumAbiFunction/getParamString(idx:isOutput:)": {
+  "abstract" : [
+    {
+      "text" : "Get a string type parameter at the given index",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "getParamString"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "idx"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:s5Int32V",
+      "text" : "Int32"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "isOutput"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Sb",
+      "text" : "Bool"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/EthereumAbiFunction\/getParamString(idx:isOutput:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "getParamString(idx:isOutput:)",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/ethereumabifunction\/getparamstring(idx:isoutput:)"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/EthereumAbiFunction/getParamUInt256(idx:isOutput:)": {
+  "abstract" : [
+    {
+      "text" : "Get a uint256 type parameter at the given index",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "getParamUInt256"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "idx"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:s5Int32V",
+      "text" : "Int32"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "isOutput"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Sb",
+      "text" : "Bool"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10Foundation4DataV",
+      "text" : "Data"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/EthereumAbiFunction\/getParamUInt256(idx:isOutput:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "getParamUInt256(idx:isOutput:)",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/ethereumabifunction\/getparamuint256(idx:isoutput:)"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/EthereumAbiFunction/getParamUInt64(idx:isOutput:)": {
+  "abstract" : [
+    {
+      "text" : "Get a uint64 type parameter at the given index",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "getParamUInt64"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "idx"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:s5Int32V",
+      "text" : "Int32"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "isOutput"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Sb",
+      "text" : "Bool"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:s6UInt64V",
+      "text" : "UInt64"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/EthereumAbiFunction\/getParamUInt64(idx:isOutput:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "getParamUInt64(idx:isOutput:)",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/ethereumabifunction\/getparamuint64(idx:isoutput:)"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/EthereumAbiFunction/getParamUInt8(idx:isOutput:)": {
+  "abstract" : [
+    {
+      "text" : "Methods for accessing the value of an output or input parameter, of different types.",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "Get a uint8 type parameter at the given index",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "getParamUInt8"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "idx"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:s5Int32V",
+      "text" : "Int32"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "isOutput"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Sb",
+      "text" : "Bool"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:s5UInt8V",
+      "text" : "UInt8"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/EthereumAbiFunction\/getParamUInt8(idx:isOutput:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "getParamUInt8(idx:isOutput:)",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/ethereumabifunction\/getparamuint8(idx:isoutput:)"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/EthereumAbiFunction/getType()": {
+  "abstract" : [
+    {
+      "text" : "Return the function type signature, of the form “baz(int32,uint256)”",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "getType"
+    },
+    {
+      "kind" : "text",
+      "text" : "() -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/EthereumAbiFunction\/getType()",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "getType()",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/ethereumabifunction\/gettype()"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/EthereumAbiFunction/init(name:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "init"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "name"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    },
+    {
+      "kind" : "text",
+      "text" : ")"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/EthereumAbiFunction\/init(name:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "init(name:)",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/ethereumabifunction\/init(name:)"
+}
+}
+}

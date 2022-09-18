@@ -1,0 +1,1111 @@
+{
+  "abstract" : [
+    {
+      "text" : "Chain identifiers for Ethereum-based blockchains, for convenience. Recommended to use the dynamic CoinType.ChainId() instead.",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "See also TWChainId.",
+      "type" : "text"
+    }
+  ],
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/EthereumChainID"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "s:10WalletCore15EthereumChainIDO",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "enum"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "EthereumChainID"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "WalletCore"
+      }
+    ],
+    "navigatorTitle" : [
+      {
+        "kind" : "identifier",
+        "text" : "EthereumChainID"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Enumeration",
+    "symbolKind" : "enum",
+    "title" : "EthereumChainID"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "iOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "enum"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "EthereumChainID"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "relationshipsSections" : [
+    {
+      "identifiers" : [
+        "doc:\/\/com.trustwallet.WalletCore\/s12CaseIterableP",
+        "doc:\/\/com.trustwallet.WalletCore\/SQ",
+        "doc:\/\/com.trustwallet.WalletCore\/SH",
+        "doc:\/\/com.trustwallet.WalletCore\/SY"
+      ],
+      "kind" : "relationships",
+      "title" : "Conforms To",
+      "type" : "conformsTo"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 2,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "topicSections" : [
+    {
+      "identifiers" : [
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/EthereumChainID\/arbitrum",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/EthereumChainID\/aurora",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/EthereumChainID\/avalanchec",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/EthereumChainID\/boba",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/EthereumChainID\/callisto",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/EthereumChainID\/celo",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/EthereumChainID\/classic",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/EthereumChainID\/cronos",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/EthereumChainID\/ethereum",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/EthereumChainID\/evmos",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/EthereumChainID\/fantom",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/EthereumChainID\/gochain",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/EthereumChainID\/heco",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/EthereumChainID\/kavaevm",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/EthereumChainID\/kcc",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/EthereumChainID\/klaytn",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/EthereumChainID\/meter",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/EthereumChainID\/metis",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/EthereumChainID\/moonbeam",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/EthereumChainID\/moonriver",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/EthereumChainID\/okc",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/EthereumChainID\/optimism",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/EthereumChainID\/poa",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/EthereumChainID\/polygon",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/EthereumChainID\/ronin",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/EthereumChainID\/smartbch",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/EthereumChainID\/smartchain",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/EthereumChainID\/thundertoken",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/EthereumChainID\/tomochain",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/EthereumChainID\/vechain",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/EthereumChainID\/wanchain",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/EthereumChainID\/xdai"
+      ],
+      "title" : "Enumeration Cases"
+    },
+    {
+      "identifiers" : [
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/EthereumChainID\/init(rawValue:)"
+      ],
+      "title" : "Initializers"
+    },
+    {
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/EthereumChainID\/Equatable-Implementations",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/EthereumChainID\/RawRepresentable-Implementations"
+      ],
+      "title" : "Default Implementations"
+    }
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/walletcore\/ethereumchainid"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://com.trustwallet.WalletCore/SH": {
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/SH",
+  "title" : "Swift.Hashable",
+  "type" : "unresolvable"
+},
+"doc://com.trustwallet.WalletCore/SQ": {
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/SQ",
+  "title" : "Swift.Equatable",
+  "type" : "unresolvable"
+},
+"doc://com.trustwallet.WalletCore/SY": {
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/SY",
+  "title" : "Swift.RawRepresentable",
+  "type" : "unresolvable"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "WalletCore",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/EthereumChainID": {
+  "abstract" : [
+    {
+      "text" : "Chain identifiers for Ethereum-based blockchains, for convenience. Recommended to use the dynamic CoinType.ChainId() instead.",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "See also TWChainId.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "enum"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "EthereumChainID"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/EthereumChainID",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "EthereumChainID"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "EthereumChainID",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/ethereumchainid"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/EthereumChainID/Equatable-Implementations": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/EthereumChainID\/Equatable-Implementations",
+  "kind" : "article",
+  "role" : "collectionGroup",
+  "title" : "Equatable Implementations",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/ethereumchainid\/equatable-implementations"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/EthereumChainID/RawRepresentable-Implementations": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/EthereumChainID\/RawRepresentable-Implementations",
+  "kind" : "article",
+  "role" : "collectionGroup",
+  "title" : "RawRepresentable Implementations",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/ethereumchainid\/rawrepresentable-implementations"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/EthereumChainID/arbitrum": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "arbitrum"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/EthereumChainID\/arbitrum",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "EthereumChainID.arbitrum",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/ethereumchainid\/arbitrum"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/EthereumChainID/aurora": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "aurora"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/EthereumChainID\/aurora",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "EthereumChainID.aurora",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/ethereumchainid\/aurora"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/EthereumChainID/avalanchec": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "avalanchec"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/EthereumChainID\/avalanchec",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "EthereumChainID.avalanchec",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/ethereumchainid\/avalanchec"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/EthereumChainID/boba": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "boba"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/EthereumChainID\/boba",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "EthereumChainID.boba",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/ethereumchainid\/boba"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/EthereumChainID/callisto": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "callisto"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/EthereumChainID\/callisto",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "EthereumChainID.callisto",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/ethereumchainid\/callisto"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/EthereumChainID/celo": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "celo"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/EthereumChainID\/celo",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "EthereumChainID.celo",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/ethereumchainid\/celo"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/EthereumChainID/classic": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "classic"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/EthereumChainID\/classic",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "EthereumChainID.classic",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/ethereumchainid\/classic"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/EthereumChainID/cronos": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "cronos"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/EthereumChainID\/cronos",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "EthereumChainID.cronos",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/ethereumchainid\/cronos"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/EthereumChainID/ethereum": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "ethereum"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/EthereumChainID\/ethereum",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "EthereumChainID.ethereum",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/ethereumchainid\/ethereum"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/EthereumChainID/evmos": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "evmos"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/EthereumChainID\/evmos",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "EthereumChainID.evmos",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/ethereumchainid\/evmos"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/EthereumChainID/fantom": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "fantom"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/EthereumChainID\/fantom",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "EthereumChainID.fantom",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/ethereumchainid\/fantom"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/EthereumChainID/gochain": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "gochain"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/EthereumChainID\/gochain",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "EthereumChainID.gochain",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/ethereumchainid\/gochain"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/EthereumChainID/heco": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "heco"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/EthereumChainID\/heco",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "EthereumChainID.heco",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/ethereumchainid\/heco"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/EthereumChainID/init(rawValue:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "init"
+    },
+    {
+      "kind" : "text",
+      "text" : "?("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "rawValue"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:s6UInt32V",
+      "text" : "UInt32"
+    },
+    {
+      "kind" : "text",
+      "text" : ")"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/EthereumChainID\/init(rawValue:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "init(rawValue:)",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/ethereumchainid\/init(rawvalue:)"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/EthereumChainID/kavaevm": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "kavaevm"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/EthereumChainID\/kavaevm",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "EthereumChainID.kavaevm",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/ethereumchainid\/kavaevm"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/EthereumChainID/kcc": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "kcc"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/EthereumChainID\/kcc",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "EthereumChainID.kcc",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/ethereumchainid\/kcc"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/EthereumChainID/klaytn": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "klaytn"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/EthereumChainID\/klaytn",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "EthereumChainID.klaytn",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/ethereumchainid\/klaytn"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/EthereumChainID/meter": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "meter"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/EthereumChainID\/meter",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "EthereumChainID.meter",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/ethereumchainid\/meter"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/EthereumChainID/metis": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "metis"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/EthereumChainID\/metis",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "EthereumChainID.metis",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/ethereumchainid\/metis"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/EthereumChainID/moonbeam": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "moonbeam"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/EthereumChainID\/moonbeam",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "EthereumChainID.moonbeam",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/ethereumchainid\/moonbeam"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/EthereumChainID/moonriver": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "moonriver"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/EthereumChainID\/moonriver",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "EthereumChainID.moonriver",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/ethereumchainid\/moonriver"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/EthereumChainID/okc": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "okc"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/EthereumChainID\/okc",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "EthereumChainID.okc",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/ethereumchainid\/okc"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/EthereumChainID/optimism": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "optimism"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/EthereumChainID\/optimism",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "EthereumChainID.optimism",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/ethereumchainid\/optimism"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/EthereumChainID/poa": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "poa"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/EthereumChainID\/poa",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "EthereumChainID.poa",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/ethereumchainid\/poa"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/EthereumChainID/polygon": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "polygon"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/EthereumChainID\/polygon",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "EthereumChainID.polygon",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/ethereumchainid\/polygon"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/EthereumChainID/ronin": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "ronin"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/EthereumChainID\/ronin",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "EthereumChainID.ronin",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/ethereumchainid\/ronin"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/EthereumChainID/smartbch": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "smartbch"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/EthereumChainID\/smartbch",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "EthereumChainID.smartbch",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/ethereumchainid\/smartbch"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/EthereumChainID/smartchain": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "smartchain"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/EthereumChainID\/smartchain",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "EthereumChainID.smartchain",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/ethereumchainid\/smartchain"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/EthereumChainID/thundertoken": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "thundertoken"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/EthereumChainID\/thundertoken",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "EthereumChainID.thundertoken",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/ethereumchainid\/thundertoken"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/EthereumChainID/tomochain": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "tomochain"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/EthereumChainID\/tomochain",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "EthereumChainID.tomochain",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/ethereumchainid\/tomochain"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/EthereumChainID/vechain": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "vechain"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/EthereumChainID\/vechain",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "EthereumChainID.vechain",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/ethereumchainid\/vechain"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/EthereumChainID/wanchain": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "wanchain"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/EthereumChainID\/wanchain",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "EthereumChainID.wanchain",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/ethereumchainid\/wanchain"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/EthereumChainID/xdai": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "xdai"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/EthereumChainID\/xdai",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "EthereumChainID.xdai",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/ethereumchainid\/xdai"
+},
+"doc://com.trustwallet.WalletCore/s12CaseIterableP": {
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/s12CaseIterableP",
+  "title" : "Swift.CaseIterable",
+  "type" : "unresolvable"
+}
+}
+}

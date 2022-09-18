@@ -1,0 +1,611 @@
+{
+  "abstract" : [
+    {
+      "text" : "Contract.",
+      "type" : "text"
+    }
+  ],
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Tron_Proto_Transaction"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Tron_Proto_Transaction\/OneOf_ContractOneof"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "s:10WalletCore25TW_Tron_Proto_TransactionV19OneOf_ContractOneofO",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "enum"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "OneOf_ContractOneof"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "WalletCore"
+      }
+    ],
+    "navigatorTitle" : [
+      {
+        "kind" : "identifier",
+        "text" : "OneOf_ContractOneof"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Enumeration",
+    "symbolKind" : "enum",
+    "title" : "TW_Tron_Proto_Transaction.OneOf_ContractOneof"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "iOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "enum"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "OneOf_ContractOneof"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "relationshipsSections" : [
+    {
+      "identifiers" : [
+        "doc:\/\/com.trustwallet.WalletCore\/SQ"
+      ],
+      "kind" : "relationships",
+      "title" : "Conforms To",
+      "type" : "conformsTo"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 2,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "topicSections" : [
+    {
+      "identifiers" : [
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Tron_Proto_Transaction\/OneOf_ContractOneof\/freezeBalance(_:)",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Tron_Proto_Transaction\/OneOf_ContractOneof\/transfer(_:)",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Tron_Proto_Transaction\/OneOf_ContractOneof\/transferAsset(_:)",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Tron_Proto_Transaction\/OneOf_ContractOneof\/transferTrc20Contract(_:)",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Tron_Proto_Transaction\/OneOf_ContractOneof\/triggerSmartContract(_:)",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Tron_Proto_Transaction\/OneOf_ContractOneof\/unfreezeAsset(_:)",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Tron_Proto_Transaction\/OneOf_ContractOneof\/unfreezeBalance(_:)",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Tron_Proto_Transaction\/OneOf_ContractOneof\/voteAsset(_:)",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Tron_Proto_Transaction\/OneOf_ContractOneof\/voteWitness(_:)",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Tron_Proto_Transaction\/OneOf_ContractOneof\/withdrawBalance(_:)"
+      ],
+      "title" : "Enumeration Cases"
+    },
+    {
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Tron_Proto_Transaction\/OneOf_ContractOneof\/Equatable-Implementations"
+      ],
+      "title" : "Default Implementations"
+    }
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/walletcore\/tw_tron_proto_transaction\/oneof_contractoneof"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://com.trustwallet.WalletCore/SQ": {
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/SQ",
+  "title" : "Swift.Equatable",
+  "type" : "unresolvable"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "WalletCore",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Tron_Proto_Transaction": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "TW_Tron_Proto_Transaction"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Tron_Proto_Transaction",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "TW_Tron_Proto_Transaction"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "TW_Tron_Proto_Transaction",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_tron_proto_transaction"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Tron_Proto_Transaction/OneOf_ContractOneof": {
+  "abstract" : [
+    {
+      "text" : "Contract.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "enum"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "OneOf_ContractOneof"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Tron_Proto_Transaction\/OneOf_ContractOneof",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "OneOf_ContractOneof"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "TW_Tron_Proto_Transaction.OneOf_ContractOneof",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_tron_proto_transaction\/oneof_contractoneof"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Tron_Proto_Transaction/OneOf_ContractOneof/Equatable-Implementations": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Tron_Proto_Transaction\/OneOf_ContractOneof\/Equatable-Implementations",
+  "kind" : "article",
+  "role" : "collectionGroup",
+  "title" : "Equatable Implementations",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_tron_proto_transaction\/oneof_contractoneof\/equatable-implementations"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Tron_Proto_Transaction/OneOf_ContractOneof/freezeBalance(_:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "freezeBalance"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10WalletCore35TW_Tron_Proto_FreezeBalanceContractV",
+      "text" : "TW_Tron_Proto_FreezeBalanceContract"
+    },
+    {
+      "kind" : "text",
+      "text" : ")"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Tron_Proto_Transaction\/OneOf_ContractOneof\/freezeBalance(_:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "TW_Tron_Proto_Transaction.OneOf_ContractOneof.freezeBalance(_:)",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_tron_proto_transaction\/oneof_contractoneof\/freezebalance(_:)"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Tron_Proto_Transaction/OneOf_ContractOneof/transfer(_:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "transfer"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10WalletCore30TW_Tron_Proto_TransferContractV",
+      "text" : "TW_Tron_Proto_TransferContract"
+    },
+    {
+      "kind" : "text",
+      "text" : ")"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Tron_Proto_Transaction\/OneOf_ContractOneof\/transfer(_:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "TW_Tron_Proto_Transaction.OneOf_ContractOneof.transfer(_:)",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_tron_proto_transaction\/oneof_contractoneof\/transfer(_:)"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Tron_Proto_Transaction/OneOf_ContractOneof/transferAsset(_:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "transferAsset"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10WalletCore35TW_Tron_Proto_TransferAssetContractV",
+      "text" : "TW_Tron_Proto_TransferAssetContract"
+    },
+    {
+      "kind" : "text",
+      "text" : ")"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Tron_Proto_Transaction\/OneOf_ContractOneof\/transferAsset(_:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "TW_Tron_Proto_Transaction.OneOf_ContractOneof.transferAsset(_:)",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_tron_proto_transaction\/oneof_contractoneof\/transferasset(_:)"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Tron_Proto_Transaction/OneOf_ContractOneof/transferTrc20Contract(_:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "transferTrc20Contract"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10WalletCore35TW_Tron_Proto_TransferTRC20ContractV",
+      "text" : "TW_Tron_Proto_TransferTRC20Contract"
+    },
+    {
+      "kind" : "text",
+      "text" : ")"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Tron_Proto_Transaction\/OneOf_ContractOneof\/transferTrc20Contract(_:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "TW_Tron_Proto_Transaction.OneOf_ContractOneof.transferTrc20Contract(_:)",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_tron_proto_transaction\/oneof_contractoneof\/transfertrc20contract(_:)"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Tron_Proto_Transaction/OneOf_ContractOneof/triggerSmartContract(_:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "triggerSmartContract"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10WalletCore34TW_Tron_Proto_TriggerSmartContractV",
+      "text" : "TW_Tron_Proto_TriggerSmartContract"
+    },
+    {
+      "kind" : "text",
+      "text" : ")"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Tron_Proto_Transaction\/OneOf_ContractOneof\/triggerSmartContract(_:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "TW_Tron_Proto_Transaction.OneOf_ContractOneof.triggerSmartContract(_:)",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_tron_proto_transaction\/oneof_contractoneof\/triggersmartcontract(_:)"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Tron_Proto_Transaction/OneOf_ContractOneof/unfreezeAsset(_:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "unfreezeAsset"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10WalletCore35TW_Tron_Proto_UnfreezeAssetContractV",
+      "text" : "TW_Tron_Proto_UnfreezeAssetContract"
+    },
+    {
+      "kind" : "text",
+      "text" : ")"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Tron_Proto_Transaction\/OneOf_ContractOneof\/unfreezeAsset(_:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "TW_Tron_Proto_Transaction.OneOf_ContractOneof.unfreezeAsset(_:)",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_tron_proto_transaction\/oneof_contractoneof\/unfreezeasset(_:)"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Tron_Proto_Transaction/OneOf_ContractOneof/unfreezeBalance(_:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "unfreezeBalance"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10WalletCore37TW_Tron_Proto_UnfreezeBalanceContractV",
+      "text" : "TW_Tron_Proto_UnfreezeBalanceContract"
+    },
+    {
+      "kind" : "text",
+      "text" : ")"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Tron_Proto_Transaction\/OneOf_ContractOneof\/unfreezeBalance(_:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "TW_Tron_Proto_Transaction.OneOf_ContractOneof.unfreezeBalance(_:)",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_tron_proto_transaction\/oneof_contractoneof\/unfreezebalance(_:)"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Tron_Proto_Transaction/OneOf_ContractOneof/voteAsset(_:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "voteAsset"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10WalletCore31TW_Tron_Proto_VoteAssetContractV",
+      "text" : "TW_Tron_Proto_VoteAssetContract"
+    },
+    {
+      "kind" : "text",
+      "text" : ")"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Tron_Proto_Transaction\/OneOf_ContractOneof\/voteAsset(_:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "TW_Tron_Proto_Transaction.OneOf_ContractOneof.voteAsset(_:)",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_tron_proto_transaction\/oneof_contractoneof\/voteasset(_:)"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Tron_Proto_Transaction/OneOf_ContractOneof/voteWitness(_:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "voteWitness"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10WalletCore33TW_Tron_Proto_VoteWitnessContractV",
+      "text" : "TW_Tron_Proto_VoteWitnessContract"
+    },
+    {
+      "kind" : "text",
+      "text" : ")"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Tron_Proto_Transaction\/OneOf_ContractOneof\/voteWitness(_:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "TW_Tron_Proto_Transaction.OneOf_ContractOneof.voteWitness(_:)",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_tron_proto_transaction\/oneof_contractoneof\/votewitness(_:)"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Tron_Proto_Transaction/OneOf_ContractOneof/withdrawBalance(_:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "withdrawBalance"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10WalletCore37TW_Tron_Proto_WithdrawBalanceContractV",
+      "text" : "TW_Tron_Proto_WithdrawBalanceContract"
+    },
+    {
+      "kind" : "text",
+      "text" : ")"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Tron_Proto_Transaction\/OneOf_ContractOneof\/withdrawBalance(_:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "TW_Tron_Proto_Transaction.OneOf_ContractOneof.withdrawBalance(_:)",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_tron_proto_transaction\/oneof_contractoneof\/withdrawbalance(_:)"
+}
+}
+}
