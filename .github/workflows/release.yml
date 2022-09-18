@@ -1,0 +1,20 @@
+name: Docc Release
+
+on: 
+  workflow_dispatch:
+    inputs:
+      ref:
+        description: 'Enter repo ref / tag to build'
+        required: true
+
+jobs:
+  release:
+    runs-on: macos-12
+    steps:
+    - uses: actions/checkout@v2
+
+    - name: Download
+      run: scripts/download.sh ${{ github.event.inputs.ref }}
+
+    - name: Process
+      run: scripts/process.sh
