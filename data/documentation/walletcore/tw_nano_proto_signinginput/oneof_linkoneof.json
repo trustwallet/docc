@@ -1,7 +1,7 @@
 {
   "abstract" : [
     {
-      "text" : "No overview available.",
+      "text" : "Receive\/Send reference",
       "type" : "text"
     }
   ],
@@ -91,7 +91,7 @@
   ],
   "schemaVersion" : {
     "major" : 0,
-    "minor" : 2,
+    "minor" : 3,
     "patch" : 0
   },
   "sections" : [
@@ -179,7 +179,10 @@
 },
 "doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Nano_Proto_SigningInput/OneOf_LinkOneof": {
   "abstract" : [
-
+    {
+      "text" : "Receive\/Send reference",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {

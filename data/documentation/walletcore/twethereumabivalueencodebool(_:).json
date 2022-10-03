@@ -1,7 +1,7 @@
 {
   "abstract" : [
     {
-      "text" : "No overview available.",
+      "text" : "Encode a bool according to Ethereum ABI, into 32 bytes.  Values are padded by 0 on the left, unless specified otherwise",
       "type" : "text"
     }
   ],
@@ -54,6 +54,12 @@
     "modules" : [
       {
         "name" : "WalletCore"
+      }
+    ],
+    "navigatorTitle" : [
+      {
+        "kind" : "identifier",
+        "text" : "TWEthereumAbiValueEncodeBool"
       }
     ],
     "role" : "symbol",
@@ -122,11 +128,39 @@
         }
       ],
       "kind" : "declarations"
+    },
+    {
+      "content" : [
+        {
+          "anchor" : "discussion",
+          "level" : 2,
+          "text" : "Discussion",
+          "type" : "heading"
+        },
+        {
+          "inlineContent" : [
+            {
+              "text" : "\\param value a boolean value",
+              "type" : "text"
+            },
+            {
+              "text" : " ",
+              "type" : "text"
+            },
+            {
+              "text" : "\\return Encoded value stored in a block of data",
+              "type" : "text"
+            }
+          ],
+          "type" : "paragraph"
+        }
+      ],
+      "kind" : "content"
     }
   ],
   "schemaVersion" : {
     "major" : 0,
-    "minor" : 2,
+    "minor" : 3,
     "patch" : 0
   },
   "sections" : [
@@ -140,6 +174,16 @@
       "traits" : [
         {
           "interfaceLanguage" : "swift"
+        }
+      ]
+    },
+    {
+      "paths" : [
+        "\/documentation\/walletcore\/twethereumabivalueencodebool(_:)"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "occ"
         }
       ]
     }
@@ -157,9 +201,32 @@
   "type" : "topic",
   "url" : "\/documentation\/walletcore"
 },
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TWData": {
+  "abstract" : [
+    {
+      "text" : "Defines a resizable block of data.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "TWData"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TWData",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "TWData",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/twdata"
+},
 "doc://com.trustwallet.WalletCore/documentation/WalletCore/TWEthereumAbiValueEncodeBool(_:)": {
   "abstract" : [
-
+    {
+      "text" : "Encode a bool according to Ethereum ABI, into 32 bytes.  Values are padded by 0 on the left, unless specified otherwise",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -195,10 +262,149 @@
   ],
   "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TWEthereumAbiValueEncodeBool(_:)",
   "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "TWEthereumAbiValueEncodeBool"
+    }
+  ],
   "role" : "symbol",
   "title" : "TWEthereumAbiValueEncodeBool(_:)",
   "type" : "topic",
   "url" : "\/documentation\/walletcore\/twethereumabivalueencodebool(_:)"
 }
-}
+}, 
+"variantOverrides":[
+  {
+    "patch" : [
+      {
+        "op" : "replace",
+        "path" : "\/identifier\/interfaceLanguage",
+        "value" : "occ"
+      },
+      {
+        "op" : "replace",
+        "path" : "\/metadata\/roleHeading",
+        "value" : "Function"
+      },
+      {
+        "op" : "replace",
+        "path" : "\/metadata\/title",
+        "value" : "TWEthereumAbiValueEncodeBool"
+      },
+      {
+        "op" : "replace",
+        "path" : "\/metadata\/symbolKind",
+        "value" : "func"
+      },
+      {
+        "op" : "replace",
+        "path" : "\/metadata\/fragments",
+        "value" : [
+          {
+            "kind" : "identifier",
+            "text" : "TWEthereumAbiValueEncodeBool"
+          }
+        ]
+      },
+      {
+        "op" : "add",
+        "path" : "\/topicSections",
+        "value" : null
+      },
+      {
+        "op" : "add",
+        "path" : "\/relationshipsSections",
+        "value" : null
+      },
+      {
+        "op" : "add",
+        "path" : "\/seeAlsoSections",
+        "value" : null
+      },
+      {
+        "op" : "replace",
+        "path" : "\/primaryContentSections\/0",
+        "value" : {
+          "declarations" : [
+            {
+              "languages" : [
+                "occ"
+              ],
+              "platforms" : [
+                "iOS"
+              ],
+              "tokens" : [
+                {
+                  "kind" : "keyword",
+                  "text" : "extern"
+                },
+                {
+                  "kind" : "text",
+                  "text" : " "
+                },
+                {
+                  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TWData",
+                  "kind" : "typeIdentifier",
+                  "preciseIdentifier" : "c:TWData.h@T@TWData",
+                  "text" : "TWData"
+                },
+                {
+                  "kind" : "text",
+                  "text" : " * "
+                },
+                {
+                  "kind" : "identifier",
+                  "text" : "TWEthereumAbiValueEncodeBool"
+                },
+                {
+                  "kind" : "text",
+                  "text" : "("
+                },
+                {
+                  "kind" : "typeIdentifier",
+                  "preciseIdentifier" : "c:b",
+                  "text" : "_Bool"
+                },
+                {
+                  "kind" : "text",
+                  "text" : " "
+                },
+                {
+                  "kind" : "internalParam",
+                  "text" : "value"
+                },
+                {
+                  "kind" : "text",
+                  "text" : ")"
+                }
+              ]
+            }
+          ],
+          "kind" : "declarations"
+        }
+      },
+      {
+        "op" : "replace",
+        "path" : "\/references\/doc:~1~1com.trustwallet.WalletCore~1documentation~1WalletCore~1TWEthereumAbiValueEncodeBool(_:)\/title",
+        "value" : "TWEthereumAbiValueEncodeBool"
+      },
+      {
+        "op" : "replace",
+        "path" : "\/references\/doc:~1~1com.trustwallet.WalletCore~1documentation~1WalletCore~1TWEthereumAbiValueEncodeBool(_:)\/fragments",
+        "value" : [
+          {
+            "kind" : "identifier",
+            "text" : "TWEthereumAbiValueEncodeBool"
+          }
+        ]
+      }
+    ],
+    "traits" : [
+      {
+        "interfaceLanguage" : "occ"
+      }
+    ]
+  }
+]
 }

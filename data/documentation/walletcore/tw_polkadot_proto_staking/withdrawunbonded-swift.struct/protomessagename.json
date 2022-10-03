@@ -1,15 +1,15 @@
 {
   "abstract" : [
     {
-      "text" : "The fully-scoped name of the message from the original .proto file,",
+      "text" : "Inherited from ",
       "type" : "text"
     },
     {
-      "text" : " ",
-      "type" : "text"
+      "code" : "Message.protoMessageName",
+      "type" : "codeVoice"
     },
     {
-      "text" : "including any relevant package name.",
+      "text" : ".",
       "type" : "text"
     }
   ],
@@ -120,7 +120,7 @@
   ],
   "schemaVersion" : {
     "major" : 0,
-    "minor" : 2,
+    "minor" : 3,
     "patch" : 0
   },
   "sections" : [
@@ -153,7 +153,10 @@
 },
 "doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Polkadot_Proto_Staking": {
   "abstract" : [
-
+    {
+      "text" : "Staking transaction",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -184,7 +187,10 @@
 },
 "doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Polkadot_Proto_Staking/WithdrawUnbonded-swift.struct": {
   "abstract" : [
-
+    {
+      "text" : "Withdraw unbonded amounts",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -226,18 +232,7 @@
 },
 "doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Polkadot_Proto_Staking/WithdrawUnbonded-swift.struct/protoMessageName": {
   "abstract" : [
-    {
-      "text" : "The fully-scoped name of the message from the original .proto file,",
-      "type" : "text"
-    },
-    {
-      "text" : " ",
-      "type" : "text"
-    },
-    {
-      "text" : "including any relevant package name.",
-      "type" : "text"
-    }
+
   ],
   "fragments" : [
     {

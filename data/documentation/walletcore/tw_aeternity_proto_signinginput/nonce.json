@@ -1,7 +1,7 @@
 {
   "abstract" : [
     {
-      "text" : "No overview available.",
+      "text" : "Nonce (should be larger than in the last transaction of the account)",
       "type" : "text"
     }
   ],
@@ -93,7 +93,7 @@
   ],
   "schemaVersion" : {
     "major" : 0,
-    "minor" : 2,
+    "minor" : 3,
     "patch" : 0
   },
   "sections" : [
@@ -160,7 +160,10 @@
 },
 "doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Aeternity_Proto_SigningInput/nonce": {
   "abstract" : [
-
+    {
+      "text" : "Nonce (should be larger than in the last transaction of the account)",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {

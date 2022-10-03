@@ -17,7 +17,8 @@
     "paths" : [
       [
         "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore",
-        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/DerivationPath"
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/DerivationPath",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/DerivationPath\/Decodable-Implementations"
       ]
     ]
   },
@@ -27,7 +28,8 @@
   },
   "kind" : "symbol",
   "metadata" : {
-    "externalID" : "s:10WalletCore14DerivationPathV4fromACs7Decoder_p_tKcfc",
+    "extendedModule" : "WalletCore",
+    "externalID" : "s:10WalletCore14DerivationPathC4fromACs7Decoder_p_tKcfc",
     "fragments" : [
       {
         "kind" : "identifier",
@@ -82,6 +84,14 @@
           "tokens" : [
             {
               "kind" : "keyword",
+              "text" : "convenience"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "keyword",
               "text" : "init"
             },
             {
@@ -125,7 +135,7 @@
   ],
   "schemaVersion" : {
     "major" : 0,
-    "minor" : 2,
+    "minor" : 3,
     "patch" : 0
   },
   "sections" : [
@@ -159,14 +169,14 @@
 "doc://com.trustwallet.WalletCore/documentation/WalletCore/DerivationPath": {
   "abstract" : [
     {
-      "text" : "Represents a hierarchical deterministic derivation path.",
+      "text" : "Represents a BIP44 DerivationPath in C++.",
       "type" : "text"
     }
   ],
   "fragments" : [
     {
       "kind" : "keyword",
-      "text" : "struct"
+      "text" : "class"
     },
     {
       "kind" : "text",
@@ -189,6 +199,17 @@
   "title" : "DerivationPath",
   "type" : "topic",
   "url" : "\/documentation\/walletcore\/derivationpath"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/DerivationPath/Decodable-Implementations": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/DerivationPath\/Decodable-Implementations",
+  "kind" : "article",
+  "role" : "collectionGroup",
+  "title" : "Decodable Implementations",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/derivationpath\/decodable-implementations"
 },
 "doc://com.trustwallet.WalletCore/documentation/WalletCore/DerivationPath/init(from:)": {
   "abstract" : [

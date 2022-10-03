@@ -1,7 +1,7 @@
 {
   "abstract" : [
     {
-      "text" : "No overview available.",
+      "text" : "Delegate amount (uint256, serialized little endian)",
       "type" : "text"
     }
   ],
@@ -93,7 +93,7 @@
   ],
   "schemaVersion" : {
     "major" : 0,
-    "minor" : 2,
+    "minor" : 3,
     "patch" : 0
   },
   "sections" : [
@@ -126,7 +126,10 @@
 },
 "doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Harmony_Proto_DirectiveDelegate": {
   "abstract" : [
-
+    {
+      "text" : "Delegate directive",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -157,7 +160,10 @@
 },
 "doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Harmony_Proto_DirectiveDelegate/amount": {
   "abstract" : [
-
+    {
+      "text" : "Delegate amount (uint256, serialized little endian)",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {

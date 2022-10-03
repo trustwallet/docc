@@ -1,7 +1,7 @@
 {
   "abstract" : [
     {
-      "text" : "No overview available.",
+      "text" : "Weak encryption strength (scrypt 16k)",
       "type" : "text"
     }
   ],
@@ -45,6 +45,12 @@
     "modules" : [
       {
         "name" : "WalletCore"
+      }
+    ],
+    "navigatorTitle" : [
+      {
+        "kind" : "identifier",
+        "text" : "TWStoredKeyEncryptionLevelWeak"
       }
     ],
     "role" : "symbol",
@@ -105,7 +111,7 @@
   ],
   "schemaVersion" : {
     "major" : 0,
-    "minor" : 2,
+    "minor" : 3,
     "patch" : 0
   },
   "sections" : [
@@ -119,6 +125,16 @@
       "traits" : [
         {
           "interfaceLanguage" : "swift"
+        }
+      ]
+    },
+    {
+      "paths" : [
+        "\/documentation\/walletcore\/twstoredkeyencryptionlevelweak"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "occ"
         }
       ]
     }
@@ -138,7 +154,10 @@
 },
 "doc://com.trustwallet.WalletCore/documentation/WalletCore/TWStoredKeyEncryptionLevel": {
   "abstract" : [
-
+    {
+      "text" : "Preset encryption parameter with different security strength, for key store",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -169,7 +188,10 @@
 },
 "doc://com.trustwallet.WalletCore/documentation/WalletCore/TWStoredKeyEncryptionLevelWeak": {
   "abstract" : [
-
+    {
+      "text" : "Weak encryption strength (scrypt 16k)",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -196,10 +218,125 @@
   ],
   "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TWStoredKeyEncryptionLevelWeak",
   "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "TWStoredKeyEncryptionLevelWeak"
+    }
+  ],
   "role" : "symbol",
   "title" : "TWStoredKeyEncryptionLevelWeak",
   "type" : "topic",
   "url" : "\/documentation\/walletcore\/twstoredkeyencryptionlevelweak"
 }
-}
+}, 
+"variantOverrides":[
+  {
+    "patch" : [
+      {
+        "op" : "replace",
+        "path" : "\/identifier\/interfaceLanguage",
+        "value" : "occ"
+      },
+      {
+        "op" : "replace",
+        "path" : "\/metadata\/roleHeading",
+        "value" : "Enumeration Case"
+      },
+      {
+        "op" : "replace",
+        "path" : "\/metadata\/title",
+        "value" : "TWStoredKeyEncryptionLevelWeak"
+      },
+      {
+        "op" : "replace",
+        "path" : "\/metadata\/symbolKind",
+        "value" : "case"
+      },
+      {
+        "op" : "replace",
+        "path" : "\/metadata\/fragments",
+        "value" : [
+          {
+            "kind" : "identifier",
+            "text" : "TWStoredKeyEncryptionLevelWeak"
+          }
+        ]
+      },
+      {
+        "op" : "add",
+        "path" : "\/topicSections",
+        "value" : null
+      },
+      {
+        "op" : "add",
+        "path" : "\/relationshipsSections",
+        "value" : null
+      },
+      {
+        "op" : "add",
+        "path" : "\/seeAlsoSections",
+        "value" : null
+      },
+      {
+        "op" : "replace",
+        "path" : "\/primaryContentSections\/0",
+        "value" : {
+          "declarations" : [
+            {
+              "languages" : [
+                "occ"
+              ],
+              "platforms" : [
+                "iOS"
+              ],
+              "tokens" : [
+                {
+                  "kind" : "identifier",
+                  "text" : "TWStoredKeyEncryptionLevelWeak"
+                }
+              ]
+            }
+          ],
+          "kind" : "declarations"
+        }
+      },
+      {
+        "op" : "replace",
+        "path" : "\/references\/doc:~1~1com.trustwallet.WalletCore~1documentation~1WalletCore~1TWStoredKeyEncryptionLevel\/title",
+        "value" : "TWStoredKeyEncryptionLevel"
+      },
+      {
+        "op" : "replace",
+        "path" : "\/references\/doc:~1~1com.trustwallet.WalletCore~1documentation~1WalletCore~1TWStoredKeyEncryptionLevel\/fragments",
+        "value" : [
+          {
+            "kind" : "identifier",
+            "text" : "TWStoredKeyEncryptionLevel"
+          }
+        ]
+      },
+      {
+        "op" : "replace",
+        "path" : "\/references\/doc:~1~1com.trustwallet.WalletCore~1documentation~1WalletCore~1TWStoredKeyEncryptionLevelWeak\/title",
+        "value" : "TWStoredKeyEncryptionLevelWeak"
+      },
+      {
+        "op" : "replace",
+        "path" : "\/references\/doc:~1~1com.trustwallet.WalletCore~1documentation~1WalletCore~1TWStoredKeyEncryptionLevelWeak\/fragments",
+        "value" : [
+          {
+            "kind" : "identifier",
+            "text" : "TWStoredKeyEncryptionLevelWeak"
+          }
+        ]
+      }
+    ],
+    "traits" : [
+      {
+        "interfaceLanguage" : "occ"
+      }
+    ]
+  }
+]
 }

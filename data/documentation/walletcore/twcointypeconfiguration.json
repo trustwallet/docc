@@ -1,7 +1,7 @@
 {
   "abstract" : [
     {
-      "text" : "No overview available.",
+      "text" : "CoinTypeConfiguration functions",
       "type" : "text"
     }
   ],
@@ -90,7 +90,7 @@
   ],
   "schemaVersion" : {
     "major" : 0,
-    "minor" : 2,
+    "minor" : 3,
     "patch" : 0
   },
   "sections" : [
@@ -121,6 +121,16 @@
           "interfaceLanguage" : "swift"
         }
       ]
+    },
+    {
+      "paths" : [
+        "\/documentation\/walletcore\/twcointypeconfiguration"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "occ"
+        }
+      ]
     }
   ]
 , 
@@ -138,7 +148,10 @@
 },
 "doc://com.trustwallet.WalletCore/documentation/WalletCore/TWCoinTypeConfiguration": {
   "abstract" : [
-
+    {
+      "text" : "CoinTypeConfiguration functions",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -255,6 +268,12 @@
   ],
   "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TWCoinTypeConfiguration\/unused",
   "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "unused"
+    }
+  ],
   "role" : "symbol",
   "title" : "unused",
   "type" : "topic",
@@ -265,5 +284,139 @@
   "title" : "Swift.Sendable",
   "type" : "unresolvable"
 }
-}
+}, 
+"variantOverrides":[
+  {
+    "patch" : [
+      {
+        "op" : "replace",
+        "path" : "\/identifier\/interfaceLanguage",
+        "value" : "occ"
+      },
+      {
+        "op" : "replace",
+        "path" : "\/metadata\/roleHeading",
+        "value" : "Structure"
+      },
+      {
+        "op" : "replace",
+        "path" : "\/metadata\/title",
+        "value" : "TWCoinTypeConfiguration"
+      },
+      {
+        "op" : "replace",
+        "path" : "\/metadata\/symbolKind",
+        "value" : "struct"
+      },
+      {
+        "op" : "replace",
+        "path" : "\/metadata\/fragments",
+        "value" : [
+          {
+            "kind" : "identifier",
+            "text" : "TWCoinTypeConfiguration"
+          }
+        ]
+      },
+      {
+        "op" : "replace",
+        "path" : "\/metadata\/navigatorTitle",
+        "value" : [
+          {
+            "kind" : "identifier",
+            "text" : "TWCoinTypeConfiguration"
+          }
+        ]
+      },
+      {
+        "op" : "replace",
+        "path" : "\/topicSections",
+        "value" : [
+          {
+            "identifiers" : [
+              "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TWCoinTypeConfiguration\/unused"
+            ],
+            "title" : "Instance Properties"
+          }
+        ]
+      },
+      {
+        "op" : "replace",
+        "path" : "\/relationshipsSections",
+        "value" : null
+      },
+      {
+        "op" : "add",
+        "path" : "\/seeAlsoSections",
+        "value" : null
+      },
+      {
+        "op" : "replace",
+        "path" : "\/primaryContentSections\/0",
+        "value" : {
+          "declarations" : [
+            {
+              "languages" : [
+                "occ"
+              ],
+              "platforms" : [
+                "iOS"
+              ],
+              "tokens" : [
+                {
+                  "kind" : "keyword",
+                  "text" : "struct"
+                },
+                {
+                  "kind" : "text",
+                  "text" : " "
+                },
+                {
+                  "kind" : "identifier",
+                  "text" : "TWCoinTypeConfiguration"
+                }
+              ]
+            }
+          ],
+          "kind" : "declarations"
+        }
+      },
+      {
+        "op" : "replace",
+        "path" : "\/references\/doc:~1~1com.trustwallet.WalletCore~1documentation~1WalletCore~1TWCoinTypeConfiguration\/title",
+        "value" : "TWCoinTypeConfiguration"
+      },
+      {
+        "op" : "replace",
+        "path" : "\/references\/doc:~1~1com.trustwallet.WalletCore~1documentation~1WalletCore~1TWCoinTypeConfiguration\/fragments",
+        "value" : [
+          {
+            "kind" : "identifier",
+            "text" : "TWCoinTypeConfiguration"
+          }
+        ]
+      },
+      {
+        "op" : "replace",
+        "path" : "\/references\/doc:~1~1com.trustwallet.WalletCore~1documentation~1WalletCore~1TWCoinTypeConfiguration~1unused\/title",
+        "value" : "unused"
+      },
+      {
+        "op" : "replace",
+        "path" : "\/references\/doc:~1~1com.trustwallet.WalletCore~1documentation~1WalletCore~1TWCoinTypeConfiguration~1unused\/fragments",
+        "value" : [
+          {
+            "kind" : "identifier",
+            "text" : "unused"
+          }
+        ]
+      }
+    ],
+    "traits" : [
+      {
+        "interfaceLanguage" : "occ"
+      }
+    ]
+  }
+]
 }

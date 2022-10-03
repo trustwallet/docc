@@ -1,7 +1,15 @@
 {
   "abstract" : [
     {
-      "text" : "Creates a new instance of the enum from the given raw integer value.",
+      "text" : "Inherited from ",
+      "type" : "text"
+    },
+    {
+      "code" : "Enum.init(rawValue:)",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : ".",
       "type" : "text"
     }
   ],
@@ -97,82 +105,11 @@
         }
       ],
       "kind" : "declarations"
-    },
-    {
-      "kind" : "parameters",
-      "parameters" : [
-        {
-          "content" : [
-            {
-              "inlineContent" : [
-                {
-                  "text" : "The raw integer value from which to create the enum",
-                  "type" : "text"
-                },
-                {
-                  "text" : " ",
-                  "type" : "text"
-                },
-                {
-                  "text" : "value.",
-                  "type" : "text"
-                }
-              ],
-              "type" : "paragraph"
-            }
-          ],
-          "name" : "rawValue"
-        }
-      ]
-    },
-    {
-      "content" : [
-        {
-          "anchor" : "discussion",
-          "level" : 2,
-          "text" : "Discussion",
-          "type" : "heading"
-        },
-        {
-          "inlineContent" : [
-            {
-              "text" : "For proto2 enums, this initializer will fail if the raw value does not",
-              "type" : "text"
-            },
-            {
-              "text" : " ",
-              "type" : "text"
-            },
-            {
-              "text" : "correspond to a valid enum value. For proto3 enums, this initializer never",
-              "type" : "text"
-            },
-            {
-              "text" : " ",
-              "type" : "text"
-            },
-            {
-              "text" : "fails; unknown values are created as instances of the ",
-              "type" : "text"
-            },
-            {
-              "code" : "UNRECOGNIZED",
-              "type" : "codeVoice"
-            },
-            {
-              "text" : " case.",
-              "type" : "text"
-            }
-          ],
-          "type" : "paragraph"
-        }
-      ],
-      "kind" : "content"
     }
   ],
   "schemaVersion" : {
     "major" : 0,
-    "minor" : 2,
+    "minor" : 3,
     "patch" : 0
   },
   "sections" : [
@@ -239,10 +176,7 @@
 },
 "doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_THORChainSwap_Proto_ErrorCode/init(rawValue:)": {
   "abstract" : [
-    {
-      "text" : "Creates a new instance of the enum from the given raw integer value.",
-      "type" : "text"
-    }
+
   ],
   "fragments" : [
     {

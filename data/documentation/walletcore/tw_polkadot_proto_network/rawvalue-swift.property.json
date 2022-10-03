@@ -1,7 +1,15 @@
 {
   "abstract" : [
     {
-      "text" : "The raw integer value of the enum value.",
+      "text" : "Inherited from ",
+      "type" : "text"
+    },
+    {
+      "code" : "Enum.rawValue",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : ".",
       "type" : "text"
     }
   ],
@@ -101,55 +109,11 @@
         }
       ],
       "kind" : "declarations"
-    },
-    {
-      "content" : [
-        {
-          "anchor" : "discussion",
-          "level" : 2,
-          "text" : "Discussion",
-          "type" : "heading"
-        },
-        {
-          "inlineContent" : [
-            {
-              "text" : "For a recognized enum case, this is the integer value of the case as",
-              "type" : "text"
-            },
-            {
-              "text" : " ",
-              "type" : "text"
-            },
-            {
-              "text" : "defined in the .proto file. For ",
-              "type" : "text"
-            },
-            {
-              "code" : "UNRECOGNIZED",
-              "type" : "codeVoice"
-            },
-            {
-              "text" : " cases in proto3, this is",
-              "type" : "text"
-            },
-            {
-              "text" : " ",
-              "type" : "text"
-            },
-            {
-              "text" : "the value that was originally decoded.",
-              "type" : "text"
-            }
-          ],
-          "type" : "paragraph"
-        }
-      ],
-      "kind" : "content"
     }
   ],
   "schemaVersion" : {
     "major" : 0,
-    "minor" : 2,
+    "minor" : 3,
     "patch" : 0
   },
   "sections" : [
@@ -182,7 +146,10 @@
 },
 "doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Polkadot_Proto_Network": {
   "abstract" : [
-
+    {
+      "text" : "Known networks",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -213,10 +180,7 @@
 },
 "doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Polkadot_Proto_Network/rawValue-swift.property": {
   "abstract" : [
-    {
-      "text" : "The raw integer value of the enum value.",
-      "type" : "text"
-    }
+
   ],
   "fragments" : [
     {

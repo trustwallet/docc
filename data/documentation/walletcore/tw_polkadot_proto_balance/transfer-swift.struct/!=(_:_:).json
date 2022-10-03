@@ -176,7 +176,7 @@
   ],
   "schemaVersion" : {
     "major" : 0,
-    "minor" : 2,
+    "minor" : 3,
     "patch" : 0
   },
   "sections" : [
@@ -209,7 +209,10 @@
 },
 "doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Polkadot_Proto_Balance": {
   "abstract" : [
-
+    {
+      "text" : "Balance transfer transaction",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -240,7 +243,10 @@
 },
 "doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Polkadot_Proto_Balance/Transfer-swift.struct": {
   "abstract" : [
-
+    {
+      "text" : "transfer",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {

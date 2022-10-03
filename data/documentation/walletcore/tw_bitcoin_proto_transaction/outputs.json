@@ -1,7 +1,7 @@
 {
   "abstract" : [
     {
-      "text" : "A list of 1 or more transaction outputs or destinations for coins",
+      "text" : "A list of 1 or more transaction outputs or destinations for coins.",
       "type" : "text"
     }
   ],
@@ -102,7 +102,7 @@
   ],
   "schemaVersion" : {
     "major" : 0,
-    "minor" : 2,
+    "minor" : 3,
     "patch" : 0
   },
   "sections" : [
@@ -135,7 +135,10 @@
 },
 "doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Bitcoin_Proto_Transaction": {
   "abstract" : [
-
+    {
+      "text" : "A transaction, with its inputs and outputs",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -167,7 +170,7 @@
 "doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Bitcoin_Proto_Transaction/outputs": {
   "abstract" : [
     {
-      "text" : "A list of 1 or more transaction outputs or destinations for coins",
+      "text" : "A list of 1 or more transaction outputs or destinations for coins.",
       "type" : "text"
     }
   ],

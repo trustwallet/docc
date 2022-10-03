@@ -1,7 +1,7 @@
 {
   "abstract" : [
     {
-      "text" : "No overview available.",
+      "text" : "Add a bool type parameter",
       "type" : "text"
     }
   ],
@@ -72,6 +72,12 @@
     "modules" : [
       {
         "name" : "WalletCore"
+      }
+    ],
+    "navigatorTitle" : [
+      {
+        "kind" : "identifier",
+        "text" : "TWEthereumAbiFunctionAddParamBool"
       }
     ],
     "role" : "symbol",
@@ -190,11 +196,55 @@
         }
       ],
       "kind" : "declarations"
+    },
+    {
+      "content" : [
+        {
+          "anchor" : "discussion",
+          "level" : 2,
+          "text" : "Discussion",
+          "type" : "heading"
+        },
+        {
+          "inlineContent" : [
+            {
+              "text" : "\\param fn A Non-null eth abi function",
+              "type" : "text"
+            },
+            {
+              "text" : " ",
+              "type" : "text"
+            },
+            {
+              "text" : "\\param val for output parameters, value has to be specified",
+              "type" : "text"
+            },
+            {
+              "text" : " ",
+              "type" : "text"
+            },
+            {
+              "text" : "\\param isOutput determines if the parameter is an input or output",
+              "type" : "text"
+            },
+            {
+              "text" : " ",
+              "type" : "text"
+            },
+            {
+              "text" : "\\return the index of the parameter (0-based).",
+              "type" : "text"
+            }
+          ],
+          "type" : "paragraph"
+        }
+      ],
+      "kind" : "content"
     }
   ],
   "schemaVersion" : {
     "major" : 0,
-    "minor" : 2,
+    "minor" : 3,
     "patch" : 0
   },
   "sections" : [
@@ -208,6 +258,16 @@
       "traits" : [
         {
           "interfaceLanguage" : "swift"
+        }
+      ]
+    },
+    {
+      "paths" : [
+        "\/documentation\/walletcore\/twethereumabifunctionaddparambool(_:_:_:)"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "occ"
         }
       ]
     }
@@ -227,7 +287,10 @@
 },
 "doc://com.trustwallet.WalletCore/documentation/WalletCore/TWEthereumAbiFunctionAddParamBool(_:_:_:)": {
   "abstract" : [
-
+    {
+      "text" : "Add a bool type parameter",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -281,10 +344,190 @@
   ],
   "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TWEthereumAbiFunctionAddParamBool(_:_:_:)",
   "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "TWEthereumAbiFunctionAddParamBool"
+    }
+  ],
   "role" : "symbol",
   "title" : "TWEthereumAbiFunctionAddParamBool(_:_:_:)",
   "type" : "topic",
   "url" : "\/documentation\/walletcore\/twethereumabifunctionaddparambool(_:_:_:)"
 }
-}
+}, 
+"variantOverrides":[
+  {
+    "patch" : [
+      {
+        "op" : "replace",
+        "path" : "\/identifier\/interfaceLanguage",
+        "value" : "occ"
+      },
+      {
+        "op" : "replace",
+        "path" : "\/metadata\/roleHeading",
+        "value" : "Function"
+      },
+      {
+        "op" : "replace",
+        "path" : "\/metadata\/title",
+        "value" : "TWEthereumAbiFunctionAddParamBool"
+      },
+      {
+        "op" : "replace",
+        "path" : "\/metadata\/symbolKind",
+        "value" : "func"
+      },
+      {
+        "op" : "replace",
+        "path" : "\/metadata\/fragments",
+        "value" : [
+          {
+            "kind" : "identifier",
+            "text" : "TWEthereumAbiFunctionAddParamBool"
+          }
+        ]
+      },
+      {
+        "op" : "add",
+        "path" : "\/topicSections",
+        "value" : null
+      },
+      {
+        "op" : "add",
+        "path" : "\/relationshipsSections",
+        "value" : null
+      },
+      {
+        "op" : "add",
+        "path" : "\/seeAlsoSections",
+        "value" : null
+      },
+      {
+        "op" : "replace",
+        "path" : "\/primaryContentSections\/0",
+        "value" : {
+          "declarations" : [
+            {
+              "languages" : [
+                "occ"
+              ],
+              "platforms" : [
+                "iOS"
+              ],
+              "tokens" : [
+                {
+                  "kind" : "keyword",
+                  "text" : "extern"
+                },
+                {
+                  "kind" : "text",
+                  "text" : " "
+                },
+                {
+                  "kind" : "typeIdentifier",
+                  "preciseIdentifier" : "c:I",
+                  "text" : "int"
+                },
+                {
+                  "kind" : "text",
+                  "text" : " "
+                },
+                {
+                  "kind" : "identifier",
+                  "text" : "TWEthereumAbiFunctionAddParamBool"
+                },
+                {
+                  "kind" : "text",
+                  "text" : "("
+                },
+                {
+                  "kind" : "keyword",
+                  "text" : "struct"
+                },
+                {
+                  "kind" : "text",
+                  "text" : " "
+                },
+                {
+                  "kind" : "typeIdentifier",
+                  "preciseIdentifier" : "c:@S@TWEthereumAbiFunction",
+                  "text" : "TWEthereumAbiFunction"
+                },
+                {
+                  "kind" : "text",
+                  "text" : " * "
+                },
+                {
+                  "kind" : "internalParam",
+                  "text" : "fn"
+                },
+                {
+                  "kind" : "text",
+                  "text" : ", "
+                },
+                {
+                  "kind" : "typeIdentifier",
+                  "preciseIdentifier" : "c:b",
+                  "text" : "_Bool"
+                },
+                {
+                  "kind" : "text",
+                  "text" : " "
+                },
+                {
+                  "kind" : "internalParam",
+                  "text" : "val"
+                },
+                {
+                  "kind" : "text",
+                  "text" : ", "
+                },
+                {
+                  "kind" : "typeIdentifier",
+                  "preciseIdentifier" : "c:b",
+                  "text" : "_Bool"
+                },
+                {
+                  "kind" : "text",
+                  "text" : " "
+                },
+                {
+                  "kind" : "internalParam",
+                  "text" : "isOutput"
+                },
+                {
+                  "kind" : "text",
+                  "text" : ")"
+                }
+              ]
+            }
+          ],
+          "kind" : "declarations"
+        }
+      },
+      {
+        "op" : "replace",
+        "path" : "\/references\/doc:~1~1com.trustwallet.WalletCore~1documentation~1WalletCore~1TWEthereumAbiFunctionAddParamBool(_:_:_:)\/title",
+        "value" : "TWEthereumAbiFunctionAddParamBool"
+      },
+      {
+        "op" : "replace",
+        "path" : "\/references\/doc:~1~1com.trustwallet.WalletCore~1documentation~1WalletCore~1TWEthereumAbiFunctionAddParamBool(_:_:_:)\/fragments",
+        "value" : [
+          {
+            "kind" : "identifier",
+            "text" : "TWEthereumAbiFunctionAddParamBool"
+          }
+        ]
+      }
+    ],
+    "traits" : [
+      {
+        "interfaceLanguage" : "occ"
+      }
+    ]
+  }
+]
 }

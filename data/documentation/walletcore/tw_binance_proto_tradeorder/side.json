@@ -1,7 +1,7 @@
 {
   "abstract" : [
     {
-      "text" : "1 for buy and 2 fory sell",
+      "text" : "1 for buy and 2 for sell",
       "type" : "text"
     }
   ],
@@ -93,7 +93,7 @@
   ],
   "schemaVersion" : {
     "major" : 0,
-    "minor" : 2,
+    "minor" : 3,
     "patch" : 0
   },
   "sections" : [
@@ -126,7 +126,10 @@
 },
 "doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Binance_Proto_TradeOrder": {
   "abstract" : [
-
+    {
+      "text" : "Message for Trade order",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -158,7 +161,7 @@
 "doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Binance_Proto_TradeOrder/side": {
   "abstract" : [
     {
-      "text" : "1 for buy and 2 fory sell",
+      "text" : "1 for buy and 2 for sell",
       "type" : "text"
     }
   ],

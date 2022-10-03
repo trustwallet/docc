@@ -1,7 +1,7 @@
 {
   "abstract" : [
     {
-      "text" : "No overview available.",
+      "text" : "A transaction",
       "type" : "text"
     }
   ],
@@ -93,7 +93,7 @@
   ],
   "schemaVersion" : {
     "major" : 0,
-    "minor" : 2,
+    "minor" : 3,
     "patch" : 0
   },
   "sections" : [
@@ -182,7 +182,10 @@
 },
 "doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_NULS_Proto_Transaction": {
   "abstract" : [
-
+    {
+      "text" : "A transaction",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -490,7 +493,10 @@
 },
 "doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_NULS_Proto_Transaction/hash": {
   "abstract" : [
-
+    {
+      "text" : "Tx hash",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -524,18 +530,7 @@
 },
 "doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_NULS_Proto_Transaction/init()": {
   "abstract" : [
-    {
-      "text" : "Creates a new message with all of its fields initialized to their default",
-      "type" : "text"
-    },
-    {
-      "text" : " ",
-      "type" : "text"
-    },
-    {
-      "text" : "values.",
-      "type" : "text"
-    }
+
   ],
   "fragments" : [
     {
@@ -630,7 +625,10 @@
 },
 "doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_NULS_Proto_Transaction/remark": {
   "abstract" : [
-
+    {
+      "text" : "Optional string remark",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -664,7 +662,10 @@
 },
 "doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_NULS_Proto_Transaction/timestamp": {
   "abstract" : [
-
+    {
+      "text" : "Timestamp of the transaction",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -698,7 +699,10 @@
 },
 "doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_NULS_Proto_Transaction/txData": {
   "abstract" : [
-
+    {
+      "text" : "The raw data",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -732,7 +736,10 @@
 },
 "doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_NULS_Proto_Transaction/txSigs": {
   "abstract" : [
-
+    {
+      "text" : "Signature",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -766,7 +773,10 @@
 },
 "doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_NULS_Proto_Transaction/type": {
   "abstract" : [
-
+    {
+      "text" : "transaction type",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -800,18 +810,7 @@
 },
 "doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_NULS_Proto_Transaction/unknownFields": {
   "abstract" : [
-    {
-      "text" : "Some formats include enough information to transport fields that were",
-      "type" : "text"
-    },
-    {
-      "text" : " ",
-      "type" : "text"
-    },
-    {
-      "text" : "not known at generation time. When encountered, they are stored here.",
-      "type" : "text"
-    }
+
   ],
   "fragments" : [
     {

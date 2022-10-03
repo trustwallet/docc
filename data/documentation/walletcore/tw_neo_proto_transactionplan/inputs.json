@@ -102,7 +102,7 @@
   ],
   "schemaVersion" : {
     "major" : 0,
-    "minor" : 2,
+    "minor" : 3,
     "patch" : 0
   },
   "sections" : [
@@ -135,7 +135,10 @@
 },
 "doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_NEO_Proto_TransactionInput": {
   "abstract" : [
-
+    {
+      "text" : "Input for a transaction (output of a prev tx)",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {

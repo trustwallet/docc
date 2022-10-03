@@ -1,7 +1,7 @@
 {
   "abstract" : [
     {
-      "text" : "Input data necessary to create a signed order.",
+      "text" : "Input data necessary to create a signed transaction.",
       "type" : "text"
     }
   ],
@@ -93,7 +93,7 @@
   ],
   "schemaVersion" : {
     "major" : 0,
-    "minor" : 2,
+    "minor" : 3,
     "patch" : 0
   },
   "sections" : [
@@ -196,7 +196,7 @@
 "doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Binance_Proto_SigningInput": {
   "abstract" : [
     {
-      "text" : "Input data necessary to create a signed order.",
+      "text" : "Input data necessary to create a signed transaction.",
       "type" : "text"
     }
   ],
@@ -251,7 +251,10 @@
 },
 "doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Binance_Proto_SigningInput/OneOf_OrderOneof": {
   "abstract" : [
-
+    {
+      "text" : "Payload message",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -282,7 +285,10 @@
 },
 "doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Binance_Proto_SigningInput/accountNumber": {
   "abstract" : [
-
+    {
+      "text" : "Source account number",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -384,7 +390,10 @@
 },
 "doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Binance_Proto_SigningInput/chainID": {
   "abstract" : [
-
+    {
+      "text" : "Chain ID",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -554,18 +563,7 @@
 },
 "doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Binance_Proto_SigningInput/init()": {
   "abstract" : [
-    {
-      "text" : "Creates a new message with all of its fields initialized to their default",
-      "type" : "text"
-    },
-    {
-      "text" : " ",
-      "type" : "text"
-    },
-    {
-      "text" : "values.",
-      "type" : "text"
-    }
+
   ],
   "fragments" : [
     {
@@ -620,7 +618,10 @@
 },
 "doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Binance_Proto_SigningInput/memo": {
   "abstract" : [
-
+    {
+      "text" : "Optional memo",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -688,7 +689,10 @@
 },
 "doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Binance_Proto_SigningInput/orderOneof": {
   "abstract" : [
-
+    {
+      "text" : "Payload message",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -735,7 +739,10 @@
 },
 "doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Binance_Proto_SigningInput/privateKey": {
   "abstract" : [
-
+    {
+      "text" : "The secret private key used for signing (32 bytes).",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -837,7 +844,10 @@
 },
 "doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Binance_Proto_SigningInput/sequence": {
   "abstract" : [
-
+    {
+      "text" : "Sequence number (account specific)",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -973,7 +983,42 @@
 },
 "doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Binance_Proto_SigningInput/source": {
   "abstract" : [
-
+    {
+      "text" : "Transaction source, see https:\/\/github.com\/bnb-chain\/BEPs\/blob\/master\/BEP10.md",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "Some important values:",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "0: Default source value (e.g. for Binance Chain Command Line, or SDKs)",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "1: Binance DEX Web Wallet",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "2: Trust Wallet",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -1211,18 +1256,7 @@
 },
 "doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Binance_Proto_SigningInput/unknownFields": {
   "abstract" : [
-    {
-      "text" : "Some formats include enough information to transport fields that were",
-      "type" : "text"
-    },
-    {
-      "text" : " ",
-      "type" : "text"
-    },
-    {
-      "text" : "not known at generation time. When encountered, they are stored here.",
-      "type" : "text"
-    }
+
   ],
   "fragments" : [
     {

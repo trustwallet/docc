@@ -1,19 +1,15 @@
 {
   "abstract" : [
     {
-      "text" : "An implementation of hash(into:) to provide conformance with the",
+      "text" : "Inherited from ",
       "type" : "text"
     },
     {
-      "text" : " ",
-      "type" : "text"
-    },
-    {
-      "code" : "Hashable",
+      "code" : "Message.hash(into:)",
       "type" : "codeVoice"
     },
     {
-      "text" : " protocol.",
+      "text" : ".",
       "type" : "text"
     }
   ],
@@ -155,7 +151,7 @@
   ],
   "schemaVersion" : {
     "major" : 0,
-    "minor" : 2,
+    "minor" : 3,
     "patch" : 0
   },
   "sections" : [
@@ -189,7 +185,7 @@
 "doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Nebulas_Proto_SigningOutput": {
   "abstract" : [
     {
-      "text" : "Transaction signing output.",
+      "text" : "Result containing the signed and encoded transaction.",
       "type" : "text"
     }
   ],
@@ -233,22 +229,7 @@
 },
 "doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Nebulas_Proto_SigningOutput/hash(into:)": {
   "abstract" : [
-    {
-      "text" : "An implementation of hash(into:) to provide conformance with the",
-      "type" : "text"
-    },
-    {
-      "text" : " ",
-      "type" : "text"
-    },
-    {
-      "code" : "Hashable",
-      "type" : "codeVoice"
-    },
-    {
-      "text" : " protocol.",
-      "type" : "text"
-    }
+
   ],
   "fragments" : [
     {

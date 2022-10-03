@@ -1,7 +1,7 @@
 {
   "abstract" : [
     {
-      "text" : "No overview available.",
+      "text" : "Transaction outputs",
       "type" : "text"
     }
   ],
@@ -102,7 +102,7 @@
   ],
   "schemaVersion" : {
     "major" : 0,
-    "minor" : 2,
+    "minor" : 3,
     "patch" : 0
   },
   "sections" : [
@@ -169,7 +169,10 @@
 },
 "doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_NEO_Proto_SigningInput/outputs": {
   "abstract" : [
-
+    {
+      "text" : "Transaction outputs",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -207,7 +210,10 @@
 },
 "doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_NEO_Proto_TransactionOutput": {
   "abstract" : [
-
+    {
+      "text" : "Output of a transaction",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {

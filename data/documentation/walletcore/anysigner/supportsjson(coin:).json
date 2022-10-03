@@ -1,7 +1,7 @@
 {
   "abstract" : [
     {
-      "text" : "No overview available.",
+      "text" : "Check if AnySigner supports signing JSON representation of SigningInput for a given coin.",
       "type" : "text"
     }
   ],
@@ -144,7 +144,7 @@
   ],
   "schemaVersion" : {
     "major" : 0,
-    "minor" : 2,
+    "minor" : 3,
     "patch" : 0
   },
   "sections" : [
@@ -177,7 +177,10 @@
 },
 "doc://com.trustwallet.WalletCore/documentation/WalletCore/AnySigner": {
   "abstract" : [
-
+    {
+      "text" : "Represents a signer to sign transactions for any blockchain.",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -208,7 +211,10 @@
 },
 "doc://com.trustwallet.WalletCore/documentation/WalletCore/AnySigner/supportsJSON(coin:)": {
   "abstract" : [
-
+    {
+      "text" : "Check if AnySigner supports signing JSON representation of SigningInput for a given coin.",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {

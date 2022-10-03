@@ -1,7 +1,7 @@
 {
   "abstract" : [
     {
-      "text" : "No overview available.",
+      "text" : "Payload action(s)",
       "type" : "text"
     }
   ],
@@ -102,7 +102,7 @@
   ],
   "schemaVersion" : {
     "major" : 0,
-    "minor" : 2,
+    "minor" : 3,
     "patch" : 0
   },
   "sections" : [
@@ -135,7 +135,10 @@
 },
 "doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_NEAR_Proto_Action": {
   "abstract" : [
-
+    {
+      "text" : "Represents an action",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -200,7 +203,10 @@
 },
 "doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_NEAR_Proto_SigningInput/actions": {
   "abstract" : [
-
+    {
+      "text" : "Payload action(s)",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {

@@ -1,10 +1,4 @@
 {
-  "abstract" : [
-    {
-      "text" : "No overview available.",
-      "type" : "text"
-    }
-  ],
   "hierarchy" : {
     "paths" : [
       [
@@ -29,7 +23,7 @@
   },
   "schemaVersion" : {
     "major" : 0,
-    "minor" : 2,
+    "minor" : 3,
     "patch" : 0
   },
   "sections" : [
@@ -71,7 +65,10 @@
 },
 "doc://com.trustwallet.WalletCore/documentation/WalletCore/TWBitcoinSigHashType": {
   "abstract" : [
-
+    {
+      "text" : "Bitcoin SIGHASH type.",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -162,5 +159,31 @@
   "type" : "topic",
   "url" : "\/documentation\/walletcore\/twbitcoinsighashtype\/!=(_:_:)"
 }
-}
+}, 
+"variantOverrides":[
+  {
+    "patch" : [
+      {
+        "op" : "replace",
+        "path" : "\/references\/doc:~1~1com.trustwallet.WalletCore~1documentation~1WalletCore~1TWBitcoinSigHashType\/title",
+        "value" : "TWBitcoinSigHashType"
+      },
+      {
+        "op" : "replace",
+        "path" : "\/references\/doc:~1~1com.trustwallet.WalletCore~1documentation~1WalletCore~1TWBitcoinSigHashType\/fragments",
+        "value" : [
+          {
+            "kind" : "identifier",
+            "text" : "TWBitcoinSigHashType"
+          }
+        ]
+      }
+    ],
+    "traits" : [
+      {
+        "interfaceLanguage" : "occ"
+      }
+    ]
+  }
+]
 }

@@ -113,7 +113,7 @@
   ],
   "schemaVersion" : {
     "major" : 0,
-    "minor" : 2,
+    "minor" : 3,
     "patch" : 0
   },
   "sections" : [
@@ -125,6 +125,7 @@
         "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/CoinType\/aeternity",
         "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/CoinType\/aion",
         "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/CoinType\/algorand",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/CoinType\/aptos",
         "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/CoinType\/arbitrum",
         "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/CoinType\/aurora",
         "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/CoinType\/avalancheCChain",
@@ -214,7 +215,8 @@
         "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/CoinType\/xrp",
         "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/CoinType\/zcash",
         "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/CoinType\/zelcash",
-        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/CoinType\/zilliqa"
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/CoinType\/zilliqa",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/CoinType\/zksync"
       ],
       "title" : "Enumeration Cases"
     },
@@ -489,6 +491,31 @@
   "title" : "CoinType.algorand",
   "type" : "topic",
   "url" : "\/documentation\/walletcore\/cointype\/algorand"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/CoinType/aptos": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "aptos"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/CoinType\/aptos",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "CoinType.aptos",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/cointype\/aptos"
 },
 "doc://com.trustwallet.WalletCore/documentation/WalletCore/CoinType/arbitrum": {
   "abstract" : [
@@ -3474,6 +3501,31 @@
   "title" : "CoinType.zilliqa",
   "type" : "topic",
   "url" : "\/documentation\/walletcore\/cointype\/zilliqa"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/CoinType/zksync": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "zksync"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/CoinType\/zksync",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "CoinType.zksync",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/cointype\/zksync"
 },
 "doc://com.trustwallet.WalletCore/s12CaseIterableP": {
   "identifier" : "doc:\/\/com.trustwallet.WalletCore\/s12CaseIterableP",

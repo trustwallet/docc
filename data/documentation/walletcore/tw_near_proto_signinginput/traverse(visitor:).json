@@ -1,23 +1,15 @@
 {
   "abstract" : [
     {
-      "text" : "Traverses the fields of the message, calling the appropriate methods",
+      "text" : "Inherited from ",
       "type" : "text"
     },
     {
-      "text" : " ",
-      "type" : "text"
-    },
-    {
-      "text" : "of the passed ",
-      "type" : "text"
-    },
-    {
-      "code" : "Visitor",
+      "code" : "Message.traverse(visitor:)",
       "type" : "codeVoice"
     },
     {
-      "text" : " object.",
+      "text" : ".",
       "type" : "text"
     }
   ],
@@ -196,137 +188,11 @@
         }
       ],
       "kind" : "declarations"
-    },
-    {
-      "content" : [
-        {
-          "anchor" : "discussion",
-          "level" : 2,
-          "text" : "Discussion",
-          "type" : "heading"
-        },
-        {
-          "inlineContent" : [
-            {
-              "text" : "This is used internally by:",
-              "type" : "text"
-            }
-          ],
-          "type" : "paragraph"
-        },
-        {
-          "items" : [
-            {
-              "content" : [
-                {
-                  "inlineContent" : [
-                    {
-                      "text" : "Protobuf binary serialization",
-                      "type" : "text"
-                    }
-                  ],
-                  "type" : "paragraph"
-                }
-              ]
-            },
-            {
-              "content" : [
-                {
-                  "inlineContent" : [
-                    {
-                      "text" : "JSON serialization (with some twists to account for specialty JSON)",
-                      "type" : "text"
-                    }
-                  ],
-                  "type" : "paragraph"
-                }
-              ]
-            },
-            {
-              "content" : [
-                {
-                  "inlineContent" : [
-                    {
-                      "text" : "Protobuf Text serialization",
-                      "type" : "text"
-                    }
-                  ],
-                  "type" : "paragraph"
-                }
-              ]
-            },
-            {
-              "content" : [
-                {
-                  "inlineContent" : [
-                    {
-                      "code" : "Hashable",
-                      "type" : "codeVoice"
-                    },
-                    {
-                      "text" : " computation",
-                      "type" : "text"
-                    }
-                  ],
-                  "type" : "paragraph"
-                }
-              ]
-            }
-          ],
-          "type" : "unorderedList"
-        },
-        {
-          "inlineContent" : [
-            {
-              "text" : "Conceptually, serializers create visitor objects that are",
-              "type" : "text"
-            },
-            {
-              "text" : " ",
-              "type" : "text"
-            },
-            {
-              "text" : "then passed recursively to every message and field via generated",
-              "type" : "text"
-            },
-            {
-              "text" : " ",
-              "type" : "text"
-            },
-            {
-              "code" : "traverse",
-              "type" : "codeVoice"
-            },
-            {
-              "text" : " methods.  The details get a little involved due to",
-              "type" : "text"
-            },
-            {
-              "text" : " ",
-              "type" : "text"
-            },
-            {
-              "text" : "the need to allow particular messages to override particular",
-              "type" : "text"
-            },
-            {
-              "text" : " ",
-              "type" : "text"
-            },
-            {
-              "text" : "behaviors for specific encodings, but the general idea is quite simple.",
-              "type" : "text"
-            }
-          ],
-          "type" : "paragraph"
-        }
-      ],
-      "kind" : "content"
     }
   ],
   "schemaVersion" : {
     "major" : 0,
-    "minor" : 2,
+    "minor" : 3,
     "patch" : 0
   },
   "sections" : [
@@ -404,26 +270,7 @@
 },
 "doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_NEAR_Proto_SigningInput/traverse(visitor:)": {
   "abstract" : [
-    {
-      "text" : "Traverses the fields of the message, calling the appropriate methods",
-      "type" : "text"
-    },
-    {
-      "text" : " ",
-      "type" : "text"
-    },
-    {
-      "text" : "of the passed ",
-      "type" : "text"
-    },
-    {
-      "code" : "Visitor",
-      "type" : "codeVoice"
-    },
-    {
-      "text" : " object.",
-      "type" : "text"
-    }
+
   ],
   "fragments" : [
     {

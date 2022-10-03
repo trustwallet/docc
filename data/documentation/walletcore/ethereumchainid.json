@@ -101,7 +101,7 @@
   ],
   "schemaVersion" : {
     "major" : 0,
-    "minor" : 2,
+    "minor" : 3,
     "patch" : 0
   },
   "sections" : [
@@ -141,7 +141,8 @@
         "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/EthereumChainID\/tomochain",
         "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/EthereumChainID\/vechain",
         "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/EthereumChainID\/wanchain",
-        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/EthereumChainID\/xdai"
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/EthereumChainID\/xdai",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/EthereumChainID\/zksync"
       ],
       "title" : "Enumeration Cases"
     },
@@ -1101,6 +1102,31 @@
   "title" : "EthereumChainID.xdai",
   "type" : "topic",
   "url" : "\/documentation\/walletcore\/ethereumchainid\/xdai"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/EthereumChainID/zksync": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "zksync"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/EthereumChainID\/zksync",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "EthereumChainID.zksync",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/ethereumchainid\/zksync"
 },
 "doc://com.trustwallet.WalletCore/s12CaseIterableP": {
   "identifier" : "doc:\/\/com.trustwallet.WalletCore\/s12CaseIterableP",

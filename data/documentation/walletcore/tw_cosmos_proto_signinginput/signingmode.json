@@ -1,7 +1,7 @@
 {
   "abstract" : [
     {
-      "text" : "Specify if Stargate or earlier serialization is used",
+      "text" : "Specify if protobuf (a.k.a. Stargate) or earlier JSON serialization is used",
       "type" : "text"
     }
   ],
@@ -94,7 +94,7 @@
   ],
   "schemaVersion" : {
     "major" : 0,
-    "minor" : 2,
+    "minor" : 3,
     "patch" : 0
   },
   "sections" : [
@@ -128,7 +128,7 @@
 "doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Cosmos_Proto_SigningInput": {
   "abstract" : [
     {
-      "text" : "Input data necessary to create a signed order.",
+      "text" : "Input data necessary to create a signed transaction.",
       "type" : "text"
     }
   ],
@@ -162,7 +162,7 @@
 "doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Cosmos_Proto_SigningInput/signingMode": {
   "abstract" : [
     {
-      "text" : "Specify if Stargate or earlier serialization is used",
+      "text" : "Specify if protobuf (a.k.a. Stargate) or earlier JSON serialization is used",
       "type" : "text"
     }
   ],
@@ -198,7 +198,10 @@
 },
 "doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Cosmos_Proto_SigningMode": {
   "abstract" : [
-
+    {
+      "text" : "Options for transaction encoding: JSON (Amino, older) or Protobuf.",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {

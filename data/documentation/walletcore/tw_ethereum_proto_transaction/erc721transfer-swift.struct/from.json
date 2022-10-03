@@ -1,7 +1,7 @@
 {
   "abstract" : [
     {
-      "text" : "No overview available.",
+      "text" : "Source address",
       "type" : "text"
     }
   ],
@@ -94,7 +94,7 @@
   ],
   "schemaVersion" : {
     "major" : 0,
-    "minor" : 2,
+    "minor" : 3,
     "patch" : 0
   },
   "sections" : [
@@ -195,7 +195,10 @@
 },
 "doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Ethereum_Proto_Transaction/ERC721Transfer-swift.struct/from": {
   "abstract" : [
-
+    {
+      "text" : "Source address",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {

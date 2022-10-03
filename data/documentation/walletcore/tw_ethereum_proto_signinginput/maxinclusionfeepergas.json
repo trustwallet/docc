@@ -1,7 +1,7 @@
 {
   "abstract" : [
     {
-      "text" : "Maxinmum optional inclusion fee (aka tip) (256-bit number)",
+      "text" : "Maximum optional inclusion fee (aka tip) (uint256, serialized little endian)",
       "type" : "text"
     },
     {
@@ -101,7 +101,7 @@
   ],
   "schemaVersion" : {
     "major" : 0,
-    "minor" : 2,
+    "minor" : 3,
     "patch" : 0
   },
   "sections" : [
@@ -177,7 +177,7 @@
 "doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Ethereum_Proto_SigningInput/maxInclusionFeePerGas": {
   "abstract" : [
     {
-      "text" : "Maxinmum optional inclusion fee (aka tip) (256-bit number)",
+      "text" : "Maximum optional inclusion fee (aka tip) (uint256, serialized little endian)",
       "type" : "text"
     },
     {

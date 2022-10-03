@@ -176,7 +176,7 @@
   ],
   "schemaVersion" : {
     "major" : 0,
-    "minor" : 2,
+    "minor" : 3,
     "patch" : 0
   },
   "sections" : [
@@ -210,7 +210,7 @@
 "doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_IoTeX_Proto_SigningInput": {
   "abstract" : [
     {
-      "text" : "transaction signing input",
+      "text" : "Input data necessary to create a signed transaction.",
       "type" : "text"
     }
   ],
@@ -243,7 +243,10 @@
 },
 "doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_IoTeX_Proto_SigningInput/OneOf_Action": {
   "abstract" : [
-
+    {
+      "text" : "Payload transfer",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {

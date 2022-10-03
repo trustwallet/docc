@@ -1,18 +1,4 @@
 {
-  "abstract" : [
-    {
-      "text" : "Creates a ",
-      "type" : "text"
-    },
-    {
-      "code" : "DerivationPath",
-      "type" : "codeVoice"
-    },
-    {
-      "text" : " by components.",
-      "type" : "text"
-    }
-  ],
   "hierarchy" : {
     "paths" : [
       [
@@ -27,7 +13,7 @@
   },
   "kind" : "symbol",
   "metadata" : {
-    "externalID" : "s:10WalletCore14DerivationPathV7purpose4coin7account6change7addressAcA7PurposeO_s6UInt32VA3Ltcfc",
+    "externalID" : "s:10WalletCore14DerivationPathC7purpose4coin7account6change7addressAcA7PurposeO_s6UInt32VA3Ltcfc",
     "fragments" : [
       {
         "kind" : "identifier",
@@ -202,7 +188,7 @@
             },
             {
               "kind" : "text",
-              "text" : " = 0, "
+              "text" : ", "
             },
             {
               "kind" : "externalParam",
@@ -219,7 +205,7 @@
             },
             {
               "kind" : "text",
-              "text" : " = 0, "
+              "text" : ", "
             },
             {
               "kind" : "externalParam",
@@ -236,7 +222,7 @@
             },
             {
               "kind" : "text",
-              "text" : " = 0)"
+              "text" : ")"
             }
           ]
         }
@@ -246,7 +232,7 @@
   ],
   "schemaVersion" : {
     "major" : 0,
-    "minor" : 2,
+    "minor" : 3,
     "patch" : 0
   },
   "sections" : [
@@ -280,14 +266,14 @@
 "doc://com.trustwallet.WalletCore/documentation/WalletCore/DerivationPath": {
   "abstract" : [
     {
-      "text" : "Represents a hierarchical deterministic derivation path.",
+      "text" : "Represents a BIP44 DerivationPath in C++.",
       "type" : "text"
     }
   ],
   "fragments" : [
     {
       "kind" : "keyword",
-      "text" : "struct"
+      "text" : "class"
     },
     {
       "kind" : "text",
@@ -313,18 +299,7 @@
 },
 "doc://com.trustwallet.WalletCore/documentation/WalletCore/DerivationPath/init(purpose:coin:account:change:address:)": {
   "abstract" : [
-    {
-      "text" : "Creates a ",
-      "type" : "text"
-    },
-    {
-      "code" : "DerivationPath",
-      "type" : "codeVoice"
-    },
-    {
-      "text" : " by components.",
-      "type" : "text"
-    }
+
   ],
   "fragments" : [
     {

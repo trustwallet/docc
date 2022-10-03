@@ -1,7 +1,15 @@
 {
   "abstract" : [
     {
-      "text" : "Returns a Data containing the UTF-8 JSON serialization of the message.",
+      "text" : "Inherited from ",
+      "type" : "text"
+    },
+    {
+      "code" : "Message.jsonUTF8Data(options:)",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : ".",
       "type" : "text"
     }
   ],
@@ -142,102 +150,11 @@
         }
       ],
       "kind" : "declarations"
-    },
-    {
-      "content" : [
-        {
-          "anchor" : "return-value",
-          "level" : 2,
-          "text" : "Return Value",
-          "type" : "heading"
-        },
-        {
-          "inlineContent" : [
-            {
-              "text" : "A Data containing the JSON serialization of the message.",
-              "type" : "text"
-            }
-          ],
-          "type" : "paragraph"
-        }
-      ],
-      "kind" : "content"
-    },
-    {
-      "kind" : "parameters",
-      "parameters" : [
-        {
-          "content" : [
-            {
-              "inlineContent" : [
-                {
-                  "text" : "The JSONEncodingOptions to use.",
-                  "type" : "text"
-                }
-              ],
-              "type" : "paragraph"
-            }
-          ],
-          "name" : "options"
-        }
-      ]
-    },
-    {
-      "content" : [
-        {
-          "anchor" : "discussion",
-          "level" : 2,
-          "text" : "Discussion",
-          "type" : "heading"
-        },
-        {
-          "inlineContent" : [
-            {
-              "text" : "Unlike binary encoding, presence of required fields is not enforced when",
-              "type" : "text"
-            },
-            {
-              "text" : " ",
-              "type" : "text"
-            },
-            {
-              "text" : "serializing to JSON.",
-              "type" : "text"
-            }
-          ],
-          "type" : "paragraph"
-        },
-        {
-          "content" : [
-            {
-              "inlineContent" : [
-                {
-                  "text" : "",
-                  "type" : "text"
-                },
-                {
-                  "code" : "JSONEncodingError",
-                  "type" : "codeVoice"
-                },
-                {
-                  "text" : " if encoding fails.",
-                  "type" : "text"
-                }
-              ],
-              "type" : "paragraph"
-            }
-          ],
-          "name" : "Throws",
-          "style" : "note",
-          "type" : "aside"
-        }
-      ],
-      "kind" : "content"
     }
   ],
   "schemaVersion" : {
     "major" : 0,
-    "minor" : 2,
+    "minor" : 3,
     "patch" : 0
   },
   "sections" : [
@@ -270,7 +187,10 @@
 },
 "doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Binance_Proto_SendOrder": {
   "abstract" : [
-
+    {
+      "text" : "Message for Send order",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -301,7 +221,10 @@
 },
 "doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Binance_Proto_SendOrder/Output": {
   "abstract" : [
-
+    {
+      "text" : "Transaction output",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -343,10 +266,7 @@
 },
 "doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Binance_Proto_SendOrder/Output/jsonUTF8Data(options:)": {
   "abstract" : [
-    {
-      "text" : "Returns a Data containing the UTF-8 JSON serialization of the message.",
-      "type" : "text"
-    }
+
   ],
   "fragments" : [
     {

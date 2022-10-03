@@ -1,10 +1,4 @@
 {
-  "abstract" : [
-    {
-      "text" : "No overview available.",
-      "type" : "text"
-    }
-  ],
   "hierarchy" : {
     "paths" : [
       [
@@ -93,7 +87,7 @@
   ],
   "schemaVersion" : {
     "major" : 0,
-    "minor" : 2,
+    "minor" : 3,
     "patch" : 0
   },
   "sections" : [
@@ -126,7 +120,10 @@
 },
 "doc://com.trustwallet.WalletCore/documentation/WalletCore/TWBlockchain": {
   "abstract" : [
-
+    {
+      "text" : "Blockchain enum type",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -189,5 +186,31 @@
   "type" : "topic",
   "url" : "\/documentation\/walletcore\/twblockchain\/rawvalue"
 }
-}
+}, 
+"variantOverrides":[
+  {
+    "patch" : [
+      {
+        "op" : "replace",
+        "path" : "\/references\/doc:~1~1com.trustwallet.WalletCore~1documentation~1WalletCore~1TWBlockchain\/title",
+        "value" : "TWBlockchain"
+      },
+      {
+        "op" : "replace",
+        "path" : "\/references\/doc:~1~1com.trustwallet.WalletCore~1documentation~1WalletCore~1TWBlockchain\/fragments",
+        "value" : [
+          {
+            "kind" : "identifier",
+            "text" : "TWBlockchain"
+          }
+        ]
+      }
+    ],
+    "traits" : [
+      {
+        "interfaceLanguage" : "occ"
+      }
+    ]
+  }
+]
 }

@@ -1,15 +1,15 @@
 {
   "abstract" : [
     {
-      "text" : "Creates a new message with all of its fields initialized to their default",
+      "text" : "Inherited from ",
       "type" : "text"
     },
     {
-      "text" : " ",
-      "type" : "text"
+      "code" : "Message.init()",
+      "type" : "codeVoice"
     },
     {
-      "text" : "values.",
+      "text" : ".",
       "type" : "text"
     }
   ],
@@ -76,7 +76,7 @@
   ],
   "schemaVersion" : {
     "major" : 0,
-    "minor" : 2,
+    "minor" : 3,
     "patch" : 0
   },
   "sections" : [
@@ -109,7 +109,10 @@
 },
 "doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Cosmos_Proto_Message": {
   "abstract" : [
-
+    {
+      "text" : "A transaction payload message",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -174,18 +177,7 @@
 },
 "doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Cosmos_Proto_Message/THORChainSend/init()": {
   "abstract" : [
-    {
-      "text" : "Creates a new message with all of its fields initialized to their default",
-      "type" : "text"
-    },
-    {
-      "text" : " ",
-      "type" : "text"
-    },
-    {
-      "text" : "values.",
-      "type" : "text"
-    }
+
   ],
   "fragments" : [
     {

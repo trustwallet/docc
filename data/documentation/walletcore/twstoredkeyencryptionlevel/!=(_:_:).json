@@ -175,7 +175,7 @@
   ],
   "schemaVersion" : {
     "major" : 0,
-    "minor" : 2,
+    "minor" : 3,
     "patch" : 0
   },
   "sections" : [
@@ -208,7 +208,10 @@
 },
 "doc://com.trustwallet.WalletCore/documentation/WalletCore/TWStoredKeyEncryptionLevel": {
   "abstract" : [
-
+    {
+      "text" : "Preset encryption parameter with different security strength, for key store",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -310,5 +313,31 @@
   "type" : "topic",
   "url" : "\/documentation\/walletcore\/twstoredkeyencryptionlevel\/equatable-implementations"
 }
-}
+}, 
+"variantOverrides":[
+  {
+    "patch" : [
+      {
+        "op" : "replace",
+        "path" : "\/references\/doc:~1~1com.trustwallet.WalletCore~1documentation~1WalletCore~1TWStoredKeyEncryptionLevel\/title",
+        "value" : "TWStoredKeyEncryptionLevel"
+      },
+      {
+        "op" : "replace",
+        "path" : "\/references\/doc:~1~1com.trustwallet.WalletCore~1documentation~1WalletCore~1TWStoredKeyEncryptionLevel\/fragments",
+        "value" : [
+          {
+            "kind" : "identifier",
+            "text" : "TWStoredKeyEncryptionLevel"
+          }
+        ]
+      }
+    ],
+    "traits" : [
+      {
+        "interfaceLanguage" : "occ"
+      }
+    ]
+  }
+]
 }

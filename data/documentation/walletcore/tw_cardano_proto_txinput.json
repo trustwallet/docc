@@ -1,7 +1,7 @@
 {
   "abstract" : [
     {
-      "text" : "No overview available.",
+      "text" : "One input for a transaction",
       "type" : "text"
     }
   ],
@@ -93,7 +93,7 @@
   ],
   "schemaVersion" : {
     "major" : 0,
-    "minor" : 2,
+    "minor" : 3,
     "patch" : 0
   },
   "sections" : [
@@ -174,7 +174,10 @@
 },
 "doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Cardano_Proto_TxInput": {
   "abstract" : [
-
+    {
+      "text" : "One input for a transaction",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -227,7 +230,10 @@
 },
 "doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Cardano_Proto_TxInput/address": {
   "abstract" : [
-
+    {
+      "text" : "The owner address (string)",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -262,7 +268,7 @@
 "doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Cardano_Proto_TxInput/amount": {
   "abstract" : [
     {
-      "text" : "ADA amount",
+      "text" : "ADA amount in the UTXO",
       "type" : "text"
     }
   ],
@@ -383,18 +389,7 @@
 },
 "doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Cardano_Proto_TxInput/init()": {
   "abstract" : [
-    {
-      "text" : "Creates a new message with all of its fields initialized to their default",
-      "type" : "text"
-    },
-    {
-      "text" : " ",
-      "type" : "text"
-    },
-    {
-      "text" : "values.",
-      "type" : "text"
-    }
+
   ],
   "fragments" : [
     {
@@ -415,7 +410,10 @@
 },
 "doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Cardano_Proto_TxInput/outPoint": {
   "abstract" : [
-
+    {
+      "text" : "The UTXO",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -450,7 +448,7 @@
 "doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Cardano_Proto_TxInput/tokenAmount": {
   "abstract" : [
     {
-      "text" : "optional token amounts",
+      "text" : "optional token amounts in the UTXO",
       "type" : "text"
     }
   ],
@@ -490,18 +488,7 @@
 },
 "doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Cardano_Proto_TxInput/unknownFields": {
   "abstract" : [
-    {
-      "text" : "Some formats include enough information to transport fields that were",
-      "type" : "text"
-    },
-    {
-      "text" : " ",
-      "type" : "text"
-    },
-    {
-      "text" : "not known at generation time. When encountered, they are stored here.",
-      "type" : "text"
-    }
+
   ],
   "fragments" : [
     {

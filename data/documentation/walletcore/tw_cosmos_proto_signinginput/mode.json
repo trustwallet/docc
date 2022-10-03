@@ -1,7 +1,7 @@
 {
   "abstract" : [
     {
-      "text" : "No overview available.",
+      "text" : "Broadcast mode (included in output, relevant when broadcasting)",
       "type" : "text"
     }
   ],
@@ -94,7 +94,7 @@
   ],
   "schemaVersion" : {
     "major" : 0,
-    "minor" : 2,
+    "minor" : 3,
     "patch" : 0
   },
   "sections" : [
@@ -127,7 +127,10 @@
 },
 "doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Cosmos_Proto_BroadcastMode": {
   "abstract" : [
-
+    {
+      "text" : "Transaction broadcast mode",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -159,7 +162,7 @@
 "doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Cosmos_Proto_SigningInput": {
   "abstract" : [
     {
-      "text" : "Input data necessary to create a signed order.",
+      "text" : "Input data necessary to create a signed transaction.",
       "type" : "text"
     }
   ],
@@ -192,7 +195,10 @@
 },
 "doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Cosmos_Proto_SigningInput/mode": {
   "abstract" : [
-
+    {
+      "text" : "Broadcast mode (included in output, relevant when broadcasting)",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {

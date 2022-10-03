@@ -1,7 +1,15 @@
 {
   "abstract" : [
     {
-      "text" : "No overview available.",
+      "text" : "Signed Action",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "Used internally",
       "type" : "text"
     }
   ],
@@ -93,7 +101,7 @@
   ],
   "schemaVersion" : {
     "major" : 0,
-    "minor" : 2,
+    "minor" : 3,
     "patch" : 0
   },
   "sections" : [
@@ -173,7 +181,18 @@
 },
 "doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_IoTeX_Proto_Action": {
   "abstract" : [
-
+    {
+      "text" : "Signed Action",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "Used internally",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -266,7 +285,10 @@
 },
 "doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_IoTeX_Proto_Action/core": {
   "abstract" : [
-
+    {
+      "text" : "Action details",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -345,18 +367,7 @@
 },
 "doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_IoTeX_Proto_Action/init()": {
   "abstract" : [
-    {
-      "text" : "Creates a new message with all of its fields initialized to their default",
-      "type" : "text"
-    },
-    {
-      "text" : " ",
-      "type" : "text"
-    },
-    {
-      "text" : "values.",
-      "type" : "text"
-    }
+
   ],
   "fragments" : [
     {
@@ -377,7 +388,10 @@
 },
 "doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_IoTeX_Proto_Action/senderPubKey": {
   "abstract" : [
-
+    {
+      "text" : "public key",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -411,7 +425,10 @@
 },
 "doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_IoTeX_Proto_Action/signature": {
   "abstract" : [
-
+    {
+      "text" : "the signature",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -445,18 +462,7 @@
 },
 "doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_IoTeX_Proto_Action/unknownFields": {
   "abstract" : [
-    {
-      "text" : "Some formats include enough information to transport fields that were",
-      "type" : "text"
-    },
-    {
-      "text" : " ",
-      "type" : "text"
-    },
-    {
-      "text" : "not known at generation time. When encountered, they are stored here.",
-      "type" : "text"
-    }
+
   ],
   "fragments" : [
     {

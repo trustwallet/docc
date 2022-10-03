@@ -123,7 +123,7 @@
   ],
   "schemaVersion" : {
     "major" : 0,
-    "minor" : 2,
+    "minor" : 3,
     "patch" : 0
   },
   "sections" : [
@@ -156,7 +156,10 @@
 },
 "doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Cosmos_Proto_Amount": {
   "abstract" : [
-
+    {
+      "text" : "A denomination and an amount",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -187,7 +190,10 @@
 },
 "doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Cosmos_Proto_Message": {
   "abstract" : [
-
+    {
+      "text" : "A transaction payload message",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {

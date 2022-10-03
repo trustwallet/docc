@@ -1,7 +1,7 @@
 {
   "abstract" : [
     {
-      "text" : "Address purpose, each coin will have a different value.",
+      "text" : "Returns the purpose enum of a DerivationPath.",
       "type" : "text"
     }
   ],
@@ -19,7 +19,7 @@
   },
   "kind" : "symbol",
   "metadata" : {
-    "externalID" : "s:10WalletCore14DerivationPathV7purposeAA7PurposeOvp",
+    "externalID" : "s:10WalletCore14DerivationPathC7purposeAA7PurposeOvp",
     "fragments" : [
       {
         "kind" : "keyword",
@@ -96,25 +96,56 @@
             },
             {
               "kind" : "text",
-              "text" : " "
-            },
-            {
-              "kind" : "keyword",
-              "text" : "set"
-            },
-            {
-              "kind" : "text",
               "text" : " }"
             }
           ]
         }
       ],
       "kind" : "declarations"
+    },
+    {
+      "content" : [
+        {
+          "anchor" : "return-value",
+          "level" : 2,
+          "text" : "Return Value",
+          "type" : "heading"
+        },
+        {
+          "inlineContent" : [
+            {
+              "text" : "DerivationPathPurpose.",
+              "type" : "text"
+            }
+          ],
+          "type" : "paragraph"
+        }
+      ],
+      "kind" : "content"
+    },
+    {
+      "kind" : "parameters",
+      "parameters" : [
+        {
+          "content" : [
+            {
+              "inlineContent" : [
+                {
+                  "text" : "DerivationPath to get the purpose of.",
+                  "type" : "text"
+                }
+              ],
+              "type" : "paragraph"
+            }
+          ],
+          "name" : "path"
+        }
+      ]
     }
   ],
   "schemaVersion" : {
     "major" : 0,
-    "minor" : 2,
+    "minor" : 3,
     "patch" : 0
   },
   "sections" : [
@@ -148,14 +179,14 @@
 "doc://com.trustwallet.WalletCore/documentation/WalletCore/DerivationPath": {
   "abstract" : [
     {
-      "text" : "Represents a hierarchical deterministic derivation path.",
+      "text" : "Represents a BIP44 DerivationPath in C++.",
       "type" : "text"
     }
   ],
   "fragments" : [
     {
       "kind" : "keyword",
-      "text" : "struct"
+      "text" : "class"
     },
     {
       "kind" : "text",
@@ -182,7 +213,7 @@
 "doc://com.trustwallet.WalletCore/documentation/WalletCore/DerivationPath/purpose": {
   "abstract" : [
     {
-      "text" : "Address purpose, each coin will have a different value.",
+      "text" : "Returns the purpose enum of a DerivationPath.",
       "type" : "text"
     }
   ],

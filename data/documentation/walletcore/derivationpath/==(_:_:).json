@@ -17,7 +17,8 @@
     "paths" : [
       [
         "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore",
-        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/DerivationPath"
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/DerivationPath",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/DerivationPath\/Equatable-Implementations"
       ]
     ]
   },
@@ -27,7 +28,8 @@
   },
   "kind" : "symbol",
   "metadata" : {
-    "externalID" : "s:10WalletCore14DerivationPathV2eeoiySbAC_ACtFZ",
+    "extendedModule" : "WalletCore",
+    "externalID" : "s:10WalletCore14DerivationPathC2eeoiySbAC_ACtFZ",
     "fragments" : [
       {
         "kind" : "keyword",
@@ -59,7 +61,7 @@
       },
       {
         "kind" : "typeIdentifier",
-        "preciseIdentifier" : "s:10WalletCore14DerivationPathV",
+        "preciseIdentifier" : "s:10WalletCore14DerivationPathC",
         "text" : "DerivationPath"
       },
       {
@@ -68,7 +70,7 @@
       },
       {
         "kind" : "typeIdentifier",
-        "preciseIdentifier" : "s:10WalletCore14DerivationPathV",
+        "preciseIdentifier" : "s:10WalletCore14DerivationPathC",
         "text" : "DerivationPath"
       },
       {
@@ -141,7 +143,7 @@
             {
               "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/DerivationPath",
               "kind" : "typeIdentifier",
-              "preciseIdentifier" : "s:10WalletCore14DerivationPathV",
+              "preciseIdentifier" : "s:10WalletCore14DerivationPathC",
               "text" : "DerivationPath"
             },
             {
@@ -159,7 +161,7 @@
             {
               "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/DerivationPath",
               "kind" : "typeIdentifier",
-              "preciseIdentifier" : "s:10WalletCore14DerivationPathV",
+              "preciseIdentifier" : "s:10WalletCore14DerivationPathC",
               "text" : "DerivationPath"
             },
             {
@@ -179,7 +181,7 @@
   ],
   "schemaVersion" : {
     "major" : 0,
-    "minor" : 2,
+    "minor" : 3,
     "patch" : 0
   },
   "sections" : [
@@ -213,14 +215,14 @@
 "doc://com.trustwallet.WalletCore/documentation/WalletCore/DerivationPath": {
   "abstract" : [
     {
-      "text" : "Represents a hierarchical deterministic derivation path.",
+      "text" : "Represents a BIP44 DerivationPath in C++.",
       "type" : "text"
     }
   ],
   "fragments" : [
     {
       "kind" : "keyword",
-      "text" : "struct"
+      "text" : "class"
     },
     {
       "kind" : "text",
@@ -279,7 +281,7 @@
     },
     {
       "kind" : "typeIdentifier",
-      "preciseIdentifier" : "s:10WalletCore14DerivationPathV",
+      "preciseIdentifier" : "s:10WalletCore14DerivationPathC",
       "text" : "DerivationPath"
     },
     {
@@ -288,7 +290,7 @@
     },
     {
       "kind" : "typeIdentifier",
-      "preciseIdentifier" : "s:10WalletCore14DerivationPathV",
+      "preciseIdentifier" : "s:10WalletCore14DerivationPathC",
       "text" : "DerivationPath"
     },
     {
@@ -307,6 +309,17 @@
   "title" : "==(_:_:)",
   "type" : "topic",
   "url" : "\/documentation\/walletcore\/derivationpath\/==(_:_:)"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/DerivationPath/Equatable-Implementations": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/DerivationPath\/Equatable-Implementations",
+  "kind" : "article",
+  "role" : "collectionGroup",
+  "title" : "Equatable Implementations",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/derivationpath\/equatable-implementations"
 }
 }
 }

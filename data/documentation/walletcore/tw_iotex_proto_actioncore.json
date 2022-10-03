@@ -1,7 +1,15 @@
 {
   "abstract" : [
     {
-      "text" : "No overview available.",
+      "text" : "An Action structure",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "Used internally",
       "type" : "text"
     }
   ],
@@ -93,7 +101,7 @@
   ],
   "schemaVersion" : {
     "major" : 0,
-    "minor" : 2,
+    "minor" : 3,
     "patch" : 0
   },
   "sections" : [
@@ -185,7 +193,18 @@
 },
 "doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_IoTeX_Proto_ActionCore": {
   "abstract" : [
-
+    {
+      "text" : "An Action structure",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "Used internally",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -238,7 +257,10 @@
 },
 "doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_IoTeX_Proto_ActionCore/OneOf_Action": {
   "abstract" : [
-
+    {
+      "text" : "action payload",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -269,7 +291,10 @@
 },
 "doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_IoTeX_Proto_ActionCore/action": {
   "abstract" : [
-
+    {
+      "text" : "action payload",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -436,7 +461,10 @@
 },
 "doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_IoTeX_Proto_ActionCore/gasLimit": {
   "abstract" : [
-
+    {
+      "text" : "Gas limit",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -470,7 +498,10 @@
 },
 "doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_IoTeX_Proto_ActionCore/gasPrice": {
   "abstract" : [
-
+    {
+      "text" : "Gas price",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -504,18 +535,7 @@
 },
 "doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_IoTeX_Proto_ActionCore/init()": {
   "abstract" : [
-    {
-      "text" : "Creates a new message with all of its fields initialized to their default",
-      "type" : "text"
-    },
-    {
-      "text" : " ",
-      "type" : "text"
-    },
-    {
-      "text" : "values.",
-      "type" : "text"
-    }
+
   ],
   "fragments" : [
     {
@@ -536,7 +556,10 @@
 },
 "doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_IoTeX_Proto_ActionCore/nonce": {
   "abstract" : [
-
+    {
+      "text" : "Nonce (should be larger than in the last transaction of the account)",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -908,18 +931,7 @@
 },
 "doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_IoTeX_Proto_ActionCore/unknownFields": {
   "abstract" : [
-    {
-      "text" : "Some formats include enough information to transport fields that were",
-      "type" : "text"
-    },
-    {
-      "text" : " ",
-      "type" : "text"
-    },
-    {
-      "text" : "not known at generation time. When encountered, they are stored here.",
-      "type" : "text"
-    }
+
   ],
   "fragments" : [
     {
@@ -953,7 +965,10 @@
 },
 "doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_IoTeX_Proto_ActionCore/version": {
   "abstract" : [
-
+    {
+      "text" : "version number",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {

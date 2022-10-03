@@ -1,7 +1,7 @@
 {
   "abstract" : [
     {
-      "text" : "No overview available.",
+      "text" : "Permission",
       "type" : "text"
     }
   ],
@@ -121,7 +121,7 @@
   ],
   "schemaVersion" : {
     "major" : 0,
-    "minor" : 2,
+    "minor" : 3,
     "patch" : 0
   },
   "sections" : [
@@ -154,7 +154,10 @@
 },
 "doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_NEAR_Proto_AccessKey": {
   "abstract" : [
-
+    {
+      "text" : "Access key: nonce + permission",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -185,7 +188,10 @@
 },
 "doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_NEAR_Proto_AccessKey/OneOf_Permission": {
   "abstract" : [
-
+    {
+      "text" : "Permission",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -216,7 +222,10 @@
 },
 "doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_NEAR_Proto_AccessKey/permission": {
   "abstract" : [
-
+    {
+      "text" : "Permission",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {

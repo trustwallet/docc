@@ -1,7 +1,7 @@
 {
   "abstract" : [
     {
-      "text" : "No overview available.",
+      "text" : "controller ID",
       "type" : "text"
     }
   ],
@@ -94,7 +94,7 @@
   ],
   "schemaVersion" : {
     "major" : 0,
-    "minor" : 2,
+    "minor" : 3,
     "patch" : 0
   },
   "sections" : [
@@ -127,7 +127,10 @@
 },
 "doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Polkadot_Proto_Staking": {
   "abstract" : [
-
+    {
+      "text" : "Staking transaction",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -158,7 +161,10 @@
 },
 "doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Polkadot_Proto_Staking/BondAndNominate-swift.struct": {
   "abstract" : [
-
+    {
+      "text" : "Bond to a controller, with nominators",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -189,7 +195,10 @@
 },
 "doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Polkadot_Proto_Staking/BondAndNominate-swift.struct/controller": {
   "abstract" : [
-
+    {
+      "text" : "controller ID",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {

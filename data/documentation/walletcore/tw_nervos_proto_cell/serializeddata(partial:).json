@@ -1,23 +1,15 @@
 {
   "abstract" : [
     {
-      "text" : "Returns a ",
+      "text" : "Inherited from ",
       "type" : "text"
     },
     {
-      "code" : "Data",
+      "code" : "Message.serializedData(partial:)",
       "type" : "codeVoice"
     },
     {
-      "text" : " value containing the Protocol Buffer binary format",
-      "type" : "text"
-    },
-    {
-      "text" : " ",
-      "type" : "text"
-    },
-    {
-      "text" : "serialization of the message.",
+      "text" : ".",
       "type" : "text"
     }
   ],
@@ -157,141 +149,11 @@
         }
       ],
       "kind" : "declarations"
-    },
-    {
-      "content" : [
-        {
-          "anchor" : "return-value",
-          "level" : 2,
-          "text" : "Return Value",
-          "type" : "heading"
-        },
-        {
-          "inlineContent" : [
-            {
-              "text" : "A ",
-              "type" : "text"
-            },
-            {
-              "code" : "Data",
-              "type" : "codeVoice"
-            },
-            {
-              "text" : " value containing the binary serialization of the",
-              "type" : "text"
-            },
-            {
-              "text" : " ",
-              "type" : "text"
-            },
-            {
-              "text" : "message.",
-              "type" : "text"
-            }
-          ],
-          "type" : "paragraph"
-        }
-      ],
-      "kind" : "content"
-    },
-    {
-      "kind" : "parameters",
-      "parameters" : [
-        {
-          "content" : [
-            {
-              "inlineContent" : [
-                {
-                  "text" : "If ",
-                  "type" : "text"
-                },
-                {
-                  "code" : "false",
-                  "type" : "codeVoice"
-                },
-                {
-                  "text" : " (the default), this method will check",
-                  "type" : "text"
-                },
-                {
-                  "text" : " ",
-                  "type" : "text"
-                },
-                {
-                  "code" : "Message.isInitialized",
-                  "type" : "codeVoice"
-                },
-                {
-                  "text" : " before encoding to verify that all required",
-                  "type" : "text"
-                },
-                {
-                  "text" : " ",
-                  "type" : "text"
-                },
-                {
-                  "text" : "fields are present. If any are missing, this method throws",
-                  "type" : "text"
-                },
-                {
-                  "text" : " ",
-                  "type" : "text"
-                },
-                {
-                  "code" : "BinaryEncodingError.missingRequiredFields",
-                  "type" : "codeVoice"
-                },
-                {
-                  "text" : ".",
-                  "type" : "text"
-                }
-              ],
-              "type" : "paragraph"
-            }
-          ],
-          "name" : "partial"
-        }
-      ]
-    },
-    {
-      "content" : [
-        {
-          "anchor" : "discussion",
-          "level" : 2,
-          "text" : "Discussion",
-          "type" : "heading"
-        },
-        {
-          "content" : [
-            {
-              "inlineContent" : [
-                {
-                  "text" : "",
-                  "type" : "text"
-                },
-                {
-                  "code" : "BinaryEncodingError",
-                  "type" : "codeVoice"
-                },
-                {
-                  "text" : " if encoding fails.",
-                  "type" : "text"
-                }
-              ],
-              "type" : "paragraph"
-            }
-          ],
-          "name" : "Throws",
-          "style" : "note",
-          "type" : "aside"
-        }
-      ],
-      "kind" : "content"
     }
   ],
   "schemaVersion" : {
     "major" : 0,
-    "minor" : 2,
+    "minor" : 3,
     "patch" : 0
   },
   "sections" : [
@@ -369,26 +231,7 @@
 },
 "doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Nervos_Proto_Cell/serializedData(partial:)": {
   "abstract" : [
-    {
-      "text" : "Returns a ",
-      "type" : "text"
-    },
-    {
-      "code" : "Data",
-      "type" : "codeVoice"
-    },
-    {
-      "text" : " value containing the Protocol Buffer binary format",
-      "type" : "text"
-    },
-    {
-      "text" : " ",
-      "type" : "text"
-    },
-    {
-      "text" : "serialization of the message.",
-      "type" : "text"
-    }
+
   ],
   "fragments" : [
     {

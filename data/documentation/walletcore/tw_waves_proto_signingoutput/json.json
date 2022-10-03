@@ -1,7 +1,7 @@
 {
   "abstract" : [
     {
-      "text" : "No overview available.",
+      "text" : "transaction in JSON format",
       "type" : "text"
     }
   ],
@@ -93,7 +93,7 @@
   ],
   "schemaVersion" : {
     "major" : 0,
-    "minor" : 2,
+    "minor" : 3,
     "patch" : 0
   },
   "sections" : [
@@ -127,7 +127,7 @@
 "doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Waves_Proto_SigningOutput": {
   "abstract" : [
     {
-      "text" : "Transaction signing output.",
+      "text" : "Result containing the signed and encoded transaction.",
       "type" : "text"
     }
   ],
@@ -160,7 +160,10 @@
 },
 "doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Waves_Proto_SigningOutput/json": {
   "abstract" : [
-
+    {
+      "text" : "transaction in JSON format",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {

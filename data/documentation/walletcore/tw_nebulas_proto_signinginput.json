@@ -93,7 +93,7 @@
   ],
   "schemaVersion" : {
     "major" : 0,
-    "minor" : 2,
+    "minor" : 3,
     "patch" : 0
   },
   "sections" : [
@@ -230,7 +230,7 @@
 "doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Nebulas_Proto_SigningInput/amount": {
   "abstract" : [
     {
-      "text" : "Amount to send in wei, 1 NAS = 10^18 Wei (256-bit number)",
+      "text" : "Amount to send in wei, 1 NAS = 10^18 Wei (uint256, serialized little endian)",
       "type" : "text"
     }
   ],
@@ -267,7 +267,7 @@
 "doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Nebulas_Proto_SigningInput/chainID": {
   "abstract" : [
     {
-      "text" : "Chain identifier (256-bit number)",
+      "text" : "Chain identifier (uint256, serialized little endian)",
       "type" : "text"
     }
   ],
@@ -341,7 +341,7 @@
 "doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Nebulas_Proto_SigningInput/gasLimit": {
   "abstract" : [
     {
-      "text" : "Gas limit (256-bit number)",
+      "text" : "Gas limit (uint256, serialized little endian)",
       "type" : "text"
     }
   ],
@@ -378,7 +378,7 @@
 "doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Nebulas_Proto_SigningInput/gasPrice": {
   "abstract" : [
     {
-      "text" : "Gas price (256-bit number)",
+      "text" : "Gas price (uint256, serialized little endian)",
       "type" : "text"
     }
   ],
@@ -414,18 +414,7 @@
 },
 "doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Nebulas_Proto_SigningInput/init()": {
   "abstract" : [
-    {
-      "text" : "Creates a new message with all of its fields initialized to their default",
-      "type" : "text"
-    },
-    {
-      "text" : " ",
-      "type" : "text"
-    },
-    {
-      "text" : "values.",
-      "type" : "text"
-    }
+
   ],
   "fragments" : [
     {
@@ -447,7 +436,7 @@
 "doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Nebulas_Proto_SigningInput/nonce": {
   "abstract" : [
     {
-      "text" : "Nonce (256-bit number)",
+      "text" : "Nonce (uint256, serialized little endian)",
       "type" : "text"
     }
   ],
@@ -521,7 +510,7 @@
 "doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Nebulas_Proto_SigningInput/privateKey": {
   "abstract" : [
     {
-      "text" : "Private key.",
+      "text" : "The secret private key used for signing (32 bytes).",
       "type" : "text"
     }
   ],
@@ -558,7 +547,7 @@
 "doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Nebulas_Proto_SigningInput/timestamp": {
   "abstract" : [
     {
-      "text" : "Timestamp to create transaction (256-bit number)",
+      "text" : "Timestamp to create transaction (uint256, serialized little endian)",
       "type" : "text"
     }
   ],
@@ -631,18 +620,7 @@
 },
 "doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Nebulas_Proto_SigningInput/unknownFields": {
   "abstract" : [
-    {
-      "text" : "Some formats include enough information to transport fields that were",
-      "type" : "text"
-    },
-    {
-      "text" : " ",
-      "type" : "text"
-    },
-    {
-      "text" : "not known at generation time. When encountered, they are stored here.",
-      "type" : "text"
-    }
+
   ],
   "fragments" : [
     {

@@ -1,27 +1,15 @@
 {
   "abstract" : [
     {
-      "text" : "Creates an instance of the message type on which this method is called,",
+      "text" : "Inherited from ",
       "type" : "text"
     },
     {
-      "text" : " ",
-      "type" : "text"
-    },
-    {
-      "text" : "executes the given block passing the message in as its sole ",
-      "type" : "text"
-    },
-    {
-      "code" : "inout",
+      "code" : "Message.with(_:)",
       "type" : "codeVoice"
     },
     {
-      "text" : " ",
-      "type" : "text"
-    },
-    {
-      "text" : "argument, and then returns the message.",
+      "text" : ".",
       "type" : "text"
     }
   ],
@@ -206,110 +194,11 @@
         }
       ],
       "kind" : "declarations"
-    },
-    {
-      "content" : [
-        {
-          "anchor" : "return-value",
-          "level" : 2,
-          "text" : "Return Value",
-          "type" : "heading"
-        },
-        {
-          "inlineContent" : [
-            {
-              "text" : "The message after execution of the block.",
-              "type" : "text"
-            }
-          ],
-          "type" : "paragraph"
-        }
-      ],
-      "kind" : "content"
-    },
-    {
-      "kind" : "parameters",
-      "parameters" : [
-        {
-          "content" : [
-            {
-              "inlineContent" : [
-                {
-                  "text" : "A block or function that populates the new message,",
-                  "type" : "text"
-                },
-                {
-                  "text" : " ",
-                  "type" : "text"
-                },
-                {
-                  "text" : "which is passed into the block as an ",
-                  "type" : "text"
-                },
-                {
-                  "code" : "inout",
-                  "type" : "codeVoice"
-                },
-                {
-                  "text" : " argument.",
-                  "type" : "text"
-                }
-              ],
-              "type" : "paragraph"
-            }
-          ],
-          "name" : "populator"
-        }
-      ]
-    },
-    {
-      "content" : [
-        {
-          "anchor" : "discussion",
-          "level" : 2,
-          "text" : "Discussion",
-          "type" : "heading"
-        },
-        {
-          "inlineContent" : [
-            {
-              "text" : "This method acts essentially as a “builder” in that the initialization of",
-              "type" : "text"
-            },
-            {
-              "text" : " ",
-              "type" : "text"
-            },
-            {
-              "text" : "the message is captured within the block, allowing the returned value to",
-              "type" : "text"
-            },
-            {
-              "text" : " ",
-              "type" : "text"
-            },
-            {
-              "text" : "be set in an immutable variable. For example,",
-              "type" : "text"
-            }
-          ],
-          "type" : "paragraph"
-        },
-        {
-          "code" : [
-            "let msg = MyMessage.with { $0.myField = \"foo\" }",
-            "msg.myOtherField = 5  \/\/ error: msg is immutable"
-          ],
-          "syntax" : null,
-          "type" : "codeListing"
-        }
-      ],
-      "kind" : "content"
     }
   ],
   "schemaVersion" : {
     "major" : 0,
-    "minor" : 2,
+    "minor" : 3,
     "patch" : 0
   },
   "sections" : [
@@ -342,7 +231,10 @@
 },
 "doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Cosmos_Proto_Message": {
   "abstract" : [
-
+    {
+      "text" : "A transaction payload message",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -418,30 +310,7 @@
 },
 "doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Cosmos_Proto_Message/WasmTerraExecuteContractGeneric-swift.struct/with(_:)": {
   "abstract" : [
-    {
-      "text" : "Creates an instance of the message type on which this method is called,",
-      "type" : "text"
-    },
-    {
-      "text" : " ",
-      "type" : "text"
-    },
-    {
-      "text" : "executes the given block passing the message in as its sole ",
-      "type" : "text"
-    },
-    {
-      "code" : "inout",
-      "type" : "codeVoice"
-    },
-    {
-      "text" : " ",
-      "type" : "text"
-    },
-    {
-      "text" : "argument, and then returns the message.",
-      "type" : "text"
-    }
+
   ],
   "fragments" : [
     {

@@ -1,14 +1,4 @@
 {
-  "abstract" : [
-    {
-      "text" : "Creates a derivation path with a string description like ",
-      "type" : "text"
-    },
-    {
-      "code" : "m\/10\/0\/2'\/3",
-      "type" : "codeVoice"
-    }
-  ],
   "hierarchy" : {
     "paths" : [
       [
@@ -23,7 +13,8 @@
   },
   "kind" : "symbol",
   "metadata" : {
-    "externalID" : "s:10WalletCore14DerivationPathVyACSgSScfc",
+    "extendedModule" : "WalletCore",
+    "externalID" : "s:10WalletCore14DerivationPathCyACSgSScfc",
     "fragments" : [
       {
         "kind" : "identifier",
@@ -66,6 +57,14 @@
           "tokens" : [
             {
               "kind" : "keyword",
+              "text" : "convenience"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "keyword",
               "text" : "init"
             },
             {
@@ -105,7 +104,7 @@
   ],
   "schemaVersion" : {
     "major" : 0,
-    "minor" : 2,
+    "minor" : 3,
     "patch" : 0
   },
   "sections" : [
@@ -139,14 +138,14 @@
 "doc://com.trustwallet.WalletCore/documentation/WalletCore/DerivationPath": {
   "abstract" : [
     {
-      "text" : "Represents a hierarchical deterministic derivation path.",
+      "text" : "Represents a BIP44 DerivationPath in C++.",
       "type" : "text"
     }
   ],
   "fragments" : [
     {
       "kind" : "keyword",
-      "text" : "struct"
+      "text" : "class"
     },
     {
       "kind" : "text",
@@ -172,14 +171,7 @@
 },
 "doc://com.trustwallet.WalletCore/documentation/WalletCore/DerivationPath/init(_:)": {
   "abstract" : [
-    {
-      "text" : "Creates a derivation path with a string description like ",
-      "type" : "text"
-    },
-    {
-      "code" : "m\/10\/0\/2'\/3",
-      "type" : "codeVoice"
-    }
+
   ],
   "fragments" : [
     {

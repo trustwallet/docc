@@ -176,7 +176,7 @@
   ],
   "schemaVersion" : {
     "major" : 0,
-    "minor" : 2,
+    "minor" : 3,
     "patch" : 0
   },
   "sections" : [
@@ -209,7 +209,10 @@
 },
 "doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Everscale_Proto_SigningInput": {
   "abstract" : [
-
+    {
+      "text" : "Input data necessary to create a signed transaction.",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -240,7 +243,10 @@
 },
 "doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Everscale_Proto_SigningInput/OneOf_ActionOneof": {
   "abstract" : [
-
+    {
+      "text" : "The payload transfer",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {

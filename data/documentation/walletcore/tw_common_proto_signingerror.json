@@ -1,7 +1,7 @@
 {
   "abstract" : [
     {
-      "text" : "No overview available.",
+      "text" : "Error codes, used in multiple blockchains.",
       "type" : "text"
     }
   ],
@@ -94,7 +94,7 @@
   ],
   "schemaVersion" : {
     "major" : 0,
-    "minor" : 2,
+    "minor" : 3,
     "patch" : 0
   },
   "sections" : [
@@ -208,7 +208,10 @@
 },
 "doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Common_Proto_SigningError": {
   "abstract" : [
-
+    {
+      "text" : "Error codes, used in multiple blockchains.",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -353,7 +356,15 @@
 "doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Common_Proto_SigningError/errorGeneral": {
   "abstract" : [
     {
-      "text" : "chain-generic, generic",
+      "text" : "Chain-generic codes:",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "Generic error (used if there is no suitable specific error is adequate)",
       "type" : "text"
     }
   ],
@@ -381,7 +392,7 @@
 "doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Common_Proto_SigningError/errorInputParse": {
   "abstract" : [
     {
-      "text" : "e.g. Invalid input data",
+      "text" : "Some input field cannot be parsed",
       "type" : "text"
     }
   ],
@@ -408,7 +419,10 @@
 },
 "doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Common_Proto_SigningError/errorInternal": {
   "abstract" : [
-
+    {
+      "text" : "Internal error, indicates some very unusual, unexpected case",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -433,7 +447,10 @@
 },
 "doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Common_Proto_SigningError/errorInvalidAddress": {
   "abstract" : [
-
+    {
+      "text" : "A provided address (e.g. destination address) is invalid",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -459,7 +476,7 @@
 "doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Common_Proto_SigningError/errorInvalidMemo": {
   "abstract" : [
     {
-      "text" : "e.g. [XRP] Invalid tag",
+      "text" : "Invalid memo, e.g. [XRP] Invalid tag",
       "type" : "text"
     }
   ],
@@ -487,7 +504,7 @@
 "doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Common_Proto_SigningError/errorInvalidParams": {
   "abstract" : [
     {
-      "text" : "Incorrect parameters",
+      "text" : "Incorrect input parameter",
       "type" : "text"
     }
   ],
@@ -514,7 +531,10 @@
 },
 "doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Common_Proto_SigningError/errorInvalidPrivateKey": {
   "abstract" : [
-
+    {
+      "text" : "A private key provided is invalid (e.g. wrong size, usually should be 32 bytes)",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -539,7 +559,10 @@
 },
 "doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Common_Proto_SigningError/errorInvalidRequestedTokenAmount": {
   "abstract" : [
-
+    {
+      "text" : "Invalid input token amount",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -564,7 +587,10 @@
 },
 "doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Common_Proto_SigningError/errorInvalidUtxo": {
   "abstract" : [
-
+    {
+      "text" : "A provided input UTXO is invalid",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -589,7 +615,10 @@
 },
 "doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Common_Proto_SigningError/errorInvalidUtxoAmount": {
   "abstract" : [
-
+    {
+      "text" : "The amount of an input UTXO is invalid",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -615,7 +644,15 @@
 "doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Common_Proto_SigningError/errorLowBalance": {
   "abstract" : [
     {
-      "text" : "chain-generic, input",
+      "text" : "Chain-generic codes, input related:",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "Low balance: the sender balance is not enough to cover the send and other auxiliary amount such as fee, deposit, or minimal balance.",
       "type" : "text"
     }
   ],
@@ -643,7 +680,15 @@
 "doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Common_Proto_SigningError/errorMissingInputUtxos": {
   "abstract" : [
     {
-      "text" : "UTXO-chain specific, inputs",
+      "text" : "UTXO-chain specific, input related:",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "No input UTXOs provided [BTC]",
       "type" : "text"
     }
   ],
@@ -670,7 +715,10 @@
 },
 "doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Common_Proto_SigningError/errorMissingPrivateKey": {
   "abstract" : [
-
+    {
+      "text" : "One required key is missing (too few or wrong keys are provided)",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -696,7 +744,7 @@
 "doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Common_Proto_SigningError/errorNoSupportN2N": {
   "abstract" : [
     {
-      "text" : "e.g. Not support multi-input and multi-output transaction",
+      "text" : "Multi-input and multi-output transaction not supported",
       "type" : "text"
     }
   ],
@@ -752,7 +800,7 @@
 "doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Common_Proto_SigningError/errorScriptOutput": {
   "abstract" : [
     {
-      "text" : "[BTC] Invalid output script",
+      "text" : "[BTC] Invalid required output script",
       "type" : "text"
     }
   ],
@@ -780,7 +828,15 @@
 "doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Common_Proto_SigningError/errorScriptRedeem": {
   "abstract" : [
     {
-      "text" : "UTXO-chain specific, script",
+      "text" : "UTXO-chain specific, script related:",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "[BTC] Missing required redeem script",
       "type" : "text"
     }
   ],
@@ -864,7 +920,15 @@
 "doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Common_Proto_SigningError/errorSigning": {
   "abstract" : [
     {
-      "text" : "chain-generic, signing",
+      "text" : "Chain-generic, signing related:",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "General signing error",
       "type" : "text"
     }
   ],
@@ -891,6 +955,14 @@
 },
 "doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Common_Proto_SigningError/errorTxTooBig": {
   "abstract" : [
+    {
+      "text" : "Resulting transaction is too large",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
     {
       "text" : "[NEO] Transaction too big, fee in GAS needed or try send by parts",
       "type" : "text"
@@ -920,7 +992,15 @@
 "doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Common_Proto_SigningError/errorWrongFee": {
   "abstract" : [
     {
-      "text" : "chain-generic, fee",
+      "text" : "Chain-generic, fee related:",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "Wrong fee is given, probably it is too low to cover minimal fee for the transaction",
       "type" : "text"
     }
   ],
@@ -948,7 +1028,7 @@
 "doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Common_Proto_SigningError/errorZeroAmountRequested": {
   "abstract" : [
     {
-      "text" : "Requested amount is zero",
+      "text" : "Requested amount is zero, send of 0 makes no sense",
       "type" : "text"
     }
   ],
@@ -975,10 +1055,7 @@
 },
 "doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Common_Proto_SigningError/init()": {
   "abstract" : [
-    {
-      "text" : "Creates a new instance of the enum initialized to its default value.",
-      "type" : "text"
-    }
+
   ],
   "fragments" : [
     {
@@ -999,10 +1076,7 @@
 },
 "doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Common_Proto_SigningError/init(rawValue:)": {
   "abstract" : [
-    {
-      "text" : "Creates a new instance of the enum from the given raw integer value.",
-      "type" : "text"
-    }
+
   ],
   "fragments" : [
     {
@@ -1041,7 +1115,7 @@
 "doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Common_Proto_SigningError/ok": {
   "abstract" : [
     {
-      "text" : "OK",
+      "text" : "This is the OK case, with value=0",
       "type" : "text"
     }
   ],
@@ -1068,10 +1142,7 @@
 },
 "doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Common_Proto_SigningError/rawValue-swift.property": {
   "abstract" : [
-    {
-      "text" : "The raw integer value of the enum value.",
-      "type" : "text"
-    }
+
   ],
   "fragments" : [
     {

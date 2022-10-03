@@ -181,7 +181,7 @@
   ],
   "schemaVersion" : {
     "major" : 0,
-    "minor" : 2,
+    "minor" : 3,
     "patch" : 0
   },
   "sections" : [
@@ -214,7 +214,10 @@
 },
 "doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Cardano_Proto_TokenAmount": {
   "abstract" : [
-
+    {
+      "text" : "Represents a token and an amount. Token is identified by PolicyID and name.",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {

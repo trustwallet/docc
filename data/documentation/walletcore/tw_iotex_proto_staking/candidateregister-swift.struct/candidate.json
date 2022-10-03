@@ -1,10 +1,4 @@
 {
-  "abstract" : [
-    {
-      "text" : "No overview available.",
-      "type" : "text"
-    }
-  ],
   "hierarchy" : {
     "paths" : [
       [
@@ -134,7 +128,7 @@
   ],
   "schemaVersion" : {
     "major" : 0,
-    "minor" : 2,
+    "minor" : 3,
     "patch" : 0
   },
   "sections" : [
@@ -167,7 +161,10 @@
 },
 "doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_IoTeX_Proto_Staking": {
   "abstract" : [
-
+    {
+      "text" : "A Staking message",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -198,7 +195,10 @@
 },
 "doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_IoTeX_Proto_Staking/CandidateBasicInfo": {
   "abstract" : [
-
+    {
+      "text" : "Candidate (validator) info",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -229,7 +229,10 @@
 },
 "doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_IoTeX_Proto_Staking/CandidateRegister-swift.struct": {
   "abstract" : [
-
+    {
+      "text" : "Register a Candidate",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {

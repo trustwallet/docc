@@ -1,10 +1,4 @@
 {
-  "abstract" : [
-    {
-      "text" : "No overview available.",
-      "type" : "text"
-    }
-  ],
   "hierarchy" : {
     "paths" : [
       [
@@ -103,7 +97,7 @@
   ],
   "schemaVersion" : {
     "major" : 0,
-    "minor" : 2,
+    "minor" : 3,
     "patch" : 0
   },
   "sections" : [
@@ -136,7 +130,10 @@
 },
 "doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Tron_Proto_Transaction": {
   "abstract" : [
-
+    {
+      "text" : "Transaction",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -239,7 +236,10 @@
 },
 "doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Tron_Proto_TransferAssetContract": {
   "abstract" : [
-
+    {
+      "text" : "Asset transfer",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {

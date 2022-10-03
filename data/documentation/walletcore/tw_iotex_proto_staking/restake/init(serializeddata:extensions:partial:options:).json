@@ -1,23 +1,15 @@
 {
   "abstract" : [
     {
-      "text" : "Creates a new message by decoding the given ",
+      "text" : "Inherited from ",
       "type" : "text"
     },
     {
-      "code" : "Data",
+      "code" : "Message.init(serializedData:extensions:partial:options:)",
       "type" : "codeVoice"
     },
     {
-      "text" : " value containing a",
-      "type" : "text"
-    },
-    {
-      "text" : " ",
-      "type" : "text"
-    },
-    {
-      "text" : "serialized message in Protocol Buffer binary format.",
+      "text" : ".",
       "type" : "text"
     }
   ],
@@ -234,171 +226,11 @@
         }
       ],
       "kind" : "declarations"
-    },
-    {
-      "kind" : "parameters",
-      "parameters" : [
-        {
-          "content" : [
-            {
-              "inlineContent" : [
-                {
-                  "text" : "The binary-encoded message data to decode.",
-                  "type" : "text"
-                }
-              ],
-              "type" : "paragraph"
-            }
-          ],
-          "name" : "serializedData"
-        },
-        {
-          "content" : [
-            {
-              "inlineContent" : [
-                {
-                  "text" : "An ",
-                  "type" : "text"
-                },
-                {
-                  "code" : "ExtensionMap",
-                  "type" : "codeVoice"
-                },
-                {
-                  "text" : " used to look up and decode any",
-                  "type" : "text"
-                },
-                {
-                  "text" : " ",
-                  "type" : "text"
-                },
-                {
-                  "text" : "extensions in this message or messages nested within this message’s",
-                  "type" : "text"
-                },
-                {
-                  "text" : " ",
-                  "type" : "text"
-                },
-                {
-                  "text" : "fields.",
-                  "type" : "text"
-                }
-              ],
-              "type" : "paragraph"
-            }
-          ],
-          "name" : "extensions"
-        },
-        {
-          "content" : [
-            {
-              "inlineContent" : [
-                {
-                  "text" : "If ",
-                  "type" : "text"
-                },
-                {
-                  "code" : "false",
-                  "type" : "codeVoice"
-                },
-                {
-                  "text" : " (the default), this method will check",
-                  "type" : "text"
-                },
-                {
-                  "text" : " ",
-                  "type" : "text"
-                },
-                {
-                  "code" : "Message.isInitialized",
-                  "type" : "codeVoice"
-                },
-                {
-                  "text" : " before encoding to verify that all required",
-                  "type" : "text"
-                },
-                {
-                  "text" : " ",
-                  "type" : "text"
-                },
-                {
-                  "text" : "fields are present. If any are missing, this method throws",
-                  "type" : "text"
-                },
-                {
-                  "text" : " ",
-                  "type" : "text"
-                },
-                {
-                  "code" : "BinaryEncodingError.missingRequiredFields",
-                  "type" : "codeVoice"
-                },
-                {
-                  "text" : ".",
-                  "type" : "text"
-                }
-              ],
-              "type" : "paragraph"
-            }
-          ],
-          "name" : "partial"
-        },
-        {
-          "content" : [
-            {
-              "inlineContent" : [
-                {
-                  "text" : "The BinaryDecodingOptions to use.",
-                  "type" : "text"
-                }
-              ],
-              "type" : "paragraph"
-            }
-          ],
-          "name" : "options"
-        }
-      ]
-    },
-    {
-      "content" : [
-        {
-          "anchor" : "discussion",
-          "level" : 2,
-          "text" : "Discussion",
-          "type" : "heading"
-        },
-        {
-          "content" : [
-            {
-              "inlineContent" : [
-                {
-                  "text" : "",
-                  "type" : "text"
-                },
-                {
-                  "code" : "BinaryDecodingError",
-                  "type" : "codeVoice"
-                },
-                {
-                  "text" : " if decoding fails.",
-                  "type" : "text"
-                }
-              ],
-              "type" : "paragraph"
-            }
-          ],
-          "name" : "Throws",
-          "style" : "note",
-          "type" : "aside"
-        }
-      ],
-      "kind" : "content"
     }
   ],
   "schemaVersion" : {
     "major" : 0,
-    "minor" : 2,
+    "minor" : 3,
     "patch" : 0
   },
   "sections" : [
@@ -431,7 +263,10 @@
 },
 "doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_IoTeX_Proto_Staking": {
   "abstract" : [
-
+    {
+      "text" : "A Staking message",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -507,26 +342,7 @@
 },
 "doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_IoTeX_Proto_Staking/Restake/init(serializedData:extensions:partial:options:)": {
   "abstract" : [
-    {
-      "text" : "Creates a new message by decoding the given ",
-      "type" : "text"
-    },
-    {
-      "code" : "Data",
-      "type" : "codeVoice"
-    },
-    {
-      "text" : " value containing a",
-      "type" : "text"
-    },
-    {
-      "text" : " ",
-      "type" : "text"
-    },
-    {
-      "text" : "serialized message in Protocol Buffer binary format.",
-      "type" : "text"
-    }
+
   ],
   "fragments" : [
     {

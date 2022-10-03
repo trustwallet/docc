@@ -1,6 +1,14 @@
 {
   "abstract" : [
     {
+      "text" : "Resulting transaction is too large",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
       "text" : "[NEO] Transaction too big, fee in GAS needed or try send by parts",
       "type" : "text"
     }
@@ -75,7 +83,7 @@
   ],
   "schemaVersion" : {
     "major" : 0,
-    "minor" : 2,
+    "minor" : 3,
     "patch" : 0
   },
   "sections" : [
@@ -108,7 +116,10 @@
 },
 "doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Common_Proto_SigningError": {
   "abstract" : [
-
+    {
+      "text" : "Error codes, used in multiple blockchains.",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -139,6 +150,14 @@
 },
 "doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Common_Proto_SigningError/errorTxTooBig": {
   "abstract" : [
+    {
+      "text" : "Resulting transaction is too large",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
     {
       "text" : "[NEO] Transaction too big, fee in GAS needed or try send by parts",
       "type" : "text"

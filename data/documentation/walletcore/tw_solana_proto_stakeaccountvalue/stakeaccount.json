@@ -1,7 +1,7 @@
 {
   "abstract" : [
     {
-      "text" : "No overview available.",
+      "text" : "staking account",
       "type" : "text"
     }
   ],
@@ -93,7 +93,7 @@
   ],
   "schemaVersion" : {
     "major" : 0,
-    "minor" : 2,
+    "minor" : 3,
     "patch" : 0
   },
   "sections" : [
@@ -127,7 +127,7 @@
 "doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Solana_Proto_StakeAccountValue": {
   "abstract" : [
     {
-      "text" : "Techinical structure to group a staking account and an amount",
+      "text" : "Technical structure to group a staking account and an amount",
       "type" : "text"
     }
   ],
@@ -160,7 +160,10 @@
 },
 "doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Solana_Proto_StakeAccountValue/stakeAccount": {
   "abstract" : [
-
+    {
+      "text" : "staking account",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {

@@ -1,7 +1,7 @@
 {
   "abstract" : [
     {
-      "text" : "No overview available.",
+      "text" : "owner public key",
       "type" : "text"
     }
   ],
@@ -114,7 +114,7 @@
   ],
   "schemaVersion" : {
     "major" : 0,
-    "minor" : 2,
+    "minor" : 3,
     "patch" : 0
   },
   "sections" : [
@@ -147,7 +147,10 @@
 },
 "doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_NEAR_Proto_PublicKey": {
   "abstract" : [
-
+    {
+      "text" : "Public key with type",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -178,7 +181,10 @@
 },
 "doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_NEAR_Proto_Stake": {
   "abstract" : [
-
+    {
+      "text" : "Stake",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -209,7 +215,10 @@
 },
 "doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_NEAR_Proto_Stake/publicKey": {
   "abstract" : [
-
+    {
+      "text" : "owner public key",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {

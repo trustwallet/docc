@@ -17,7 +17,8 @@
     "paths" : [
       [
         "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore",
-        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/DerivationPath"
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/DerivationPath",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/DerivationPath\/Hashable-Implementations"
       ]
     ]
   },
@@ -27,7 +28,8 @@
   },
   "kind" : "symbol",
   "metadata" : {
-    "externalID" : "s:10WalletCore14DerivationPathV4hash4intoys6HasherVz_tF",
+    "extendedModule" : "WalletCore",
+    "externalID" : "s:10WalletCore14DerivationPathC4hash4intoys6HasherVz_tF",
     "fragments" : [
       {
         "kind" : "keyword",
@@ -149,7 +151,7 @@
   ],
   "schemaVersion" : {
     "major" : 0,
-    "minor" : 2,
+    "minor" : 3,
     "patch" : 0
   },
   "sections" : [
@@ -183,14 +185,14 @@
 "doc://com.trustwallet.WalletCore/documentation/WalletCore/DerivationPath": {
   "abstract" : [
     {
-      "text" : "Represents a hierarchical deterministic derivation path.",
+      "text" : "Represents a BIP44 DerivationPath in C++.",
       "type" : "text"
     }
   ],
   "fragments" : [
     {
       "kind" : "keyword",
-      "text" : "struct"
+      "text" : "class"
     },
     {
       "kind" : "text",
@@ -213,6 +215,17 @@
   "title" : "DerivationPath",
   "type" : "topic",
   "url" : "\/documentation\/walletcore\/derivationpath"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/DerivationPath/Hashable-Implementations": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/DerivationPath\/Hashable-Implementations",
+  "kind" : "article",
+  "role" : "collectionGroup",
+  "title" : "Hashable Implementations",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/derivationpath\/hashable-implementations"
 },
 "doc://com.trustwallet.WalletCore/documentation/WalletCore/DerivationPath/hash(into:)": {
   "abstract" : [

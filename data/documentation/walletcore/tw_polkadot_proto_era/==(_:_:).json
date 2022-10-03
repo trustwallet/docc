@@ -181,7 +181,7 @@
   ],
   "schemaVersion" : {
     "major" : 0,
-    "minor" : 2,
+    "minor" : 3,
     "patch" : 0
   },
   "sections" : [
@@ -214,7 +214,10 @@
 },
 "doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Polkadot_Proto_Era": {
   "abstract" : [
-
+    {
+      "text" : "An era, a period defined by a starting block and length",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {

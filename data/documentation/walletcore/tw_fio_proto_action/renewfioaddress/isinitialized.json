@@ -1,31 +1,15 @@
 {
   "abstract" : [
     {
-      "text" : "Generated proto2 messages that contain required fields, nested messages",
+      "text" : "Inherited from ",
       "type" : "text"
     },
     {
-      "text" : " ",
-      "type" : "text"
+      "code" : "Message.isInitialized",
+      "type" : "codeVoice"
     },
     {
-      "text" : "that contain required fields, and\/or extensions will provide their own",
-      "type" : "text"
-    },
-    {
-      "text" : " ",
-      "type" : "text"
-    },
-    {
-      "text" : "implementation of this property that tests that all required fields are",
-      "type" : "text"
-    },
-    {
-      "text" : " ",
-      "type" : "text"
-    },
-    {
-      "text" : "set. Users of the generated code SHOULD NOT override this property.",
+      "text" : ".",
       "type" : "text"
     }
   ],
@@ -132,7 +116,7 @@
   ],
   "schemaVersion" : {
     "major" : 0,
-    "minor" : 2,
+    "minor" : 3,
     "patch" : 0
   },
   "sections" : [
@@ -202,6 +186,14 @@
     {
       "text" : "Action for renewing a FIO name; renew_fio_address",
       "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "Note: actor is not needed, computed from private key",
+      "type" : "text"
     }
   ],
   "fragments" : [
@@ -244,34 +236,7 @@
 },
 "doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_FIO_Proto_Action/RenewFioAddress/isInitialized": {
   "abstract" : [
-    {
-      "text" : "Generated proto2 messages that contain required fields, nested messages",
-      "type" : "text"
-    },
-    {
-      "text" : " ",
-      "type" : "text"
-    },
-    {
-      "text" : "that contain required fields, and\/or extensions will provide their own",
-      "type" : "text"
-    },
-    {
-      "text" : " ",
-      "type" : "text"
-    },
-    {
-      "text" : "implementation of this property that tests that all required fields are",
-      "type" : "text"
-    },
-    {
-      "text" : " ",
-      "type" : "text"
-    },
-    {
-      "text" : "set. Users of the generated code SHOULD NOT override this property.",
-      "type" : "text"
-    }
+
   ],
   "fragments" : [
     {

@@ -1,7 +1,7 @@
 {
   "abstract" : [
     {
-      "text" : "No overview available.",
+      "text" : "Transaction broadcast mode",
       "type" : "text"
     }
   ],
@@ -94,7 +94,7 @@
   ],
   "schemaVersion" : {
     "major" : 0,
-    "minor" : 2,
+    "minor" : 3,
     "patch" : 0
   },
   "sections" : [
@@ -187,7 +187,10 @@
 },
 "doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Cosmos_Proto_BroadcastMode": {
   "abstract" : [
-
+    {
+      "text" : "Transaction broadcast mode",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -387,10 +390,7 @@
 },
 "doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Cosmos_Proto_BroadcastMode/init()": {
   "abstract" : [
-    {
-      "text" : "Creates a new instance of the enum initialized to its default value.",
-      "type" : "text"
-    }
+
   ],
   "fragments" : [
     {
@@ -411,10 +411,7 @@
 },
 "doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Cosmos_Proto_BroadcastMode/init(rawValue:)": {
   "abstract" : [
-    {
-      "text" : "Creates a new instance of the enum from the given raw integer value.",
-      "type" : "text"
-    }
+
   ],
   "fragments" : [
     {
@@ -452,10 +449,7 @@
 },
 "doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Cosmos_Proto_BroadcastMode/rawValue-swift.property": {
   "abstract" : [
-    {
-      "text" : "The raw integer value of the enum value.",
-      "type" : "text"
-    }
+
   ],
   "fragments" : [
     {

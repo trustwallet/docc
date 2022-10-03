@@ -1,7 +1,7 @@
 {
   "abstract" : [
     {
-      "text" : "0xB33F9A24      \/\/ prefix",
+      "text" : "signer address",
       "type" : "text"
     }
   ],
@@ -93,7 +93,7 @@
   ],
   "schemaVersion" : {
     "major" : 0,
-    "minor" : 2,
+    "minor" : 3,
     "patch" : 0
   },
   "sections" : [
@@ -126,7 +126,10 @@
 },
 "doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Binance_Proto_HTLTOrder": {
   "abstract" : [
-
+    {
+      "text" : "Message for HashTimeLock order",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -158,7 +161,7 @@
 "doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Binance_Proto_HTLTOrder/from": {
   "abstract" : [
     {
-      "text" : "0xB33F9A24      \/\/ prefix",
+      "text" : "signer address",
       "type" : "text"
     }
   ],

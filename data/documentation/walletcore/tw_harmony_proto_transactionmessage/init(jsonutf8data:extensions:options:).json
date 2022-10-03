@@ -1,31 +1,15 @@
 {
   "abstract" : [
     {
-      "text" : "Creates a new message by decoding the given ",
+      "text" : "Inherited from ",
       "type" : "text"
     },
     {
-      "code" : "Data",
+      "code" : "Message.init(jsonUTF8Data:extensions:options:)",
       "type" : "codeVoice"
     },
     {
-      "text" : " containing a",
-      "type" : "text"
-    },
-    {
-      "text" : " ",
-      "type" : "text"
-    },
-    {
-      "text" : "serialized message in JSON format, interpreting the data as UTF-8 encoded",
-      "type" : "text"
-    },
-    {
-      "text" : " ",
-      "type" : "text"
-    },
-    {
-      "text" : "text.",
+      "text" : ".",
       "type" : "text"
     }
   ],
@@ -199,101 +183,11 @@
         }
       ],
       "kind" : "declarations"
-    },
-    {
-      "kind" : "parameters",
-      "parameters" : [
-        {
-          "content" : [
-            {
-              "inlineContent" : [
-                {
-                  "text" : "The JSON-formatted data to decode, represented",
-                  "type" : "text"
-                },
-                {
-                  "text" : " ",
-                  "type" : "text"
-                },
-                {
-                  "text" : "as UTF-8 encoded text.",
-                  "type" : "text"
-                }
-              ],
-              "type" : "paragraph"
-            }
-          ],
-          "name" : "jsonUTF8Data"
-        },
-        {
-          "content" : [
-            {
-              "inlineContent" : [
-                {
-                  "text" : "The extension map to use with this decode",
-                  "type" : "text"
-                }
-              ],
-              "type" : "paragraph"
-            }
-          ],
-          "name" : "extensions"
-        },
-        {
-          "content" : [
-            {
-              "inlineContent" : [
-                {
-                  "text" : "The JSONDecodingOptions to use.",
-                  "type" : "text"
-                }
-              ],
-              "type" : "paragraph"
-            }
-          ],
-          "name" : "options"
-        }
-      ]
-    },
-    {
-      "content" : [
-        {
-          "anchor" : "discussion",
-          "level" : 2,
-          "text" : "Discussion",
-          "type" : "heading"
-        },
-        {
-          "content" : [
-            {
-              "inlineContent" : [
-                {
-                  "text" : "",
-                  "type" : "text"
-                },
-                {
-                  "code" : "JSONDecodingError",
-                  "type" : "codeVoice"
-                },
-                {
-                  "text" : " if decoding fails.",
-                  "type" : "text"
-                }
-              ],
-              "type" : "paragraph"
-            }
-          ],
-          "name" : "Throws",
-          "style" : "note",
-          "type" : "aside"
-        }
-      ],
-      "kind" : "content"
     }
   ],
   "schemaVersion" : {
     "major" : 0,
-    "minor" : 2,
+    "minor" : 3,
     "patch" : 0
   },
   "sections" : [
@@ -326,7 +220,10 @@
 },
 "doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Harmony_Proto_TransactionMessage": {
   "abstract" : [
-
+    {
+      "text" : "A Transfer message",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -368,34 +265,7 @@
 },
 "doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Harmony_Proto_TransactionMessage/init(jsonUTF8Data:extensions:options:)": {
   "abstract" : [
-    {
-      "text" : "Creates a new message by decoding the given ",
-      "type" : "text"
-    },
-    {
-      "code" : "Data",
-      "type" : "codeVoice"
-    },
-    {
-      "text" : " containing a",
-      "type" : "text"
-    },
-    {
-      "text" : " ",
-      "type" : "text"
-    },
-    {
-      "text" : "serialized message in JSON format, interpreting the data as UTF-8 encoded",
-      "type" : "text"
-    },
-    {
-      "text" : " ",
-      "type" : "text"
-    },
-    {
-      "text" : "text.",
-      "type" : "text"
-    }
+
   ],
   "fragments" : [
     {

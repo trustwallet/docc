@@ -1,7 +1,7 @@
 {
   "abstract" : [
     {
-      "text" : "No overview available.",
+      "text" : "Describes a preliminary transaction plan.",
       "type" : "text"
     }
   ],
@@ -93,7 +93,7 @@
   ],
   "schemaVersion" : {
     "major" : 0,
-    "minor" : 2,
+    "minor" : 3,
     "patch" : 0
   },
   "sections" : [
@@ -113,9 +113,11 @@
         "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Cardano_Proto_TransactionPlan\/availableTokens",
         "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Cardano_Proto_TransactionPlan\/change",
         "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Cardano_Proto_TransactionPlan\/changeTokens",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Cardano_Proto_TransactionPlan\/deposit",
         "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Cardano_Proto_TransactionPlan\/error",
         "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Cardano_Proto_TransactionPlan\/fee",
         "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Cardano_Proto_TransactionPlan\/outputTokens",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Cardano_Proto_TransactionPlan\/undeposit",
         "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Cardano_Proto_TransactionPlan\/unknownFields",
         "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Cardano_Proto_TransactionPlan\/utxos"
       ],
@@ -172,7 +174,10 @@
 },
 "doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Cardano_Proto_TransactionPlan": {
   "abstract" : [
-
+    {
+      "text" : "Describes a preliminary transaction plan.",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -416,9 +421,49 @@
   "type" : "topic",
   "url" : "\/documentation\/walletcore\/tw_cardano_proto_transactionplan\/changetokens"
 },
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Cardano_Proto_TransactionPlan/deposit": {
+  "abstract" : [
+    {
+      "text" : "coins deposited (going to deposit) in this TX",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "deposit"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:s6UInt64V",
+      "text" : "UInt64"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Cardano_Proto_TransactionPlan\/deposit",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "deposit",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_cardano_proto_transactionplan\/deposit"
+},
 "doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Cardano_Proto_TransactionPlan/error": {
   "abstract" : [
-
+    {
+      "text" : "Optional error",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -489,18 +534,7 @@
 },
 "doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Cardano_Proto_TransactionPlan/init()": {
   "abstract" : [
-    {
-      "text" : "Creates a new message with all of its fields initialized to their default",
-      "type" : "text"
-    },
-    {
-      "text" : " ",
-      "type" : "text"
-    },
-    {
-      "text" : "values.",
-      "type" : "text"
-    }
+
   ],
   "fragments" : [
     {
@@ -560,20 +594,46 @@
   "type" : "topic",
   "url" : "\/documentation\/walletcore\/tw_cardano_proto_transactionplan\/outputtokens"
 },
-"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Cardano_Proto_TransactionPlan/unknownFields": {
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Cardano_Proto_TransactionPlan/undeposit": {
   "abstract" : [
     {
-      "text" : "Some formats include enough information to transport fields that were",
-      "type" : "text"
-    },
-    {
-      "text" : " ",
-      "type" : "text"
-    },
-    {
-      "text" : "not known at generation time. When encountered, they are stored here.",
+      "text" : "coins undeposited (coming from deposit) in this TX",
       "type" : "text"
     }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "undeposit"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:s6UInt64V",
+      "text" : "UInt64"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Cardano_Proto_TransactionPlan\/undeposit",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "undeposit",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_cardano_proto_transactionplan\/undeposit"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Cardano_Proto_TransactionPlan/unknownFields": {
+  "abstract" : [
+
   ],
   "fragments" : [
     {
@@ -607,7 +667,10 @@
 },
 "doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Cardano_Proto_TransactionPlan/utxos": {
   "abstract" : [
-
+    {
+      "text" : "The selected UTXOs, subset ot the input UTXOs",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {

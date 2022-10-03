@@ -1,7 +1,7 @@
 {
   "abstract" : [
     {
-      "text" : "Optional transaction plan",
+      "text" : "Optional transaction plan. If missing, plan will be computed.",
       "type" : "text"
     }
   ],
@@ -114,7 +114,7 @@
   ],
   "schemaVersion" : {
     "major" : 0,
-    "minor" : 2,
+    "minor" : 3,
     "patch" : 0
   },
   "sections" : [
@@ -182,7 +182,7 @@
 "doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Bitcoin_Proto_SigningInput/plan": {
   "abstract" : [
     {
-      "text" : "Optional transaction plan",
+      "text" : "Optional transaction plan. If missing, plan will be computed.",
       "type" : "text"
     }
   ],

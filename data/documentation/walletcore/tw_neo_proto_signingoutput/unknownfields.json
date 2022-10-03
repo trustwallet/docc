@@ -1,15 +1,15 @@
 {
   "abstract" : [
     {
-      "text" : "Some formats include enough information to transport fields that were",
+      "text" : "Inherited from ",
       "type" : "text"
     },
     {
-      "text" : " ",
-      "type" : "text"
+      "code" : "Message.unknownFields",
+      "type" : "codeVoice"
     },
     {
-      "text" : "not known at generation time. When encountered, they are stored here.",
+      "text" : ".",
       "type" : "text"
     }
   ],
@@ -101,7 +101,7 @@
   ],
   "schemaVersion" : {
     "major" : 0,
-    "minor" : 2,
+    "minor" : 3,
     "patch" : 0
   },
   "sections" : [
@@ -135,7 +135,7 @@
 "doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_NEO_Proto_SigningOutput": {
   "abstract" : [
     {
-      "text" : "Transaction signing output.",
+      "text" : "Result containing the signed and encoded transaction.",
       "type" : "text"
     }
   ],
@@ -168,18 +168,7 @@
 },
 "doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_NEO_Proto_SigningOutput/unknownFields": {
   "abstract" : [
-    {
-      "text" : "Some formats include enough information to transport fields that were",
-      "type" : "text"
-    },
-    {
-      "text" : " ",
-      "type" : "text"
-    },
-    {
-      "text" : "not known at generation time. When encountered, they are stored here.",
-      "type" : "text"
-    }
+
   ],
   "fragments" : [
     {

@@ -94,7 +94,7 @@
   ],
   "schemaVersion" : {
     "major" : 0,
-    "minor" : 2,
+    "minor" : 3,
     "patch" : 0
   },
   "sections" : [
@@ -163,6 +163,14 @@
   "abstract" : [
     {
       "text" : "Action for renewing a FIO name; renew_fio_address",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "Note: actor is not needed, computed from private key",
       "type" : "text"
     }
   ],

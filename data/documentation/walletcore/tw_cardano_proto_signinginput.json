@@ -1,7 +1,7 @@
 {
   "abstract" : [
     {
-      "text" : "Input data necessary to create a signed transaction",
+      "text" : "Input data necessary to create a signed transaction.",
       "type" : "text"
     }
   ],
@@ -93,7 +93,7 @@
   ],
   "schemaVersion" : {
     "major" : 0,
-    "minor" : 2,
+    "minor" : 3,
     "patch" : 0
   },
   "sections" : [
@@ -108,21 +108,33 @@
     },
     {
       "identifiers" : [
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Cardano_Proto_SigningInput\/delegate",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Cardano_Proto_SigningInput\/deregisterStakingKey",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Cardano_Proto_SigningInput\/hasDelegate",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Cardano_Proto_SigningInput\/hasDeregisterStakingKey",
         "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Cardano_Proto_SigningInput\/hasPlan",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Cardano_Proto_SigningInput\/hasRegisterStakingKey",
         "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Cardano_Proto_SigningInput\/hasTransferMessage",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Cardano_Proto_SigningInput\/hasWithdraw",
         "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Cardano_Proto_SigningInput\/plan",
         "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Cardano_Proto_SigningInput\/privateKey",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Cardano_Proto_SigningInput\/registerStakingKey",
         "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Cardano_Proto_SigningInput\/transferMessage",
         "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Cardano_Proto_SigningInput\/ttl",
         "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Cardano_Proto_SigningInput\/unknownFields",
-        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Cardano_Proto_SigningInput\/utxos"
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Cardano_Proto_SigningInput\/utxos",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Cardano_Proto_SigningInput\/withdraw"
       ],
       "title" : "Instance Properties"
     },
     {
       "identifiers" : [
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Cardano_Proto_SigningInput\/clearDelegate()",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Cardano_Proto_SigningInput\/clearDeregisterStakingKey()",
         "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Cardano_Proto_SigningInput\/clearPlan()",
-        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Cardano_Proto_SigningInput\/clearTransferMessage()"
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Cardano_Proto_SigningInput\/clearRegisterStakingKey()",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Cardano_Proto_SigningInput\/clearTransferMessage()",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Cardano_Proto_SigningInput\/clearWithdraw()"
       ],
       "title" : "Instance Methods"
     },
@@ -178,7 +190,7 @@
 "doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Cardano_Proto_SigningInput": {
   "abstract" : [
     {
-      "text" : "Input data necessary to create a signed transaction",
+      "text" : "Input data necessary to create a signed transaction.",
       "type" : "text"
     }
   ],
@@ -231,6 +243,86 @@
   "type" : "topic",
   "url" : "\/documentation\/walletcore\/tw_cardano_proto_signinginput\/message-implementations"
 },
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Cardano_Proto_SigningInput/clearDelegate()": {
+  "abstract" : [
+    {
+      "text" : "Clears the value of ",
+      "type" : "text"
+    },
+    {
+      "code" : "delegate",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : ". Subsequent reads from it will return its default value.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "clearDelegate"
+    },
+    {
+      "kind" : "text",
+      "text" : "()"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Cardano_Proto_SigningInput\/clearDelegate()",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "clearDelegate()",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_cardano_proto_signinginput\/cleardelegate()"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Cardano_Proto_SigningInput/clearDeregisterStakingKey()": {
+  "abstract" : [
+    {
+      "text" : "Clears the value of ",
+      "type" : "text"
+    },
+    {
+      "code" : "deregisterStakingKey",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : ". Subsequent reads from it will return its default value.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "clearDeregisterStakingKey"
+    },
+    {
+      "kind" : "text",
+      "text" : "()"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Cardano_Proto_SigningInput\/clearDeregisterStakingKey()",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "clearDeregisterStakingKey()",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_cardano_proto_signinginput\/clearderegisterstakingkey()"
+},
 "doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Cardano_Proto_SigningInput/clearPlan()": {
   "abstract" : [
     {
@@ -271,6 +363,46 @@
   "type" : "topic",
   "url" : "\/documentation\/walletcore\/tw_cardano_proto_signinginput\/clearplan()"
 },
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Cardano_Proto_SigningInput/clearRegisterStakingKey()": {
+  "abstract" : [
+    {
+      "text" : "Clears the value of ",
+      "type" : "text"
+    },
+    {
+      "code" : "registerStakingKey",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : ". Subsequent reads from it will return its default value.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "clearRegisterStakingKey"
+    },
+    {
+      "kind" : "text",
+      "text" : "()"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Cardano_Proto_SigningInput\/clearRegisterStakingKey()",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "clearRegisterStakingKey()",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_cardano_proto_signinginput\/clearregisterstakingkey()"
+},
 "doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Cardano_Proto_SigningInput/clearTransferMessage()": {
   "abstract" : [
     {
@@ -310,6 +442,210 @@
   "title" : "clearTransferMessage()",
   "type" : "topic",
   "url" : "\/documentation\/walletcore\/tw_cardano_proto_signinginput\/cleartransfermessage()"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Cardano_Proto_SigningInput/clearWithdraw()": {
+  "abstract" : [
+    {
+      "text" : "Clears the value of ",
+      "type" : "text"
+    },
+    {
+      "code" : "withdraw",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : ". Subsequent reads from it will return its default value.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "clearWithdraw"
+    },
+    {
+      "kind" : "text",
+      "text" : "()"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Cardano_Proto_SigningInput\/clearWithdraw()",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "clearWithdraw()",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_cardano_proto_signinginput\/clearwithdraw()"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Cardano_Proto_SigningInput/delegate": {
+  "abstract" : [
+    {
+      "text" : "Optional, used in case of (re)delegation",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "delegate"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10WalletCore25TW_Cardano_Proto_DelegateV",
+      "text" : "TW_Cardano_Proto_Delegate"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Cardano_Proto_SigningInput\/delegate",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "delegate",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_cardano_proto_signinginput\/delegate"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Cardano_Proto_SigningInput/deregisterStakingKey": {
+  "abstract" : [
+    {
+      "text" : "Optional",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "deregisterStakingKey"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10WalletCore37TW_Cardano_Proto_DeregisterStakingKeyV",
+      "text" : "TW_Cardano_Proto_DeregisterStakingKey"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Cardano_Proto_SigningInput\/deregisterStakingKey",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "deregisterStakingKey",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_cardano_proto_signinginput\/deregisterstakingkey"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Cardano_Proto_SigningInput/hasDelegate": {
+  "abstract" : [
+    {
+      "text" : "Returns true if ",
+      "type" : "text"
+    },
+    {
+      "code" : "delegate",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : " has been explicitly set.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "hasDelegate"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Sb",
+      "text" : "Bool"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Cardano_Proto_SigningInput\/hasDelegate",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "hasDelegate",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_cardano_proto_signinginput\/hasdelegate"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Cardano_Proto_SigningInput/hasDeregisterStakingKey": {
+  "abstract" : [
+    {
+      "text" : "Returns true if ",
+      "type" : "text"
+    },
+    {
+      "code" : "deregisterStakingKey",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : " has been explicitly set.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "hasDeregisterStakingKey"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Sb",
+      "text" : "Bool"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Cardano_Proto_SigningInput\/hasDeregisterStakingKey",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "hasDeregisterStakingKey",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_cardano_proto_signinginput\/hasderegisterstakingkey"
 },
 "doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Cardano_Proto_SigningInput/hasPlan": {
   "abstract" : [
@@ -356,6 +692,51 @@
   "type" : "topic",
   "url" : "\/documentation\/walletcore\/tw_cardano_proto_signinginput\/hasplan"
 },
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Cardano_Proto_SigningInput/hasRegisterStakingKey": {
+  "abstract" : [
+    {
+      "text" : "Returns true if ",
+      "type" : "text"
+    },
+    {
+      "code" : "registerStakingKey",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : " has been explicitly set.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "hasRegisterStakingKey"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Sb",
+      "text" : "Bool"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Cardano_Proto_SigningInput\/hasRegisterStakingKey",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "hasRegisterStakingKey",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_cardano_proto_signinginput\/hasregisterstakingkey"
+},
 "doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Cardano_Proto_SigningInput/hasTransferMessage": {
   "abstract" : [
     {
@@ -401,20 +782,54 @@
   "type" : "topic",
   "url" : "\/documentation\/walletcore\/tw_cardano_proto_signinginput\/hastransfermessage"
 },
-"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Cardano_Proto_SigningInput/init()": {
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Cardano_Proto_SigningInput/hasWithdraw": {
   "abstract" : [
     {
-      "text" : "Creates a new message with all of its fields initialized to their default",
+      "text" : "Returns true if ",
       "type" : "text"
     },
     {
-      "text" : " ",
-      "type" : "text"
+      "code" : "withdraw",
+      "type" : "codeVoice"
     },
     {
-      "text" : "values.",
+      "text" : " has been explicitly set.",
       "type" : "text"
     }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "hasWithdraw"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Sb",
+      "text" : "Bool"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Cardano_Proto_SigningInput\/hasWithdraw",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "hasWithdraw",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_cardano_proto_signinginput\/haswithdraw"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Cardano_Proto_SigningInput/init()": {
+  "abstract" : [
+
   ],
   "fragments" : [
     {
@@ -436,7 +851,7 @@
 "doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Cardano_Proto_SigningInput/plan": {
   "abstract" : [
     {
-      "text" : "Optional plan",
+      "text" : "Optional plan, if missing it will be computed",
       "type" : "text"
     }
   ],
@@ -473,7 +888,7 @@
 "doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Cardano_Proto_SigningInput/privateKey": {
   "abstract" : [
     {
-      "text" : "Available private keys (double extended keys); every input UTXO adress should be covered",
+      "text" : "Available private keys (double extended keys); every input UTXO address should be covered",
       "type" : "text"
     },
     {
@@ -519,6 +934,43 @@
   "type" : "topic",
   "url" : "\/documentation\/walletcore\/tw_cardano_proto_signinginput\/privatekey"
 },
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Cardano_Proto_SigningInput/registerStakingKey": {
+  "abstract" : [
+    {
+      "text" : "Optional, used in case of Staking Key registration (prerequisite for Staking)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "registerStakingKey"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10WalletCore35TW_Cardano_Proto_RegisterStakingKeyV",
+      "text" : "TW_Cardano_Proto_RegisterStakingKey"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Cardano_Proto_SigningInput\/registerStakingKey",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "registerStakingKey",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_cardano_proto_signinginput\/registerstakingkey"
+},
 "doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Cardano_Proto_SigningInput/transferMessage": {
   "abstract" : [
     {
@@ -558,7 +1010,10 @@
 },
 "doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Cardano_Proto_SigningInput/ttl": {
   "abstract" : [
-
+    {
+      "text" : "Time-to-live time of the TX",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -592,18 +1047,7 @@
 },
 "doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Cardano_Proto_SigningInput/unknownFields": {
   "abstract" : [
-    {
-      "text" : "Some formats include enough information to transport fields that were",
-      "type" : "text"
-    },
-    {
-      "text" : " ",
-      "type" : "text"
-    },
-    {
-      "text" : "not known at generation time. When encountered, they are stored here.",
-      "type" : "text"
-    }
+
   ],
   "fragments" : [
     {
@@ -637,7 +1081,10 @@
 },
 "doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Cardano_Proto_SigningInput/utxos": {
   "abstract" : [
-
+    {
+      "text" : "Available input UTXOs",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -672,6 +1119,43 @@
   "title" : "utxos",
   "type" : "topic",
   "url" : "\/documentation\/walletcore\/tw_cardano_proto_signinginput\/utxos"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Cardano_Proto_SigningInput/withdraw": {
+  "abstract" : [
+    {
+      "text" : "Optional, used in case of withdraw",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "withdraw"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10WalletCore25TW_Cardano_Proto_WithdrawV",
+      "text" : "TW_Cardano_Proto_Withdraw"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Cardano_Proto_SigningInput\/withdraw",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "withdraw",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_cardano_proto_signinginput\/withdraw"
 },
 "doc://com.trustwallet.WalletCore/s28CustomDebugStringConvertibleP": {
   "identifier" : "doc:\/\/com.trustwallet.WalletCore\/s28CustomDebugStringConvertibleP",

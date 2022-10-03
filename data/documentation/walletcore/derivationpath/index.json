@@ -1,10 +1,4 @@
 {
-  "abstract" : [
-    {
-      "text" : "Derivation path index.",
-      "type" : "text"
-    }
-  ],
   "hierarchy" : {
     "paths" : [
       [
@@ -20,11 +14,11 @@
   "kind" : "symbol",
   "metadata" : {
     "extendedModule" : "WalletCore",
-    "externalID" : "s:10WalletCore14DerivationPathV5IndexV",
+    "externalID" : "s:10WalletCore14DerivationPathC5Indexa",
     "fragments" : [
       {
         "kind" : "keyword",
-        "text" : "struct"
+        "text" : "typealias"
       },
       {
         "kind" : "text",
@@ -47,8 +41,8 @@
       }
     ],
     "role" : "symbol",
-    "roleHeading" : "Structure",
-    "symbolKind" : "struct",
+    "roleHeading" : "Type Alias",
+    "symbolKind" : "typealias",
     "title" : "DerivationPath.Index"
   },
   "primaryContentSections" : [
@@ -64,7 +58,7 @@
           "tokens" : [
             {
               "kind" : "keyword",
-              "text" : "struct"
+              "text" : "typealias"
             },
             {
               "kind" : "text",
@@ -73,6 +67,16 @@
             {
               "kind" : "identifier",
               "text" : "Index"
+            },
+            {
+              "kind" : "text",
+              "text" : " = "
+            },
+            {
+              "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/DerivationPathIndex",
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:10WalletCore19DerivationPathIndexC",
+              "text" : "DerivationPathIndex"
             }
           ]
         }
@@ -80,64 +84,13 @@
       "kind" : "declarations"
     }
   ],
-  "relationshipsSections" : [
-    {
-      "identifiers" : [
-        "doc:\/\/com.trustwallet.WalletCore\/s23CustomStringConvertibleP",
-        "doc:\/\/com.trustwallet.WalletCore\/Se",
-        "doc:\/\/com.trustwallet.WalletCore\/SE",
-        "doc:\/\/com.trustwallet.WalletCore\/SQ",
-        "doc:\/\/com.trustwallet.WalletCore\/SH"
-      ],
-      "kind" : "relationships",
-      "title" : "Conforms To",
-      "type" : "conformsTo"
-    }
-  ],
   "schemaVersion" : {
     "major" : 0,
-    "minor" : 2,
+    "minor" : 3,
     "patch" : 0
   },
   "sections" : [
 
-  ],
-  "topicSections" : [
-    {
-      "identifiers" : [
-        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/DerivationPath\/Index\/==(_:_:)"
-      ],
-      "title" : "Operators"
-    },
-    {
-      "identifiers" : [
-        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/DerivationPath\/Index\/init(_:hardened:)",
-        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/DerivationPath\/Index\/init(from:)"
-      ],
-      "title" : "Initializers"
-    },
-    {
-      "identifiers" : [
-        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/DerivationPath\/Index\/derivationIndex",
-        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/DerivationPath\/Index\/description",
-        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/DerivationPath\/Index\/hardened",
-        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/DerivationPath\/Index\/value"
-      ],
-      "title" : "Instance Properties"
-    },
-    {
-      "identifiers" : [
-        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/DerivationPath\/Index\/hash(into:)"
-      ],
-      "title" : "Instance Methods"
-    },
-    {
-      "generated" : true,
-      "identifiers" : [
-        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/DerivationPath\/Index\/Equatable-Implementations"
-      ],
-      "title" : "Default Implementations"
-    }
   ],
   "variants" : [
     {
@@ -153,26 +106,6 @@
   ]
 , 
 "references": {
-"doc://com.trustwallet.WalletCore/SE": {
-  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/SE",
-  "title" : "Swift.Encodable",
-  "type" : "unresolvable"
-},
-"doc://com.trustwallet.WalletCore/SH": {
-  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/SH",
-  "title" : "Swift.Hashable",
-  "type" : "unresolvable"
-},
-"doc://com.trustwallet.WalletCore/SQ": {
-  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/SQ",
-  "title" : "Swift.Equatable",
-  "type" : "unresolvable"
-},
-"doc://com.trustwallet.WalletCore/Se": {
-  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/Se",
-  "title" : "Swift.Decodable",
-  "type" : "unresolvable"
-},
 "doc://com.trustwallet.WalletCore/documentation/WalletCore": {
   "abstract" : [
 
@@ -187,14 +120,14 @@
 "doc://com.trustwallet.WalletCore/documentation/WalletCore/DerivationPath": {
   "abstract" : [
     {
-      "text" : "Represents a hierarchical deterministic derivation path.",
+      "text" : "Represents a BIP44 DerivationPath in C++.",
       "type" : "text"
     }
   ],
   "fragments" : [
     {
       "kind" : "keyword",
-      "text" : "struct"
+      "text" : "class"
     },
     {
       "kind" : "text",
@@ -220,15 +153,12 @@
 },
 "doc://com.trustwallet.WalletCore/documentation/WalletCore/DerivationPath/Index": {
   "abstract" : [
-    {
-      "text" : "Derivation path index.",
-      "type" : "text"
-    }
+
   ],
   "fragments" : [
     {
       "kind" : "keyword",
-      "text" : "struct"
+      "text" : "typealias"
     },
     {
       "kind" : "text",
@@ -252,92 +182,17 @@
   "type" : "topic",
   "url" : "\/documentation\/walletcore\/derivationpath\/index"
 },
-"doc://com.trustwallet.WalletCore/documentation/WalletCore/DerivationPath/Index/==(_:_:)": {
-  "abstract" : [
-
-  ],
-  "fragments" : [
-    {
-      "kind" : "keyword",
-      "text" : "static"
-    },
-    {
-      "kind" : "text",
-      "text" : " "
-    },
-    {
-      "kind" : "keyword",
-      "text" : "func"
-    },
-    {
-      "kind" : "text",
-      "text" : " "
-    },
-    {
-      "kind" : "identifier",
-      "text" : "=="
-    },
-    {
-      "kind" : "text",
-      "text" : " "
-    },
-    {
-      "kind" : "text",
-      "text" : "("
-    },
-    {
-      "kind" : "typeIdentifier",
-      "preciseIdentifier" : "s:10WalletCore14DerivationPathV5IndexV",
-      "text" : "Index"
-    },
-    {
-      "kind" : "text",
-      "text" : ", "
-    },
-    {
-      "kind" : "typeIdentifier",
-      "preciseIdentifier" : "s:10WalletCore14DerivationPathV5IndexV",
-      "text" : "Index"
-    },
-    {
-      "kind" : "text",
-      "text" : ") -> "
-    },
-    {
-      "kind" : "typeIdentifier",
-      "preciseIdentifier" : "s:Sb",
-      "text" : "Bool"
-    }
-  ],
-  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/DerivationPath\/Index\/==(_:_:)",
-  "kind" : "symbol",
-  "role" : "symbol",
-  "title" : "==(_:_:)",
-  "type" : "topic",
-  "url" : "\/documentation\/walletcore\/derivationpath\/index\/==(_:_:)"
-},
-"doc://com.trustwallet.WalletCore/documentation/WalletCore/DerivationPath/Index/Equatable-Implementations": {
-  "abstract" : [
-
-  ],
-  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/DerivationPath\/Index\/Equatable-Implementations",
-  "kind" : "article",
-  "role" : "collectionGroup",
-  "title" : "Equatable Implementations",
-  "type" : "topic",
-  "url" : "\/documentation\/walletcore\/derivationpath\/index\/equatable-implementations"
-},
-"doc://com.trustwallet.WalletCore/documentation/WalletCore/DerivationPath/Index/derivationIndex": {
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/DerivationPathIndex": {
   "abstract" : [
     {
-      "text" : "The derivation index.",
+      "text" : "Represents a derivation path index in C++ with value and hardened flag.",
       "type" : "text"
     }
   ],
   "fragments" : [
     {
       "kind" : "keyword",
-      "text" : "var"
+      "text" : "class"
     },
     {
       "kind" : "text",
@@ -345,280 +200,21 @@
     },
     {
       "kind" : "identifier",
-      "text" : "derivationIndex"
-    },
-    {
-      "kind" : "text",
-      "text" : ": "
-    },
-    {
-      "kind" : "typeIdentifier",
-      "preciseIdentifier" : "s:s6UInt32V",
-      "text" : "UInt32"
+      "text" : "DerivationPathIndex"
     }
   ],
-  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/DerivationPath\/Index\/derivationIndex",
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/DerivationPathIndex",
   "kind" : "symbol",
-  "role" : "symbol",
-  "title" : "derivationIndex",
-  "type" : "topic",
-  "url" : "\/documentation\/walletcore\/derivationpath\/index\/derivationindex"
-},
-"doc://com.trustwallet.WalletCore/documentation/WalletCore/DerivationPath/Index/description": {
-  "abstract" : [
-
-  ],
-  "fragments" : [
-    {
-      "kind" : "keyword",
-      "text" : "var"
-    },
-    {
-      "kind" : "text",
-      "text" : " "
-    },
+  "navigatorTitle" : [
     {
       "kind" : "identifier",
-      "text" : "description"
-    },
-    {
-      "kind" : "text",
-      "text" : ": "
-    },
-    {
-      "kind" : "typeIdentifier",
-      "preciseIdentifier" : "s:SS",
-      "text" : "String"
+      "text" : "DerivationPathIndex"
     }
   ],
-  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/DerivationPath\/Index\/description",
-  "kind" : "symbol",
   "role" : "symbol",
-  "title" : "description",
+  "title" : "DerivationPathIndex",
   "type" : "topic",
-  "url" : "\/documentation\/walletcore\/derivationpath\/index\/description"
-},
-"doc://com.trustwallet.WalletCore/documentation/WalletCore/DerivationPath/Index/hardened": {
-  "abstract" : [
-    {
-      "text" : "Whether the index is hardened.",
-      "type" : "text"
-    }
-  ],
-  "fragments" : [
-    {
-      "kind" : "keyword",
-      "text" : "var"
-    },
-    {
-      "kind" : "text",
-      "text" : " "
-    },
-    {
-      "kind" : "identifier",
-      "text" : "hardened"
-    },
-    {
-      "kind" : "text",
-      "text" : ": "
-    },
-    {
-      "kind" : "typeIdentifier",
-      "preciseIdentifier" : "s:Sb",
-      "text" : "Bool"
-    }
-  ],
-  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/DerivationPath\/Index\/hardened",
-  "kind" : "symbol",
-  "role" : "symbol",
-  "title" : "hardened",
-  "type" : "topic",
-  "url" : "\/documentation\/walletcore\/derivationpath\/index\/hardened"
-},
-"doc://com.trustwallet.WalletCore/documentation/WalletCore/DerivationPath/Index/hash(into:)": {
-  "abstract" : [
-
-  ],
-  "fragments" : [
-    {
-      "kind" : "keyword",
-      "text" : "func"
-    },
-    {
-      "kind" : "text",
-      "text" : " "
-    },
-    {
-      "kind" : "identifier",
-      "text" : "hash"
-    },
-    {
-      "kind" : "text",
-      "text" : "("
-    },
-    {
-      "kind" : "externalParam",
-      "text" : "into"
-    },
-    {
-      "kind" : "text",
-      "text" : ": "
-    },
-    {
-      "kind" : "keyword",
-      "text" : "inout"
-    },
-    {
-      "kind" : "text",
-      "text" : " "
-    },
-    {
-      "kind" : "typeIdentifier",
-      "preciseIdentifier" : "s:s6HasherV",
-      "text" : "Hasher"
-    },
-    {
-      "kind" : "text",
-      "text" : ")"
-    }
-  ],
-  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/DerivationPath\/Index\/hash(into:)",
-  "kind" : "symbol",
-  "role" : "symbol",
-  "title" : "hash(into:)",
-  "type" : "topic",
-  "url" : "\/documentation\/walletcore\/derivationpath\/index\/hash(into:)"
-},
-"doc://com.trustwallet.WalletCore/documentation/WalletCore/DerivationPath/Index/init(_:hardened:)": {
-  "abstract" : [
-
-  ],
-  "fragments" : [
-    {
-      "kind" : "identifier",
-      "text" : "init"
-    },
-    {
-      "kind" : "text",
-      "text" : "("
-    },
-    {
-      "kind" : "typeIdentifier",
-      "preciseIdentifier" : "s:s6UInt32V",
-      "text" : "UInt32"
-    },
-    {
-      "kind" : "text",
-      "text" : ", "
-    },
-    {
-      "kind" : "externalParam",
-      "text" : "hardened"
-    },
-    {
-      "kind" : "text",
-      "text" : ": "
-    },
-    {
-      "kind" : "typeIdentifier",
-      "preciseIdentifier" : "s:Sb",
-      "text" : "Bool"
-    },
-    {
-      "kind" : "text",
-      "text" : ")"
-    }
-  ],
-  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/DerivationPath\/Index\/init(_:hardened:)",
-  "kind" : "symbol",
-  "role" : "symbol",
-  "title" : "init(_:hardened:)",
-  "type" : "topic",
-  "url" : "\/documentation\/walletcore\/derivationpath\/index\/init(_:hardened:)"
-},
-"doc://com.trustwallet.WalletCore/documentation/WalletCore/DerivationPath/Index/init(from:)": {
-  "abstract" : [
-
-  ],
-  "fragments" : [
-    {
-      "kind" : "identifier",
-      "text" : "init"
-    },
-    {
-      "kind" : "text",
-      "text" : "("
-    },
-    {
-      "kind" : "externalParam",
-      "text" : "from"
-    },
-    {
-      "kind" : "text",
-      "text" : ": "
-    },
-    {
-      "kind" : "typeIdentifier",
-      "preciseIdentifier" : "s:s7DecoderP",
-      "text" : "Decoder"
-    },
-    {
-      "kind" : "text",
-      "text" : ") "
-    },
-    {
-      "kind" : "keyword",
-      "text" : "throws"
-    }
-  ],
-  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/DerivationPath\/Index\/init(from:)",
-  "kind" : "symbol",
-  "role" : "symbol",
-  "title" : "init(from:)",
-  "type" : "topic",
-  "url" : "\/documentation\/walletcore\/derivationpath\/index\/init(from:)"
-},
-"doc://com.trustwallet.WalletCore/documentation/WalletCore/DerivationPath/Index/value": {
-  "abstract" : [
-    {
-      "text" : "Index value.",
-      "type" : "text"
-    }
-  ],
-  "fragments" : [
-    {
-      "kind" : "keyword",
-      "text" : "var"
-    },
-    {
-      "kind" : "text",
-      "text" : " "
-    },
-    {
-      "kind" : "identifier",
-      "text" : "value"
-    },
-    {
-      "kind" : "text",
-      "text" : ": "
-    },
-    {
-      "kind" : "typeIdentifier",
-      "preciseIdentifier" : "s:s6UInt32V",
-      "text" : "UInt32"
-    }
-  ],
-  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/DerivationPath\/Index\/value",
-  "kind" : "symbol",
-  "role" : "symbol",
-  "title" : "value",
-  "type" : "topic",
-  "url" : "\/documentation\/walletcore\/derivationpath\/index\/value"
-},
-"doc://com.trustwallet.WalletCore/s23CustomStringConvertibleP": {
-  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/s23CustomStringConvertibleP",
-  "title" : "Swift.CustomStringConvertible",
-  "type" : "unresolvable"
+  "url" : "\/documentation\/walletcore\/derivationpathindex"
 }
 }
 }

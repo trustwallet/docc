@@ -1,7 +1,7 @@
 {
   "abstract" : [
     {
-      "text" : "Gas price (256-bit number)",
+      "text" : "Gas price (uint256, serialized little endian)",
       "type" : "text"
     }
   ],
@@ -93,7 +93,7 @@
   ],
   "schemaVersion" : {
     "major" : 0,
-    "minor" : 2,
+    "minor" : 3,
     "patch" : 0
   },
   "sections" : [
@@ -161,7 +161,7 @@
 "doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Nebulas_Proto_SigningInput/gasPrice": {
   "abstract" : [
     {
-      "text" : "Gas price (256-bit number)",
+      "text" : "Gas price (uint256, serialized little endian)",
       "type" : "text"
     }
   ],

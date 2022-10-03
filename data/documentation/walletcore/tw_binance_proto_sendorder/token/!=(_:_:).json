@@ -176,7 +176,7 @@
   ],
   "schemaVersion" : {
     "major" : 0,
-    "minor" : 2,
+    "minor" : 3,
     "patch" : 0
   },
   "sections" : [
@@ -209,7 +209,10 @@
 },
 "doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Binance_Proto_SendOrder": {
   "abstract" : [
-
+    {
+      "text" : "Message for Send order",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -241,15 +244,7 @@
 "doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Binance_Proto_SendOrder/Token": {
   "abstract" : [
     {
-      "text" : "0x2A2C87FA",
-      "type" : "text"
-    },
-    {
-      "text" : " ",
-      "type" : "text"
-    },
-    {
-      "text" : "A symbol-amount pair.  Could be moved out of SendOrder; kept here for backward compatibility.",
+      "text" : "A token amount, symbol-amount pair.  Could be moved out of SendOrder; kept here for backward compatibility.",
       "type" : "text"
     }
   ],

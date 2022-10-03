@@ -1,7 +1,15 @@
 {
   "abstract" : [
     {
-      "text" : "Creates a new instance of the enum initialized to its default value.",
+      "text" : "Inherited from ",
+      "type" : "text"
+    },
+    {
+      "code" : "Enum.init()",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : ".",
       "type" : "text"
     }
   ],
@@ -67,7 +75,7 @@
   ],
   "schemaVersion" : {
     "major" : 0,
-    "minor" : 2,
+    "minor" : 3,
     "patch" : 0
   },
   "sections" : [
@@ -100,7 +108,10 @@
 },
 "doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Cosmos_Proto_SigningMode": {
   "abstract" : [
-
+    {
+      "text" : "Options for transaction encoding: JSON (Amino, older) or Protobuf.",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -131,10 +142,7 @@
 },
 "doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Cosmos_Proto_SigningMode/init()": {
   "abstract" : [
-    {
-      "text" : "Creates a new instance of the enum initialized to its default value.",
-      "type" : "text"
-    }
+
   ],
   "fragments" : [
     {

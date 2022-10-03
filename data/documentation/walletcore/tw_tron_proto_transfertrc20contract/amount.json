@@ -1,7 +1,7 @@
 {
   "abstract" : [
     {
-      "text" : "Amount to send, uint256, big-endian.",
+      "text" : "Amount to send, (uint256, serialized big endian)",
       "type" : "text"
     }
   ],
@@ -93,7 +93,7 @@
   ],
   "schemaVersion" : {
     "major" : 0,
-    "minor" : 2,
+    "minor" : 3,
     "patch" : 0
   },
   "sections" : [
@@ -126,7 +126,10 @@
 },
 "doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Tron_Proto_TransferTRC20Contract": {
   "abstract" : [
-
+    {
+      "text" : "TRC20 token transfer",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -158,7 +161,7 @@
 "doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Tron_Proto_TransferTRC20Contract/amount": {
   "abstract" : [
     {
-      "text" : "Amount to send, uint256, big-endian.",
+      "text" : "Amount to send, (uint256, serialized big endian)",
       "type" : "text"
     }
   ],

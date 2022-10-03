@@ -1,7 +1,7 @@
 {
   "abstract" : [
     {
-      "text" : "Resulting transaction. Note that the amount may be different than the requested amount to account for fees and available funds.",
+      "text" : "Resulting transaction.",
       "type" : "text"
     }
   ],
@@ -114,7 +114,7 @@
   ],
   "schemaVersion" : {
     "major" : 0,
-    "minor" : 2,
+    "minor" : 3,
     "patch" : 0
   },
   "sections" : [
@@ -148,7 +148,15 @@
 "doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Bitcoin_Proto_SigningOutput": {
   "abstract" : [
     {
-      "text" : "Transaction signing output.",
+      "text" : "Result containing the signed and encoded transaction.",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "Note that the amount may be different than the requested amount to account for fees and available funds.",
       "type" : "text"
     }
   ],
@@ -182,7 +190,7 @@
 "doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Bitcoin_Proto_SigningOutput/transaction": {
   "abstract" : [
     {
-      "text" : "Resulting transaction. Note that the amount may be different than the requested amount to account for fees and available funds.",
+      "text" : "Resulting transaction.",
       "type" : "text"
     }
   ],
@@ -218,7 +226,10 @@
 },
 "doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Bitcoin_Proto_Transaction": {
   "abstract" : [
-
+    {
+      "text" : "A transaction, with its inputs and outputs",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {

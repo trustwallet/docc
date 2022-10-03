@@ -1,7 +1,7 @@
 {
   "abstract" : [
     {
-      "text" : "Transaction fee per byte.",
+      "text" : "Transaction fee rate, satoshis per byte, used to compute required fee (when planning)",
       "type" : "text"
     }
   ],
@@ -113,7 +113,7 @@
   ],
   "schemaVersion" : {
     "major" : 0,
-    "minor" : 2,
+    "minor" : 3,
     "patch" : 0
   },
   "sections" : [
@@ -181,7 +181,7 @@
 "doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Bitcoin_Proto_SigningInput/byteFee": {
   "abstract" : [
     {
-      "text" : "Transaction fee per byte.",
+      "text" : "Transaction fee rate, satoshis per byte, used to compute required fee (when planning)",
       "type" : "text"
     }
   ],

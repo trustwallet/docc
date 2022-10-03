@@ -220,7 +220,7 @@
   ],
   "schemaVersion" : {
     "major" : 0,
-    "minor" : 2,
+    "minor" : 3,
     "patch" : 0
   },
   "sections" : [
@@ -288,7 +288,15 @@
 "doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_FIO_Proto_Action/Transfer": {
   "abstract" : [
     {
-      "text" : "Action for transfering FIO coins; transfer_tokens_pub_key",
+      "text" : "Action for transferring FIO coins; transfer_tokens_pub_key",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "Note: actor is not needed, computed from private key",
       "type" : "text"
     }
   ],

@@ -1,7 +1,7 @@
 {
   "abstract" : [
     {
-      "text" : "an identifier for tools triggerring this transaction, set to zero if unwilling to disclose.",
+      "text" : "an identifier for tools triggering this transaction, set to zero if unwilling to disclose.",
       "type" : "text"
     }
   ],
@@ -93,7 +93,7 @@
   ],
   "schemaVersion" : {
     "major" : 0,
-    "minor" : 2,
+    "minor" : 3,
     "patch" : 0
   },
   "sections" : [
@@ -126,7 +126,10 @@
 },
 "doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Binance_Proto_Transaction": {
   "abstract" : [
-
+    {
+      "text" : "Transaction structure, used internally",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -158,7 +161,7 @@
 "doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Binance_Proto_Transaction/source": {
   "abstract" : [
     {
-      "text" : "an identifier for tools triggerring this transaction, set to zero if unwilling to disclose.",
+      "text" : "an identifier for tools triggering this transaction, set to zero if unwilling to disclose.",
       "type" : "text"
     }
   ],

@@ -1,7 +1,15 @@
 {
   "abstract" : [
     {
-      "text" : "chain-generic, input",
+      "text" : "Chain-generic codes, input related:",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "Low balance: the sender balance is not enough to cover the send and other auxiliary amount such as fee, deposit, or minimal balance.",
       "type" : "text"
     }
   ],
@@ -75,7 +83,7 @@
   ],
   "schemaVersion" : {
     "major" : 0,
-    "minor" : 2,
+    "minor" : 3,
     "patch" : 0
   },
   "sections" : [
@@ -108,7 +116,10 @@
 },
 "doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Common_Proto_SigningError": {
   "abstract" : [
-
+    {
+      "text" : "Error codes, used in multiple blockchains.",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -140,7 +151,15 @@
 "doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Common_Proto_SigningError/errorLowBalance": {
   "abstract" : [
     {
-      "text" : "chain-generic, input",
+      "text" : "Chain-generic codes, input related:",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "Low balance: the sender balance is not enough to cover the send and other auxiliary amount such as fee, deposit, or minimal balance.",
       "type" : "text"
     }
   ],

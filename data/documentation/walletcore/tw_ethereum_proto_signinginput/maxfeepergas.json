@@ -1,7 +1,7 @@
 {
   "abstract" : [
     {
-      "text" : "Maxinmum fee (256-bit number)",
+      "text" : "Maximum fee (uint256, serialized little endian)",
       "type" : "text"
     },
     {
@@ -101,7 +101,7 @@
   ],
   "schemaVersion" : {
     "major" : 0,
-    "minor" : 2,
+    "minor" : 3,
     "patch" : 0
   },
   "sections" : [
@@ -177,7 +177,7 @@
 "doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Ethereum_Proto_SigningInput/maxFeePerGas": {
   "abstract" : [
     {
-      "text" : "Maxinmum fee (256-bit number)",
+      "text" : "Maximum fee (uint256, serialized little endian)",
       "type" : "text"
     },
     {

@@ -99,7 +99,7 @@
   ],
   "schemaVersion" : {
     "major" : 0,
-    "minor" : 2,
+    "minor" : 3,
     "patch" : 0
   },
   "sections" : [
@@ -160,7 +160,10 @@
 },
 "doc://com.trustwallet.WalletCore/documentation/WalletCore/Address": {
   "abstract" : [
-
+    {
+      "text" : "Generic Address protocol for AnyAddress \/ SegwitAddress \/ SolanaAddress",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {

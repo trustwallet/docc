@@ -1,7 +1,7 @@
 {
   "abstract" : [
     {
-      "text" : "The hash of the referenced transaction.",
+      "text" : "The hash of the referenced transaction (network byte order, usually needs to be reversed).",
       "type" : "text"
     }
   ],
@@ -93,7 +93,7 @@
   ],
   "schemaVersion" : {
     "major" : 0,
-    "minor" : 2,
+    "minor" : 3,
     "patch" : 0
   },
   "sections" : [
@@ -161,7 +161,7 @@
 "doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Bitcoin_Proto_OutPoint/hash": {
   "abstract" : [
     {
-      "text" : "The hash of the referenced transaction.",
+      "text" : "The hash of the referenced transaction (network byte order, usually needs to be reversed).",
       "type" : "text"
     }
   ],

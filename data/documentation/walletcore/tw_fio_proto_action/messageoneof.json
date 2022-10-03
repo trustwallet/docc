@@ -1,7 +1,7 @@
 {
   "abstract" : [
     {
-      "text" : "No overview available.",
+      "text" : "Payload message",
       "type" : "text"
     }
   ],
@@ -121,7 +121,7 @@
   ],
   "schemaVersion" : {
     "major" : 0,
-    "minor" : 2,
+    "minor" : 3,
     "patch" : 0
   },
   "sections" : [
@@ -188,7 +188,10 @@
 },
 "doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_FIO_Proto_Action/OneOf_MessageOneof": {
   "abstract" : [
-
+    {
+      "text" : "Payload message",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -219,7 +222,10 @@
 },
 "doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_FIO_Proto_Action/messageOneof": {
   "abstract" : [
-
+    {
+      "text" : "Payload message",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {

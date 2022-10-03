@@ -1,7 +1,7 @@
 {
   "abstract" : [
     {
-      "text" : "Optional plan",
+      "text" : "Optional plan, if missing it will be computed",
       "type" : "text"
     }
   ],
@@ -114,7 +114,7 @@
   ],
   "schemaVersion" : {
     "major" : 0,
-    "minor" : 2,
+    "minor" : 3,
     "patch" : 0
   },
   "sections" : [
@@ -148,7 +148,7 @@
 "doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Cardano_Proto_SigningInput": {
   "abstract" : [
     {
-      "text" : "Input data necessary to create a signed transaction",
+      "text" : "Input data necessary to create a signed transaction.",
       "type" : "text"
     }
   ],
@@ -182,7 +182,7 @@
 "doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Cardano_Proto_SigningInput/plan": {
   "abstract" : [
     {
-      "text" : "Optional plan",
+      "text" : "Optional plan, if missing it will be computed",
       "type" : "text"
     }
   ],
@@ -218,7 +218,10 @@
 },
 "doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Cardano_Proto_TransactionPlan": {
   "abstract" : [
-
+    {
+      "text" : "Describes a preliminary transaction plan.",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {

@@ -175,7 +175,7 @@
   ],
   "schemaVersion" : {
     "major" : 0,
-    "minor" : 2,
+    "minor" : 3,
     "patch" : 0
   },
   "sections" : [
@@ -208,7 +208,10 @@
 },
 "doc://com.trustwallet.WalletCore/documentation/WalletCore/TWSS58AddressType": {
   "abstract" : [
-
+    {
+      "text" : "Substrate based chains Address Type",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -310,5 +313,31 @@
   "type" : "topic",
   "url" : "\/documentation\/walletcore\/twss58addresstype\/equatable-implementations"
 }
-}
+}, 
+"variantOverrides":[
+  {
+    "patch" : [
+      {
+        "op" : "replace",
+        "path" : "\/references\/doc:~1~1com.trustwallet.WalletCore~1documentation~1WalletCore~1TWSS58AddressType\/title",
+        "value" : "TWSS58AddressType"
+      },
+      {
+        "op" : "replace",
+        "path" : "\/references\/doc:~1~1com.trustwallet.WalletCore~1documentation~1WalletCore~1TWSS58AddressType\/fragments",
+        "value" : [
+          {
+            "kind" : "identifier",
+            "text" : "TWSS58AddressType"
+          }
+        ]
+      }
+    ],
+    "traits" : [
+      {
+        "interfaceLanguage" : "occ"
+      }
+    ]
+  }
+]
 }

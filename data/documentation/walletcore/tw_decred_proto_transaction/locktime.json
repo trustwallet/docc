@@ -1,7 +1,7 @@
 {
   "abstract" : [
     {
-      "text" : "\/ The time when a transaction can be spent (usually zero, in which case it has no effect).",
+      "text" : "The time when a transaction can be spent (usually zero, in which case it has no effect).",
       "type" : "text"
     }
   ],
@@ -93,7 +93,7 @@
   ],
   "schemaVersion" : {
     "major" : 0,
-    "minor" : 2,
+    "minor" : 3,
     "patch" : 0
   },
   "sections" : [
@@ -126,7 +126,10 @@
 },
 "doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Decred_Proto_Transaction": {
   "abstract" : [
-
+    {
+      "text" : "A transfer transaction",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -158,7 +161,7 @@
 "doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Decred_Proto_Transaction/lockTime": {
   "abstract" : [
     {
-      "text" : "\/ The time when a transaction can be spent (usually zero, in which case it has no effect).",
+      "text" : "The time when a transaction can be spent (usually zero, in which case it has no effect).",
       "type" : "text"
     }
   ],

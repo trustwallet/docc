@@ -1,10 +1,4 @@
 {
-  "abstract" : [
-    {
-      "text" : "Coin type distinguishes between main net, test net, and forks.",
-      "type" : "text"
-    }
-  ],
   "hierarchy" : {
     "paths" : [
       [
@@ -19,7 +13,8 @@
   },
   "kind" : "symbol",
   "metadata" : {
-    "externalID" : "s:10WalletCore14DerivationPathV8coinTypes6UInt32Vvp",
+    "extendedModule" : "WalletCore",
+    "externalID" : "s:10WalletCore14DerivationPathC8coinTypes6UInt32Vvp",
     "fragments" : [
       {
         "kind" : "keyword",
@@ -95,14 +90,6 @@
             },
             {
               "kind" : "text",
-              "text" : " "
-            },
-            {
-              "kind" : "keyword",
-              "text" : "set"
-            },
-            {
-              "kind" : "text",
               "text" : " }"
             }
           ]
@@ -113,7 +100,7 @@
   ],
   "schemaVersion" : {
     "major" : 0,
-    "minor" : 2,
+    "minor" : 3,
     "patch" : 0
   },
   "sections" : [
@@ -147,14 +134,14 @@
 "doc://com.trustwallet.WalletCore/documentation/WalletCore/DerivationPath": {
   "abstract" : [
     {
-      "text" : "Represents a hierarchical deterministic derivation path.",
+      "text" : "Represents a BIP44 DerivationPath in C++.",
       "type" : "text"
     }
   ],
   "fragments" : [
     {
       "kind" : "keyword",
-      "text" : "struct"
+      "text" : "class"
     },
     {
       "kind" : "text",
@@ -180,10 +167,7 @@
 },
 "doc://com.trustwallet.WalletCore/documentation/WalletCore/DerivationPath/coinType": {
   "abstract" : [
-    {
-      "text" : "Coin type distinguishes between main net, test net, and forks.",
-      "type" : "text"
-    }
+
   ],
   "fragments" : [
     {

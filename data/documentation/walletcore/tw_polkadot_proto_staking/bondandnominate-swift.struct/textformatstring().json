@@ -1,15 +1,15 @@
 {
   "abstract" : [
     {
-      "text" : "Returns a string containing the Protocol Buffer text format serialization",
+      "text" : "Inherited from ",
       "type" : "text"
     },
     {
-      "text" : " ",
-      "type" : "text"
+      "code" : "Message.textFormatString()",
+      "type" : "codeVoice"
     },
     {
-      "text" : "of the message.",
+      "text" : ".",
       "type" : "text"
     }
   ],
@@ -100,67 +100,11 @@
         }
       ],
       "kind" : "declarations"
-    },
-    {
-      "content" : [
-        {
-          "anchor" : "return-value",
-          "level" : 2,
-          "text" : "Return Value",
-          "type" : "heading"
-        },
-        {
-          "inlineContent" : [
-            {
-              "text" : "A string containing the text format serialization of the",
-              "type" : "text"
-            },
-            {
-              "text" : " ",
-              "type" : "text"
-            },
-            {
-              "text" : "message.",
-              "type" : "text"
-            }
-          ],
-          "type" : "paragraph"
-        }
-      ],
-      "kind" : "content"
-    },
-    {
-      "content" : [
-        {
-          "anchor" : "discussion",
-          "level" : 2,
-          "text" : "Discussion",
-          "type" : "heading"
-        },
-        {
-          "inlineContent" : [
-            {
-              "text" : "Unlike binary encoding, presence of required fields is not enforced when",
-              "type" : "text"
-            },
-            {
-              "text" : " ",
-              "type" : "text"
-            },
-            {
-              "text" : "serializing to text format.",
-              "type" : "text"
-            }
-          ],
-          "type" : "paragraph"
-        }
-      ],
-      "kind" : "content"
     }
   ],
   "schemaVersion" : {
     "major" : 0,
-    "minor" : 2,
+    "minor" : 3,
     "patch" : 0
   },
   "sections" : [
@@ -193,7 +137,10 @@
 },
 "doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Polkadot_Proto_Staking": {
   "abstract" : [
-
+    {
+      "text" : "Staking transaction",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -224,7 +171,10 @@
 },
 "doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Polkadot_Proto_Staking/BondAndNominate-swift.struct": {
   "abstract" : [
-
+    {
+      "text" : "Bond to a controller, with nominators",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -266,18 +216,7 @@
 },
 "doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Polkadot_Proto_Staking/BondAndNominate-swift.struct/textFormatString()": {
   "abstract" : [
-    {
-      "text" : "Returns a string containing the Protocol Buffer text format serialization",
-      "type" : "text"
-    },
-    {
-      "text" : " ",
-      "type" : "text"
-    },
-    {
-      "text" : "of the message.",
-      "type" : "text"
-    }
+
   ],
   "fragments" : [
     {

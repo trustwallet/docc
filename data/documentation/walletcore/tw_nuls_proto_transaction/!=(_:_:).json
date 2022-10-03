@@ -175,7 +175,7 @@
   ],
   "schemaVersion" : {
     "major" : 0,
-    "minor" : 2,
+    "minor" : 3,
     "patch" : 0
   },
   "sections" : [
@@ -208,7 +208,10 @@
 },
 "doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_NULS_Proto_Transaction": {
   "abstract" : [
-
+    {
+      "text" : "A transaction",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {

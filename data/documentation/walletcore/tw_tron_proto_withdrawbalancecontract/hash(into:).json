@@ -1,19 +1,15 @@
 {
   "abstract" : [
     {
-      "text" : "An implementation of hash(into:) to provide conformance with the",
+      "text" : "Inherited from ",
       "type" : "text"
     },
     {
-      "text" : " ",
-      "type" : "text"
-    },
-    {
-      "code" : "Hashable",
+      "code" : "Message.hash(into:)",
       "type" : "codeVoice"
     },
     {
-      "text" : " protocol.",
+      "text" : ".",
       "type" : "text"
     }
   ],
@@ -155,7 +151,7 @@
   ],
   "schemaVersion" : {
     "major" : 0,
-    "minor" : 2,
+    "minor" : 3,
     "patch" : 0
   },
   "sections" : [
@@ -188,7 +184,10 @@
 },
 "doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Tron_Proto_WithdrawBalanceContract": {
   "abstract" : [
-
+    {
+      "text" : "Withdraw balance",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -230,22 +229,7 @@
 },
 "doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Tron_Proto_WithdrawBalanceContract/hash(into:)": {
   "abstract" : [
-    {
-      "text" : "An implementation of hash(into:) to provide conformance with the",
-      "type" : "text"
-    },
-    {
-      "text" : " ",
-      "type" : "text"
-    },
-    {
-      "code" : "Hashable",
-      "type" : "codeVoice"
-    },
-    {
-      "text" : " protocol.",
-      "type" : "text"
-    }
+
   ],
   "fragments" : [
     {

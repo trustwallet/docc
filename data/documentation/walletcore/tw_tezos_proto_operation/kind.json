@@ -1,7 +1,7 @@
 {
   "abstract" : [
     {
-      "text" : "No overview available.",
+      "text" : "Operation type",
       "type" : "text"
     }
   ],
@@ -113,7 +113,7 @@
   ],
   "schemaVersion" : {
     "major" : 0,
-    "minor" : 2,
+    "minor" : 3,
     "patch" : 0
   },
   "sections" : [
@@ -188,7 +188,10 @@
 },
 "doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Tezos_Proto_Operation/OperationKind": {
   "abstract" : [
-
+    {
+      "text" : "Operation types",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -219,7 +222,10 @@
 },
 "doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Tezos_Proto_Operation/kind": {
   "abstract" : [
-
+    {
+      "text" : "Operation type",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {

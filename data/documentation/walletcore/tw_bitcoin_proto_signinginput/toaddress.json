@@ -1,7 +1,7 @@
 {
   "abstract" : [
     {
-      "text" : "Recipient’s address.",
+      "text" : "Recipient’s address, as string.",
       "type" : "text"
     }
   ],
@@ -113,7 +113,7 @@
   ],
   "schemaVersion" : {
     "major" : 0,
-    "minor" : 2,
+    "minor" : 3,
     "patch" : 0
   },
   "sections" : [
@@ -181,7 +181,7 @@
 "doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Bitcoin_Proto_SigningInput/toAddress": {
   "abstract" : [
     {
-      "text" : "Recipient’s address.",
+      "text" : "Recipient’s address, as string.",
       "type" : "text"
     }
   ],

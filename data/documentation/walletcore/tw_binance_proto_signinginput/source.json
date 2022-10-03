@@ -1,7 +1,39 @@
 {
   "abstract" : [
     {
-      "text" : "No overview available.",
+      "text" : "Transaction source, see https:\/\/github.com\/bnb-chain\/BEPs\/blob\/master\/BEP10.md",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "Some important values:",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "0: Default source value (e.g. for Binance Chain Command Line, or SDKs)",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "1: Binance DEX Web Wallet",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "2: Trust Wallet",
       "type" : "text"
     }
   ],
@@ -93,7 +125,7 @@
   ],
   "schemaVersion" : {
     "major" : 0,
-    "minor" : 2,
+    "minor" : 3,
     "patch" : 0
   },
   "sections" : [
@@ -127,7 +159,7 @@
 "doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Binance_Proto_SigningInput": {
   "abstract" : [
     {
-      "text" : "Input data necessary to create a signed order.",
+      "text" : "Input data necessary to create a signed transaction.",
       "type" : "text"
     }
   ],
@@ -160,7 +192,42 @@
 },
 "doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Binance_Proto_SigningInput/source": {
   "abstract" : [
-
+    {
+      "text" : "Transaction source, see https:\/\/github.com\/bnb-chain\/BEPs\/blob\/master\/BEP10.md",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "Some important values:",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "0: Default source value (e.g. for Binance Chain Command Line, or SDKs)",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "1: Binance DEX Web Wallet",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "2: Trust Wallet",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {

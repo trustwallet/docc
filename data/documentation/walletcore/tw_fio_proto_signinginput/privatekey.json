@@ -1,7 +1,7 @@
 {
   "abstract" : [
     {
-      "text" : "The private key matching the address, needed for signing",
+      "text" : "The secret private key matching the address, used for signing (32 bytes).",
       "type" : "text"
     }
   ],
@@ -93,7 +93,7 @@
   ],
   "schemaVersion" : {
     "major" : 0,
-    "minor" : 2,
+    "minor" : 3,
     "patch" : 0
   },
   "sections" : [
@@ -127,7 +127,7 @@
 "doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_FIO_Proto_SigningInput": {
   "abstract" : [
     {
-      "text" : "Transaction signing input",
+      "text" : "Input data necessary to create a signed transaction.",
       "type" : "text"
     }
   ],
@@ -161,7 +161,7 @@
 "doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_FIO_Proto_SigningInput/privateKey": {
   "abstract" : [
     {
-      "text" : "The private key matching the address, needed for signing",
+      "text" : "The secret private key matching the address, used for signing (32 bytes).",
       "type" : "text"
     }
   ],

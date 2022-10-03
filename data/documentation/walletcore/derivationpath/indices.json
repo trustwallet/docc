@@ -1,10 +1,4 @@
 {
-  "abstract" : [
-    {
-      "text" : "List of indices in the derivation path.",
-      "type" : "text"
-    }
-  ],
   "hierarchy" : {
     "paths" : [
       [
@@ -19,7 +13,8 @@
   },
   "kind" : "symbol",
   "metadata" : {
-    "externalID" : "s:10WalletCore14DerivationPathV7indicesSayAC5IndexVGvp",
+    "extendedModule" : "WalletCore",
+    "externalID" : "s:10WalletCore14DerivationPathC7indicesSayAA0cD5IndexCGvp",
     "fragments" : [
       {
         "kind" : "keyword",
@@ -39,16 +34,7 @@
       },
       {
         "kind" : "typeIdentifier",
-        "preciseIdentifier" : "s:10WalletCore14DerivationPathV",
-        "text" : "DerivationPath"
-      },
-      {
-        "kind" : "text",
-        "text" : "."
-      },
-      {
-        "kind" : "typeIdentifier",
-        "preciseIdentifier" : "s:10WalletCore14DerivationPathV5IndexV",
+        "preciseIdentifier" : "s:10WalletCore14DerivationPathC5Indexa",
         "text" : "Index"
       },
       {
@@ -94,24 +80,22 @@
               "text" : ": ["
             },
             {
-              "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/DerivationPath",
-              "kind" : "typeIdentifier",
-              "preciseIdentifier" : "s:10WalletCore14DerivationPathV",
-              "text" : "DerivationPath"
-            },
-            {
-              "kind" : "text",
-              "text" : "."
-            },
-            {
               "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/DerivationPath\/Index",
               "kind" : "typeIdentifier",
-              "preciseIdentifier" : "s:10WalletCore14DerivationPathV5IndexV",
+              "preciseIdentifier" : "s:10WalletCore14DerivationPathC5Indexa",
               "text" : "Index"
             },
             {
               "kind" : "text",
-              "text" : "] { get }"
+              "text" : "] { "
+            },
+            {
+              "kind" : "keyword",
+              "text" : "get"
+            },
+            {
+              "kind" : "text",
+              "text" : " }"
             }
           ]
         }
@@ -121,7 +105,7 @@
   ],
   "schemaVersion" : {
     "major" : 0,
-    "minor" : 2,
+    "minor" : 3,
     "patch" : 0
   },
   "sections" : [
@@ -155,14 +139,14 @@
 "doc://com.trustwallet.WalletCore/documentation/WalletCore/DerivationPath": {
   "abstract" : [
     {
-      "text" : "Represents a hierarchical deterministic derivation path.",
+      "text" : "Represents a BIP44 DerivationPath in C++.",
       "type" : "text"
     }
   ],
   "fragments" : [
     {
       "kind" : "keyword",
-      "text" : "struct"
+      "text" : "class"
     },
     {
       "kind" : "text",
@@ -188,15 +172,12 @@
 },
 "doc://com.trustwallet.WalletCore/documentation/WalletCore/DerivationPath/Index": {
   "abstract" : [
-    {
-      "text" : "Derivation path index.",
-      "type" : "text"
-    }
+
   ],
   "fragments" : [
     {
       "kind" : "keyword",
-      "text" : "struct"
+      "text" : "typealias"
     },
     {
       "kind" : "text",
@@ -222,10 +203,7 @@
 },
 "doc://com.trustwallet.WalletCore/documentation/WalletCore/DerivationPath/indices": {
   "abstract" : [
-    {
-      "text" : "List of indices in the derivation path.",
-      "type" : "text"
-    }
+
   ],
   "fragments" : [
     {
@@ -246,16 +224,7 @@
     },
     {
       "kind" : "typeIdentifier",
-      "preciseIdentifier" : "s:10WalletCore14DerivationPathV",
-      "text" : "DerivationPath"
-    },
-    {
-      "kind" : "text",
-      "text" : "."
-    },
-    {
-      "kind" : "typeIdentifier",
-      "preciseIdentifier" : "s:10WalletCore14DerivationPathV5IndexV",
+      "preciseIdentifier" : "s:10WalletCore14DerivationPathC5Indexa",
       "text" : "Index"
     },
     {

@@ -1,15 +1,15 @@
 {
   "abstract" : [
     {
-      "text" : "Creates a new message by decoding the given string containing a",
+      "text" : "Inherited from ",
       "type" : "text"
     },
     {
-      "text" : " ",
-      "type" : "text"
+      "code" : "Message.init(textFormatString:extensions:)",
+      "type" : "codeVoice"
     },
     {
-      "text" : "serialized message in Protocol Buffer text format.",
+      "text" : ".",
       "type" : "text"
     }
   ],
@@ -149,103 +149,11 @@
         }
       ],
       "kind" : "declarations"
-    },
-    {
-      "kind" : "parameters",
-      "parameters" : [
-        {
-          "content" : [
-            {
-              "inlineContent" : [
-                {
-                  "text" : "The text format string to decode.",
-                  "type" : "text"
-                }
-              ],
-              "type" : "paragraph"
-            }
-          ],
-          "name" : "textFormatString"
-        },
-        {
-          "content" : [
-            {
-              "inlineContent" : [
-                {
-                  "text" : "An ",
-                  "type" : "text"
-                },
-                {
-                  "code" : "ExtensionMap",
-                  "type" : "codeVoice"
-                },
-                {
-                  "text" : " used to look up and decode any",
-                  "type" : "text"
-                },
-                {
-                  "text" : " ",
-                  "type" : "text"
-                },
-                {
-                  "text" : "extensions in this message or messages nested within this message’s",
-                  "type" : "text"
-                },
-                {
-                  "text" : " ",
-                  "type" : "text"
-                },
-                {
-                  "text" : "fields.",
-                  "type" : "text"
-                }
-              ],
-              "type" : "paragraph"
-            }
-          ],
-          "name" : "extensions"
-        }
-      ]
-    },
-    {
-      "content" : [
-        {
-          "anchor" : "discussion",
-          "level" : 2,
-          "text" : "Discussion",
-          "type" : "heading"
-        },
-        {
-          "content" : [
-            {
-              "inlineContent" : [
-                {
-                  "text" : "an instance of ",
-                  "type" : "text"
-                },
-                {
-                  "code" : "TextFormatDecodingError",
-                  "type" : "codeVoice"
-                },
-                {
-                  "text" : " on failure.",
-                  "type" : "text"
-                }
-              ],
-              "type" : "paragraph"
-            }
-          ],
-          "name" : "Throws",
-          "style" : "note",
-          "type" : "aside"
-        }
-      ],
-      "kind" : "content"
     }
   ],
   "schemaVersion" : {
     "major" : 0,
-    "minor" : 2,
+    "minor" : 3,
     "patch" : 0
   },
   "sections" : [
@@ -339,18 +247,7 @@
 },
 "doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Solana_Proto_DelegateStake/init(textFormatString:extensions:)": {
   "abstract" : [
-    {
-      "text" : "Creates a new message by decoding the given string containing a",
-      "type" : "text"
-    },
-    {
-      "text" : " ",
-      "type" : "text"
-    },
-    {
-      "text" : "serialized message in Protocol Buffer text format.",
-      "type" : "text"
-    }
+
   ],
   "fragments" : [
     {

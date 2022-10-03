@@ -175,7 +175,7 @@
   ],
   "schemaVersion" : {
     "major" : 0,
-    "minor" : 2,
+    "minor" : 3,
     "patch" : 0
   },
   "sections" : [
@@ -208,7 +208,18 @@
 },
 "doc://com.trustwallet.WalletCore/documentation/WalletCore/TWEthereumChainID": {
   "abstract" : [
-
+    {
+      "text" : "Chain identifiers for Ethereum-based blockchains, for convenience. Recommended to use the dynamic CoinType.ChainId() instead.",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "See also TWChainId.",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -310,5 +321,31 @@
   "type" : "topic",
   "url" : "\/documentation\/walletcore\/twethereumchainid\/equatable-implementations"
 }
-}
+}, 
+"variantOverrides":[
+  {
+    "patch" : [
+      {
+        "op" : "replace",
+        "path" : "\/references\/doc:~1~1com.trustwallet.WalletCore~1documentation~1WalletCore~1TWEthereumChainID\/title",
+        "value" : "TWEthereumChainID"
+      },
+      {
+        "op" : "replace",
+        "path" : "\/references\/doc:~1~1com.trustwallet.WalletCore~1documentation~1WalletCore~1TWEthereumChainID\/fragments",
+        "value" : [
+          {
+            "kind" : "identifier",
+            "text" : "TWEthereumChainID"
+          }
+        ]
+      }
+    ],
+    "traits" : [
+      {
+        "interfaceLanguage" : "occ"
+      }
+    ]
+  }
+]
 }

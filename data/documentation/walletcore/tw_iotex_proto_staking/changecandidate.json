@@ -94,7 +94,7 @@
   ],
   "schemaVersion" : {
     "major" : 0,
-    "minor" : 2,
+    "minor" : 3,
     "patch" : 0
   },
   "sections" : [
@@ -167,7 +167,10 @@
 },
 "doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_IoTeX_Proto_Staking": {
   "abstract" : [
-
+    {
+      "text" : "A Staking message",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -254,7 +257,10 @@
 },
 "doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_IoTeX_Proto_Staking/ChangeCandidate/bucketIndex": {
   "abstract" : [
-
+    {
+      "text" : "index",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -288,7 +294,10 @@
 },
 "doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_IoTeX_Proto_Staking/ChangeCandidate/candidateName": {
   "abstract" : [
-
+    {
+      "text" : "validator name",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -322,18 +331,7 @@
 },
 "doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_IoTeX_Proto_Staking/ChangeCandidate/init()": {
   "abstract" : [
-    {
-      "text" : "Creates a new message with all of its fields initialized to their default",
-      "type" : "text"
-    },
-    {
-      "text" : " ",
-      "type" : "text"
-    },
-    {
-      "text" : "values.",
-      "type" : "text"
-    }
+
   ],
   "fragments" : [
     {
@@ -354,7 +352,10 @@
 },
 "doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_IoTeX_Proto_Staking/ChangeCandidate/payload": {
   "abstract" : [
-
+    {
+      "text" : "payload data",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -388,18 +389,7 @@
 },
 "doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_IoTeX_Proto_Staking/ChangeCandidate/unknownFields": {
   "abstract" : [
-    {
-      "text" : "Some formats include enough information to transport fields that were",
-      "type" : "text"
-    },
-    {
-      "text" : " ",
-      "type" : "text"
-    },
-    {
-      "text" : "not known at generation time. When encountered, they are stored here.",
-      "type" : "text"
-    }
+
   ],
   "fragments" : [
     {

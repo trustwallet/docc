@@ -1,10 +1,4 @@
 {
-  "abstract" : [
-    {
-      "text" : "No overview available.",
-      "type" : "text"
-    }
-  ],
   "hierarchy" : {
     "paths" : [
       [
@@ -29,7 +23,7 @@
   },
   "schemaVersion" : {
     "major" : 0,
-    "minor" : 2,
+    "minor" : 3,
     "patch" : 0
   },
   "sections" : [
@@ -72,7 +66,10 @@
 },
 "doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Stellar_Proto_OperationCreateAccount": {
   "abstract" : [
-
+    {
+      "text" : "Create a new account",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {

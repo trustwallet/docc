@@ -1,10 +1,4 @@
 {
-  "abstract" : [
-    {
-      "text" : "No overview available.",
-      "type" : "text"
-    }
-  ],
   "hierarchy" : {
     "paths" : [
       [
@@ -101,7 +95,7 @@
   ],
   "schemaVersion" : {
     "major" : 0,
-    "minor" : 2,
+    "minor" : 3,
     "patch" : 0
   },
   "sections" : [
@@ -134,7 +128,10 @@
 },
 "doc://com.trustwallet.WalletCore/documentation/WalletCore/TWPublicKeyType": {
   "abstract" : [
-
+    {
+      "text" : "Public key types",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -201,5 +198,31 @@
   "type" : "topic",
   "url" : "\/documentation\/walletcore\/twpublickeytype\/init(rawvalue:)"
 }
-}
+}, 
+"variantOverrides":[
+  {
+    "patch" : [
+      {
+        "op" : "replace",
+        "path" : "\/references\/doc:~1~1com.trustwallet.WalletCore~1documentation~1WalletCore~1TWPublicKeyType\/title",
+        "value" : "TWPublicKeyType"
+      },
+      {
+        "op" : "replace",
+        "path" : "\/references\/doc:~1~1com.trustwallet.WalletCore~1documentation~1WalletCore~1TWPublicKeyType\/fragments",
+        "value" : [
+          {
+            "kind" : "identifier",
+            "text" : "TWPublicKeyType"
+          }
+        ]
+      }
+    ],
+    "traits" : [
+      {
+        "interfaceLanguage" : "occ"
+      }
+    ]
+  }
+]
 }

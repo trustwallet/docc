@@ -1,10 +1,4 @@
 {
-  "abstract" : [
-    {
-      "text" : "No overview available.",
-      "type" : "text"
-    }
-  ],
   "hierarchy" : {
     "paths" : [
       [
@@ -67,7 +61,7 @@
   ],
   "schemaVersion" : {
     "major" : 0,
-    "minor" : 2,
+    "minor" : 3,
     "patch" : 0
   },
   "sections" : [
@@ -100,7 +94,10 @@
 },
 "doc://com.trustwallet.WalletCore/documentation/WalletCore/TWAES": {
   "abstract" : [
-
+    {
+      "text" : "AES encryption\/decryption methods.",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -150,5 +147,31 @@
   "type" : "topic",
   "url" : "\/documentation\/walletcore\/twaes\/init()"
 }
-}
+}, 
+"variantOverrides":[
+  {
+    "patch" : [
+      {
+        "op" : "replace",
+        "path" : "\/references\/doc:~1~1com.trustwallet.WalletCore~1documentation~1WalletCore~1TWAES\/title",
+        "value" : "TWAES"
+      },
+      {
+        "op" : "replace",
+        "path" : "\/references\/doc:~1~1com.trustwallet.WalletCore~1documentation~1WalletCore~1TWAES\/fragments",
+        "value" : [
+          {
+            "kind" : "identifier",
+            "text" : "TWAES"
+          }
+        ]
+      }
+    ],
+    "traits" : [
+      {
+        "interfaceLanguage" : "occ"
+      }
+    ]
+  }
+]
 }

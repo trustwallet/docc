@@ -1,15 +1,15 @@
 {
   "abstract" : [
     {
-      "text" : "Creates a new array of messages by decoding the given string containing a",
+      "text" : "Inherited from ",
       "type" : "text"
     },
     {
-      "text" : " ",
-      "type" : "text"
+      "code" : "Message.array(fromJSONString:extensions:options:)",
+      "type" : "codeVoice"
     },
     {
-      "text" : "serialized array of messages in JSON format.",
+      "text" : ".",
       "type" : "text"
     }
   ],
@@ -248,93 +248,11 @@
         }
       ],
       "kind" : "declarations"
-    },
-    {
-      "kind" : "parameters",
-      "parameters" : [
-        {
-          "content" : [
-            {
-              "inlineContent" : [
-                {
-                  "text" : "The JSON-formatted string to decode.",
-                  "type" : "text"
-                }
-              ],
-              "type" : "paragraph"
-            }
-          ],
-          "name" : "jsonString"
-        },
-        {
-          "content" : [
-            {
-              "inlineContent" : [
-                {
-                  "text" : "The extension map to use with this decode",
-                  "type" : "text"
-                }
-              ],
-              "type" : "paragraph"
-            }
-          ],
-          "name" : "extensions"
-        },
-        {
-          "content" : [
-            {
-              "inlineContent" : [
-                {
-                  "text" : "The JSONDecodingOptions to use.",
-                  "type" : "text"
-                }
-              ],
-              "type" : "paragraph"
-            }
-          ],
-          "name" : "options"
-        }
-      ]
-    },
-    {
-      "content" : [
-        {
-          "anchor" : "discussion",
-          "level" : 2,
-          "text" : "Discussion",
-          "type" : "heading"
-        },
-        {
-          "content" : [
-            {
-              "inlineContent" : [
-                {
-                  "text" : "",
-                  "type" : "text"
-                },
-                {
-                  "code" : "JSONDecodingError",
-                  "type" : "codeVoice"
-                },
-                {
-                  "text" : " if decoding fails.",
-                  "type" : "text"
-                }
-              ],
-              "type" : "paragraph"
-            }
-          ],
-          "name" : "Throws",
-          "style" : "note",
-          "type" : "aside"
-        }
-      ],
-      "kind" : "content"
     }
   ],
   "schemaVersion" : {
     "major" : 0,
-    "minor" : 2,
+    "minor" : 3,
     "patch" : 0
   },
   "sections" : [
@@ -367,7 +285,10 @@
 },
 "doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Polkadot_Proto_Staking": {
   "abstract" : [
-
+    {
+      "text" : "Staking transaction",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -398,7 +319,10 @@
 },
 "doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Polkadot_Proto_Staking/Nominate-swift.struct": {
   "abstract" : [
-
+    {
+      "text" : "Nominate",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -440,18 +364,7 @@
 },
 "doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Polkadot_Proto_Staking/Nominate-swift.struct/array(fromJSONString:extensions:options:)": {
   "abstract" : [
-    {
-      "text" : "Creates a new array of messages by decoding the given string containing a",
-      "type" : "text"
-    },
-    {
-      "text" : " ",
-      "type" : "text"
-    },
-    {
-      "text" : "serialized array of messages in JSON format.",
-      "type" : "text"
-    }
+
   ],
   "fragments" : [
     {

@@ -1,15 +1,7 @@
 {
   "abstract" : [
     {
-      "text" : "int64 SIZE-OF-ENCODED      \/\/ varint encoded length of the structure after encoding",
-      "type" : "text"
-    },
-    {
-      "text" : " ",
-      "type" : "text"
-    },
-    {
-      "text" : "0xF0625DEE                  \/\/ prefix",
+      "text" : "array of size 1, containing the transaction message, which are one of the transaction type below",
       "type" : "text"
     }
   ],
@@ -109,7 +101,7 @@
   ],
   "schemaVersion" : {
     "major" : 0,
-    "minor" : 2,
+    "minor" : 3,
     "patch" : 0
   },
   "sections" : [
@@ -142,7 +134,10 @@
 },
 "doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Binance_Proto_Transaction": {
   "abstract" : [
-
+    {
+      "text" : "Transaction structure, used internally",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -174,15 +169,7 @@
 "doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Binance_Proto_Transaction/msgs": {
   "abstract" : [
     {
-      "text" : "int64 SIZE-OF-ENCODED      \/\/ varint encoded length of the structure after encoding",
-      "type" : "text"
-    },
-    {
-      "text" : " ",
-      "type" : "text"
-    },
-    {
-      "text" : "0xF0625DEE                  \/\/ prefix",
+      "text" : "array of size 1, containing the transaction message, which are one of the transaction type below",
       "type" : "text"
     }
   ],

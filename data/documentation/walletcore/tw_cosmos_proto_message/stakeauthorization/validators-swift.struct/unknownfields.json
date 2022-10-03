@@ -1,15 +1,15 @@
 {
   "abstract" : [
     {
-      "text" : "Some formats include enough information to transport fields that were",
+      "text" : "Inherited from ",
       "type" : "text"
     },
     {
-      "text" : " ",
-      "type" : "text"
+      "code" : "Message.unknownFields",
+      "type" : "codeVoice"
     },
     {
-      "text" : "not known at generation time. When encountered, they are stored here.",
+      "text" : ".",
       "type" : "text"
     }
   ],
@@ -103,7 +103,7 @@
   ],
   "schemaVersion" : {
     "major" : 0,
-    "minor" : 2,
+    "minor" : 3,
     "patch" : 0
   },
   "sections" : [
@@ -136,7 +136,10 @@
 },
 "doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Cosmos_Proto_Message": {
   "abstract" : [
-
+    {
+      "text" : "A transaction payload message",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -235,18 +238,7 @@
 },
 "doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Cosmos_Proto_Message/StakeAuthorization/Validators-swift.struct/unknownFields": {
   "abstract" : [
-    {
-      "text" : "Some formats include enough information to transport fields that were",
-      "type" : "text"
-    },
-    {
-      "text" : " ",
-      "type" : "text"
-    },
-    {
-      "text" : "not known at generation time. When encountered, they are stored here.",
-      "type" : "text"
-    }
+
   ],
   "fragments" : [
     {

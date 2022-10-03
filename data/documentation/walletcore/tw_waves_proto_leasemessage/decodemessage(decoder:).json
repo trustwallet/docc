@@ -1,7 +1,15 @@
 {
   "abstract" : [
     {
-      "text" : "Decode all of the fields from the given decoder.",
+      "text" : "Inherited from ",
+      "type" : "text"
+    },
+    {
+      "code" : "Message.decodeMessage(decoder:)",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : ".",
       "type" : "text"
     }
   ],
@@ -188,200 +196,11 @@
         }
       ],
       "kind" : "declarations"
-    },
-    {
-      "kind" : "parameters",
-      "parameters" : [
-        {
-          "content" : [
-            {
-              "inlineContent" : [
-                {
-                  "text" : "a ",
-                  "type" : "text"
-                },
-                {
-                  "code" : "Decoder",
-                  "type" : "codeVoice"
-                },
-                {
-                  "text" : "; the ",
-                  "type" : "text"
-                },
-                {
-                  "code" : "Message",
-                  "type" : "codeVoice"
-                },
-                {
-                  "text" : " will call the method",
-                  "type" : "text"
-                },
-                {
-                  "text" : " ",
-                  "type" : "text"
-                },
-                {
-                  "text" : "corresponding to the type of this field.",
-                  "type" : "text"
-                }
-              ],
-              "type" : "paragraph"
-            }
-          ],
-          "name" : "decoder"
-        }
-      ]
-    },
-    {
-      "content" : [
-        {
-          "anchor" : "discussion",
-          "level" : 2,
-          "text" : "Discussion",
-          "type" : "heading"
-        },
-        {
-          "inlineContent" : [
-            {
-              "text" : "This is a simple loop that repeatedly gets the next field number",
-              "type" : "text"
-            },
-            {
-              "text" : " ",
-              "type" : "text"
-            },
-            {
-              "text" : "from ",
-              "type" : "text"
-            },
-            {
-              "code" : "decoder.nextFieldNumber()",
-              "type" : "codeVoice"
-            },
-            {
-              "text" : " and then uses the number returned",
-              "type" : "text"
-            },
-            {
-              "text" : " ",
-              "type" : "text"
-            },
-            {
-              "text" : "and the type information from the original .proto file to decide",
-              "type" : "text"
-            },
-            {
-              "text" : " ",
-              "type" : "text"
-            },
-            {
-              "text" : "what type of data should be decoded for that field.  The corresponding",
-              "type" : "text"
-            },
-            {
-              "text" : " ",
-              "type" : "text"
-            },
-            {
-              "text" : "method on the decoder is then called to get the field value.",
-              "type" : "text"
-            }
-          ],
-          "type" : "paragraph"
-        },
-        {
-          "inlineContent" : [
-            {
-              "text" : "This is the core method used by the deserialization machinery. It is",
-              "type" : "text"
-            },
-            {
-              "text" : " ",
-              "type" : "text"
-            },
-            {
-              "code" : "public",
-              "type" : "codeVoice"
-            },
-            {
-              "text" : " to enable users to implement their own encoding formats by",
-              "type" : "text"
-            },
-            {
-              "text" : " ",
-              "type" : "text"
-            },
-            {
-              "text" : "conforming to ",
-              "type" : "text"
-            },
-            {
-              "code" : "Decoder",
-              "type" : "codeVoice"
-            },
-            {
-              "text" : "; it should not be called otherwise.",
-              "type" : "text"
-            }
-          ],
-          "type" : "paragraph"
-        },
-        {
-          "inlineContent" : [
-            {
-              "text" : "Note that this is not specific to binary encodng; formats that use",
-              "type" : "text"
-            },
-            {
-              "text" : " ",
-              "type" : "text"
-            },
-            {
-              "text" : "textual identifiers translate those to field numbers and also go",
-              "type" : "text"
-            },
-            {
-              "text" : " ",
-              "type" : "text"
-            },
-            {
-              "text" : "through this to decode messages.",
-              "type" : "text"
-            }
-          ],
-          "type" : "paragraph"
-        },
-        {
-          "content" : [
-            {
-              "inlineContent" : [
-                {
-                  "text" : "an error on failure or type mismatch.  The type of error",
-                  "type" : "text"
-                },
-                {
-                  "text" : " ",
-                  "type" : "text"
-                },
-                {
-                  "text" : "thrown depends on which decoder is used.",
-                  "type" : "text"
-                }
-              ],
-              "type" : "paragraph"
-            }
-          ],
-          "name" : "Throws",
-          "style" : "note",
-          "type" : "aside"
-        }
-      ],
-      "kind" : "content"
     }
   ],
   "schemaVersion" : {
     "major" : 0,
-    "minor" : 2,
+    "minor" : 3,
     "patch" : 0
   },
   "sections" : [
@@ -459,10 +278,7 @@
 },
 "doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Waves_Proto_LeaseMessage/decodeMessage(decoder:)": {
   "abstract" : [
-    {
-      "text" : "Decode all of the fields from the given decoder.",
-      "type" : "text"
-    }
+
   ],
   "fragments" : [
     {

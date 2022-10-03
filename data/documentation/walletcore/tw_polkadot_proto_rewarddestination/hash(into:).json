@@ -151,7 +151,7 @@
   ],
   "schemaVersion" : {
     "major" : 0,
-    "minor" : 2,
+    "minor" : 3,
     "patch" : 0
   },
   "sections" : [
@@ -184,7 +184,10 @@
 },
 "doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Polkadot_Proto_RewardDestination": {
   "abstract" : [
-
+    {
+      "text" : "Destination options for reward",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {

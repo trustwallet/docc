@@ -101,7 +101,7 @@
   ],
   "schemaVersion" : {
     "major" : 0,
-    "minor" : 2,
+    "minor" : 3,
     "patch" : 0
   },
   "sections" : [
@@ -237,7 +237,10 @@
 },
 "doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Tezos_Proto_OperationList/branch": {
   "abstract" : [
-
+    {
+      "text" : "branch",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -271,18 +274,7 @@
 },
 "doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Tezos_Proto_OperationList/init()": {
   "abstract" : [
-    {
-      "text" : "Creates a new message with all of its fields initialized to their default",
-      "type" : "text"
-    },
-    {
-      "text" : " ",
-      "type" : "text"
-    },
-    {
-      "text" : "values.",
-      "type" : "text"
-    }
+
   ],
   "fragments" : [
     {
@@ -303,7 +295,10 @@
 },
 "doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Tezos_Proto_OperationList/operations": {
   "abstract" : [
-
+    {
+      "text" : "list of operations",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -341,18 +336,7 @@
 },
 "doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Tezos_Proto_OperationList/unknownFields": {
   "abstract" : [
-    {
-      "text" : "Some formats include enough information to transport fields that were",
-      "type" : "text"
-    },
-    {
-      "text" : " ",
-      "type" : "text"
-    },
-    {
-      "text" : "not known at generation time. When encountered, they are stored here.",
-      "type" : "text"
-    }
+
   ],
   "fragments" : [
     {

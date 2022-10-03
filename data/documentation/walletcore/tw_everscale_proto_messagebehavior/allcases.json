@@ -128,7 +128,7 @@
   ],
   "schemaVersion" : {
     "major" : 0,
-    "minor" : 2,
+    "minor" : 3,
     "patch" : 0
   },
   "sections" : [
@@ -161,7 +161,10 @@
 },
 "doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Everscale_Proto_MessageBehavior": {
   "abstract" : [
-
+    {
+      "text" : "Message option",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {

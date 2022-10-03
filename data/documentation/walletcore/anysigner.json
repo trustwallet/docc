@@ -1,7 +1,7 @@
 {
   "abstract" : [
     {
-      "text" : "No overview available.",
+      "text" : "Represents a signer to sign transactions for any blockchain.",
       "type" : "text"
     }
   ],
@@ -88,7 +88,7 @@
   ],
   "schemaVersion" : {
     "major" : 0,
-    "minor" : 2,
+    "minor" : 3,
     "patch" : 0
   },
   "sections" : [
@@ -134,7 +134,10 @@
 },
 "doc://com.trustwallet.WalletCore/documentation/WalletCore/AnySigner": {
   "abstract" : [
-
+    {
+      "text" : "Represents a signer to sign transactions for any blockchain.",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -165,7 +168,10 @@
 },
 "doc://com.trustwallet.WalletCore/documentation/WalletCore/AnySigner/nativePlan(data:coin:)": {
   "abstract" : [
-
+    {
+      "text" : "Plans a transaction (for UTXO chains only).",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -241,7 +247,10 @@
 },
 "doc://com.trustwallet.WalletCore/documentation/WalletCore/AnySigner/nativeSign(data:coin:)": {
   "abstract" : [
-
+    {
+      "text" : "Signs a transaction by serialized data of a SigningInput and coin type",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -317,7 +326,10 @@
 },
 "doc://com.trustwallet.WalletCore/documentation/WalletCore/AnySigner/plan(input:coin:)": {
   "abstract" : [
-
+    {
+      "text" : "Plans a transaction (for UTXO chains only).",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -401,7 +413,10 @@
 },
 "doc://com.trustwallet.WalletCore/documentation/WalletCore/AnySigner/sign(input:coin:)": {
   "abstract" : [
-
+    {
+      "text" : "Signs a transaction by SigningInput message and coin type",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -485,7 +500,10 @@
 },
 "doc://com.trustwallet.WalletCore/documentation/WalletCore/AnySigner/signJSON(_:key:coin:)": {
   "abstract" : [
-
+    {
+      "text" : "Signs a transaction specified by the JSON representation of a SigningInput, coin type and a private key",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -570,7 +588,10 @@
 },
 "doc://com.trustwallet.WalletCore/documentation/WalletCore/AnySigner/supportsJSON(coin:)": {
   "abstract" : [
-
+    {
+      "text" : "Check if AnySigner supports signing JSON representation of SigningInput for a given coin.",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {

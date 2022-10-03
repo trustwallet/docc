@@ -1,7 +1,7 @@
 {
   "abstract" : [
     {
-      "text" : "\/ Theta token amount to send in wei (256-bit number)",
+      "text" : "\/ Theta token amount to send in wei (uint256, serialized little endian)",
       "type" : "text"
     }
   ],
@@ -93,7 +93,7 @@
   ],
   "schemaVersion" : {
     "major" : 0,
-    "minor" : 2,
+    "minor" : 3,
     "patch" : 0
   },
   "sections" : [
@@ -161,7 +161,7 @@
 "doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Theta_Proto_SigningInput/thetaAmount": {
   "abstract" : [
     {
-      "text" : "\/ Theta token amount to send in wei (256-bit number)",
+      "text" : "\/ Theta token amount to send in wei (uint256, serialized little endian)",
       "type" : "text"
     }
   ],

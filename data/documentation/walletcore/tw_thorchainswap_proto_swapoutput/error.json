@@ -1,7 +1,7 @@
 {
   "abstract" : [
     {
-      "text" : "Error code, filled in case of error, OK&”” on success",
+      "text" : "Error code, filled in case of error, OK\/empty on success",
       "type" : "text"
     }
   ],
@@ -114,7 +114,7 @@
   ],
   "schemaVersion" : {
     "major" : 0,
-    "minor" : 2,
+    "minor" : 3,
     "patch" : 0
   },
   "sections" : [
@@ -181,7 +181,10 @@
 },
 "doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_THORChainSwap_Proto_SwapOutput": {
   "abstract" : [
-
+    {
+      "text" : "Result of the swap, a SigningInput struct for the specific chain",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -213,7 +216,7 @@
 "doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_THORChainSwap_Proto_SwapOutput/error": {
   "abstract" : [
     {
-      "text" : "Error code, filled in case of error, OK&”” on success",
+      "text" : "Error code, filled in case of error, OK\/empty on success",
       "type" : "text"
     }
   ],

@@ -80,7 +80,7 @@
   ],
   "schemaVersion" : {
     "major" : 0,
-    "minor" : 2,
+    "minor" : 3,
     "patch" : 0
   },
   "sections" : [
@@ -89,6 +89,7 @@
   "topicSections" : [
     {
       "identifiers" : [
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/Cardano\/getStakingAddress(baseAddress:)",
         "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/Cardano\/minAdaAmount(tokenBundle:)"
       ],
       "title" : "Type Methods"
@@ -152,6 +153,76 @@
   "title" : "Cardano",
   "type" : "topic",
   "url" : "\/documentation\/walletcore\/cardano"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/Cardano/getStakingAddress(baseAddress:)": {
+  "abstract" : [
+    {
+      "text" : "Return the staking address associated to (contained in) this address. Must be a Base address.",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "Empty string is returned on error. Result must be freed.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "static"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "getStakingAddress"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "baseAddress"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/Cardano\/getStakingAddress(baseAddress:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "getStakingAddress(baseAddress:)",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/cardano\/getstakingaddress(baseaddress:)"
 },
 "doc://com.trustwallet.WalletCore/documentation/WalletCore/Cardano/minAdaAmount(tokenBundle:)": {
   "abstract" : [

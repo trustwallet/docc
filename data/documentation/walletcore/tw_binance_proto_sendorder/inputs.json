@@ -1,7 +1,7 @@
 {
   "abstract" : [
     {
-      "text" : "No overview available.",
+      "text" : "Send inputs",
       "type" : "text"
     }
   ],
@@ -121,7 +121,7 @@
   ],
   "schemaVersion" : {
     "major" : 0,
-    "minor" : 2,
+    "minor" : 3,
     "patch" : 0
   },
   "sections" : [
@@ -154,7 +154,10 @@
 },
 "doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Binance_Proto_SendOrder": {
   "abstract" : [
-
+    {
+      "text" : "Message for Send order",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -185,7 +188,10 @@
 },
 "doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Binance_Proto_SendOrder/Input": {
   "abstract" : [
-
+    {
+      "text" : "Transaction input",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -216,7 +222,10 @@
 },
 "doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Binance_Proto_SendOrder/inputs": {
   "abstract" : [
-
+    {
+      "text" : "Send inputs",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {

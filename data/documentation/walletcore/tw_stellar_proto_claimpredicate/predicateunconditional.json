@@ -1,18 +1,4 @@
 {
-  "abstract" : [
-    {
-      "text" : "Rest of predicates not currently supported",
-      "type" : "text"
-    },
-    {
-      "text" : " ",
-      "type" : "text"
-    },
-    {
-      "text" : "See https:\/\/github.com\/stellar\/stellar-protocol\/blob\/master\/core\/cap-0023.md",
-      "type" : "text"
-    }
-  ],
   "hierarchy" : {
     "paths" : [
       [
@@ -83,7 +69,7 @@
   ],
   "schemaVersion" : {
     "major" : 0,
-    "minor" : 2,
+    "minor" : 3,
     "patch" : 0
   },
   "sections" : [
@@ -116,7 +102,26 @@
 },
 "doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Stellar_Proto_ClaimPredicate": {
   "abstract" : [
-
+    {
+      "text" : "A predicate (used in claim)",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "Rest of predicates not currently supported",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "See https:\/\/github.com\/stellar\/stellar-protocol\/blob\/master\/core\/cap-0023.md",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -147,18 +152,7 @@
 },
 "doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Stellar_Proto_ClaimPredicate/predicateUnconditional": {
   "abstract" : [
-    {
-      "text" : "Rest of predicates not currently supported",
-      "type" : "text"
-    },
-    {
-      "text" : " ",
-      "type" : "text"
-    },
-    {
-      "text" : "See https:\/\/github.com\/stellar\/stellar-protocol\/blob\/master\/core\/cap-0023.md",
-      "type" : "text"
-    }
+
   ],
   "fragments" : [
     {

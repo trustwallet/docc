@@ -176,7 +176,7 @@
   ],
   "schemaVersion" : {
     "major" : 0,
-    "minor" : 2,
+    "minor" : 3,
     "patch" : 0
   },
   "sections" : [
@@ -243,7 +243,10 @@
 },
 "doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Solana_Proto_SigningInput/OneOf_TransactionType": {
   "abstract" : [
-
+    {
+      "text" : "Payload message",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
