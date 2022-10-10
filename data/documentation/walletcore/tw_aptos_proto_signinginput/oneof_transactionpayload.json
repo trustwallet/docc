@@ -95,6 +95,7 @@
     {
       "identifiers" : [
         "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Aptos_Proto_SigningInput\/OneOf_TransactionPayload\/createAccount(_:)",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Aptos_Proto_SigningInput\/OneOf_TransactionPayload\/nftMessage(_:)",
         "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Aptos_Proto_SigningInput\/OneOf_TransactionPayload\/tokenTransfer(_:)",
         "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Aptos_Proto_SigningInput\/OneOf_TransactionPayload\/transfer(_:)"
       ],
@@ -251,6 +252,44 @@
   "title" : "TW_Aptos_Proto_SigningInput.OneOf_TransactionPayload.createAccount(_:)",
   "type" : "topic",
   "url" : "\/documentation\/walletcore\/tw_aptos_proto_signinginput\/oneof_transactionpayload\/createaccount(_:)"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Aptos_Proto_SigningInput/OneOf_TransactionPayload/nftMessage(_:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "nftMessage"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10WalletCore25TW_Aptos_Proto_NftMessageV",
+      "text" : "TW_Aptos_Proto_NftMessage"
+    },
+    {
+      "kind" : "text",
+      "text" : ")"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Aptos_Proto_SigningInput\/OneOf_TransactionPayload\/nftMessage(_:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "TW_Aptos_Proto_SigningInput.OneOf_TransactionPayload.nftMessage(_:)",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_aptos_proto_signinginput\/oneof_transactionpayload\/nftmessage(_:)"
 },
 "doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Aptos_Proto_SigningInput/OneOf_TransactionPayload/tokenTransfer(_:)": {
   "abstract" : [

@@ -104,6 +104,7 @@
       "identifiers" : [
         "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/Derivation\/bitcoinLegacy",
         "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/Derivation\/bitcoinSegwit",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/Derivation\/bitcoinTestnet",
         "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/Derivation\/custom",
         "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/Derivation\/default",
         "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/Derivation\/litecoinLegacy",
@@ -271,6 +272,31 @@
   "title" : "Derivation.bitcoinSegwit",
   "type" : "topic",
   "url" : "\/documentation\/walletcore\/derivation\/bitcoinsegwit"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/Derivation/bitcoinTestnet": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "bitcoinTestnet"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/Derivation\/bitcoinTestnet",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Derivation.bitcoinTestnet",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/derivation\/bitcointestnet"
 },
 "doc://com.trustwallet.WalletCore/documentation/WalletCore/Derivation/custom": {
   "abstract" : [

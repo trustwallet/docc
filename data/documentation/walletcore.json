@@ -38,6 +38,7 @@
         "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/AnyAddress",
         "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/AnySigner",
         "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/BitcoinAddress",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/BitcoinMessageSigner",
         "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/BitcoinScript",
         "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/DataVector",
         "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/DerivationPath",
@@ -108,7 +109,11 @@
         "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Algorand_Proto_SigningInput",
         "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Algorand_Proto_SigningOutput",
         "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Algorand_Proto_Transfer",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Aptos_Proto_CancelOfferNftMessage",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Aptos_Proto_ClaimNftMessage",
         "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Aptos_Proto_CreateAccountMessage",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Aptos_Proto_NftMessage",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Aptos_Proto_OfferNftMessage",
         "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Aptos_Proto_SigningInput",
         "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Aptos_Proto_SigningOutput",
         "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Aptos_Proto_StructTag",
@@ -535,6 +540,7 @@
         "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TWCurveSECP256k1",
         "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TWDerivationBitcoinLegacy",
         "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TWDerivationBitcoinSegwit",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TWDerivationBitcoinTestnet",
         "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TWDerivationCustom",
         "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TWDerivationDefault",
         "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TWDerivationLitecoinLegacy",
@@ -708,6 +714,8 @@
         "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TWBitcoinAddressIsValidString(_:)",
         "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TWBitcoinAddressKeyhash(_:)",
         "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TWBitcoinAddressPrefix(_:)",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TWBitcoinMessageSignerSignMessage(_:_:_:)",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TWBitcoinMessageSignerVerifyMessage(_:_:_:)",
         "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TWBitcoinScriptBuildPayToPublicKey(_:)",
         "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TWBitcoinScriptBuildPayToPublicKeyHash(_:)",
         "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TWBitcoinScriptBuildPayToScriptHash(_:)",
@@ -1034,7 +1042,11 @@
         "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/AlgorandSigningInput",
         "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/AlgorandSigningOutput",
         "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/AlgorandTransfer",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/AptosCancelOfferNftMessage",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/AptosClaimNftMessage",
         "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/AptosCreateAccountMessage",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/AptosNftMessage",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/AptosOfferNftMessage",
         "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/AptosSigningInput",
         "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/AptosSigningOutput",
         "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/AptosStructTag",
@@ -1841,6 +1853,68 @@
   "type" : "topic",
   "url" : "\/documentation\/walletcore\/anysigner"
 },
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/AptosCancelOfferNftMessage": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "typealias"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "AptosCancelOfferNftMessage"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/AptosCancelOfferNftMessage",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "AptosCancelOfferNftMessage"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "AptosCancelOfferNftMessage",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/aptoscanceloffernftmessage"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/AptosClaimNftMessage": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "typealias"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "AptosClaimNftMessage"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/AptosClaimNftMessage",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "AptosClaimNftMessage"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "AptosClaimNftMessage",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/aptosclaimnftmessage"
+},
 "doc://com.trustwallet.WalletCore/documentation/WalletCore/AptosCreateAccountMessage": {
   "abstract" : [
 
@@ -1871,6 +1945,68 @@
   "title" : "AptosCreateAccountMessage",
   "type" : "topic",
   "url" : "\/documentation\/walletcore\/aptoscreateaccountmessage"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/AptosNftMessage": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "typealias"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "AptosNftMessage"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/AptosNftMessage",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "AptosNftMessage"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "AptosNftMessage",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/aptosnftmessage"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/AptosOfferNftMessage": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "typealias"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "AptosOfferNftMessage"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/AptosOfferNftMessage",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "AptosOfferNftMessage"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "AptosOfferNftMessage",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/aptosoffernftmessage"
 },
 "doc://com.trustwallet.WalletCore/documentation/WalletCore/AptosSigningInput": {
   "abstract" : [
@@ -2937,6 +3073,40 @@
   "title" : "BitcoinHashPublicKey",
   "type" : "topic",
   "url" : "\/documentation\/walletcore\/bitcoinhashpublickey"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/BitcoinMessageSigner": {
+  "abstract" : [
+    {
+      "text" : "Bitcoin message signing and verification.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "BitcoinMessageSigner"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/BitcoinMessageSigner",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "BitcoinMessageSigner"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "BitcoinMessageSigner",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/bitcoinmessagesigner"
 },
 "doc://com.trustwallet.WalletCore/documentation/WalletCore/BitcoinOutPoint": {
   "abstract" : [
@@ -13158,7 +13328,7 @@
     },
     {
       "kind" : "text",
-      "text" : ") -> "
+      "text" : "?) -> "
     },
     {
       "kind" : "typeIdentifier",
@@ -13275,7 +13445,7 @@
     },
     {
       "kind" : "text",
-      "text" : ") -> "
+      "text" : "?) -> "
     },
     {
       "kind" : "typeIdentifier",
@@ -14272,6 +14442,146 @@
   "title" : "TWBitcoinAddressPrefix(_:)",
   "type" : "topic",
   "url" : "\/documentation\/walletcore\/twbitcoinaddressprefix(_:)"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TWBitcoinMessageSignerSignMessage(_:_:_:)": {
+  "abstract" : [
+    {
+      "text" : "Sign a message.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "TWBitcoinMessageSignerSignMessage"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:s13OpaquePointerV",
+      "text" : "OpaquePointer"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SV",
+      "text" : "UnsafeRawPointer"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SV",
+      "text" : "UnsafeRawPointer"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SV",
+      "text" : "UnsafeRawPointer"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TWBitcoinMessageSignerSignMessage(_:_:_:)",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "TWBitcoinMessageSignerSignMessage"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "TWBitcoinMessageSignerSignMessage(_:_:_:)",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/twbitcoinmessagesignersignmessage(_:_:_:)"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TWBitcoinMessageSignerVerifyMessage(_:_:_:)": {
+  "abstract" : [
+    {
+      "text" : "Verify signature for a message.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "TWBitcoinMessageSignerVerifyMessage"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SV",
+      "text" : "UnsafeRawPointer"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SV",
+      "text" : "UnsafeRawPointer"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SV",
+      "text" : "UnsafeRawPointer"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Sb",
+      "text" : "Bool"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TWBitcoinMessageSignerVerifyMessage(_:_:_:)",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "TWBitcoinMessageSignerVerifyMessage"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "TWBitcoinMessageSignerVerifyMessage(_:_:_:)",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/twbitcoinmessagesignerverifymessage(_:_:_:)"
 },
 "doc://com.trustwallet.WalletCore/documentation/WalletCore/TWBitcoinScriptBuildPayToPublicKey(_:)": {
   "abstract" : [
@@ -24894,6 +25204,46 @@
   "title" : "TWDerivationBitcoinSegwit",
   "type" : "topic",
   "url" : "\/documentation\/walletcore\/twderivationbitcoinsegwit"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TWDerivationBitcoinTestnet": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "TWDerivationBitcoinTestnet"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "c:@E@TWDerivation",
+      "text" : "TWDerivation"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TWDerivationBitcoinTestnet",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "TWDerivationBitcoinTestnet"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "TWDerivationBitcoinTestnet",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/twderivationbitcointestnet"
 },
 "doc://com.trustwallet.WalletCore/documentation/WalletCore/TWDerivationCustom": {
   "abstract" : [
@@ -44742,6 +45092,74 @@
   "type" : "topic",
   "url" : "\/documentation\/walletcore\/tw_algorand_proto_transfer"
 },
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Aptos_Proto_CancelOfferNftMessage": {
+  "abstract" : [
+    {
+      "text" : "Necessary fields to process an CancelOfferNftMessage",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "TW_Aptos_Proto_CancelOfferNftMessage"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Aptos_Proto_CancelOfferNftMessage",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "TW_Aptos_Proto_CancelOfferNftMessage"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "TW_Aptos_Proto_CancelOfferNftMessage",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_aptos_proto_canceloffernftmessage"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Aptos_Proto_ClaimNftMessage": {
+  "abstract" : [
+    {
+      "text" : "Necessary fields to process an ClaimNftMessage",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "TW_Aptos_Proto_ClaimNftMessage"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Aptos_Proto_ClaimNftMessage",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "TW_Aptos_Proto_ClaimNftMessage"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "TW_Aptos_Proto_ClaimNftMessage",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_aptos_proto_claimnftmessage"
+},
 "doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Aptos_Proto_CreateAccountMessage": {
   "abstract" : [
     {
@@ -44775,6 +45193,71 @@
   "title" : "TW_Aptos_Proto_CreateAccountMessage",
   "type" : "topic",
   "url" : "\/documentation\/walletcore\/tw_aptos_proto_createaccountmessage"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Aptos_Proto_NftMessage": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "TW_Aptos_Proto_NftMessage"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Aptos_Proto_NftMessage",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "TW_Aptos_Proto_NftMessage"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "TW_Aptos_Proto_NftMessage",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_aptos_proto_nftmessage"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Aptos_Proto_OfferNftMessage": {
+  "abstract" : [
+    {
+      "text" : "Necessary fields to process an OfferNftMessage",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "TW_Aptos_Proto_OfferNftMessage"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Aptos_Proto_OfferNftMessage",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "TW_Aptos_Proto_OfferNftMessage"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "TW_Aptos_Proto_OfferNftMessage",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_aptos_proto_offernftmessage"
 },
 "doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Aptos_Proto_SigningInput": {
   "abstract" : [
@@ -55203,6 +55686,8 @@
               "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TWBitcoinAddressIsValidString(_:)",
               "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TWBitcoinAddressKeyhash(_:)",
               "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TWBitcoinAddressPrefix(_:)",
+              "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TWBitcoinMessageSignerSignMessage(_:_:_:)",
+              "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TWBitcoinMessageSignerVerifyMessage(_:_:_:)",
               "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TWBitcoinScriptBuildPayToPublicKey(_:)",
               "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TWBitcoinScriptBuildPayToPublicKeyHash(_:)",
               "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TWBitcoinScriptBuildPayToScriptHash(_:)",
@@ -55690,6 +56175,7 @@
               "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TWCurveSECP256k1",
               "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TWDerivationBitcoinLegacy",
               "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TWDerivationBitcoinSegwit",
+              "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TWDerivationBitcoinTestnet",
               "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TWDerivationCustom",
               "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TWDerivationDefault",
               "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TWDerivationLitecoinLegacy",
@@ -57013,6 +57499,36 @@
           {
             "kind" : "identifier",
             "text" : "TWBitcoinAddressPrefix"
+          }
+        ]
+      },
+      {
+        "op" : "replace",
+        "path" : "\/references\/doc:~1~1com.trustwallet.WalletCore~1documentation~1WalletCore~1TWBitcoinMessageSignerSignMessage(_:_:_:)\/title",
+        "value" : "TWBitcoinMessageSignerSignMessage"
+      },
+      {
+        "op" : "replace",
+        "path" : "\/references\/doc:~1~1com.trustwallet.WalletCore~1documentation~1WalletCore~1TWBitcoinMessageSignerSignMessage(_:_:_:)\/fragments",
+        "value" : [
+          {
+            "kind" : "identifier",
+            "text" : "TWBitcoinMessageSignerSignMessage"
+          }
+        ]
+      },
+      {
+        "op" : "replace",
+        "path" : "\/references\/doc:~1~1com.trustwallet.WalletCore~1documentation~1WalletCore~1TWBitcoinMessageSignerVerifyMessage(_:_:_:)\/title",
+        "value" : "TWBitcoinMessageSignerVerifyMessage"
+      },
+      {
+        "op" : "replace",
+        "path" : "\/references\/doc:~1~1com.trustwallet.WalletCore~1documentation~1WalletCore~1TWBitcoinMessageSignerVerifyMessage(_:_:_:)\/fragments",
+        "value" : [
+          {
+            "kind" : "identifier",
+            "text" : "TWBitcoinMessageSignerVerifyMessage"
           }
         ]
       },
@@ -60523,6 +61039,21 @@
           {
             "kind" : "identifier",
             "text" : "TWDerivationBitcoinSegwit"
+          }
+        ]
+      },
+      {
+        "op" : "replace",
+        "path" : "\/references\/doc:~1~1com.trustwallet.WalletCore~1documentation~1WalletCore~1TWDerivationBitcoinTestnet\/title",
+        "value" : "TWDerivationBitcoinTestnet"
+      },
+      {
+        "op" : "replace",
+        "path" : "\/references\/doc:~1~1com.trustwallet.WalletCore~1documentation~1WalletCore~1TWDerivationBitcoinTestnet\/fragments",
+        "value" : [
+          {
+            "kind" : "identifier",
+            "text" : "TWDerivationBitcoinTestnet"
           }
         ]
       },
