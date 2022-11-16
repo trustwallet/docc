@@ -1,0 +1,449 @@
+{
+  "abstract" : [
+    {
+      "text" : "Input data necessary to create a signed transaction.",
+      "type" : "text"
+    }
+  ],
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Hedera_Proto_SigningInput"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "s:10WalletCore28TW_Hedera_Proto_SigningInputV",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "struct"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "TW_Hedera_Proto_SigningInput"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "WalletCore"
+      }
+    ],
+    "navigatorTitle" : [
+      {
+        "kind" : "identifier",
+        "text" : "TW_Hedera_Proto_SigningInput"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Structure",
+    "symbolKind" : "struct",
+    "title" : "TW_Hedera_Proto_SigningInput"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "iOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "struct"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "TW_Hedera_Proto_SigningInput"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "relationshipsSections" : [
+    {
+      "identifiers" : [
+        "doc:\/\/com.trustwallet.WalletCore\/s28CustomDebugStringConvertibleP",
+        "doc:\/\/com.trustwallet.WalletCore\/SQ",
+        "doc:\/\/com.trustwallet.WalletCore\/SH",
+        "doc:\/\/com.trustwallet.WalletCore\/13SwiftProtobuf7MessageP"
+      ],
+      "kind" : "relationships",
+      "title" : "Conforms To",
+      "type" : "conformsTo"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "topicSections" : [
+    {
+      "identifiers" : [
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Hedera_Proto_SigningInput\/init()"
+      ],
+      "title" : "Initializers"
+    },
+    {
+      "identifiers" : [
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Hedera_Proto_SigningInput\/body",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Hedera_Proto_SigningInput\/hasBody",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Hedera_Proto_SigningInput\/privateKey",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Hedera_Proto_SigningInput\/unknownFields"
+      ],
+      "title" : "Instance Properties"
+    },
+    {
+      "identifiers" : [
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Hedera_Proto_SigningInput\/clearBody()"
+      ],
+      "title" : "Instance Methods"
+    },
+    {
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Hedera_Proto_SigningInput\/Equatable-Implementations",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Hedera_Proto_SigningInput\/Message-Implementations"
+      ],
+      "title" : "Default Implementations"
+    }
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/walletcore\/tw_hedera_proto_signinginput"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://com.trustwallet.WalletCore/13SwiftProtobuf7MessageP": {
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/13SwiftProtobuf7MessageP",
+  "title" : "SwiftProtobuf.Message",
+  "type" : "unresolvable"
+},
+"doc://com.trustwallet.WalletCore/SH": {
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/SH",
+  "title" : "Swift.Hashable",
+  "type" : "unresolvable"
+},
+"doc://com.trustwallet.WalletCore/SQ": {
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/SQ",
+  "title" : "Swift.Equatable",
+  "type" : "unresolvable"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "WalletCore",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Hedera_Proto_SigningInput": {
+  "abstract" : [
+    {
+      "text" : "Input data necessary to create a signed transaction.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "TW_Hedera_Proto_SigningInput"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Hedera_Proto_SigningInput",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "TW_Hedera_Proto_SigningInput"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "TW_Hedera_Proto_SigningInput",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_hedera_proto_signinginput"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Hedera_Proto_SigningInput/Equatable-Implementations": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Hedera_Proto_SigningInput\/Equatable-Implementations",
+  "kind" : "article",
+  "role" : "collectionGroup",
+  "title" : "Equatable Implementations",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_hedera_proto_signinginput\/equatable-implementations"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Hedera_Proto_SigningInput/Message-Implementations": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Hedera_Proto_SigningInput\/Message-Implementations",
+  "kind" : "article",
+  "role" : "collectionGroup",
+  "title" : "Message Implementations",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_hedera_proto_signinginput\/message-implementations"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Hedera_Proto_SigningInput/body": {
+  "abstract" : [
+    {
+      "text" : "The transaction body",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "body"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10WalletCore31TW_Hedera_Proto_TransactionBodyV",
+      "text" : "TW_Hedera_Proto_TransactionBody"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Hedera_Proto_SigningInput\/body",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "body",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_hedera_proto_signinginput\/body"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Hedera_Proto_SigningInput/clearBody()": {
+  "abstract" : [
+    {
+      "text" : "Clears the value of ",
+      "type" : "text"
+    },
+    {
+      "code" : "body",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : ". Subsequent reads from it will return its default value.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "clearBody"
+    },
+    {
+      "kind" : "text",
+      "text" : "()"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Hedera_Proto_SigningInput\/clearBody()",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "clearBody()",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_hedera_proto_signinginput\/clearbody()"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Hedera_Proto_SigningInput/hasBody": {
+  "abstract" : [
+    {
+      "text" : "Returns true if ",
+      "type" : "text"
+    },
+    {
+      "code" : "body",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : " has been explicitly set.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "hasBody"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Sb",
+      "text" : "Bool"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Hedera_Proto_SigningInput\/hasBody",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "hasBody",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_hedera_proto_signinginput\/hasbody"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Hedera_Proto_SigningInput/init()": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "init"
+    },
+    {
+      "kind" : "text",
+      "text" : "()"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Hedera_Proto_SigningInput\/init()",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "init()",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_hedera_proto_signinginput\/init()"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Hedera_Proto_SigningInput/privateKey": {
+  "abstract" : [
+    {
+      "text" : "Private key to sign the transaction (bytes)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "privateKey"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10Foundation4DataV",
+      "text" : "Data"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Hedera_Proto_SigningInput\/privateKey",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "privateKey",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_hedera_proto_signinginput\/privatekey"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Hedera_Proto_SigningInput/unknownFields": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "unknownFields"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:13SwiftProtobuf14UnknownStorageV",
+      "text" : "UnknownStorage"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Hedera_Proto_SigningInput\/unknownFields",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "unknownFields",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_hedera_proto_signinginput\/unknownfields"
+},
+"doc://com.trustwallet.WalletCore/s28CustomDebugStringConvertibleP": {
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/s28CustomDebugStringConvertibleP",
+  "title" : "Swift.CustomDebugStringConvertible",
+  "type" : "unresolvable"
+}
+}
+}

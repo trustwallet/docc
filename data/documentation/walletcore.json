@@ -112,6 +112,7 @@
         "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Aptos_Proto_CancelOfferNftMessage",
         "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Aptos_Proto_ClaimNftMessage",
         "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Aptos_Proto_CreateAccountMessage",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Aptos_Proto_ManagedTokensRegisterMessage",
         "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Aptos_Proto_NftMessage",
         "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Aptos_Proto_OfferNftMessage",
         "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Aptos_Proto_SigningInput",
@@ -212,6 +213,12 @@
         "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Harmony_Proto_SigningOutput",
         "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Harmony_Proto_StakingMessage",
         "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Harmony_Proto_TransactionMessage",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Hedera_Proto_SigningInput",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Hedera_Proto_SigningOutput",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Hedera_Proto_Timestamp",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Hedera_Proto_TransactionBody",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Hedera_Proto_TransactionID",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Hedera_Proto_TransferMessage",
         "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Icon_Proto_SigningInput",
         "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Icon_Proto_SigningOutput",
         "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_IoTeX_Proto_Action",
@@ -411,6 +418,7 @@
         "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TWBlockchainFilecoin",
         "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TWBlockchainGroestlcoin",
         "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TWBlockchainHarmony",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TWBlockchainHedera",
         "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TWBlockchainIcon",
         "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TWBlockchainIoTeX",
         "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TWBlockchainKusama",
@@ -475,6 +483,7 @@
         "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TWCoinTypeGoChain",
         "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TWCoinTypeGroestlcoin",
         "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TWCoinTypeHarmony",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TWCoinTypeHedera",
         "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TWCoinTypeICON",
         "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TWCoinTypeIoTeX",
         "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TWCoinTypeKava",
@@ -681,13 +690,20 @@
         "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TWAccountExtendedPublicKey(_:)",
         "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TWAccountPublicKey(_:)",
         "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TWAnyAddressCoin(_:)",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TWAnyAddressCreateBech32(_:_:_:)",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TWAnyAddressCreateBech32WithPublicKey(_:_:_:)",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TWAnyAddressCreateSS58(_:_:_:)",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TWAnyAddressCreateSS58WithPublicKey(_:_:_:)",
         "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TWAnyAddressCreateWithPublicKey(_:_:)",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TWAnyAddressCreateWithPublicKeyDerivation(_:_:_:)",
         "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TWAnyAddressCreateWithString(_:_:)",
         "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TWAnyAddressData(_:)",
         "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TWAnyAddressDelete(_:)",
         "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TWAnyAddressDescription(_:)",
         "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TWAnyAddressEqual(_:_:)",
         "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TWAnyAddressIsValid(_:_:)",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TWAnyAddressIsValidBech32(_:_:_:)",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TWAnyAddressIsValidSS58(_:_:_:)",
         "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TWAnySignerPlan(_:_:)",
         "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TWAnySignerSign(_:_:)",
         "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TWAnySignerSignJSON(_:_:_:)",
@@ -764,6 +780,7 @@
         "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TWCoinTypeP2shPrefix(_:)",
         "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TWCoinTypePublicKeyType(_:)",
         "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TWCoinTypePurpose(_:)",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TWCoinTypeSS58Prefix(_:)",
         "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TWCoinTypeSlip44Id(_:)",
         "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TWCoinTypeStaticPrefix(_:)",
         "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TWCoinTypeValidate(_:_:)",
@@ -887,6 +904,7 @@
         "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TWHDWalletCreateWithMnemonicCheck(_:_:_:)",
         "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TWHDWalletDelete(_:)",
         "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TWHDWalletEntropy(_:)",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TWHDWalletGetAddressDerivation(_:_:_:)",
         "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TWHDWalletGetAddressForCoin(_:_:)",
         "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TWHDWalletGetDerivedKey(_:_:_:_:_:)",
         "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TWHDWalletGetExtendedPrivateKey(_:_:_:_:)",
@@ -897,6 +915,7 @@
         "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TWHDWalletGetExtendedPublicKeyDerivation(_:_:_:_:_:)",
         "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TWHDWalletGetKey(_:_:_:)",
         "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TWHDWalletGetKeyByCurve(_:_:_:)",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TWHDWalletGetKeyDerivation(_:_:_:)",
         "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TWHDWalletGetKeyForCoin(_:_:)",
         "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TWHDWalletGetMasterKey(_:_:)",
         "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TWHDWalletGetPublicKeyFromExtended(_:_:_:)",
@@ -941,6 +960,8 @@
         "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TWPrivateKeyCreateWithData(_:)",
         "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TWPrivateKeyData(_:)",
         "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TWPrivateKeyDelete(_:)",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TWPrivateKeyGetPublicKey(_:_:)",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TWPrivateKeyGetPublicKeyByType(_:_:)",
         "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TWPrivateKeyGetPublicKeyCurve25519(_:)",
         "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TWPrivateKeyGetPublicKeyEd25519(_:)",
         "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TWPrivateKeyGetPublicKeyEd25519Blake2b(_:)",
@@ -1045,6 +1066,7 @@
         "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/AptosCancelOfferNftMessage",
         "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/AptosClaimNftMessage",
         "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/AptosCreateAccountMessage",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/AptosManagedTokensRegisterMessage",
         "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/AptosNftMessage",
         "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/AptosOfferNftMessage",
         "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/AptosSigningInput",
@@ -1151,6 +1173,12 @@
         "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/HarmonySigningOutput",
         "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/HarmonyStakingMessage",
         "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/HarmonyTransactionMessage",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/HederaSigningInput",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/HederaSigningOutput",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/HederaTimestamp",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/HederaTransactionBody",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/HederaTransactionID",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/HederaTransferMessage",
         "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/IconSigningInput",
         "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/IconSigningOutput",
         "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/IoTeXAction",
@@ -1215,7 +1243,6 @@
         "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/OntologySigningOutput",
         "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/PolkadotBalance",
         "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/PolkadotEra",
-        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/PolkadotNetwork",
         "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/PolkadotRewardDestination",
         "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/PolkadotSigningInput",
         "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/PolkadotSigningOutput",
@@ -1324,7 +1351,6 @@
         "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_EOS_Proto_KeyType",
         "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Ethereum_Proto_TransactionMode",
         "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Everscale_Proto_MessageBehavior",
-        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Polkadot_Proto_Network",
         "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Polkadot_Proto_RewardDestination",
         "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Stellar_Proto_ClaimPredicate",
         "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_THORChainSwap_Proto_Chain",
@@ -1945,6 +1971,37 @@
   "title" : "AptosCreateAccountMessage",
   "type" : "topic",
   "url" : "\/documentation\/walletcore\/aptoscreateaccountmessage"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/AptosManagedTokensRegisterMessage": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "typealias"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "AptosManagedTokensRegisterMessage"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/AptosManagedTokensRegisterMessage",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "AptosManagedTokensRegisterMessage"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "AptosManagedTokensRegisterMessage",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/aptosmanagedtokensregistermessage"
 },
 "doc://com.trustwallet.WalletCore/documentation/WalletCore/AptosNftMessage": {
   "abstract" : [
@@ -3980,7 +4037,7 @@
 "doc://com.trustwallet.WalletCore/documentation/WalletCore/CoinType": {
   "abstract" : [
     {
-      "text" : "Coin type for Level 2 of BIP44.",
+      "text" : "Represents a private key.\/\/\/ Coin type for Level 2 of BIP44.",
       "type" : "text"
     }
   ],
@@ -7659,6 +7716,192 @@
   "type" : "topic",
   "url" : "\/documentation\/walletcore\/hash"
 },
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/HederaSigningInput": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "typealias"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "HederaSigningInput"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/HederaSigningInput",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "HederaSigningInput"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "HederaSigningInput",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/hederasigninginput"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/HederaSigningOutput": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "typealias"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "HederaSigningOutput"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/HederaSigningOutput",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "HederaSigningOutput"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "HederaSigningOutput",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/hederasigningoutput"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/HederaTimestamp": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "typealias"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "HederaTimestamp"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/HederaTimestamp",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "HederaTimestamp"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "HederaTimestamp",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/hederatimestamp"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/HederaTransactionBody": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "typealias"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "HederaTransactionBody"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/HederaTransactionBody",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "HederaTransactionBody"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "HederaTransactionBody",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/hederatransactionbody"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/HederaTransactionID": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "typealias"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "HederaTransactionID"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/HederaTransactionID",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "HederaTransactionID"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "HederaTransactionID",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/hederatransactionid"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/HederaTransferMessage": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "typealias"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "HederaTransferMessage"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/HederaTransferMessage",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "HederaTransferMessage"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "HederaTransferMessage",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/hederatransfermessage"
+},
 "doc://com.trustwallet.WalletCore/documentation/WalletCore/IconSigningInput": {
   "abstract" : [
 
@@ -9829,37 +10072,6 @@
   "title" : "PolkadotEra",
   "type" : "topic",
   "url" : "\/documentation\/walletcore\/polkadotera"
-},
-"doc://com.trustwallet.WalletCore/documentation/WalletCore/PolkadotNetwork": {
-  "abstract" : [
-
-  ],
-  "fragments" : [
-    {
-      "kind" : "keyword",
-      "text" : "typealias"
-    },
-    {
-      "kind" : "text",
-      "text" : " "
-    },
-    {
-      "kind" : "identifier",
-      "text" : "PolkadotNetwork"
-    }
-  ],
-  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/PolkadotNetwork",
-  "kind" : "symbol",
-  "navigatorTitle" : [
-    {
-      "kind" : "identifier",
-      "text" : "PolkadotNetwork"
-    }
-  ],
-  "role" : "symbol",
-  "title" : "PolkadotNetwork",
-  "type" : "topic",
-  "url" : "\/documentation\/walletcore\/polkadotnetwork"
 },
 "doc://com.trustwallet.WalletCore/documentation/WalletCore/PolkadotRewardDestination": {
   "abstract" : [
@@ -12589,6 +12801,294 @@
   "type" : "topic",
   "url" : "\/documentation\/walletcore\/twanyaddresscoin(_:)"
 },
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TWAnyAddressCreateBech32(_:_:_:)": {
+  "abstract" : [
+    {
+      "text" : "Creates an bech32 address from a string representation, a coin type and the given hrp. Must be deleted with TWAnyAddressDelete after use.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "TWAnyAddressCreateBech32"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SV",
+      "text" : "UnsafeRawPointer"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "c:@E@TWCoinType",
+      "text" : "TWCoinType"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SV",
+      "text" : "UnsafeRawPointer"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:s13OpaquePointerV",
+      "text" : "OpaquePointer"
+    },
+    {
+      "kind" : "text",
+      "text" : "?"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TWAnyAddressCreateBech32(_:_:_:)",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "TWAnyAddressCreateBech32"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "TWAnyAddressCreateBech32(_:_:_:)",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/twanyaddresscreatebech32(_:_:_:)"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TWAnyAddressCreateBech32WithPublicKey(_:_:_:)": {
+  "abstract" : [
+    {
+      "text" : "Creates an bech32 address from a public key and a given hrp.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "TWAnyAddressCreateBech32WithPublicKey"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:s13OpaquePointerV",
+      "text" : "OpaquePointer"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "c:@E@TWCoinType",
+      "text" : "TWCoinType"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SV",
+      "text" : "UnsafeRawPointer"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:s13OpaquePointerV",
+      "text" : "OpaquePointer"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TWAnyAddressCreateBech32WithPublicKey(_:_:_:)",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "TWAnyAddressCreateBech32WithPublicKey"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "TWAnyAddressCreateBech32WithPublicKey(_:_:_:)",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/twanyaddresscreatebech32withpublickey(_:_:_:)"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TWAnyAddressCreateSS58(_:_:_:)": {
+  "abstract" : [
+    {
+      "text" : "Creates an SS58 address from a string representation, a coin type and the given ss58Prefix. Must be deleted with TWAnyAddressDelete after use.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "TWAnyAddressCreateSS58"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SV",
+      "text" : "UnsafeRawPointer"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "c:@E@TWCoinType",
+      "text" : "TWCoinType"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:s6UInt32V",
+      "text" : "UInt32"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:s13OpaquePointerV",
+      "text" : "OpaquePointer"
+    },
+    {
+      "kind" : "text",
+      "text" : "?"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TWAnyAddressCreateSS58(_:_:_:)",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "TWAnyAddressCreateSS58"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "TWAnyAddressCreateSS58(_:_:_:)",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/twanyaddresscreatess58(_:_:_:)"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TWAnyAddressCreateSS58WithPublicKey(_:_:_:)": {
+  "abstract" : [
+    {
+      "text" : "Creates an SS58 address from a public key and a given ss58Prefix.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "TWAnyAddressCreateSS58WithPublicKey"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:s13OpaquePointerV",
+      "text" : "OpaquePointer"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "c:@E@TWCoinType",
+      "text" : "TWCoinType"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:s6UInt32V",
+      "text" : "UInt32"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:s13OpaquePointerV",
+      "text" : "OpaquePointer"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TWAnyAddressCreateSS58WithPublicKey(_:_:_:)",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "TWAnyAddressCreateSS58WithPublicKey"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "TWAnyAddressCreateSS58WithPublicKey(_:_:_:)",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/twanyaddresscreatess58withpublickey(_:_:_:)"
+},
 "doc://com.trustwallet.WalletCore/documentation/WalletCore/TWAnyAddressCreateWithPublicKey(_:_:)": {
   "abstract" : [
     {
@@ -12649,6 +13149,76 @@
   "title" : "TWAnyAddressCreateWithPublicKey(_:_:)",
   "type" : "topic",
   "url" : "\/documentation\/walletcore\/twanyaddresscreatewithpublickey(_:_:)"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TWAnyAddressCreateWithPublicKeyDerivation(_:_:_:)": {
+  "abstract" : [
+    {
+      "text" : "Creates an address from a public key and derivation option.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "TWAnyAddressCreateWithPublicKeyDerivation"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:s13OpaquePointerV",
+      "text" : "OpaquePointer"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "c:@E@TWCoinType",
+      "text" : "TWCoinType"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "c:@E@TWDerivation",
+      "text" : "TWDerivation"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:s13OpaquePointerV",
+      "text" : "OpaquePointer"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TWAnyAddressCreateWithPublicKeyDerivation(_:_:_:)",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "TWAnyAddressCreateWithPublicKeyDerivation"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "TWAnyAddressCreateWithPublicKeyDerivation(_:_:_:)",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/twanyaddresscreatewithpublickeyderivation(_:_:_:)"
 },
 "doc://com.trustwallet.WalletCore/documentation/WalletCore/TWAnyAddressCreateWithString(_:_:)": {
   "abstract" : [
@@ -12987,6 +13557,146 @@
   "title" : "TWAnyAddressIsValid(_:_:)",
   "type" : "topic",
   "url" : "\/documentation\/walletcore\/twanyaddressisvalid(_:_:)"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TWAnyAddressIsValidBech32(_:_:_:)": {
+  "abstract" : [
+    {
+      "text" : "Determines if the string is a valid Any address with the given hrp.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "TWAnyAddressIsValidBech32"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SV",
+      "text" : "UnsafeRawPointer"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "c:@E@TWCoinType",
+      "text" : "TWCoinType"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SV",
+      "text" : "UnsafeRawPointer"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Sb",
+      "text" : "Bool"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TWAnyAddressIsValidBech32(_:_:_:)",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "TWAnyAddressIsValidBech32"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "TWAnyAddressIsValidBech32(_:_:_:)",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/twanyaddressisvalidbech32(_:_:_:)"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TWAnyAddressIsValidSS58(_:_:_:)": {
+  "abstract" : [
+    {
+      "text" : "Determines if the string is a valid Any address with the given SS58 network prefix.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "TWAnyAddressIsValidSS58"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SV",
+      "text" : "UnsafeRawPointer"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "c:@E@TWCoinType",
+      "text" : "TWCoinType"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:s6UInt32V",
+      "text" : "UInt32"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Sb",
+      "text" : "Bool"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TWAnyAddressIsValidSS58(_:_:_:)",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "TWAnyAddressIsValidSS58"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "TWAnyAddressIsValidSS58(_:_:_:)",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/twanyaddressisvalidss58(_:_:_:)"
 },
 "doc://com.trustwallet.WalletCore/documentation/WalletCore/TWAnySignerPlan(_:_:)": {
   "abstract" : [
@@ -17069,6 +17779,46 @@
   "type" : "topic",
   "url" : "\/documentation\/walletcore\/twblockchainharmony"
 },
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TWBlockchainHedera": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "TWBlockchainHedera"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "c:@E@TWBlockchain",
+      "text" : "TWBlockchain"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TWBlockchainHedera",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "TWBlockchainHedera"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "TWBlockchainHedera",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/twblockchainhedera"
+},
 "doc://com.trustwallet.WalletCore/documentation/WalletCore/TWBlockchainIcon": {
   "abstract" : [
 
@@ -20598,6 +21348,46 @@
   "type" : "topic",
   "url" : "\/documentation\/walletcore\/twcointypeharmony"
 },
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TWCoinTypeHedera": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "TWCoinTypeHedera"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "c:@E@TWCoinType",
+      "text" : "TWCoinType"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TWCoinTypeHedera",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "TWCoinTypeHedera"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "TWCoinTypeHedera",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/twcointypehedera"
+},
 "doc://com.trustwallet.WalletCore/documentation/WalletCore/TWCoinTypeICON": {
   "abstract" : [
 
@@ -22125,6 +22915,58 @@
   "title" : "TWCoinTypeRonin",
   "type" : "topic",
   "url" : "\/documentation\/walletcore\/twcointyperonin"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TWCoinTypeSS58Prefix(_:)": {
+  "abstract" : [
+    {
+      "text" : "SS58Prefix for this coin type",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "TWCoinTypeSS58Prefix"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "c:@E@TWCoinType",
+      "text" : "TWCoinType"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:s6UInt32V",
+      "text" : "UInt32"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TWCoinTypeSS58Prefix(_:)",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "TWCoinTypeSS58Prefix"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "TWCoinTypeSS58Prefix(_:)",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/twcointypess58prefix(_:)"
 },
 "doc://com.trustwallet.WalletCore/documentation/WalletCore/TWCoinTypeSlip44Id(_:)": {
   "abstract" : [
@@ -33203,10 +34045,80 @@
   "type" : "topic",
   "url" : "\/documentation\/walletcore\/twhdwalletentropy(_:)"
 },
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TWHDWalletGetAddressDerivation(_:_:_:)": {
+  "abstract" : [
+    {
+      "text" : "Generates the default address for the specified coin and derivation (without exposing intermediary private key).",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "TWHDWalletGetAddressDerivation"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:s13OpaquePointerV",
+      "text" : "OpaquePointer"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "c:@E@TWCoinType",
+      "text" : "TWCoinType"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "c:@E@TWDerivation",
+      "text" : "TWDerivation"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SV",
+      "text" : "UnsafeRawPointer"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TWHDWalletGetAddressDerivation(_:_:_:)",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "TWHDWalletGetAddressDerivation"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "TWHDWalletGetAddressDerivation(_:_:_:)",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/twhdwalletgetaddressderivation(_:_:_:)"
+},
 "doc://com.trustwallet.WalletCore/documentation/WalletCore/TWHDWalletGetAddressForCoin(_:_:)": {
   "abstract" : [
     {
-      "text" : "Generates the default address for the specified coin (without exposing intermediary private key).",
+      "text" : "Generates the default address for the specified coin (without exposing intermediary private key), default derivation.",
       "type" : "text"
     }
   ],
@@ -34020,10 +34932,80 @@
   "type" : "topic",
   "url" : "\/documentation\/walletcore\/twhdwalletgetkeybycurve(_:_:_:)"
 },
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TWHDWalletGetKeyDerivation(_:_:_:)": {
+  "abstract" : [
+    {
+      "text" : "Generates the private key for the specified derivation.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "TWHDWalletGetKeyDerivation"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:s13OpaquePointerV",
+      "text" : "OpaquePointer"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "c:@E@TWCoinType",
+      "text" : "TWCoinType"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "c:@E@TWDerivation",
+      "text" : "TWDerivation"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:s13OpaquePointerV",
+      "text" : "OpaquePointer"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TWHDWalletGetKeyDerivation(_:_:_:)",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "TWHDWalletGetKeyDerivation"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "TWHDWalletGetKeyDerivation(_:_:_:)",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/twhdwalletgetkeyderivation(_:_:_:)"
+},
 "doc://com.trustwallet.WalletCore/documentation/WalletCore/TWHDWalletGetKeyForCoin(_:_:)": {
   "abstract" : [
     {
-      "text" : "Generates the default private key for the specified coin.",
+      "text" : "Generates the default private key for the specified coin, using default derivation.",
       "type" : "text"
     }
   ],
@@ -37807,6 +38789,128 @@
   "title" : "TWPrivateKeyDelete(_:)",
   "type" : "topic",
   "url" : "\/documentation\/walletcore\/twprivatekeydelete(_:)"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TWPrivateKeyGetPublicKey(_:_:)": {
+  "abstract" : [
+    {
+      "text" : "Returns the public key associated with the given coinType and privateKey",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "TWPrivateKeyGetPublicKey"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:s13OpaquePointerV",
+      "text" : "OpaquePointer"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "c:@E@TWCoinType",
+      "text" : "TWCoinType"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:s13OpaquePointerV",
+      "text" : "OpaquePointer"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TWPrivateKeyGetPublicKey(_:_:)",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "TWPrivateKeyGetPublicKey"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "TWPrivateKeyGetPublicKey(_:_:)",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/twprivatekeygetpublickey(_:_:)"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TWPrivateKeyGetPublicKeyByType(_:_:)": {
+  "abstract" : [
+    {
+      "text" : "Returns the public key associated with the given pubkeyType and privateKey",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "TWPrivateKeyGetPublicKeyByType"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:s13OpaquePointerV",
+      "text" : "OpaquePointer"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "c:@E@TWPublicKeyType",
+      "text" : "TWPublicKeyType"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:s13OpaquePointerV",
+      "text" : "OpaquePointer"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TWPrivateKeyGetPublicKeyByType(_:_:)",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "TWPrivateKeyGetPublicKeyByType"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "TWPrivateKeyGetPublicKeyByType(_:_:)",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/twprivatekeygetpublickeybytype(_:_:)"
 },
 "doc://com.trustwallet.WalletCore/documentation/WalletCore/TWPrivateKeyGetPublicKeyCurve25519(_:)": {
   "abstract" : [
@@ -45194,6 +46298,40 @@
   "type" : "topic",
   "url" : "\/documentation\/walletcore\/tw_aptos_proto_createaccountmessage"
 },
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Aptos_Proto_ManagedTokensRegisterMessage": {
+  "abstract" : [
+    {
+      "text" : "Necessary fields to process a ManagedTokensRegisterMessage",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "TW_Aptos_Proto_ManagedTokensRegisterMessage"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Aptos_Proto_ManagedTokensRegisterMessage",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "TW_Aptos_Proto_ManagedTokensRegisterMessage"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "TW_Aptos_Proto_ManagedTokensRegisterMessage",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_aptos_proto_managedtokensregistermessage"
+},
 "doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Aptos_Proto_NftMessage": {
   "abstract" : [
 
@@ -48985,6 +50123,282 @@
   "type" : "topic",
   "url" : "\/documentation\/walletcore\/tw_harmony_proto_transactionmessage"
 },
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Hedera_Proto_SigningInput": {
+  "abstract" : [
+    {
+      "text" : "Input data necessary to create a signed transaction.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "TW_Hedera_Proto_SigningInput"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Hedera_Proto_SigningInput",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "TW_Hedera_Proto_SigningInput"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "TW_Hedera_Proto_SigningInput",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_hedera_proto_signinginput"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Hedera_Proto_SigningOutput": {
+  "abstract" : [
+    {
+      "text" : "Transaction signing output.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "TW_Hedera_Proto_SigningOutput"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Hedera_Proto_SigningOutput",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "TW_Hedera_Proto_SigningOutput"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "TW_Hedera_Proto_SigningOutput",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_hedera_proto_signingoutput"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Hedera_Proto_Timestamp": {
+  "abstract" : [
+    {
+      "text" : "An exact date and time. This is the same data structure as the protobuf Timestamp.proto",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "(see the comments in https:\/\/github.com\/google\/protobuf\/blob\/master\/src\/google\/protobuf\/timestamp.proto)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "TW_Hedera_Proto_Timestamp"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Hedera_Proto_Timestamp",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "TW_Hedera_Proto_Timestamp"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "TW_Hedera_Proto_Timestamp",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_hedera_proto_timestamp"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Hedera_Proto_TransactionBody": {
+  "abstract" : [
+    {
+      "text" : "A single transaction. All transaction types are possible here.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "TW_Hedera_Proto_TransactionBody"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Hedera_Proto_TransactionBody",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "TW_Hedera_Proto_TransactionBody"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "TW_Hedera_Proto_TransactionBody",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_hedera_proto_transactionbody"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Hedera_Proto_TransactionID": {
+  "abstract" : [
+    {
+      "text" : "The ID for a transaction. This is used for retrieving receipts and records for a transaction, for",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "appending to a file right after creating it, for instantiating a smart contract with bytecode in",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "a file just created, and internally by the network for detecting when duplicate transactions are",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "submitted. A user might get a transaction processed faster by submitting it to N nodes, each with",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "a different node account, but all with the same TransactionID. Then, the transaction will take",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "effect when the first of all those nodes submits the transaction and it reaches consensus. The",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "other transactions will not take effect. So this could make the transaction take effect faster,",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "if any given node might be slow. However, the full transaction fee is charged for each",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "transaction, so the total fee is N times as much if the transaction is sent to N nodes.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "TW_Hedera_Proto_TransactionID"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Hedera_Proto_TransactionID",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "TW_Hedera_Proto_TransactionID"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "TW_Hedera_Proto_TransactionID",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_hedera_proto_transactionid"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Hedera_Proto_TransferMessage": {
+  "abstract" : [
+    {
+      "text" : "Necessary fields to process a TransferMessage",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "TW_Hedera_Proto_TransferMessage"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Hedera_Proto_TransferMessage",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "TW_Hedera_Proto_TransferMessage"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "TW_Hedera_Proto_TransferMessage",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_hedera_proto_transfermessage"
+},
 "doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Icon_Proto_SigningInput": {
   "abstract" : [
     {
@@ -51187,40 +52601,6 @@
   "title" : "TW_Polkadot_Proto_Era",
   "type" : "topic",
   "url" : "\/documentation\/walletcore\/tw_polkadot_proto_era"
-},
-"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Polkadot_Proto_Network": {
-  "abstract" : [
-    {
-      "text" : "Known networks",
-      "type" : "text"
-    }
-  ],
-  "fragments" : [
-    {
-      "kind" : "keyword",
-      "text" : "enum"
-    },
-    {
-      "kind" : "text",
-      "text" : " "
-    },
-    {
-      "kind" : "identifier",
-      "text" : "TW_Polkadot_Proto_Network"
-    }
-  ],
-  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Polkadot_Proto_Network",
-  "kind" : "symbol",
-  "navigatorTitle" : [
-    {
-      "kind" : "identifier",
-      "text" : "TW_Polkadot_Proto_Network"
-    }
-  ],
-  "role" : "symbol",
-  "title" : "TW_Polkadot_Proto_Network",
-  "type" : "topic",
-  "url" : "\/documentation\/walletcore\/tw_polkadot_proto_network"
 },
 "doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Polkadot_Proto_RewardDestination": {
   "abstract" : [
@@ -55653,13 +57033,20 @@
               "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TWAccountExtendedPublicKey(_:)",
               "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TWAccountPublicKey(_:)",
               "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TWAnyAddressCoin(_:)",
+              "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TWAnyAddressCreateBech32(_:_:_:)",
+              "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TWAnyAddressCreateBech32WithPublicKey(_:_:_:)",
+              "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TWAnyAddressCreateSS58(_:_:_:)",
+              "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TWAnyAddressCreateSS58WithPublicKey(_:_:_:)",
               "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TWAnyAddressCreateWithPublicKey(_:_:)",
+              "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TWAnyAddressCreateWithPublicKeyDerivation(_:_:_:)",
               "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TWAnyAddressCreateWithString(_:_:)",
               "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TWAnyAddressData(_:)",
               "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TWAnyAddressDelete(_:)",
               "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TWAnyAddressDescription(_:)",
               "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TWAnyAddressEqual(_:_:)",
               "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TWAnyAddressIsValid(_:_:)",
+              "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TWAnyAddressIsValidBech32(_:_:_:)",
+              "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TWAnyAddressIsValidSS58(_:_:_:)",
               "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TWAnySignerPlan(_:_:)",
               "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TWAnySignerSign(_:_:)",
               "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TWAnySignerSignJSON(_:_:_:)",
@@ -55736,6 +57123,7 @@
               "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TWCoinTypeP2shPrefix(_:)",
               "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TWCoinTypePublicKeyType(_:)",
               "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TWCoinTypePurpose(_:)",
+              "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TWCoinTypeSS58Prefix(_:)",
               "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TWCoinTypeSlip44Id(_:)",
               "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TWCoinTypeStaticPrefix(_:)",
               "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TWCoinTypeValidate(_:_:)",
@@ -55857,6 +57245,7 @@
               "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TWHDWalletCreateWithMnemonicCheck(_:_:_:)",
               "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TWHDWalletDelete(_:)",
               "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TWHDWalletEntropy(_:)",
+              "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TWHDWalletGetAddressDerivation(_:_:_:)",
               "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TWHDWalletGetAddressForCoin(_:_:)",
               "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TWHDWalletGetDerivedKey(_:_:_:_:_:)",
               "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TWHDWalletGetExtendedPrivateKey(_:_:_:_:)",
@@ -55867,6 +57256,7 @@
               "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TWHDWalletGetExtendedPublicKeyDerivation(_:_:_:_:_:)",
               "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TWHDWalletGetKey(_:_:_:)",
               "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TWHDWalletGetKeyByCurve(_:_:_:)",
+              "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TWHDWalletGetKeyDerivation(_:_:_:)",
               "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TWHDWalletGetKeyForCoin(_:_:)",
               "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TWHDWalletGetMasterKey(_:_:)",
               "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TWHDWalletGetPublicKeyFromExtended(_:_:_:)",
@@ -55911,6 +57301,8 @@
               "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TWPrivateKeyCreateWithData(_:)",
               "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TWPrivateKeyData(_:)",
               "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TWPrivateKeyDelete(_:)",
+              "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TWPrivateKeyGetPublicKey(_:_:)",
+              "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TWPrivateKeyGetPublicKeyByType(_:_:)",
               "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TWPrivateKeyGetPublicKeyCurve25519(_:)",
               "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TWPrivateKeyGetPublicKeyEd25519(_:)",
               "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TWPrivateKeyGetPublicKeyEd25519Blake2b(_:)",
@@ -56046,6 +57438,7 @@
               "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TWBlockchainFilecoin",
               "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TWBlockchainGroestlcoin",
               "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TWBlockchainHarmony",
+              "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TWBlockchainHedera",
               "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TWBlockchainIcon",
               "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TWBlockchainIoTeX",
               "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TWBlockchainKusama",
@@ -56110,6 +57503,7 @@
               "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TWCoinTypeGoChain",
               "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TWCoinTypeGroestlcoin",
               "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TWCoinTypeHarmony",
+              "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TWCoinTypeHedera",
               "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TWCoinTypeICON",
               "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TWCoinTypeIoTeX",
               "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TWCoinTypeKava",
@@ -57009,6 +58403,66 @@
       },
       {
         "op" : "replace",
+        "path" : "\/references\/doc:~1~1com.trustwallet.WalletCore~1documentation~1WalletCore~1TWAnyAddressCreateBech32(_:_:_:)\/title",
+        "value" : "TWAnyAddressCreateBech32"
+      },
+      {
+        "op" : "replace",
+        "path" : "\/references\/doc:~1~1com.trustwallet.WalletCore~1documentation~1WalletCore~1TWAnyAddressCreateBech32(_:_:_:)\/fragments",
+        "value" : [
+          {
+            "kind" : "identifier",
+            "text" : "TWAnyAddressCreateBech32"
+          }
+        ]
+      },
+      {
+        "op" : "replace",
+        "path" : "\/references\/doc:~1~1com.trustwallet.WalletCore~1documentation~1WalletCore~1TWAnyAddressCreateBech32WithPublicKey(_:_:_:)\/title",
+        "value" : "TWAnyAddressCreateBech32WithPublicKey"
+      },
+      {
+        "op" : "replace",
+        "path" : "\/references\/doc:~1~1com.trustwallet.WalletCore~1documentation~1WalletCore~1TWAnyAddressCreateBech32WithPublicKey(_:_:_:)\/fragments",
+        "value" : [
+          {
+            "kind" : "identifier",
+            "text" : "TWAnyAddressCreateBech32WithPublicKey"
+          }
+        ]
+      },
+      {
+        "op" : "replace",
+        "path" : "\/references\/doc:~1~1com.trustwallet.WalletCore~1documentation~1WalletCore~1TWAnyAddressCreateSS58(_:_:_:)\/title",
+        "value" : "TWAnyAddressCreateSS58"
+      },
+      {
+        "op" : "replace",
+        "path" : "\/references\/doc:~1~1com.trustwallet.WalletCore~1documentation~1WalletCore~1TWAnyAddressCreateSS58(_:_:_:)\/fragments",
+        "value" : [
+          {
+            "kind" : "identifier",
+            "text" : "TWAnyAddressCreateSS58"
+          }
+        ]
+      },
+      {
+        "op" : "replace",
+        "path" : "\/references\/doc:~1~1com.trustwallet.WalletCore~1documentation~1WalletCore~1TWAnyAddressCreateSS58WithPublicKey(_:_:_:)\/title",
+        "value" : "TWAnyAddressCreateSS58WithPublicKey"
+      },
+      {
+        "op" : "replace",
+        "path" : "\/references\/doc:~1~1com.trustwallet.WalletCore~1documentation~1WalletCore~1TWAnyAddressCreateSS58WithPublicKey(_:_:_:)\/fragments",
+        "value" : [
+          {
+            "kind" : "identifier",
+            "text" : "TWAnyAddressCreateSS58WithPublicKey"
+          }
+        ]
+      },
+      {
+        "op" : "replace",
         "path" : "\/references\/doc:~1~1com.trustwallet.WalletCore~1documentation~1WalletCore~1TWAnyAddressCreateWithPublicKey(_:_:)\/title",
         "value" : "TWAnyAddressCreateWithPublicKey"
       },
@@ -57019,6 +58473,21 @@
           {
             "kind" : "identifier",
             "text" : "TWAnyAddressCreateWithPublicKey"
+          }
+        ]
+      },
+      {
+        "op" : "replace",
+        "path" : "\/references\/doc:~1~1com.trustwallet.WalletCore~1documentation~1WalletCore~1TWAnyAddressCreateWithPublicKeyDerivation(_:_:_:)\/title",
+        "value" : "TWAnyAddressCreateWithPublicKeyDerivation"
+      },
+      {
+        "op" : "replace",
+        "path" : "\/references\/doc:~1~1com.trustwallet.WalletCore~1documentation~1WalletCore~1TWAnyAddressCreateWithPublicKeyDerivation(_:_:_:)\/fragments",
+        "value" : [
+          {
+            "kind" : "identifier",
+            "text" : "TWAnyAddressCreateWithPublicKeyDerivation"
           }
         ]
       },
@@ -57109,6 +58578,36 @@
           {
             "kind" : "identifier",
             "text" : "TWAnyAddressIsValid"
+          }
+        ]
+      },
+      {
+        "op" : "replace",
+        "path" : "\/references\/doc:~1~1com.trustwallet.WalletCore~1documentation~1WalletCore~1TWAnyAddressIsValidBech32(_:_:_:)\/title",
+        "value" : "TWAnyAddressIsValidBech32"
+      },
+      {
+        "op" : "replace",
+        "path" : "\/references\/doc:~1~1com.trustwallet.WalletCore~1documentation~1WalletCore~1TWAnyAddressIsValidBech32(_:_:_:)\/fragments",
+        "value" : [
+          {
+            "kind" : "identifier",
+            "text" : "TWAnyAddressIsValidBech32"
+          }
+        ]
+      },
+      {
+        "op" : "replace",
+        "path" : "\/references\/doc:~1~1com.trustwallet.WalletCore~1documentation~1WalletCore~1TWAnyAddressIsValidSS58(_:_:_:)\/title",
+        "value" : "TWAnyAddressIsValidSS58"
+      },
+      {
+        "op" : "replace",
+        "path" : "\/references\/doc:~1~1com.trustwallet.WalletCore~1documentation~1WalletCore~1TWAnyAddressIsValidSS58(_:_:_:)\/fragments",
+        "value" : [
+          {
+            "kind" : "identifier",
+            "text" : "TWAnyAddressIsValidSS58"
           }
         ]
       },
@@ -58324,6 +59823,21 @@
           {
             "kind" : "identifier",
             "text" : "TWBlockchainHarmony"
+          }
+        ]
+      },
+      {
+        "op" : "replace",
+        "path" : "\/references\/doc:~1~1com.trustwallet.WalletCore~1documentation~1WalletCore~1TWBlockchainHedera\/title",
+        "value" : "TWBlockchainHedera"
+      },
+      {
+        "op" : "replace",
+        "path" : "\/references\/doc:~1~1com.trustwallet.WalletCore~1documentation~1WalletCore~1TWBlockchainHedera\/fragments",
+        "value" : [
+          {
+            "kind" : "identifier",
+            "text" : "TWBlockchainHedera"
           }
         ]
       },
@@ -59559,6 +61073,21 @@
       },
       {
         "op" : "replace",
+        "path" : "\/references\/doc:~1~1com.trustwallet.WalletCore~1documentation~1WalletCore~1TWCoinTypeHedera\/title",
+        "value" : "TWCoinTypeHedera"
+      },
+      {
+        "op" : "replace",
+        "path" : "\/references\/doc:~1~1com.trustwallet.WalletCore~1documentation~1WalletCore~1TWCoinTypeHedera\/fragments",
+        "value" : [
+          {
+            "kind" : "identifier",
+            "text" : "TWCoinTypeHedera"
+          }
+        ]
+      },
+      {
+        "op" : "replace",
         "path" : "\/references\/doc:~1~1com.trustwallet.WalletCore~1documentation~1WalletCore~1TWCoinTypeICON\/title",
         "value" : "TWCoinTypeICON"
       },
@@ -60109,6 +61638,21 @@
           {
             "kind" : "identifier",
             "text" : "TWCoinTypeRonin"
+          }
+        ]
+      },
+      {
+        "op" : "replace",
+        "path" : "\/references\/doc:~1~1com.trustwallet.WalletCore~1documentation~1WalletCore~1TWCoinTypeSS58Prefix(_:)\/title",
+        "value" : "TWCoinTypeSS58Prefix"
+      },
+      {
+        "op" : "replace",
+        "path" : "\/references\/doc:~1~1com.trustwallet.WalletCore~1documentation~1WalletCore~1TWCoinTypeSS58Prefix(_:)\/fragments",
+        "value" : [
+          {
+            "kind" : "identifier",
+            "text" : "TWCoinTypeSS58Prefix"
           }
         ]
       },
@@ -63264,6 +64808,21 @@
       },
       {
         "op" : "replace",
+        "path" : "\/references\/doc:~1~1com.trustwallet.WalletCore~1documentation~1WalletCore~1TWHDWalletGetAddressDerivation(_:_:_:)\/title",
+        "value" : "TWHDWalletGetAddressDerivation"
+      },
+      {
+        "op" : "replace",
+        "path" : "\/references\/doc:~1~1com.trustwallet.WalletCore~1documentation~1WalletCore~1TWHDWalletGetAddressDerivation(_:_:_:)\/fragments",
+        "value" : [
+          {
+            "kind" : "identifier",
+            "text" : "TWHDWalletGetAddressDerivation"
+          }
+        ]
+      },
+      {
+        "op" : "replace",
         "path" : "\/references\/doc:~1~1com.trustwallet.WalletCore~1documentation~1WalletCore~1TWHDWalletGetAddressForCoin(_:_:)\/title",
         "value" : "TWHDWalletGetAddressForCoin"
       },
@@ -63409,6 +64968,21 @@
           {
             "kind" : "identifier",
             "text" : "TWHDWalletGetKeyByCurve"
+          }
+        ]
+      },
+      {
+        "op" : "replace",
+        "path" : "\/references\/doc:~1~1com.trustwallet.WalletCore~1documentation~1WalletCore~1TWHDWalletGetKeyDerivation(_:_:_:)\/title",
+        "value" : "TWHDWalletGetKeyDerivation"
+      },
+      {
+        "op" : "replace",
+        "path" : "\/references\/doc:~1~1com.trustwallet.WalletCore~1documentation~1WalletCore~1TWHDWalletGetKeyDerivation(_:_:_:)\/fragments",
+        "value" : [
+          {
+            "kind" : "identifier",
+            "text" : "TWHDWalletGetKeyDerivation"
           }
         ]
       },
@@ -64594,6 +66168,36 @@
           {
             "kind" : "identifier",
             "text" : "TWPrivateKeyDelete"
+          }
+        ]
+      },
+      {
+        "op" : "replace",
+        "path" : "\/references\/doc:~1~1com.trustwallet.WalletCore~1documentation~1WalletCore~1TWPrivateKeyGetPublicKey(_:_:)\/title",
+        "value" : "TWPrivateKeyGetPublicKey"
+      },
+      {
+        "op" : "replace",
+        "path" : "\/references\/doc:~1~1com.trustwallet.WalletCore~1documentation~1WalletCore~1TWPrivateKeyGetPublicKey(_:_:)\/fragments",
+        "value" : [
+          {
+            "kind" : "identifier",
+            "text" : "TWPrivateKeyGetPublicKey"
+          }
+        ]
+      },
+      {
+        "op" : "replace",
+        "path" : "\/references\/doc:~1~1com.trustwallet.WalletCore~1documentation~1WalletCore~1TWPrivateKeyGetPublicKeyByType(_:_:)\/title",
+        "value" : "TWPrivateKeyGetPublicKeyByType"
+      },
+      {
+        "op" : "replace",
+        "path" : "\/references\/doc:~1~1com.trustwallet.WalletCore~1documentation~1WalletCore~1TWPrivateKeyGetPublicKeyByType(_:_:)\/fragments",
+        "value" : [
+          {
+            "kind" : "identifier",
+            "text" : "TWPrivateKeyGetPublicKeyByType"
           }
         ]
       },

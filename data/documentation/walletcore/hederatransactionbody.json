@@ -1,0 +1,184 @@
+{
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/HederaTransactionBody"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "s:10WalletCore21HederaTransactionBodya",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "typealias"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "HederaTransactionBody"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "WalletCore"
+      }
+    ],
+    "navigatorTitle" : [
+      {
+        "kind" : "identifier",
+        "text" : "HederaTransactionBody"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Type Alias",
+    "symbolKind" : "typealias",
+    "title" : "HederaTransactionBody"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "iOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "typealias"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "HederaTransactionBody"
+            },
+            {
+              "kind" : "text",
+              "text" : " = "
+            },
+            {
+              "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Hedera_Proto_TransactionBody",
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:10WalletCore31TW_Hedera_Proto_TransactionBodyV",
+              "text" : "TW_Hedera_Proto_TransactionBody"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/walletcore\/hederatransactionbody"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://com.trustwallet.WalletCore/documentation/WalletCore": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "WalletCore",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/HederaTransactionBody": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "typealias"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "HederaTransactionBody"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/HederaTransactionBody",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "HederaTransactionBody"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "HederaTransactionBody",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/hederatransactionbody"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Hedera_Proto_TransactionBody": {
+  "abstract" : [
+    {
+      "text" : "A single transaction. All transaction types are possible here.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "TW_Hedera_Proto_TransactionBody"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Hedera_Proto_TransactionBody",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "TW_Hedera_Proto_TransactionBody"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "TW_Hedera_Proto_TransactionBody",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_hedera_proto_transactionbody"
+}
+}
+}

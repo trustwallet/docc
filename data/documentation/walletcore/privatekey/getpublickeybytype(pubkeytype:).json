@@ -1,0 +1,373 @@
+{
+  "abstract" : [
+    {
+      "text" : "Returns the public key associated with the given pubkeyType and privateKey",
+      "type" : "text"
+    }
+  ],
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/PrivateKey"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/PrivateKey\/getPublicKeyByType(pubkeyType:)"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "s:10WalletCore10PrivateKeyC09getPublicD6ByType06pubkeyH0AA0fD0CAA0fdH0O_tF",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "func"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "getPublicKeyByType"
+      },
+      {
+        "kind" : "text",
+        "text" : "("
+      },
+      {
+        "kind" : "externalParam",
+        "text" : "pubkeyType"
+      },
+      {
+        "kind" : "text",
+        "text" : ": "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:10WalletCore13PublicKeyTypeO",
+        "text" : "PublicKeyType"
+      },
+      {
+        "kind" : "text",
+        "text" : ") -> "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:10WalletCore9PublicKeyC",
+        "text" : "PublicKey"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "WalletCore"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Instance Method",
+    "symbolKind" : "method",
+    "title" : "getPublicKeyByType(pubkeyType:)"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "iOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "func"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "getPublicKeyByType"
+            },
+            {
+              "kind" : "text",
+              "text" : "("
+            },
+            {
+              "kind" : "externalParam",
+              "text" : "pubkeyType"
+            },
+            {
+              "kind" : "text",
+              "text" : ": "
+            },
+            {
+              "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/PublicKeyType",
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:10WalletCore13PublicKeyTypeO",
+              "text" : "PublicKeyType"
+            },
+            {
+              "kind" : "text",
+              "text" : ") -> "
+            },
+            {
+              "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/PublicKey",
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:10WalletCore9PublicKeyC",
+              "text" : "PublicKey"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    },
+    {
+      "content" : [
+        {
+          "anchor" : "return-value",
+          "level" : 2,
+          "text" : "Return Value",
+          "type" : "heading"
+        },
+        {
+          "inlineContent" : [
+            {
+              "text" : "Non-null pointer to the corresponding public key",
+              "type" : "text"
+            }
+          ],
+          "type" : "paragraph"
+        }
+      ],
+      "kind" : "content"
+    },
+    {
+      "kind" : "parameters",
+      "parameters" : [
+        {
+          "content" : [
+            {
+              "inlineContent" : [
+                {
+                  "text" : "Non-null pointer to the private key",
+                  "type" : "text"
+                }
+              ],
+              "type" : "paragraph"
+            }
+          ],
+          "name" : "pk"
+        },
+        {
+          "content" : [
+            {
+              "inlineContent" : [
+                {
+                  "text" : "pubkeyType of the given private key",
+                  "type" : "text"
+                }
+              ],
+              "type" : "paragraph"
+            }
+          ],
+          "name" : "pubkeyType"
+        }
+      ]
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/walletcore\/privatekey\/getpublickeybytype(pubkeytype:)"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://com.trustwallet.WalletCore/documentation/WalletCore": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "WalletCore",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/PrivateKey": {
+  "abstract" : [
+    {
+      "text" : "Represents a private key.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "PrivateKey"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/PrivateKey",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "PrivateKey"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "PrivateKey",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/privatekey"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/PrivateKey/getPublicKeyByType(pubkeyType:)": {
+  "abstract" : [
+    {
+      "text" : "Returns the public key associated with the given pubkeyType and privateKey",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "getPublicKeyByType"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "pubkeyType"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10WalletCore13PublicKeyTypeO",
+      "text" : "PublicKeyType"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10WalletCore9PublicKeyC",
+      "text" : "PublicKey"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/PrivateKey\/getPublicKeyByType(pubkeyType:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "getPublicKeyByType(pubkeyType:)",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/privatekey\/getpublickeybytype(pubkeytype:)"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/PublicKey": {
+  "abstract" : [
+    {
+      "text" : "Represents a public key.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "PublicKey"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/PublicKey",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "PublicKey"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "PublicKey",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/publickey"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/PublicKeyType": {
+  "abstract" : [
+    {
+      "text" : "Public key types",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "enum"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "PublicKeyType"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/PublicKeyType",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "PublicKeyType"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "PublicKeyType",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/publickeytype"
+}
+}
+}

@@ -1,0 +1,438 @@
+{
+  "abstract" : [
+    {
+      "text" : "Generates the default address for the specified coin and derivation (without exposing intermediary private key).",
+      "type" : "text"
+    }
+  ],
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/HDWallet"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/HDWallet\/getAddressDerivation(coin:derivation:)"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "s:10WalletCore8HDWalletC20getAddressDerivation4coin10derivationSSAA8CoinTypeO_AA0F0OtF",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "func"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "getAddressDerivation"
+      },
+      {
+        "kind" : "text",
+        "text" : "("
+      },
+      {
+        "kind" : "externalParam",
+        "text" : "coin"
+      },
+      {
+        "kind" : "text",
+        "text" : ": "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:10WalletCore8CoinTypeO",
+        "text" : "CoinType"
+      },
+      {
+        "kind" : "text",
+        "text" : ", "
+      },
+      {
+        "kind" : "externalParam",
+        "text" : "derivation"
+      },
+      {
+        "kind" : "text",
+        "text" : ": "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:10WalletCore10DerivationO",
+        "text" : "Derivation"
+      },
+      {
+        "kind" : "text",
+        "text" : ") -> "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:SS",
+        "text" : "String"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "WalletCore"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Instance Method",
+    "symbolKind" : "method",
+    "title" : "getAddressDerivation(coin:derivation:)"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "iOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "func"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "getAddressDerivation"
+            },
+            {
+              "kind" : "text",
+              "text" : "("
+            },
+            {
+              "kind" : "externalParam",
+              "text" : "coin"
+            },
+            {
+              "kind" : "text",
+              "text" : ": "
+            },
+            {
+              "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/CoinType",
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:10WalletCore8CoinTypeO",
+              "text" : "CoinType"
+            },
+            {
+              "kind" : "text",
+              "text" : ", "
+            },
+            {
+              "kind" : "externalParam",
+              "text" : "derivation"
+            },
+            {
+              "kind" : "text",
+              "text" : ": "
+            },
+            {
+              "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/Derivation",
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:10WalletCore10DerivationO",
+              "text" : "Derivation"
+            },
+            {
+              "kind" : "text",
+              "text" : ") -> "
+            },
+            {
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:SS",
+              "text" : "String"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    },
+    {
+      "content" : [
+        {
+          "anchor" : "return-value",
+          "level" : 2,
+          "text" : "Return Value",
+          "type" : "heading"
+        },
+        {
+          "inlineContent" : [
+            {
+              "text" : "return the default address for the specified coin as a non-null TWString",
+              "type" : "text"
+            }
+          ],
+          "type" : "paragraph"
+        }
+      ],
+      "kind" : "content"
+    },
+    {
+      "kind" : "parameters",
+      "parameters" : [
+        {
+          "content" : [
+            {
+              "inlineContent" : [
+                {
+                  "text" : "non-null TWHDWallet",
+                  "type" : "text"
+                }
+              ],
+              "type" : "paragraph"
+            }
+          ],
+          "name" : "wallet"
+        },
+        {
+          "content" : [
+            {
+              "inlineContent" : [
+                {
+                  "text" : "a coin type",
+                  "type" : "text"
+                }
+              ],
+              "type" : "paragraph"
+            }
+          ],
+          "name" : "coin"
+        },
+        {
+          "content" : [
+            {
+              "inlineContent" : [
+                {
+                  "text" : "a (custom) derivation to use",
+                  "type" : "text"
+                }
+              ],
+              "type" : "paragraph"
+            }
+          ],
+          "name" : "derivation"
+        }
+      ]
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/walletcore\/hdwallet\/getaddressderivation(coin:derivation:)"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://com.trustwallet.WalletCore/documentation/WalletCore": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "WalletCore",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/CoinType": {
+  "abstract" : [
+    {
+      "text" : "Represents a private key.\/\/\/ Coin type for Level 2 of BIP44.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "enum"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "CoinType"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/CoinType",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "CoinType"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "CoinType",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/cointype"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/Derivation": {
+  "abstract" : [
+    {
+      "text" : "Non-default coin address derivation names (default, unnamed derivations are not included).",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "enum"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "Derivation"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/Derivation",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "Derivation"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "Derivation",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/derivation"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/HDWallet": {
+  "abstract" : [
+    {
+      "text" : "Hierarchical Deterministic (HD) Wallet",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "HDWallet"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/HDWallet",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "HDWallet"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "HDWallet",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/hdwallet"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/HDWallet/getAddressDerivation(coin:derivation:)": {
+  "abstract" : [
+    {
+      "text" : "Generates the default address for the specified coin and derivation (without exposing intermediary private key).",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "getAddressDerivation"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "coin"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10WalletCore8CoinTypeO",
+      "text" : "CoinType"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "derivation"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10WalletCore10DerivationO",
+      "text" : "Derivation"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/HDWallet\/getAddressDerivation(coin:derivation:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "getAddressDerivation(coin:derivation:)",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/hdwallet\/getaddressderivation(coin:derivation:)"
+}
+}
+}

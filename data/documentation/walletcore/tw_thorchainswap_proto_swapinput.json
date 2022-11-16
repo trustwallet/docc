@@ -108,6 +108,9 @@
     },
     {
       "identifiers" : [
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_THORChainSwap_Proto_SwapInput\/affiliateFeeAddress",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_THORChainSwap_Proto_SwapInput\/affiliateFeeRateBp",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_THORChainSwap_Proto_SwapInput\/extraMemo",
         "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_THORChainSwap_Proto_SwapInput\/fromAddress",
         "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_THORChainSwap_Proto_SwapInput\/fromAmount",
         "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_THORChainSwap_Proto_SwapInput\/fromChain",
@@ -232,6 +235,80 @@
   "type" : "topic",
   "url" : "\/documentation\/walletcore\/tw_thorchainswap_proto_swapinput\/message-implementations"
 },
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_THORChainSwap_Proto_SwapInput/affiliateFeeAddress": {
+  "abstract" : [
+    {
+      "text" : "Optional affiliate fee destination address.  A Rune address.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "affiliateFeeAddress"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_THORChainSwap_Proto_SwapInput\/affiliateFeeAddress",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "affiliateFeeAddress",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_thorchainswap_proto_swapinput\/affiliatefeeaddress"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_THORChainSwap_Proto_SwapInput/affiliateFeeRateBp": {
+  "abstract" : [
+    {
+      "text" : "Optional affiliate fee, percentage base points, e.g. 100 means 1%, 0 - 1000, as string. Empty means to ignore it.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "affiliateFeeRateBp"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_THORChainSwap_Proto_SwapInput\/affiliateFeeRateBp",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "affiliateFeeRateBp",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_thorchainswap_proto_swapinput\/affiliatefeeratebp"
+},
 "doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_THORChainSwap_Proto_SwapInput/clearToAsset()": {
   "abstract" : [
     {
@@ -271,6 +348,43 @@
   "title" : "clearToAsset()",
   "type" : "topic",
   "url" : "\/documentation\/walletcore\/tw_thorchainswap_proto_swapinput\/cleartoasset()"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_THORChainSwap_Proto_SwapInput/extraMemo": {
+  "abstract" : [
+    {
+      "text" : "Optional extra custom memo, reserved for later use.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "extraMemo"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_THORChainSwap_Proto_SwapInput\/extraMemo",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "extraMemo",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_thorchainswap_proto_swapinput\/extramemo"
 },
 "doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_THORChainSwap_Proto_SwapInput/fromAddress": {
   "abstract" : [

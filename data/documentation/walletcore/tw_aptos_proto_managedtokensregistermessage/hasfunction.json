@@ -1,0 +1,227 @@
+{
+  "abstract" : [
+    {
+      "text" : "Returns true if ",
+      "type" : "text"
+    },
+    {
+      "code" : "function",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : " has been explicitly set.",
+      "type" : "text"
+    }
+  ],
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Aptos_Proto_ManagedTokensRegisterMessage"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Aptos_Proto_ManagedTokensRegisterMessage\/hasFunction"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "s:10WalletCore43TW_Aptos_Proto_ManagedTokensRegisterMessageV11hasFunctionSbvp",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "var"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "hasFunction"
+      },
+      {
+        "kind" : "text",
+        "text" : ": "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:Sb",
+        "text" : "Bool"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "WalletCore"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Instance Property",
+    "symbolKind" : "property",
+    "title" : "hasFunction"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "iOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "var"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "hasFunction"
+            },
+            {
+              "kind" : "text",
+              "text" : ": "
+            },
+            {
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:Sb",
+              "text" : "Bool"
+            },
+            {
+              "kind" : "text",
+              "text" : " { "
+            },
+            {
+              "kind" : "keyword",
+              "text" : "get"
+            },
+            {
+              "kind" : "text",
+              "text" : " }"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/walletcore\/tw_aptos_proto_managedtokensregistermessage\/hasfunction"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://com.trustwallet.WalletCore/documentation/WalletCore": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "WalletCore",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Aptos_Proto_ManagedTokensRegisterMessage": {
+  "abstract" : [
+    {
+      "text" : "Necessary fields to process a ManagedTokensRegisterMessage",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "TW_Aptos_Proto_ManagedTokensRegisterMessage"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Aptos_Proto_ManagedTokensRegisterMessage",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "TW_Aptos_Proto_ManagedTokensRegisterMessage"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "TW_Aptos_Proto_ManagedTokensRegisterMessage",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_aptos_proto_managedtokensregistermessage"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Aptos_Proto_ManagedTokensRegisterMessage/hasFunction": {
+  "abstract" : [
+    {
+      "text" : "Returns true if ",
+      "type" : "text"
+    },
+    {
+      "code" : "function",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : " has been explicitly set.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "hasFunction"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Sb",
+      "text" : "Bool"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Aptos_Proto_ManagedTokensRegisterMessage\/hasFunction",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "hasFunction",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_aptos_proto_managedtokensregistermessage\/hasfunction"
+}
+}
+}

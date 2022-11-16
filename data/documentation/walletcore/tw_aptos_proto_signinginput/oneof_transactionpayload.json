@@ -96,6 +96,7 @@
       "identifiers" : [
         "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Aptos_Proto_SigningInput\/OneOf_TransactionPayload\/createAccount(_:)",
         "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Aptos_Proto_SigningInput\/OneOf_TransactionPayload\/nftMessage(_:)",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Aptos_Proto_SigningInput\/OneOf_TransactionPayload\/registerToken(_:)",
         "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Aptos_Proto_SigningInput\/OneOf_TransactionPayload\/tokenTransfer(_:)",
         "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Aptos_Proto_SigningInput\/OneOf_TransactionPayload\/transfer(_:)"
       ],
@@ -290,6 +291,44 @@
   "title" : "TW_Aptos_Proto_SigningInput.OneOf_TransactionPayload.nftMessage(_:)",
   "type" : "topic",
   "url" : "\/documentation\/walletcore\/tw_aptos_proto_signinginput\/oneof_transactionpayload\/nftmessage(_:)"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Aptos_Proto_SigningInput/OneOf_TransactionPayload/registerToken(_:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "registerToken"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10WalletCore43TW_Aptos_Proto_ManagedTokensRegisterMessageV",
+      "text" : "TW_Aptos_Proto_ManagedTokensRegisterMessage"
+    },
+    {
+      "kind" : "text",
+      "text" : ")"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Aptos_Proto_SigningInput\/OneOf_TransactionPayload\/registerToken(_:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "TW_Aptos_Proto_SigningInput.OneOf_TransactionPayload.registerToken(_:)",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_aptos_proto_signinginput\/oneof_transactionpayload\/registertoken(_:)"
 },
 "doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Aptos_Proto_SigningInput/OneOf_TransactionPayload/tokenTransfer(_:)": {
   "abstract" : [

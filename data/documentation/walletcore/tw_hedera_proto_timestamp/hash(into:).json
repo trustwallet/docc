@@ -1,0 +1,293 @@
+{
+  "abstract" : [
+    {
+      "text" : "Inherited from ",
+      "type" : "text"
+    },
+    {
+      "code" : "Message.hash(into:)",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : ".",
+      "type" : "text"
+    }
+  ],
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Hedera_Proto_Timestamp",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Hedera_Proto_Timestamp\/Message-Implementations"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Hedera_Proto_Timestamp\/hash(into:)"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "extendedModule" : "SwiftProtobuf",
+    "externalID" : "s:13SwiftProtobuf7MessagePAAE4hash4intoys6HasherVz_tF::SYNTHESIZED::s:10WalletCore25TW_Hedera_Proto_TimestampV",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "func"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "hash"
+      },
+      {
+        "kind" : "text",
+        "text" : "("
+      },
+      {
+        "kind" : "externalParam",
+        "text" : "into"
+      },
+      {
+        "kind" : "text",
+        "text" : ": "
+      },
+      {
+        "kind" : "keyword",
+        "text" : "inout"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:s6HasherV",
+        "text" : "Hasher"
+      },
+      {
+        "kind" : "text",
+        "text" : ")"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "WalletCore"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Instance Method",
+    "symbolKind" : "method",
+    "title" : "hash(into:)"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "iOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "func"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "hash"
+            },
+            {
+              "kind" : "text",
+              "text" : "("
+            },
+            {
+              "kind" : "externalParam",
+              "text" : "into"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "internalParam",
+              "text" : "hasher"
+            },
+            {
+              "kind" : "text",
+              "text" : ": "
+            },
+            {
+              "kind" : "keyword",
+              "text" : "inout"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:s6HasherV",
+              "text" : "Hasher"
+            },
+            {
+              "kind" : "text",
+              "text" : ")"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/walletcore\/tw_hedera_proto_timestamp\/hash(into:)"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://com.trustwallet.WalletCore/documentation/WalletCore": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "WalletCore",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Hedera_Proto_Timestamp": {
+  "abstract" : [
+    {
+      "text" : "An exact date and time. This is the same data structure as the protobuf Timestamp.proto",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "(see the comments in https:\/\/github.com\/google\/protobuf\/blob\/master\/src\/google\/protobuf\/timestamp.proto)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "TW_Hedera_Proto_Timestamp"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Hedera_Proto_Timestamp",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "TW_Hedera_Proto_Timestamp"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "TW_Hedera_Proto_Timestamp",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_hedera_proto_timestamp"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Hedera_Proto_Timestamp/Message-Implementations": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Hedera_Proto_Timestamp\/Message-Implementations",
+  "kind" : "article",
+  "role" : "collectionGroup",
+  "title" : "Message Implementations",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_hedera_proto_timestamp\/message-implementations"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Hedera_Proto_Timestamp/hash(into:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "hash"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "into"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "inout"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:s6HasherV",
+      "text" : "Hasher"
+    },
+    {
+      "kind" : "text",
+      "text" : ")"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Hedera_Proto_Timestamp\/hash(into:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "hash(into:)",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_hedera_proto_timestamp\/hash(into:)"
+}
+}
+}

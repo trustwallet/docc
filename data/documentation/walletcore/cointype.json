@@ -1,7 +1,7 @@
 {
   "abstract" : [
     {
-      "text" : "Coin type for Level 2 of BIP44.",
+      "text" : "Represents a private key.\/\/\/ Coin type for Level 2 of BIP44.",
       "type" : "text"
     }
   ],
@@ -161,6 +161,7 @@
         "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/CoinType\/goChain",
         "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/CoinType\/groestlcoin",
         "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/CoinType\/harmony",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/CoinType\/hedera",
         "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/CoinType\/icon",
         "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/CoinType\/ioTeX",
         "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/CoinType\/kava",
@@ -237,6 +238,7 @@
         "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/CoinType\/publicKeyType",
         "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/CoinType\/purpose",
         "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/CoinType\/slip44Id",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/CoinType\/ss58Prefix",
         "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/CoinType\/staticPrefix",
         "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/CoinType\/xprvVersion",
         "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/CoinType\/xpubVersion"
@@ -306,7 +308,7 @@
 "doc://com.trustwallet.WalletCore/documentation/WalletCore/CoinType": {
   "abstract" : [
     {
-      "text" : "Coin type for Level 2 of BIP44.",
+      "text" : "Represents a private key.\/\/\/ Coin type for Level 2 of BIP44.",
       "type" : "text"
     }
   ],
@@ -1702,6 +1704,31 @@
   "type" : "topic",
   "url" : "\/documentation\/walletcore\/cointype\/harmony"
 },
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/CoinType/hedera": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "hedera"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/CoinType\/hedera",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "CoinType.hedera",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/cointype\/hedera"
+},
 "doc://com.trustwallet.WalletCore/documentation/WalletCore/CoinType/hrp": {
   "abstract" : [
     {
@@ -2886,6 +2913,43 @@
   "title" : "CoinType.solana",
   "type" : "topic",
   "url" : "\/documentation\/walletcore\/cointype\/solana"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/CoinType/ss58Prefix": {
+  "abstract" : [
+    {
+      "text" : "SS58Prefix for this coin type",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "ss58Prefix"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:s6UInt32V",
+      "text" : "UInt32"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/CoinType\/ss58Prefix",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "ss58Prefix",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/cointype\/ss58prefix"
 },
 "doc://com.trustwallet.WalletCore/documentation/WalletCore/CoinType/staticPrefix": {
   "abstract" : [

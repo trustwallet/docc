@@ -1,7 +1,7 @@
 {
   "abstract" : [
     {
-      "text" : "Generates the default private key for the specified coin.",
+      "text" : "Generates the default private key for the specified coin, using default derivation.",
       "type" : "text"
     }
   ],
@@ -175,6 +175,22 @@
         {
           "inlineContent" : [
             {
+              "text" : "\\see TWHDWalletGetKey",
+              "type" : "text"
+            },
+            {
+              "text" : " ",
+              "type" : "text"
+            },
+            {
+              "text" : "\\see TWHDWalletGetKeyDerivation",
+              "type" : "text"
+            },
+            {
+              "text" : " ",
+              "type" : "text"
+            },
+            {
               "text" : "\\param wallet non-null TWHDWallet",
               "type" : "text"
             },
@@ -289,7 +305,7 @@
 "doc://com.trustwallet.WalletCore/documentation/WalletCore/TWHDWalletGetKeyForCoin(_:_:)": {
   "abstract" : [
     {
-      "text" : "Generates the default private key for the specified coin.",
+      "text" : "Generates the default private key for the specified coin, using default derivation.",
       "type" : "text"
     }
   ],

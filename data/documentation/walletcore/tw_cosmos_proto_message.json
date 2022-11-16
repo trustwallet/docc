@@ -106,6 +106,7 @@
         "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Cosmos_Proto_Message\/AuthRevoke-swift.struct",
         "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Cosmos_Proto_Message\/BeginRedelegate",
         "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Cosmos_Proto_Message\/Delegate",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Cosmos_Proto_Message\/MsgVote-swift.struct",
         "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Cosmos_Proto_Message\/RawJSON",
         "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Cosmos_Proto_Message\/Send",
         "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Cosmos_Proto_Message\/SignDirect",
@@ -134,6 +135,7 @@
         "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Cosmos_Proto_Message\/authGrant-swift.property",
         "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Cosmos_Proto_Message\/authRevoke-swift.property",
         "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Cosmos_Proto_Message\/messageOneof",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Cosmos_Proto_Message\/msgVote-swift.property",
         "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Cosmos_Proto_Message\/rawJsonMessage",
         "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Cosmos_Proto_Message\/restakeMessage",
         "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Cosmos_Proto_Message\/sendCoinsMessage",
@@ -156,7 +158,8 @@
     {
       "identifiers" : [
         "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Cosmos_Proto_Message\/AuthorizationType",
-        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Cosmos_Proto_Message\/OneOf_MessageOneof"
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Cosmos_Proto_Message\/OneOf_MessageOneof",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Cosmos_Proto_Message\/VoteOption"
       ],
       "title" : "Enumerations"
     },
@@ -435,6 +438,40 @@
   "type" : "topic",
   "url" : "\/documentation\/walletcore\/tw_cosmos_proto_message\/message-implementations"
 },
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Cosmos_Proto_Message/MsgVote-swift.struct": {
+  "abstract" : [
+    {
+      "text" : "cosmos-sdk\/MsgVote defines a message to cast a vote.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "MsgVote"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Cosmos_Proto_Message\/MsgVote-swift.struct",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "MsgVote"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "TW_Cosmos_Proto_Message.MsgVote",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_cosmos_proto_message\/msgvote-swift.struct"
+},
 "doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Cosmos_Proto_Message/OneOf_MessageOneof": {
   "abstract" : [
     {
@@ -703,6 +740,40 @@
   "title" : "TW_Cosmos_Proto_Message.Undelegate",
   "type" : "topic",
   "url" : "\/documentation\/walletcore\/tw_cosmos_proto_message\/undelegate"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Cosmos_Proto_Message/VoteOption": {
+  "abstract" : [
+    {
+      "text" : "VoteOption enumerates the valid vote options for a given governance proposal.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "enum"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "VoteOption"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Cosmos_Proto_Message\/VoteOption",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "VoteOption"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "TW_Cosmos_Proto_Message.VoteOption",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_cosmos_proto_message\/voteoption"
 },
 "doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Cosmos_Proto_Message/WasmExecuteContractGeneric-swift.struct": {
   "abstract" : [
@@ -1098,6 +1169,49 @@
   "title" : "messageOneof",
   "type" : "topic",
   "url" : "\/documentation\/walletcore\/tw_cosmos_proto_message\/messageoneof"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Cosmos_Proto_Message/msgVote-swift.property": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "msgVote"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10WalletCore23TW_Cosmos_Proto_MessageV",
+      "text" : "TW_Cosmos_Proto_Message"
+    },
+    {
+      "kind" : "text",
+      "text" : "."
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10WalletCore23TW_Cosmos_Proto_MessageV7MsgVoteV",
+      "text" : "MsgVote"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Cosmos_Proto_Message\/msgVote-swift.property",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "msgVote",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_cosmos_proto_message\/msgvote-swift.property"
 },
 "doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Cosmos_Proto_Message/rawJsonMessage": {
   "abstract" : [

@@ -1,0 +1,602 @@
+{
+  "abstract" : [
+    {
+      "text" : "Determines if the string is a valid Any address with the given SS58 network prefix.",
+      "type" : "text"
+    }
+  ],
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TWAnyAddressIsValidSS58(_:_:_:)"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "c:@F@TWAnyAddressIsValidSS58",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "func"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "TWAnyAddressIsValidSS58"
+      },
+      {
+        "kind" : "text",
+        "text" : "("
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:SV",
+        "text" : "UnsafeRawPointer"
+      },
+      {
+        "kind" : "text",
+        "text" : ", "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "c:@E@TWCoinType",
+        "text" : "TWCoinType"
+      },
+      {
+        "kind" : "text",
+        "text" : ", "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:s6UInt32V",
+        "text" : "UInt32"
+      },
+      {
+        "kind" : "text",
+        "text" : ") -> "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:Sb",
+        "text" : "Bool"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "WalletCore"
+      }
+    ],
+    "navigatorTitle" : [
+      {
+        "kind" : "identifier",
+        "text" : "TWAnyAddressIsValidSS58"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Function",
+    "symbolKind" : "func",
+    "title" : "TWAnyAddressIsValidSS58(_:_:_:)"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "iOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "func"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "TWAnyAddressIsValidSS58"
+            },
+            {
+              "kind" : "text",
+              "text" : "("
+            },
+            {
+              "kind" : "externalParam",
+              "text" : "_"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "internalParam",
+              "text" : "string"
+            },
+            {
+              "kind" : "text",
+              "text" : ": "
+            },
+            {
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:SV",
+              "text" : "UnsafeRawPointer"
+            },
+            {
+              "kind" : "text",
+              "text" : ", "
+            },
+            {
+              "kind" : "externalParam",
+              "text" : "_"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "internalParam",
+              "text" : "coin"
+            },
+            {
+              "kind" : "text",
+              "text" : ": "
+            },
+            {
+              "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TWCoinType",
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "c:@E@TWCoinType",
+              "text" : "TWCoinType"
+            },
+            {
+              "kind" : "text",
+              "text" : ", "
+            },
+            {
+              "kind" : "externalParam",
+              "text" : "_"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "internalParam",
+              "text" : "ss58Prefix"
+            },
+            {
+              "kind" : "text",
+              "text" : ": "
+            },
+            {
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:s6UInt32V",
+              "text" : "UInt32"
+            },
+            {
+              "kind" : "text",
+              "text" : ") -> "
+            },
+            {
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:Sb",
+              "text" : "Bool"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    },
+    {
+      "content" : [
+        {
+          "anchor" : "discussion",
+          "level" : 2,
+          "text" : "Discussion",
+          "type" : "heading"
+        },
+        {
+          "inlineContent" : [
+            {
+              "text" : "\\param string address to validate.",
+              "type" : "text"
+            },
+            {
+              "text" : " ",
+              "type" : "text"
+            },
+            {
+              "text" : "\\param coin coin type of the address.",
+              "type" : "text"
+            },
+            {
+              "text" : " ",
+              "type" : "text"
+            },
+            {
+              "text" : "\\param ss58Prefix ss58Prefix of the given address.",
+              "type" : "text"
+            },
+            {
+              "text" : " ",
+              "type" : "text"
+            },
+            {
+              "text" : "\\return bool indicating if the address is valid.",
+              "type" : "text"
+            }
+          ],
+          "type" : "paragraph"
+        }
+      ],
+      "kind" : "content"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/walletcore\/twanyaddressisvalidss58(_:_:_:)"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    },
+    {
+      "paths" : [
+        "\/documentation\/walletcore\/twanyaddressisvalidss58(_:_:_:)"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "occ"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://com.trustwallet.WalletCore/documentation/WalletCore": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "WalletCore",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TWAnyAddressIsValidSS58(_:_:_:)": {
+  "abstract" : [
+    {
+      "text" : "Determines if the string is a valid Any address with the given SS58 network prefix.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "TWAnyAddressIsValidSS58"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SV",
+      "text" : "UnsafeRawPointer"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "c:@E@TWCoinType",
+      "text" : "TWCoinType"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:s6UInt32V",
+      "text" : "UInt32"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Sb",
+      "text" : "Bool"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TWAnyAddressIsValidSS58(_:_:_:)",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "TWAnyAddressIsValidSS58"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "TWAnyAddressIsValidSS58(_:_:_:)",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/twanyaddressisvalidss58(_:_:_:)"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TWCoinType": {
+  "abstract" : [
+    {
+      "text" : "Coin type for Level 2 of BIP44.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "TWCoinType"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TWCoinType",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "TWCoinType"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "TWCoinType",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/twcointype"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TWString": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "TWString"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TWString",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "TWString",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/twstring"
+}
+}, 
+"variantOverrides":[
+  {
+    "patch" : [
+      {
+        "op" : "replace",
+        "path" : "\/identifier\/interfaceLanguage",
+        "value" : "occ"
+      },
+      {
+        "op" : "replace",
+        "path" : "\/metadata\/roleHeading",
+        "value" : "Function"
+      },
+      {
+        "op" : "replace",
+        "path" : "\/metadata\/title",
+        "value" : "TWAnyAddressIsValidSS58"
+      },
+      {
+        "op" : "replace",
+        "path" : "\/metadata\/symbolKind",
+        "value" : "func"
+      },
+      {
+        "op" : "replace",
+        "path" : "\/metadata\/fragments",
+        "value" : [
+          {
+            "kind" : "identifier",
+            "text" : "TWAnyAddressIsValidSS58"
+          }
+        ]
+      },
+      {
+        "op" : "add",
+        "path" : "\/topicSections",
+        "value" : null
+      },
+      {
+        "op" : "add",
+        "path" : "\/relationshipsSections",
+        "value" : null
+      },
+      {
+        "op" : "add",
+        "path" : "\/seeAlsoSections",
+        "value" : null
+      },
+      {
+        "op" : "replace",
+        "path" : "\/primaryContentSections\/0",
+        "value" : {
+          "declarations" : [
+            {
+              "languages" : [
+                "occ"
+              ],
+              "platforms" : [
+                "iOS"
+              ],
+              "tokens" : [
+                {
+                  "kind" : "keyword",
+                  "text" : "extern"
+                },
+                {
+                  "kind" : "text",
+                  "text" : " "
+                },
+                {
+                  "kind" : "typeIdentifier",
+                  "preciseIdentifier" : "c:b",
+                  "text" : "_Bool"
+                },
+                {
+                  "kind" : "text",
+                  "text" : " "
+                },
+                {
+                  "kind" : "identifier",
+                  "text" : "TWAnyAddressIsValidSS58"
+                },
+                {
+                  "kind" : "text",
+                  "text" : "("
+                },
+                {
+                  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TWString",
+                  "kind" : "typeIdentifier",
+                  "preciseIdentifier" : "c:TWData.h@T@TWString",
+                  "text" : "TWString"
+                },
+                {
+                  "kind" : "text",
+                  "text" : " * "
+                },
+                {
+                  "kind" : "internalParam",
+                  "text" : "string"
+                },
+                {
+                  "kind" : "text",
+                  "text" : ", "
+                },
+                {
+                  "kind" : "keyword",
+                  "text" : "enum"
+                },
+                {
+                  "kind" : "text",
+                  "text" : " "
+                },
+                {
+                  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TWCoinType",
+                  "kind" : "typeIdentifier",
+                  "preciseIdentifier" : "c:@E@TWCoinType",
+                  "text" : "TWCoinType"
+                },
+                {
+                  "kind" : "text",
+                  "text" : " "
+                },
+                {
+                  "kind" : "internalParam",
+                  "text" : "coin"
+                },
+                {
+                  "kind" : "text",
+                  "text" : ", "
+                },
+                {
+                  "kind" : "typeIdentifier",
+                  "preciseIdentifier" : "c:@T@uint32_t",
+                  "text" : "uint32_t"
+                },
+                {
+                  "kind" : "text",
+                  "text" : " "
+                },
+                {
+                  "kind" : "internalParam",
+                  "text" : "ss58Prefix"
+                },
+                {
+                  "kind" : "text",
+                  "text" : ")"
+                }
+              ]
+            }
+          ],
+          "kind" : "declarations"
+        }
+      },
+      {
+        "op" : "replace",
+        "path" : "\/references\/doc:~1~1com.trustwallet.WalletCore~1documentation~1WalletCore~1TWAnyAddressIsValidSS58(_:_:_:)\/title",
+        "value" : "TWAnyAddressIsValidSS58"
+      },
+      {
+        "op" : "replace",
+        "path" : "\/references\/doc:~1~1com.trustwallet.WalletCore~1documentation~1WalletCore~1TWAnyAddressIsValidSS58(_:_:_:)\/fragments",
+        "value" : [
+          {
+            "kind" : "identifier",
+            "text" : "TWAnyAddressIsValidSS58"
+          }
+        ]
+      },
+      {
+        "op" : "replace",
+        "path" : "\/references\/doc:~1~1com.trustwallet.WalletCore~1documentation~1WalletCore~1TWCoinType\/title",
+        "value" : "TWCoinType"
+      },
+      {
+        "op" : "replace",
+        "path" : "\/references\/doc:~1~1com.trustwallet.WalletCore~1documentation~1WalletCore~1TWCoinType\/fragments",
+        "value" : [
+          {
+            "kind" : "identifier",
+            "text" : "TWCoinType"
+          }
+        ]
+      }
+    ],
+    "traits" : [
+      {
+        "interfaceLanguage" : "occ"
+      }
+    ]
+  }
+]
+}

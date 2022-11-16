@@ -1,0 +1,716 @@
+{
+  "abstract" : [
+    {
+      "text" : "A single transaction. All transaction types are possible here.",
+      "type" : "text"
+    }
+  ],
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Hedera_Proto_TransactionBody"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "s:10WalletCore31TW_Hedera_Proto_TransactionBodyV",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "struct"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "TW_Hedera_Proto_TransactionBody"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "WalletCore"
+      }
+    ],
+    "navigatorTitle" : [
+      {
+        "kind" : "identifier",
+        "text" : "TW_Hedera_Proto_TransactionBody"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Structure",
+    "symbolKind" : "struct",
+    "title" : "TW_Hedera_Proto_TransactionBody"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "iOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "struct"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "TW_Hedera_Proto_TransactionBody"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "relationshipsSections" : [
+    {
+      "identifiers" : [
+        "doc:\/\/com.trustwallet.WalletCore\/s28CustomDebugStringConvertibleP",
+        "doc:\/\/com.trustwallet.WalletCore\/SQ",
+        "doc:\/\/com.trustwallet.WalletCore\/SH",
+        "doc:\/\/com.trustwallet.WalletCore\/13SwiftProtobuf7MessageP"
+      ],
+      "kind" : "relationships",
+      "title" : "Conforms To",
+      "type" : "conformsTo"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "topicSections" : [
+    {
+      "identifiers" : [
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Hedera_Proto_TransactionBody\/init()"
+      ],
+      "title" : "Initializers"
+    },
+    {
+      "identifiers" : [
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Hedera_Proto_TransactionBody\/data",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Hedera_Proto_TransactionBody\/hasTransactionID",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Hedera_Proto_TransactionBody\/memo",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Hedera_Proto_TransactionBody\/nodeAccountID",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Hedera_Proto_TransactionBody\/transactionFee",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Hedera_Proto_TransactionBody\/transactionID",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Hedera_Proto_TransactionBody\/transactionValidDuration",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Hedera_Proto_TransactionBody\/transfer",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Hedera_Proto_TransactionBody\/unknownFields"
+      ],
+      "title" : "Instance Properties"
+    },
+    {
+      "identifiers" : [
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Hedera_Proto_TransactionBody\/clearTransactionID()"
+      ],
+      "title" : "Instance Methods"
+    },
+    {
+      "identifiers" : [
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Hedera_Proto_TransactionBody\/OneOf_Data"
+      ],
+      "title" : "Enumerations"
+    },
+    {
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Hedera_Proto_TransactionBody\/Equatable-Implementations",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Hedera_Proto_TransactionBody\/Message-Implementations"
+      ],
+      "title" : "Default Implementations"
+    }
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/walletcore\/tw_hedera_proto_transactionbody"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://com.trustwallet.WalletCore/13SwiftProtobuf7MessageP": {
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/13SwiftProtobuf7MessageP",
+  "title" : "SwiftProtobuf.Message",
+  "type" : "unresolvable"
+},
+"doc://com.trustwallet.WalletCore/SH": {
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/SH",
+  "title" : "Swift.Hashable",
+  "type" : "unresolvable"
+},
+"doc://com.trustwallet.WalletCore/SQ": {
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/SQ",
+  "title" : "Swift.Equatable",
+  "type" : "unresolvable"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "WalletCore",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Hedera_Proto_TransactionBody": {
+  "abstract" : [
+    {
+      "text" : "A single transaction. All transaction types are possible here.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "TW_Hedera_Proto_TransactionBody"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Hedera_Proto_TransactionBody",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "TW_Hedera_Proto_TransactionBody"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "TW_Hedera_Proto_TransactionBody",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_hedera_proto_transactionbody"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Hedera_Proto_TransactionBody/Equatable-Implementations": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Hedera_Proto_TransactionBody\/Equatable-Implementations",
+  "kind" : "article",
+  "role" : "collectionGroup",
+  "title" : "Equatable Implementations",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_hedera_proto_transactionbody\/equatable-implementations"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Hedera_Proto_TransactionBody/Message-Implementations": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Hedera_Proto_TransactionBody\/Message-Implementations",
+  "kind" : "article",
+  "role" : "collectionGroup",
+  "title" : "Message Implementations",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_hedera_proto_transactionbody\/message-implementations"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Hedera_Proto_TransactionBody/OneOf_Data": {
+  "abstract" : [
+    {
+      "text" : "The choices here are arranged by service in roughly lexicographical order. The field ordinals are non-sequential,",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "and a result of the historical order of implementation.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "enum"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "OneOf_Data"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Hedera_Proto_TransactionBody\/OneOf_Data",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "OneOf_Data"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "TW_Hedera_Proto_TransactionBody.OneOf_Data",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_hedera_proto_transactionbody\/oneof_data"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Hedera_Proto_TransactionBody/clearTransactionID()": {
+  "abstract" : [
+    {
+      "text" : "Clears the value of ",
+      "type" : "text"
+    },
+    {
+      "code" : "transactionID",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : ". Subsequent reads from it will return its default value.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "clearTransactionID"
+    },
+    {
+      "kind" : "text",
+      "text" : "()"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Hedera_Proto_TransactionBody\/clearTransactionID()",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "clearTransactionID()",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_hedera_proto_transactionbody\/cleartransactionid()"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Hedera_Proto_TransactionBody/data": {
+  "abstract" : [
+    {
+      "text" : "The choices here are arranged by service in roughly lexicographical order. The field ordinals are non-sequential,",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "and a result of the historical order of implementation.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "data"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10WalletCore31TW_Hedera_Proto_TransactionBodyV",
+      "text" : "TW_Hedera_Proto_TransactionBody"
+    },
+    {
+      "kind" : "text",
+      "text" : "."
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10WalletCore31TW_Hedera_Proto_TransactionBodyV10OneOf_DataO",
+      "text" : "OneOf_Data"
+    },
+    {
+      "kind" : "text",
+      "text" : "?"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Hedera_Proto_TransactionBody\/data",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "data",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_hedera_proto_transactionbody\/data"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Hedera_Proto_TransactionBody/hasTransactionID": {
+  "abstract" : [
+    {
+      "text" : "Returns true if ",
+      "type" : "text"
+    },
+    {
+      "code" : "transactionID",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : " has been explicitly set.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "hasTransactionID"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Sb",
+      "text" : "Bool"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Hedera_Proto_TransactionBody\/hasTransactionID",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "hasTransactionID",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_hedera_proto_transactionbody\/hastransactionid"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Hedera_Proto_TransactionBody/init()": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "init"
+    },
+    {
+      "kind" : "text",
+      "text" : "()"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Hedera_Proto_TransactionBody\/init()",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "init()",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_hedera_proto_transactionbody\/init()"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Hedera_Proto_TransactionBody/memo": {
+  "abstract" : [
+    {
+      "text" : "Any notes or descriptions that should be put into the record (max length 100)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "memo"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Hedera_Proto_TransactionBody\/memo",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "memo",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_hedera_proto_transactionbody\/memo"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Hedera_Proto_TransactionBody/nodeAccountID": {
+  "abstract" : [
+    {
+      "text" : "The account of the node that submits the client’s transaction to the network",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "nodeAccountID"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Hedera_Proto_TransactionBody\/nodeAccountID",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "nodeAccountID",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_hedera_proto_transactionbody\/nodeaccountid"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Hedera_Proto_TransactionBody/transactionFee": {
+  "abstract" : [
+    {
+      "text" : "The maximum transaction fee the client is willing to pay",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "transactionFee"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:s6UInt64V",
+      "text" : "UInt64"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Hedera_Proto_TransactionBody\/transactionFee",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "transactionFee",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_hedera_proto_transactionbody\/transactionfee"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Hedera_Proto_TransactionBody/transactionID": {
+  "abstract" : [
+    {
+      "text" : "The ID for this transaction, which includes the payer’s account (the account paying the transaction fee).",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "If two transactions have the same transactionID, they won’t both have an effect",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "transactionID"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10WalletCore29TW_Hedera_Proto_TransactionIDV",
+      "text" : "TW_Hedera_Proto_TransactionID"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Hedera_Proto_TransactionBody\/transactionID",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "transactionID",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_hedera_proto_transactionbody\/transactionid"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Hedera_Proto_TransactionBody/transactionValidDuration": {
+  "abstract" : [
+    {
+      "text" : "The transaction is invalid if consensusTimestamp > transactionID.transactionValidStart + transactionValidDuration",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "transactionValidDuration"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:s5Int64V",
+      "text" : "Int64"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Hedera_Proto_TransactionBody\/transactionValidDuration",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "transactionValidDuration",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_hedera_proto_transactionbody\/transactionvalidduration"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Hedera_Proto_TransactionBody/transfer": {
+  "abstract" : [
+    {
+      "text" : "Transfer amount between accounts",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "transfer"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10WalletCore31TW_Hedera_Proto_TransferMessageV",
+      "text" : "TW_Hedera_Proto_TransferMessage"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Hedera_Proto_TransactionBody\/transfer",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "transfer",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_hedera_proto_transactionbody\/transfer"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Hedera_Proto_TransactionBody/unknownFields": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "unknownFields"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:13SwiftProtobuf14UnknownStorageV",
+      "text" : "UnknownStorage"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Hedera_Proto_TransactionBody\/unknownFields",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "unknownFields",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_hedera_proto_transactionbody\/unknownfields"
+},
+"doc://com.trustwallet.WalletCore/s28CustomDebugStringConvertibleP": {
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/s28CustomDebugStringConvertibleP",
+  "title" : "Swift.CustomDebugStringConvertible",
+  "type" : "unresolvable"
+}
+}
+}

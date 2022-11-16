@@ -1,0 +1,199 @@
+{
+  "abstract" : [
+    {
+      "text" : "Optional affiliate fee, percentage base points, e.g. 100 means 1%, 0 - 1000, as string. Empty means to ignore it.",
+      "type" : "text"
+    }
+  ],
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_THORChainSwap_Proto_SwapInput"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_THORChainSwap_Proto_SwapInput\/affiliateFeeRateBp"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "s:10WalletCore023TW_THORChainSwap_Proto_E5InputV18affiliateFeeRateBpSSvp",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "var"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "affiliateFeeRateBp"
+      },
+      {
+        "kind" : "text",
+        "text" : ": "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:SS",
+        "text" : "String"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "WalletCore"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Instance Property",
+    "symbolKind" : "property",
+    "title" : "affiliateFeeRateBp"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "iOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "var"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "affiliateFeeRateBp"
+            },
+            {
+              "kind" : "text",
+              "text" : ": "
+            },
+            {
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:SS",
+              "text" : "String"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/walletcore\/tw_thorchainswap_proto_swapinput\/affiliatefeeratebp"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://com.trustwallet.WalletCore/documentation/WalletCore": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "WalletCore",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_THORChainSwap_Proto_SwapInput": {
+  "abstract" : [
+    {
+      "text" : "Input for a swap between source and destination chains; for creating a TX on the source chain.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "TW_THORChainSwap_Proto_SwapInput"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_THORChainSwap_Proto_SwapInput",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "TW_THORChainSwap_Proto_SwapInput"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "TW_THORChainSwap_Proto_SwapInput",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_thorchainswap_proto_swapinput"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_THORChainSwap_Proto_SwapInput/affiliateFeeRateBp": {
+  "abstract" : [
+    {
+      "text" : "Optional affiliate fee, percentage base points, e.g. 100 means 1%, 0 - 1000, as string. Empty means to ignore it.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "affiliateFeeRateBp"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_THORChainSwap_Proto_SwapInput\/affiliateFeeRateBp",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "affiliateFeeRateBp",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_thorchainswap_proto_swapinput\/affiliatefeeratebp"
+}
+}
+}

@@ -116,6 +116,7 @@
         "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Aptos_Proto_SigningInput\/maxGasAmount",
         "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Aptos_Proto_SigningInput\/nftMessage",
         "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Aptos_Proto_SigningInput\/privateKey",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Aptos_Proto_SigningInput\/registerToken",
         "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Aptos_Proto_SigningInput\/sender",
         "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Aptos_Proto_SigningInput\/sequenceNumber",
         "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Aptos_Proto_SigningInput\/tokenTransfer",
@@ -577,6 +578,40 @@
   "title" : "privateKey",
   "type" : "topic",
   "url" : "\/documentation\/walletcore\/tw_aptos_proto_signinginput\/privatekey"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Aptos_Proto_SigningInput/registerToken": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "registerToken"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10WalletCore43TW_Aptos_Proto_ManagedTokensRegisterMessageV",
+      "text" : "TW_Aptos_Proto_ManagedTokensRegisterMessage"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Aptos_Proto_SigningInput\/registerToken",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "registerToken",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_aptos_proto_signinginput\/registertoken"
 },
 "doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Aptos_Proto_SigningInput/sender": {
   "abstract" : [

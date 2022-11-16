@@ -102,6 +102,7 @@
       "identifiers" : [
         "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Cosmos_Proto_Message\/OneOf_MessageOneof\/authGrant(_:)",
         "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Cosmos_Proto_Message\/OneOf_MessageOneof\/authRevoke(_:)",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Cosmos_Proto_Message\/OneOf_MessageOneof\/msgVote(_:)",
         "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Cosmos_Proto_Message\/OneOf_MessageOneof\/rawJsonMessage(_:)",
         "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Cosmos_Proto_Message\/OneOf_MessageOneof\/restakeMessage(_:)",
         "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Cosmos_Proto_Message\/OneOf_MessageOneof\/sendCoinsMessage(_:)",
@@ -330,6 +331,53 @@
   "title" : "TW_Cosmos_Proto_Message.OneOf_MessageOneof.authRevoke(_:)",
   "type" : "topic",
   "url" : "\/documentation\/walletcore\/tw_cosmos_proto_message\/oneof_messageoneof\/authrevoke(_:)"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Cosmos_Proto_Message/OneOf_MessageOneof/msgVote(_:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "msgVote"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10WalletCore23TW_Cosmos_Proto_MessageV",
+      "text" : "TW_Cosmos_Proto_Message"
+    },
+    {
+      "kind" : "text",
+      "text" : "."
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10WalletCore23TW_Cosmos_Proto_MessageV7MsgVoteV",
+      "text" : "MsgVote"
+    },
+    {
+      "kind" : "text",
+      "text" : ")"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Cosmos_Proto_Message\/OneOf_MessageOneof\/msgVote(_:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "TW_Cosmos_Proto_Message.OneOf_MessageOneof.msgVote(_:)",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_cosmos_proto_message\/oneof_messageoneof\/msgvote(_:)"
 },
 "doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Cosmos_Proto_Message/OneOf_MessageOneof/rawJsonMessage(_:)": {
   "abstract" : [

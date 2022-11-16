@@ -1,0 +1,317 @@
+{
+  "abstract" : [
+    {
+      "text" : "Inherited from ",
+      "type" : "text"
+    },
+    {
+      "code" : "CaseIterable.allCases",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : ".",
+      "type" : "text"
+    }
+  ],
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Cosmos_Proto_Message",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Cosmos_Proto_Message\/VoteOption",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Cosmos_Proto_Message\/VoteOption\/CaseIterable-Implementations"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Cosmos_Proto_Message\/VoteOption\/allCases"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "extendedModule" : "WalletCore",
+    "externalID" : "s:10WalletCore23TW_Cosmos_Proto_MessageV10VoteOptionO8allCasesSayAEGvpZ",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "static"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "keyword",
+        "text" : "var"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "allCases"
+      },
+      {
+        "kind" : "text",
+        "text" : ": ["
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:10WalletCore23TW_Cosmos_Proto_MessageV",
+        "text" : "TW_Cosmos_Proto_Message"
+      },
+      {
+        "kind" : "text",
+        "text" : "."
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:10WalletCore23TW_Cosmos_Proto_MessageV10VoteOptionO",
+        "text" : "VoteOption"
+      },
+      {
+        "kind" : "text",
+        "text" : "]"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "WalletCore"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Type Property",
+    "symbolKind" : "property",
+    "title" : "allCases"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "iOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "static"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "keyword",
+              "text" : "var"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "allCases"
+            },
+            {
+              "kind" : "text",
+              "text" : ": ["
+            },
+            {
+              "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Cosmos_Proto_Message",
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:10WalletCore23TW_Cosmos_Proto_MessageV",
+              "text" : "TW_Cosmos_Proto_Message"
+            },
+            {
+              "kind" : "text",
+              "text" : "."
+            },
+            {
+              "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Cosmos_Proto_Message\/VoteOption",
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:10WalletCore23TW_Cosmos_Proto_MessageV10VoteOptionO",
+              "text" : "VoteOption"
+            },
+            {
+              "kind" : "text",
+              "text" : "]"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/walletcore\/tw_cosmos_proto_message\/voteoption\/allcases"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://com.trustwallet.WalletCore/documentation/WalletCore": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "WalletCore",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Cosmos_Proto_Message": {
+  "abstract" : [
+    {
+      "text" : "A transaction payload message",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "TW_Cosmos_Proto_Message"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Cosmos_Proto_Message",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "TW_Cosmos_Proto_Message"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "TW_Cosmos_Proto_Message",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_cosmos_proto_message"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Cosmos_Proto_Message/VoteOption": {
+  "abstract" : [
+    {
+      "text" : "VoteOption enumerates the valid vote options for a given governance proposal.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "enum"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "VoteOption"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Cosmos_Proto_Message\/VoteOption",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "VoteOption"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "TW_Cosmos_Proto_Message.VoteOption",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_cosmos_proto_message\/voteoption"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Cosmos_Proto_Message/VoteOption/CaseIterable-Implementations": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Cosmos_Proto_Message\/VoteOption\/CaseIterable-Implementations",
+  "kind" : "article",
+  "role" : "collectionGroup",
+  "title" : "CaseIterable Implementations",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_cosmos_proto_message\/voteoption\/caseiterable-implementations"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Cosmos_Proto_Message/VoteOption/allCases": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "static"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "allCases"
+    },
+    {
+      "kind" : "text",
+      "text" : ": ["
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10WalletCore23TW_Cosmos_Proto_MessageV",
+      "text" : "TW_Cosmos_Proto_Message"
+    },
+    {
+      "kind" : "text",
+      "text" : "."
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10WalletCore23TW_Cosmos_Proto_MessageV10VoteOptionO",
+      "text" : "VoteOption"
+    },
+    {
+      "kind" : "text",
+      "text" : "]"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Cosmos_Proto_Message\/VoteOption\/allCases",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "allCases",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_cosmos_proto_message\/voteoption\/allcases"
+}
+}
+}

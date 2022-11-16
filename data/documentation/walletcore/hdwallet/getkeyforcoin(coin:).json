@@ -1,7 +1,7 @@
 {
   "abstract" : [
     {
-      "text" : "Generates the default private key for the specified coin.",
+      "text" : "Generates the default private key for the specified coin, using default derivation.",
       "type" : "text"
     }
   ],
@@ -243,7 +243,7 @@
 "doc://com.trustwallet.WalletCore/documentation/WalletCore/CoinType": {
   "abstract" : [
     {
-      "text" : "Coin type for Level 2 of BIP44.",
+      "text" : "Represents a private key.\/\/\/ Coin type for Level 2 of BIP44.",
       "type" : "text"
     }
   ],
@@ -311,7 +311,7 @@
 "doc://com.trustwallet.WalletCore/documentation/WalletCore/HDWallet/getKeyForCoin(coin:)": {
   "abstract" : [
     {
-      "text" : "Generates the default private key for the specified coin.",
+      "text" : "Generates the default private key for the specified coin, using default derivation.",
       "type" : "text"
     }
   ],

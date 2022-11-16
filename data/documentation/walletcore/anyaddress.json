@@ -116,7 +116,12 @@
     {
       "identifiers" : [
         "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/AnyAddress\/init(publicKey:coin:)",
-        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/AnyAddress\/init(string:coin:)"
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/AnyAddress\/init(publicKey:coin:derivation:)",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/AnyAddress\/init(publicKey:coin:hrp:)",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/AnyAddress\/init(publicKey:coin:ss58Prefix:)",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/AnyAddress\/init(string:coin:)",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/AnyAddress\/init(string:coin:hrp:)",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/AnyAddress\/init(string:coin:ss58Prefix:)"
       ],
       "title" : "Initializers"
     },
@@ -130,7 +135,9 @@
     },
     {
       "identifiers" : [
-        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/AnyAddress\/isValid(string:coin:)"
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/AnyAddress\/isValid(string:coin:)",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/AnyAddress\/isValidBech32(string:coin:hrp:)",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/AnyAddress\/isValidSS58(string:coin:ss58Prefix:)"
       ],
       "title" : "Type Methods"
     },
@@ -484,6 +491,222 @@
   "type" : "topic",
   "url" : "\/documentation\/walletcore\/anyaddress\/init(publickey:coin:)"
 },
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/AnyAddress/init(publicKey:coin:derivation:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "init"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "publicKey"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10WalletCore9PublicKeyC",
+      "text" : "PublicKey"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "coin"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10WalletCore8CoinTypeO",
+      "text" : "CoinType"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "derivation"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10WalletCore10DerivationO",
+      "text" : "Derivation"
+    },
+    {
+      "kind" : "text",
+      "text" : ")"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/AnyAddress\/init(publicKey:coin:derivation:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "init(publicKey:coin:derivation:)",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/anyaddress\/init(publickey:coin:derivation:)"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/AnyAddress/init(publicKey:coin:hrp:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "init"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "publicKey"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10WalletCore9PublicKeyC",
+      "text" : "PublicKey"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "coin"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10WalletCore8CoinTypeO",
+      "text" : "CoinType"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "hrp"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    },
+    {
+      "kind" : "text",
+      "text" : ")"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/AnyAddress\/init(publicKey:coin:hrp:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "init(publicKey:coin:hrp:)",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/anyaddress\/init(publickey:coin:hrp:)"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/AnyAddress/init(publicKey:coin:ss58Prefix:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "init"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "publicKey"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10WalletCore9PublicKeyC",
+      "text" : "PublicKey"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "coin"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10WalletCore8CoinTypeO",
+      "text" : "CoinType"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "ss58Prefix"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:s6UInt32V",
+      "text" : "UInt32"
+    },
+    {
+      "kind" : "text",
+      "text" : ")"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/AnyAddress\/init(publicKey:coin:ss58Prefix:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "init(publicKey:coin:ss58Prefix:)",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/anyaddress\/init(publickey:coin:ss58prefix:)"
+},
 "doc://com.trustwallet.WalletCore/documentation/WalletCore/AnyAddress/init(string:coin:)": {
   "abstract" : [
 
@@ -538,6 +761,150 @@
   "title" : "init(string:coin:)",
   "type" : "topic",
   "url" : "\/documentation\/walletcore\/anyaddress\/init(string:coin:)"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/AnyAddress/init(string:coin:hrp:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "init"
+    },
+    {
+      "kind" : "text",
+      "text" : "?("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "string"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "coin"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10WalletCore8CoinTypeO",
+      "text" : "CoinType"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "hrp"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    },
+    {
+      "kind" : "text",
+      "text" : ")"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/AnyAddress\/init(string:coin:hrp:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "init(string:coin:hrp:)",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/anyaddress\/init(string:coin:hrp:)"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/AnyAddress/init(string:coin:ss58Prefix:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "init"
+    },
+    {
+      "kind" : "text",
+      "text" : "?("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "string"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "coin"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10WalletCore8CoinTypeO",
+      "text" : "CoinType"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "ss58Prefix"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:s6UInt32V",
+      "text" : "UInt32"
+    },
+    {
+      "kind" : "text",
+      "text" : ")"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/AnyAddress\/init(string:coin:ss58Prefix:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "init(string:coin:ss58Prefix:)",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/anyaddress\/init(string:coin:ss58prefix:)"
 },
 "doc://com.trustwallet.WalletCore/documentation/WalletCore/AnyAddress/isValid(string:coin:)": {
   "abstract" : [
@@ -617,6 +984,198 @@
   "title" : "isValid(string:coin:)",
   "type" : "topic",
   "url" : "\/documentation\/walletcore\/anyaddress\/isvalid(string:coin:)"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/AnyAddress/isValidBech32(string:coin:hrp:)": {
+  "abstract" : [
+    {
+      "text" : "Determines if the string is a valid Any address with the given hrp.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "static"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "isValidBech32"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "string"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "coin"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10WalletCore8CoinTypeO",
+      "text" : "CoinType"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "hrp"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Sb",
+      "text" : "Bool"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/AnyAddress\/isValidBech32(string:coin:hrp:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "isValidBech32(string:coin:hrp:)",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/anyaddress\/isvalidbech32(string:coin:hrp:)"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/AnyAddress/isValidSS58(string:coin:ss58Prefix:)": {
+  "abstract" : [
+    {
+      "text" : "Determines if the string is a valid Any address with the given SS58 network prefix.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "static"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "isValidSS58"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "string"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "coin"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10WalletCore8CoinTypeO",
+      "text" : "CoinType"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "ss58Prefix"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:s6UInt32V",
+      "text" : "UInt32"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Sb",
+      "text" : "Bool"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/AnyAddress\/isValidSS58(string:coin:ss58Prefix:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "isValidSS58(string:coin:ss58Prefix:)",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/anyaddress\/isvalidss58(string:coin:ss58prefix:)"
 },
 "doc://com.trustwallet.WalletCore/s23CustomStringConvertibleP": {
   "identifier" : "doc:\/\/com.trustwallet.WalletCore\/s23CustomStringConvertibleP",

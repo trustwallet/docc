@@ -1,0 +1,430 @@
+{
+  "abstract" : [
+    {
+      "text" : "cosmos-sdk\/MsgVote defines a message to cast a vote.",
+      "type" : "text"
+    }
+  ],
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Cosmos_Proto_Message"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Cosmos_Proto_Message\/MsgVote-swift.struct"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "s:10WalletCore23TW_Cosmos_Proto_MessageV7MsgVoteV",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "struct"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "MsgVote"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "WalletCore"
+      }
+    ],
+    "navigatorTitle" : [
+      {
+        "kind" : "identifier",
+        "text" : "MsgVote"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Structure",
+    "symbolKind" : "struct",
+    "title" : "TW_Cosmos_Proto_Message.MsgVote"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "iOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "struct"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "MsgVote"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "relationshipsSections" : [
+    {
+      "identifiers" : [
+        "doc:\/\/com.trustwallet.WalletCore\/s28CustomDebugStringConvertibleP",
+        "doc:\/\/com.trustwallet.WalletCore\/SQ",
+        "doc:\/\/com.trustwallet.WalletCore\/SH",
+        "doc:\/\/com.trustwallet.WalletCore\/13SwiftProtobuf7MessageP"
+      ],
+      "kind" : "relationships",
+      "title" : "Conforms To",
+      "type" : "conformsTo"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "topicSections" : [
+    {
+      "identifiers" : [
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Cosmos_Proto_Message\/MsgVote-swift.struct\/init()"
+      ],
+      "title" : "Initializers"
+    },
+    {
+      "identifiers" : [
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Cosmos_Proto_Message\/MsgVote-swift.struct\/option",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Cosmos_Proto_Message\/MsgVote-swift.struct\/proposalID",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Cosmos_Proto_Message\/MsgVote-swift.struct\/unknownFields",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Cosmos_Proto_Message\/MsgVote-swift.struct\/voter"
+      ],
+      "title" : "Instance Properties"
+    },
+    {
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Cosmos_Proto_Message\/MsgVote-swift.struct\/Equatable-Implementations",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Cosmos_Proto_Message\/MsgVote-swift.struct\/Message-Implementations"
+      ],
+      "title" : "Default Implementations"
+    }
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/walletcore\/tw_cosmos_proto_message\/msgvote-swift.struct"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://com.trustwallet.WalletCore/13SwiftProtobuf7MessageP": {
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/13SwiftProtobuf7MessageP",
+  "title" : "SwiftProtobuf.Message",
+  "type" : "unresolvable"
+},
+"doc://com.trustwallet.WalletCore/SH": {
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/SH",
+  "title" : "Swift.Hashable",
+  "type" : "unresolvable"
+},
+"doc://com.trustwallet.WalletCore/SQ": {
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/SQ",
+  "title" : "Swift.Equatable",
+  "type" : "unresolvable"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "WalletCore",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Cosmos_Proto_Message": {
+  "abstract" : [
+    {
+      "text" : "A transaction payload message",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "TW_Cosmos_Proto_Message"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Cosmos_Proto_Message",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "TW_Cosmos_Proto_Message"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "TW_Cosmos_Proto_Message",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_cosmos_proto_message"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Cosmos_Proto_Message/MsgVote-swift.struct": {
+  "abstract" : [
+    {
+      "text" : "cosmos-sdk\/MsgVote defines a message to cast a vote.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "MsgVote"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Cosmos_Proto_Message\/MsgVote-swift.struct",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "MsgVote"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "TW_Cosmos_Proto_Message.MsgVote",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_cosmos_proto_message\/msgvote-swift.struct"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Cosmos_Proto_Message/MsgVote-swift.struct/Equatable-Implementations": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Cosmos_Proto_Message\/MsgVote-swift.struct\/Equatable-Implementations",
+  "kind" : "article",
+  "role" : "collectionGroup",
+  "title" : "Equatable Implementations",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_cosmos_proto_message\/msgvote-swift.struct\/equatable-implementations"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Cosmos_Proto_Message/MsgVote-swift.struct/Message-Implementations": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Cosmos_Proto_Message\/MsgVote-swift.struct\/Message-Implementations",
+  "kind" : "article",
+  "role" : "collectionGroup",
+  "title" : "Message Implementations",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_cosmos_proto_message\/msgvote-swift.struct\/message-implementations"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Cosmos_Proto_Message/MsgVote-swift.struct/init()": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "init"
+    },
+    {
+      "kind" : "text",
+      "text" : "()"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Cosmos_Proto_Message\/MsgVote-swift.struct\/init()",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "init()",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_cosmos_proto_message\/msgvote-swift.struct\/init()"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Cosmos_Proto_Message/MsgVote-swift.struct/option": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "option"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10WalletCore23TW_Cosmos_Proto_MessageV",
+      "text" : "TW_Cosmos_Proto_Message"
+    },
+    {
+      "kind" : "text",
+      "text" : "."
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10WalletCore23TW_Cosmos_Proto_MessageV10VoteOptionO",
+      "text" : "VoteOption"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Cosmos_Proto_Message\/MsgVote-swift.struct\/option",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "option",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_cosmos_proto_message\/msgvote-swift.struct\/option"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Cosmos_Proto_Message/MsgVote-swift.struct/proposalID": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "proposalID"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:s6UInt64V",
+      "text" : "UInt64"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Cosmos_Proto_Message\/MsgVote-swift.struct\/proposalID",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "proposalID",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_cosmos_proto_message\/msgvote-swift.struct\/proposalid"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Cosmos_Proto_Message/MsgVote-swift.struct/unknownFields": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "unknownFields"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:13SwiftProtobuf14UnknownStorageV",
+      "text" : "UnknownStorage"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Cosmos_Proto_Message\/MsgVote-swift.struct\/unknownFields",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "unknownFields",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_cosmos_proto_message\/msgvote-swift.struct\/unknownfields"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Cosmos_Proto_Message/MsgVote-swift.struct/voter": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "voter"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Cosmos_Proto_Message\/MsgVote-swift.struct\/voter",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "voter",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_cosmos_proto_message\/msgvote-swift.struct\/voter"
+},
+"doc://com.trustwallet.WalletCore/s28CustomDebugStringConvertibleP": {
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/s28CustomDebugStringConvertibleP",
+  "title" : "Swift.CustomDebugStringConvertible",
+  "type" : "unresolvable"
+}
+}
+}

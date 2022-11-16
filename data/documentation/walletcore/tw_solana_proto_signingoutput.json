@@ -109,7 +109,8 @@
     {
       "identifiers" : [
         "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Solana_Proto_SigningOutput\/encoded",
-        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Solana_Proto_SigningOutput\/unknownFields"
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Solana_Proto_SigningOutput\/unknownFields",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Solana_Proto_SigningOutput\/unsignedTx"
       ],
       "title" : "Instance Properties"
     },
@@ -309,6 +310,43 @@
   "title" : "unknownFields",
   "type" : "topic",
   "url" : "\/documentation\/walletcore\/tw_solana_proto_signingoutput\/unknownfields"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Solana_Proto_SigningOutput/unsignedTx": {
+  "abstract" : [
+    {
+      "text" : "The unsigned transaction",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "unsignedTx"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Solana_Proto_SigningOutput\/unsignedTx",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "unsignedTx",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_solana_proto_signingoutput\/unsignedtx"
 },
 "doc://com.trustwallet.WalletCore/s28CustomDebugStringConvertibleP": {
   "identifier" : "doc:\/\/com.trustwallet.WalletCore\/s28CustomDebugStringConvertibleP",
