@@ -1,0 +1,408 @@
+{
+  "abstract" : [
+    {
+      "text" : "Converts an Ethereum address to Filecoin.",
+      "type" : "text"
+    }
+  ],
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TWFilecoinAddressConverterConvertFromEthereum(_:)"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "c:@F@TWFilecoinAddressConverterConvertFromEthereum",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "func"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "TWFilecoinAddressConverterConvertFromEthereum"
+      },
+      {
+        "kind" : "text",
+        "text" : "("
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:SV",
+        "text" : "UnsafeRawPointer"
+      },
+      {
+        "kind" : "text",
+        "text" : ") -> "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:SV",
+        "text" : "UnsafeRawPointer"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "WalletCore"
+      }
+    ],
+    "navigatorTitle" : [
+      {
+        "kind" : "identifier",
+        "text" : "TWFilecoinAddressConverterConvertFromEthereum"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Function",
+    "symbolKind" : "func",
+    "title" : "TWFilecoinAddressConverterConvertFromEthereum(_:)"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "iOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "func"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "TWFilecoinAddressConverterConvertFromEthereum"
+            },
+            {
+              "kind" : "text",
+              "text" : "("
+            },
+            {
+              "kind" : "externalParam",
+              "text" : "_"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "internalParam",
+              "text" : "ethAddress"
+            },
+            {
+              "kind" : "text",
+              "text" : ": "
+            },
+            {
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:SV",
+              "text" : "UnsafeRawPointer"
+            },
+            {
+              "kind" : "text",
+              "text" : ") -> "
+            },
+            {
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:SV",
+              "text" : "UnsafeRawPointer"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    },
+    {
+      "content" : [
+        {
+          "anchor" : "discussion",
+          "level" : 2,
+          "text" : "Discussion",
+          "type" : "heading"
+        },
+        {
+          "inlineContent" : [
+            {
+              "text" : "\\param ethAddress: an Ethereum address.",
+              "type" : "text"
+            },
+            {
+              "text" : " ",
+              "type" : "text"
+            },
+            {
+              "text" : "\\returns the Filecoin address. On invalid input empty string is returned. Returned object needs to be deleted after use.",
+              "type" : "text"
+            }
+          ],
+          "type" : "paragraph"
+        }
+      ],
+      "kind" : "content"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/walletcore\/twfilecoinaddressconverterconvertfromethereum(_:)"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    },
+    {
+      "paths" : [
+        "\/documentation\/walletcore\/twfilecoinaddressconverterconvertfromethereum(_:)"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "occ"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://com.trustwallet.WalletCore/documentation/WalletCore": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "WalletCore",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TWFilecoinAddressConverterConvertFromEthereum(_:)": {
+  "abstract" : [
+    {
+      "text" : "Converts an Ethereum address to Filecoin.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "TWFilecoinAddressConverterConvertFromEthereum"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SV",
+      "text" : "UnsafeRawPointer"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SV",
+      "text" : "UnsafeRawPointer"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TWFilecoinAddressConverterConvertFromEthereum(_:)",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "TWFilecoinAddressConverterConvertFromEthereum"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "TWFilecoinAddressConverterConvertFromEthereum(_:)",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/twfilecoinaddressconverterconvertfromethereum(_:)"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TWString": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "TWString"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TWString",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "TWString",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/twstring"
+}
+}, 
+"variantOverrides":[
+  {
+    "patch" : [
+      {
+        "op" : "replace",
+        "path" : "\/identifier\/interfaceLanguage",
+        "value" : "occ"
+      },
+      {
+        "op" : "replace",
+        "path" : "\/metadata\/roleHeading",
+        "value" : "Function"
+      },
+      {
+        "op" : "replace",
+        "path" : "\/metadata\/title",
+        "value" : "TWFilecoinAddressConverterConvertFromEthereum"
+      },
+      {
+        "op" : "replace",
+        "path" : "\/metadata\/symbolKind",
+        "value" : "func"
+      },
+      {
+        "op" : "replace",
+        "path" : "\/metadata\/fragments",
+        "value" : [
+          {
+            "kind" : "identifier",
+            "text" : "TWFilecoinAddressConverterConvertFromEthereum"
+          }
+        ]
+      },
+      {
+        "op" : "add",
+        "path" : "\/topicSections",
+        "value" : null
+      },
+      {
+        "op" : "add",
+        "path" : "\/relationshipsSections",
+        "value" : null
+      },
+      {
+        "op" : "add",
+        "path" : "\/seeAlsoSections",
+        "value" : null
+      },
+      {
+        "op" : "replace",
+        "path" : "\/primaryContentSections\/0",
+        "value" : {
+          "declarations" : [
+            {
+              "languages" : [
+                "occ"
+              ],
+              "platforms" : [
+                "iOS"
+              ],
+              "tokens" : [
+                {
+                  "kind" : "keyword",
+                  "text" : "extern"
+                },
+                {
+                  "kind" : "text",
+                  "text" : " "
+                },
+                {
+                  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TWString",
+                  "kind" : "typeIdentifier",
+                  "preciseIdentifier" : "c:TWData.h@T@TWString",
+                  "text" : "TWString"
+                },
+                {
+                  "kind" : "text",
+                  "text" : " * "
+                },
+                {
+                  "kind" : "identifier",
+                  "text" : "TWFilecoinAddressConverterConvertFromEthereum"
+                },
+                {
+                  "kind" : "text",
+                  "text" : "("
+                },
+                {
+                  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TWString",
+                  "kind" : "typeIdentifier",
+                  "preciseIdentifier" : "c:TWData.h@T@TWString",
+                  "text" : "TWString"
+                },
+                {
+                  "kind" : "text",
+                  "text" : " * "
+                },
+                {
+                  "kind" : "internalParam",
+                  "text" : "ethAddress"
+                },
+                {
+                  "kind" : "text",
+                  "text" : ")"
+                }
+              ]
+            }
+          ],
+          "kind" : "declarations"
+        }
+      },
+      {
+        "op" : "replace",
+        "path" : "\/references\/doc:~1~1com.trustwallet.WalletCore~1documentation~1WalletCore~1TWFilecoinAddressConverterConvertFromEthereum(_:)\/title",
+        "value" : "TWFilecoinAddressConverterConvertFromEthereum"
+      },
+      {
+        "op" : "replace",
+        "path" : "\/references\/doc:~1~1com.trustwallet.WalletCore~1documentation~1WalletCore~1TWFilecoinAddressConverterConvertFromEthereum(_:)\/fragments",
+        "value" : [
+          {
+            "kind" : "identifier",
+            "text" : "TWFilecoinAddressConverterConvertFromEthereum"
+          }
+        ]
+      }
+    ],
+    "traits" : [
+      {
+        "interfaceLanguage" : "occ"
+      }
+    ]
+  }
+]
+}

@@ -1,0 +1,449 @@
+{
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Ripple_Proto_SigningInput"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Ripple_Proto_SigningInput\/OneOf_OperationOneof"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "s:10WalletCore28TW_Ripple_Proto_SigningInputV20OneOf_OperationOneofO",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "enum"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "OneOf_OperationOneof"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "WalletCore"
+      }
+    ],
+    "navigatorTitle" : [
+      {
+        "kind" : "identifier",
+        "text" : "OneOf_OperationOneof"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Enumeration",
+    "symbolKind" : "enum",
+    "title" : "TW_Ripple_Proto_SigningInput.OneOf_OperationOneof"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "iOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "enum"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "OneOf_OperationOneof"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "relationshipsSections" : [
+    {
+      "identifiers" : [
+        "doc:\/\/com.trustwallet.WalletCore\/SQ"
+      ],
+      "kind" : "relationships",
+      "title" : "Conforms To",
+      "type" : "conformsTo"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "topicSections" : [
+    {
+      "identifiers" : [
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Ripple_Proto_SigningInput\/OneOf_OperationOneof\/opNftokenAcceptOffer(_:)",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Ripple_Proto_SigningInput\/OneOf_OperationOneof\/opNftokenBurn(_:)",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Ripple_Proto_SigningInput\/OneOf_OperationOneof\/opNftokenCancelOffer(_:)",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Ripple_Proto_SigningInput\/OneOf_OperationOneof\/opNftokenCreateOffer(_:)",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Ripple_Proto_SigningInput\/OneOf_OperationOneof\/opPayment(_:)",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Ripple_Proto_SigningInput\/OneOf_OperationOneof\/opTrustSet(_:)"
+      ],
+      "title" : "Enumeration Cases"
+    },
+    {
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Ripple_Proto_SigningInput\/OneOf_OperationOneof\/Equatable-Implementations"
+      ],
+      "title" : "Default Implementations"
+    }
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/walletcore\/tw_ripple_proto_signinginput\/oneof_operationoneof"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://com.trustwallet.WalletCore/SQ": {
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/SQ",
+  "title" : "Swift.Equatable",
+  "type" : "unresolvable"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "WalletCore",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Ripple_Proto_SigningInput": {
+  "abstract" : [
+    {
+      "text" : "Input data necessary to create a signed transaction.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "TW_Ripple_Proto_SigningInput"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Ripple_Proto_SigningInput",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "TW_Ripple_Proto_SigningInput"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "TW_Ripple_Proto_SigningInput",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_ripple_proto_signinginput"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Ripple_Proto_SigningInput/OneOf_OperationOneof": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "enum"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "OneOf_OperationOneof"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Ripple_Proto_SigningInput\/OneOf_OperationOneof",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "OneOf_OperationOneof"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "TW_Ripple_Proto_SigningInput.OneOf_OperationOneof",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_ripple_proto_signinginput\/oneof_operationoneof"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Ripple_Proto_SigningInput/OneOf_OperationOneof/Equatable-Implementations": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Ripple_Proto_SigningInput\/OneOf_OperationOneof\/Equatable-Implementations",
+  "kind" : "article",
+  "role" : "collectionGroup",
+  "title" : "Equatable Implementations",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_ripple_proto_signinginput\/oneof_operationoneof\/equatable-implementations"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Ripple_Proto_SigningInput/OneOf_OperationOneof/opNftokenAcceptOffer(_:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "opNftokenAcceptOffer"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10WalletCore43TW_Ripple_Proto_OperationNFTokenAcceptOfferV",
+      "text" : "TW_Ripple_Proto_OperationNFTokenAcceptOffer"
+    },
+    {
+      "kind" : "text",
+      "text" : ")"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Ripple_Proto_SigningInput\/OneOf_OperationOneof\/opNftokenAcceptOffer(_:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "TW_Ripple_Proto_SigningInput.OneOf_OperationOneof.opNftokenAcceptOffer(_:)",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_ripple_proto_signinginput\/oneof_operationoneof\/opnftokenacceptoffer(_:)"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Ripple_Proto_SigningInput/OneOf_OperationOneof/opNftokenBurn(_:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "opNftokenBurn"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10WalletCore36TW_Ripple_Proto_OperationNFTokenBurnV",
+      "text" : "TW_Ripple_Proto_OperationNFTokenBurn"
+    },
+    {
+      "kind" : "text",
+      "text" : ")"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Ripple_Proto_SigningInput\/OneOf_OperationOneof\/opNftokenBurn(_:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "TW_Ripple_Proto_SigningInput.OneOf_OperationOneof.opNftokenBurn(_:)",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_ripple_proto_signinginput\/oneof_operationoneof\/opnftokenburn(_:)"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Ripple_Proto_SigningInput/OneOf_OperationOneof/opNftokenCancelOffer(_:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "opNftokenCancelOffer"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10WalletCore43TW_Ripple_Proto_OperationNFTokenCancelOfferV",
+      "text" : "TW_Ripple_Proto_OperationNFTokenCancelOffer"
+    },
+    {
+      "kind" : "text",
+      "text" : ")"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Ripple_Proto_SigningInput\/OneOf_OperationOneof\/opNftokenCancelOffer(_:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "TW_Ripple_Proto_SigningInput.OneOf_OperationOneof.opNftokenCancelOffer(_:)",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_ripple_proto_signinginput\/oneof_operationoneof\/opnftokencanceloffer(_:)"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Ripple_Proto_SigningInput/OneOf_OperationOneof/opNftokenCreateOffer(_:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "opNftokenCreateOffer"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10WalletCore43TW_Ripple_Proto_OperationNFTokenCreateOfferV",
+      "text" : "TW_Ripple_Proto_OperationNFTokenCreateOffer"
+    },
+    {
+      "kind" : "text",
+      "text" : ")"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Ripple_Proto_SigningInput\/OneOf_OperationOneof\/opNftokenCreateOffer(_:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "TW_Ripple_Proto_SigningInput.OneOf_OperationOneof.opNftokenCreateOffer(_:)",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_ripple_proto_signinginput\/oneof_operationoneof\/opnftokencreateoffer(_:)"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Ripple_Proto_SigningInput/OneOf_OperationOneof/opPayment(_:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "opPayment"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10WalletCore32TW_Ripple_Proto_OperationPaymentV",
+      "text" : "TW_Ripple_Proto_OperationPayment"
+    },
+    {
+      "kind" : "text",
+      "text" : ")"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Ripple_Proto_SigningInput\/OneOf_OperationOneof\/opPayment(_:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "TW_Ripple_Proto_SigningInput.OneOf_OperationOneof.opPayment(_:)",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_ripple_proto_signinginput\/oneof_operationoneof\/oppayment(_:)"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Ripple_Proto_SigningInput/OneOf_OperationOneof/opTrustSet(_:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "opTrustSet"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10WalletCore33TW_Ripple_Proto_OperationTrustSetV",
+      "text" : "TW_Ripple_Proto_OperationTrustSet"
+    },
+    {
+      "kind" : "text",
+      "text" : ")"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Ripple_Proto_SigningInput\/OneOf_OperationOneof\/opTrustSet(_:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "TW_Ripple_Proto_SigningInput.OneOf_OperationOneof.opTrustSet(_:)",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_ripple_proto_signinginput\/oneof_operationoneof\/optrustset(_:)"
+}
+}
+}

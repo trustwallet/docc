@@ -103,6 +103,9 @@
   "topicSections" : [
     {
       "identifiers" : [
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/HRP\/agoric",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/HRP\/akash",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/HRP\/axelar",
         "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/HRP\/bandChain",
         "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/HRP\/binance",
         "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/HRP\/bitcoin",
@@ -110,25 +113,43 @@
         "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/HRP\/bitcoinGold",
         "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/HRP\/bluzelle",
         "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/HRP\/cardano",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/HRP\/comdex",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/HRP\/coreum",
         "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/HRP\/cosmos",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/HRP\/crescent",
         "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/HRP\/cryptoOrg",
         "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/HRP\/digiByte",
         "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/HRP\/ecash",
-        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/HRP\/elrond",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/HRP\/fetchAI",
         "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/HRP\/groestlcoin",
         "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/HRP\/harmony",
         "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/HRP\/ioTeX",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/HRP\/juno",
         "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/HRP\/kava",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/HRP\/kujira",
         "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/HRP\/litecoin",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/HRP\/mars",
         "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/HRP\/monacoin",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/HRP\/multiversX",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/HRP\/nativeCanto",
         "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/HRP\/nativeEvmos",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/HRP\/nativeInjective",
         "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/HRP\/nervos",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/HRP\/neutron",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/HRP\/noble",
         "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/HRP\/oasis",
         "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/HRP\/osmosis",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/HRP\/persistence",
         "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/HRP\/qtum",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/HRP\/quasar",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/HRP\/secret",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/HRP\/sommelier",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/HRP\/stargaze",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/HRP\/stride",
         "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/HRP\/terra",
         "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/HRP\/terraV2",
         "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/HRP\/thorchain",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/HRP\/umee",
         "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/HRP\/unknown",
         "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/HRP\/viacoin",
         "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/HRP\/zilliqa"
@@ -251,6 +272,81 @@
   "title" : "RawRepresentable Implementations",
   "type" : "topic",
   "url" : "\/documentation\/walletcore\/hrp\/rawrepresentable-implementations"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/HRP/agoric": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "agoric"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/HRP\/agoric",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "HRP.agoric",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/hrp\/agoric"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/HRP/akash": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "akash"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/HRP\/akash",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "HRP.akash",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/hrp\/akash"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/HRP/axelar": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "axelar"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/HRP\/axelar",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "HRP.axelar",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/hrp\/axelar"
 },
 "doc://com.trustwallet.WalletCore/documentation/WalletCore/HRP/bandChain": {
   "abstract" : [
@@ -427,6 +523,56 @@
   "type" : "topic",
   "url" : "\/documentation\/walletcore\/hrp\/cardano"
 },
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/HRP/comdex": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "comdex"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/HRP\/comdex",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "HRP.comdex",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/hrp\/comdex"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/HRP/coreum": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "coreum"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/HRP\/coreum",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "HRP.coreum",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/hrp\/coreum"
+},
 "doc://com.trustwallet.WalletCore/documentation/WalletCore/HRP/cosmos": {
   "abstract" : [
 
@@ -451,6 +597,31 @@
   "title" : "HRP.cosmos",
   "type" : "topic",
   "url" : "\/documentation\/walletcore\/hrp\/cosmos"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/HRP/crescent": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "crescent"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/HRP\/crescent",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "HRP.crescent",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/hrp\/crescent"
 },
 "doc://com.trustwallet.WalletCore/documentation/WalletCore/HRP/cryptoOrg": {
   "abstract" : [
@@ -561,7 +732,7 @@
   "type" : "topic",
   "url" : "\/documentation\/walletcore\/hrp\/ecash"
 },
-"doc://com.trustwallet.WalletCore/documentation/WalletCore/HRP/elrond": {
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/HRP/fetchAI": {
   "abstract" : [
 
   ],
@@ -576,15 +747,15 @@
     },
     {
       "kind" : "identifier",
-      "text" : "elrond"
+      "text" : "fetchAI"
     }
   ],
-  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/HRP\/elrond",
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/HRP\/fetchAI",
   "kind" : "symbol",
   "role" : "symbol",
-  "title" : "HRP.elrond",
+  "title" : "HRP.fetchAI",
   "type" : "topic",
-  "url" : "\/documentation\/walletcore\/hrp\/elrond"
+  "url" : "\/documentation\/walletcore\/hrp\/fetchai"
 },
 "doc://com.trustwallet.WalletCore/documentation/WalletCore/HRP/groestlcoin": {
   "abstract" : [
@@ -699,6 +870,31 @@
   "type" : "topic",
   "url" : "\/documentation\/walletcore\/hrp\/iotex"
 },
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/HRP/juno": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "juno"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/HRP\/juno",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "HRP.juno",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/hrp\/juno"
+},
 "doc://com.trustwallet.WalletCore/documentation/WalletCore/HRP/kava": {
   "abstract" : [
 
@@ -723,6 +919,31 @@
   "title" : "HRP.kava",
   "type" : "topic",
   "url" : "\/documentation\/walletcore\/hrp\/kava"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/HRP/kujira": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "kujira"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/HRP\/kujira",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "HRP.kujira",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/hrp\/kujira"
 },
 "doc://com.trustwallet.WalletCore/documentation/WalletCore/HRP/litecoin": {
   "abstract" : [
@@ -749,6 +970,31 @@
   "type" : "topic",
   "url" : "\/documentation\/walletcore\/hrp\/litecoin"
 },
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/HRP/mars": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "mars"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/HRP\/mars",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "HRP.mars",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/hrp\/mars"
+},
 "doc://com.trustwallet.WalletCore/documentation/WalletCore/HRP/monacoin": {
   "abstract" : [
 
@@ -773,6 +1019,56 @@
   "title" : "HRP.monacoin",
   "type" : "topic",
   "url" : "\/documentation\/walletcore\/hrp\/monacoin"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/HRP/multiversX": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "multiversX"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/HRP\/multiversX",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "HRP.multiversX",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/hrp\/multiversx"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/HRP/nativeCanto": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "nativeCanto"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/HRP\/nativeCanto",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "HRP.nativeCanto",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/hrp\/nativecanto"
 },
 "doc://com.trustwallet.WalletCore/documentation/WalletCore/HRP/nativeEvmos": {
   "abstract" : [
@@ -799,6 +1095,31 @@
   "type" : "topic",
   "url" : "\/documentation\/walletcore\/hrp\/nativeevmos"
 },
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/HRP/nativeInjective": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "nativeInjective"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/HRP\/nativeInjective",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "HRP.nativeInjective",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/hrp\/nativeinjective"
+},
 "doc://com.trustwallet.WalletCore/documentation/WalletCore/HRP/nervos": {
   "abstract" : [
 
@@ -823,6 +1144,56 @@
   "title" : "HRP.nervos",
   "type" : "topic",
   "url" : "\/documentation\/walletcore\/hrp\/nervos"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/HRP/neutron": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "neutron"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/HRP\/neutron",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "HRP.neutron",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/hrp\/neutron"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/HRP/noble": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "noble"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/HRP\/noble",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "HRP.noble",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/hrp\/noble"
 },
 "doc://com.trustwallet.WalletCore/documentation/WalletCore/HRP/oasis": {
   "abstract" : [
@@ -874,6 +1245,31 @@
   "type" : "topic",
   "url" : "\/documentation\/walletcore\/hrp\/osmosis"
 },
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/HRP/persistence": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "persistence"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/HRP\/persistence",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "HRP.persistence",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/hrp\/persistence"
+},
 "doc://com.trustwallet.WalletCore/documentation/WalletCore/HRP/qtum": {
   "abstract" : [
 
@@ -898,6 +1294,131 @@
   "title" : "HRP.qtum",
   "type" : "topic",
   "url" : "\/documentation\/walletcore\/hrp\/qtum"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/HRP/quasar": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "quasar"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/HRP\/quasar",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "HRP.quasar",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/hrp\/quasar"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/HRP/secret": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "secret"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/HRP\/secret",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "HRP.secret",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/hrp\/secret"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/HRP/sommelier": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "sommelier"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/HRP\/sommelier",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "HRP.sommelier",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/hrp\/sommelier"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/HRP/stargaze": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "stargaze"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/HRP\/stargaze",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "HRP.stargaze",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/hrp\/stargaze"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/HRP/stride": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "stride"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/HRP\/stride",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "HRP.stride",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/hrp\/stride"
 },
 "doc://com.trustwallet.WalletCore/documentation/WalletCore/HRP/terra": {
   "abstract" : [
@@ -973,6 +1494,31 @@
   "title" : "HRP.thorchain",
   "type" : "topic",
   "url" : "\/documentation\/walletcore\/hrp\/thorchain"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/HRP/umee": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "umee"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/HRP\/umee",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "HRP.umee",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/hrp\/umee"
 },
 "doc://com.trustwallet.WalletCore/documentation/WalletCore/HRP/unknown": {
   "abstract" : [

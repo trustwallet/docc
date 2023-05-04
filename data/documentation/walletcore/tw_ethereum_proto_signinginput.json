@@ -120,6 +120,7 @@
         "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Ethereum_Proto_SigningInput\/gasLimit",
         "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Ethereum_Proto_SigningInput\/gasPrice",
         "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Ethereum_Proto_SigningInput\/hasTransaction",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Ethereum_Proto_SigningInput\/hasUserOperation",
         "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Ethereum_Proto_SigningInput\/maxFeePerGas",
         "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Ethereum_Proto_SigningInput\/maxInclusionFeePerGas",
         "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Ethereum_Proto_SigningInput\/nonce",
@@ -127,13 +128,15 @@
         "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Ethereum_Proto_SigningInput\/toAddress",
         "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Ethereum_Proto_SigningInput\/transaction",
         "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Ethereum_Proto_SigningInput\/txMode",
-        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Ethereum_Proto_SigningInput\/unknownFields"
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Ethereum_Proto_SigningInput\/unknownFields",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Ethereum_Proto_SigningInput\/userOperation"
       ],
       "title" : "Instance Properties"
     },
     {
       "identifiers" : [
-        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Ethereum_Proto_SigningInput\/clearTransaction()"
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Ethereum_Proto_SigningInput\/clearTransaction()",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Ethereum_Proto_SigningInput\/clearUserOperation()"
       ],
       "title" : "Instance Methods"
     },
@@ -327,6 +330,46 @@
   "type" : "topic",
   "url" : "\/documentation\/walletcore\/tw_ethereum_proto_signinginput\/cleartransaction()"
 },
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Ethereum_Proto_SigningInput/clearUserOperation()": {
+  "abstract" : [
+    {
+      "text" : "Clears the value of ",
+      "type" : "text"
+    },
+    {
+      "code" : "userOperation",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : ". Subsequent reads from it will return its default value.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "clearUserOperation"
+    },
+    {
+      "kind" : "text",
+      "text" : "()"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Ethereum_Proto_SigningInput\/clearUserOperation()",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "clearUserOperation()",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_ethereum_proto_signinginput\/clearuseroperation()"
+},
 "doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Ethereum_Proto_SigningInput/gasLimit": {
   "abstract" : [
     {
@@ -453,6 +496,51 @@
   "title" : "hasTransaction",
   "type" : "topic",
   "url" : "\/documentation\/walletcore\/tw_ethereum_proto_signinginput\/hastransaction"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Ethereum_Proto_SigningInput/hasUserOperation": {
+  "abstract" : [
+    {
+      "text" : "Returns true if ",
+      "type" : "text"
+    },
+    {
+      "code" : "userOperation",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : " has been explicitly set.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "hasUserOperation"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Sb",
+      "text" : "Bool"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Ethereum_Proto_SigningInput\/hasUserOperation",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "hasUserOperation",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_ethereum_proto_signinginput\/hasuseroperation"
 },
 "doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Ethereum_Proto_SigningInput/init()": {
   "abstract" : [
@@ -791,6 +879,43 @@
   "title" : "unknownFields",
   "type" : "topic",
   "url" : "\/documentation\/walletcore\/tw_ethereum_proto_signinginput\/unknownfields"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Ethereum_Proto_SigningInput/userOperation": {
+  "abstract" : [
+    {
+      "text" : "UserOperation for ERC-4337 wallets",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "userOperation"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10WalletCore31TW_Ethereum_Proto_UserOperationV",
+      "text" : "TW_Ethereum_Proto_UserOperation"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Ethereum_Proto_SigningInput\/userOperation",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "userOperation",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_ethereum_proto_signinginput\/useroperation"
 },
 "doc://com.trustwallet.WalletCore/s28CustomDebugStringConvertibleP": {
   "identifier" : "doc:\/\/com.trustwallet.WalletCore\/s28CustomDebugStringConvertibleP",

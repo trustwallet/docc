@@ -1,0 +1,525 @@
+{
+  "abstract" : [
+    {
+      "text" : "ESDTNFT transfer (transfer NFTs, SFTs and Meta ESDTs).",
+      "type" : "text"
+    }
+  ],
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_MultiversX_Proto_ESDTNFTTransfer"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "s:10WalletCore35TW_MultiversX_Proto_ESDTNFTTransferV",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "struct"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "TW_MultiversX_Proto_ESDTNFTTransfer"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "WalletCore"
+      }
+    ],
+    "navigatorTitle" : [
+      {
+        "kind" : "identifier",
+        "text" : "TW_MultiversX_Proto_ESDTNFTTransfer"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Structure",
+    "symbolKind" : "struct",
+    "title" : "TW_MultiversX_Proto_ESDTNFTTransfer"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "iOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "struct"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "TW_MultiversX_Proto_ESDTNFTTransfer"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "relationshipsSections" : [
+    {
+      "identifiers" : [
+        "doc:\/\/com.trustwallet.WalletCore\/s28CustomDebugStringConvertibleP",
+        "doc:\/\/com.trustwallet.WalletCore\/SQ",
+        "doc:\/\/com.trustwallet.WalletCore\/SH",
+        "doc:\/\/com.trustwallet.WalletCore\/13SwiftProtobuf7MessageP"
+      ],
+      "kind" : "relationships",
+      "title" : "Conforms To",
+      "type" : "conformsTo"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "topicSections" : [
+    {
+      "identifiers" : [
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_MultiversX_Proto_ESDTNFTTransfer\/init()"
+      ],
+      "title" : "Initializers"
+    },
+    {
+      "identifiers" : [
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_MultiversX_Proto_ESDTNFTTransfer\/accounts",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_MultiversX_Proto_ESDTNFTTransfer\/amount",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_MultiversX_Proto_ESDTNFTTransfer\/hasAccounts",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_MultiversX_Proto_ESDTNFTTransfer\/tokenCollection",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_MultiversX_Proto_ESDTNFTTransfer\/tokenNonce",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_MultiversX_Proto_ESDTNFTTransfer\/unknownFields"
+      ],
+      "title" : "Instance Properties"
+    },
+    {
+      "identifiers" : [
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_MultiversX_Proto_ESDTNFTTransfer\/clearAccounts()"
+      ],
+      "title" : "Instance Methods"
+    },
+    {
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_MultiversX_Proto_ESDTNFTTransfer\/Equatable-Implementations",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_MultiversX_Proto_ESDTNFTTransfer\/Message-Implementations"
+      ],
+      "title" : "Default Implementations"
+    }
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/walletcore\/tw_multiversx_proto_esdtnfttransfer"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://com.trustwallet.WalletCore/13SwiftProtobuf7MessageP": {
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/13SwiftProtobuf7MessageP",
+  "title" : "SwiftProtobuf.Message",
+  "type" : "unresolvable"
+},
+"doc://com.trustwallet.WalletCore/SH": {
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/SH",
+  "title" : "Swift.Hashable",
+  "type" : "unresolvable"
+},
+"doc://com.trustwallet.WalletCore/SQ": {
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/SQ",
+  "title" : "Swift.Equatable",
+  "type" : "unresolvable"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "WalletCore",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_MultiversX_Proto_ESDTNFTTransfer": {
+  "abstract" : [
+    {
+      "text" : "ESDTNFT transfer (transfer NFTs, SFTs and Meta ESDTs).",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "TW_MultiversX_Proto_ESDTNFTTransfer"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_MultiversX_Proto_ESDTNFTTransfer",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "TW_MultiversX_Proto_ESDTNFTTransfer"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "TW_MultiversX_Proto_ESDTNFTTransfer",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_multiversx_proto_esdtnfttransfer"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_MultiversX_Proto_ESDTNFTTransfer/Equatable-Implementations": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_MultiversX_Proto_ESDTNFTTransfer\/Equatable-Implementations",
+  "kind" : "article",
+  "role" : "collectionGroup",
+  "title" : "Equatable Implementations",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_multiversx_proto_esdtnfttransfer\/equatable-implementations"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_MultiversX_Proto_ESDTNFTTransfer/Message-Implementations": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_MultiversX_Proto_ESDTNFTTransfer\/Message-Implementations",
+  "kind" : "article",
+  "role" : "collectionGroup",
+  "title" : "Message Implementations",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_multiversx_proto_esdtnfttransfer\/message-implementations"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_MultiversX_Proto_ESDTNFTTransfer/accounts": {
+  "abstract" : [
+    {
+      "text" : "Accounts involved",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "accounts"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10WalletCore28TW_MultiversX_Proto_AccountsV",
+      "text" : "TW_MultiversX_Proto_Accounts"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_MultiversX_Proto_ESDTNFTTransfer\/accounts",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "accounts",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_multiversx_proto_esdtnfttransfer\/accounts"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_MultiversX_Proto_ESDTNFTTransfer/amount": {
+  "abstract" : [
+    {
+      "text" : "transfer amount",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "amount"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_MultiversX_Proto_ESDTNFTTransfer\/amount",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "amount",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_multiversx_proto_esdtnfttransfer\/amount"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_MultiversX_Proto_ESDTNFTTransfer/clearAccounts()": {
+  "abstract" : [
+    {
+      "text" : "Clears the value of ",
+      "type" : "text"
+    },
+    {
+      "code" : "accounts",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : ". Subsequent reads from it will return its default value.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "clearAccounts"
+    },
+    {
+      "kind" : "text",
+      "text" : "()"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_MultiversX_Proto_ESDTNFTTransfer\/clearAccounts()",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "clearAccounts()",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_multiversx_proto_esdtnfttransfer\/clearaccounts()"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_MultiversX_Proto_ESDTNFTTransfer/hasAccounts": {
+  "abstract" : [
+    {
+      "text" : "Returns true if ",
+      "type" : "text"
+    },
+    {
+      "code" : "accounts",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : " has been explicitly set.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "hasAccounts"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Sb",
+      "text" : "Bool"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_MultiversX_Proto_ESDTNFTTransfer\/hasAccounts",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "hasAccounts",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_multiversx_proto_esdtnfttransfer\/hasaccounts"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_MultiversX_Proto_ESDTNFTTransfer/init()": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "init"
+    },
+    {
+      "kind" : "text",
+      "text" : "()"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_MultiversX_Proto_ESDTNFTTransfer\/init()",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "init()",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_multiversx_proto_esdtnfttransfer\/init()"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_MultiversX_Proto_ESDTNFTTransfer/tokenCollection": {
+  "abstract" : [
+    {
+      "text" : "tokens",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "tokenCollection"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_MultiversX_Proto_ESDTNFTTransfer\/tokenCollection",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "tokenCollection",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_multiversx_proto_esdtnfttransfer\/tokencollection"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_MultiversX_Proto_ESDTNFTTransfer/tokenNonce": {
+  "abstract" : [
+    {
+      "text" : "nonce of the token",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "tokenNonce"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:s6UInt64V",
+      "text" : "UInt64"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_MultiversX_Proto_ESDTNFTTransfer\/tokenNonce",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "tokenNonce",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_multiversx_proto_esdtnfttransfer\/tokennonce"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_MultiversX_Proto_ESDTNFTTransfer/unknownFields": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "unknownFields"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:13SwiftProtobuf14UnknownStorageV",
+      "text" : "UnknownStorage"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_MultiversX_Proto_ESDTNFTTransfer\/unknownFields",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "unknownFields",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_multiversx_proto_esdtnfttransfer\/unknownfields"
+},
+"doc://com.trustwallet.WalletCore/s28CustomDebugStringConvertibleP": {
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/s28CustomDebugStringConvertibleP",
+  "title" : "Swift.CustomDebugStringConvertible",
+  "type" : "unresolvable"
+}
+}
+}

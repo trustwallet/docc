@@ -110,21 +110,26 @@
       "identifiers" : [
         "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Tron_Proto_Transaction\/blockHeader",
         "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Tron_Proto_Transaction\/contractOneof",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Tron_Proto_Transaction\/delegateResource",
         "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Tron_Proto_Transaction\/expiration",
         "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Tron_Proto_Transaction\/feeLimit",
         "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Tron_Proto_Transaction\/freezeBalance",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Tron_Proto_Transaction\/freezeBalanceV2",
         "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Tron_Proto_Transaction\/hasBlockHeader",
         "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Tron_Proto_Transaction\/timestamp",
         "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Tron_Proto_Transaction\/transfer",
         "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Tron_Proto_Transaction\/transferAsset",
         "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Tron_Proto_Transaction\/transferTrc20Contract",
         "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Tron_Proto_Transaction\/triggerSmartContract",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Tron_Proto_Transaction\/undelegateResource",
         "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Tron_Proto_Transaction\/unfreezeAsset",
         "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Tron_Proto_Transaction\/unfreezeBalance",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Tron_Proto_Transaction\/unfreezeBalanceV2",
         "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Tron_Proto_Transaction\/unknownFields",
         "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Tron_Proto_Transaction\/voteAsset",
         "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Tron_Proto_Transaction\/voteWitness",
-        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Tron_Proto_Transaction\/withdrawBalance"
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Tron_Proto_Transaction\/withdrawBalance",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Tron_Proto_Transaction\/withdrawExpireUnfreeze"
       ],
       "title" : "Instance Properties"
     },
@@ -406,6 +411,40 @@
   "type" : "topic",
   "url" : "\/documentation\/walletcore\/tw_tron_proto_transaction\/contractoneof"
 },
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Tron_Proto_Transaction/delegateResource": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "delegateResource"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10WalletCore38TW_Tron_Proto_DelegateResourceContractV",
+      "text" : "TW_Tron_Proto_DelegateResourceContract"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Tron_Proto_Transaction\/delegateResource",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "delegateResource",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_tron_proto_transaction\/delegateresource"
+},
 "doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Tron_Proto_Transaction/expiration": {
   "abstract" : [
     {
@@ -513,6 +552,40 @@
   "title" : "freezeBalance",
   "type" : "topic",
   "url" : "\/documentation\/walletcore\/tw_tron_proto_transaction\/freezebalance"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Tron_Proto_Transaction/freezeBalanceV2": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "freezeBalanceV2"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10WalletCore37TW_Tron_Proto_FreezeBalanceV2ContractV",
+      "text" : "TW_Tron_Proto_FreezeBalanceV2Contract"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Tron_Proto_Transaction\/freezeBalanceV2",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "freezeBalanceV2",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_tron_proto_transaction\/freezebalancev2"
 },
 "doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Tron_Proto_Transaction/hasBlockHeader": {
   "abstract" : [
@@ -753,6 +826,40 @@
   "type" : "topic",
   "url" : "\/documentation\/walletcore\/tw_tron_proto_transaction\/triggersmartcontract"
 },
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Tron_Proto_Transaction/undelegateResource": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "undelegateResource"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10WalletCore40TW_Tron_Proto_UnDelegateResourceContractV",
+      "text" : "TW_Tron_Proto_UnDelegateResourceContract"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Tron_Proto_Transaction\/undelegateResource",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "undelegateResource",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_tron_proto_transaction\/undelegateresource"
+},
 "doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Tron_Proto_Transaction/unfreezeAsset": {
   "abstract" : [
 
@@ -820,6 +927,40 @@
   "title" : "unfreezeBalance",
   "type" : "topic",
   "url" : "\/documentation\/walletcore\/tw_tron_proto_transaction\/unfreezebalance"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Tron_Proto_Transaction/unfreezeBalanceV2": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "unfreezeBalanceV2"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10WalletCore39TW_Tron_Proto_UnfreezeBalanceV2ContractV",
+      "text" : "TW_Tron_Proto_UnfreezeBalanceV2Contract"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Tron_Proto_Transaction\/unfreezeBalanceV2",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "unfreezeBalanceV2",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_tron_proto_transaction\/unfreezebalancev2"
 },
 "doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Tron_Proto_Transaction/unknownFields": {
   "abstract" : [
@@ -956,6 +1097,40 @@
   "title" : "withdrawBalance",
   "type" : "topic",
   "url" : "\/documentation\/walletcore\/tw_tron_proto_transaction\/withdrawbalance"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Tron_Proto_Transaction/withdrawExpireUnfreeze": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "withdrawExpireUnfreeze"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10WalletCore44TW_Tron_Proto_WithdrawExpireUnfreezeContractV",
+      "text" : "TW_Tron_Proto_WithdrawExpireUnfreezeContract"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Tron_Proto_Transaction\/withdrawExpireUnfreeze",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "withdrawExpireUnfreeze",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_tron_proto_transaction\/withdrawexpireunfreeze"
 },
 "doc://com.trustwallet.WalletCore/s28CustomDebugStringConvertibleP": {
   "identifier" : "doc:\/\/com.trustwallet.WalletCore\/s28CustomDebugStringConvertibleP",

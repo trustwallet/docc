@@ -90,7 +90,8 @@
     {
       "identifiers" : [
         "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/Cardano\/getStakingAddress(baseAddress:)",
-        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/Cardano\/minAdaAmount(tokenBundle:)"
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/Cardano\/minAdaAmount(tokenBundle:)",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/Cardano\/outputMinAdaAmount(toAddress:tokenBundle:coinsPerUtxoByte:)"
       ],
       "title" : "Type Methods"
     }
@@ -285,6 +286,102 @@
   "title" : "minAdaAmount(tokenBundle:)",
   "type" : "topic",
   "url" : "\/documentation\/walletcore\/cardano\/minadaamount(tokenbundle:)"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/Cardano/outputMinAdaAmount(toAddress:tokenBundle:coinsPerUtxoByte:)": {
+  "abstract" : [
+    {
+      "text" : "Calculates the minimum ADA amount needed for an output.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "static"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "outputMinAdaAmount"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "toAddress"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "tokenBundle"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10Foundation4DataV",
+      "text" : "Data"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "coinsPerUtxoByte"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:s6UInt64V",
+      "text" : "UInt64"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:s6UInt64V",
+      "text" : "UInt64"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/Cardano\/outputMinAdaAmount(toAddress:tokenBundle:coinsPerUtxoByte:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "outputMinAdaAmount(toAddress:tokenBundle:coinsPerUtxoByte:)",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/cardano\/outputminadaamount(toaddress:tokenbundle:coinsperutxobyte:)"
 }
 }
 }

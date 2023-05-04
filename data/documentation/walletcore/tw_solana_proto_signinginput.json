@@ -119,6 +119,7 @@
         "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Solana_Proto_SigningInput\/transactionType",
         "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Solana_Proto_SigningInput\/transferTransaction",
         "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Solana_Proto_SigningInput\/unknownFields",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Solana_Proto_SigningInput\/v0Msg",
         "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Solana_Proto_SigningInput\/withdrawAllTransaction",
         "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Solana_Proto_SigningInput\/withdrawTransaction"
       ],
@@ -685,6 +686,40 @@
   "title" : "unknownFields",
   "type" : "topic",
   "url" : "\/documentation\/walletcore\/tw_solana_proto_signinginput\/unknownfields"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Solana_Proto_SigningInput/v0Msg": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "v0Msg"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Sb",
+      "text" : "Bool"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Solana_Proto_SigningInput\/v0Msg",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "v0Msg",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_solana_proto_signinginput\/v0msg"
 },
 "doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Solana_Proto_SigningInput/withdrawAllTransaction": {
   "abstract" : [

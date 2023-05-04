@@ -1,0 +1,847 @@
+{
+  "abstract" : [
+    {
+      "text" : "Imports a private key.",
+      "type" : "text"
+    }
+  ],
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TWStoredKeyImportPrivateKeyWithEncryption(_:_:_:_:_:)"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "c:@F@TWStoredKeyImportPrivateKeyWithEncryption",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "func"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "TWStoredKeyImportPrivateKeyWithEncryption"
+      },
+      {
+        "kind" : "text",
+        "text" : "("
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:SV",
+        "text" : "UnsafeRawPointer"
+      },
+      {
+        "kind" : "text",
+        "text" : ", "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:SV",
+        "text" : "UnsafeRawPointer"
+      },
+      {
+        "kind" : "text",
+        "text" : ", "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:SV",
+        "text" : "UnsafeRawPointer"
+      },
+      {
+        "kind" : "text",
+        "text" : ", "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "c:@E@TWCoinType",
+        "text" : "TWCoinType"
+      },
+      {
+        "kind" : "text",
+        "text" : ", "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "c:@E@TWStoredKeyEncryption",
+        "text" : "TWStoredKeyEncryption"
+      },
+      {
+        "kind" : "text",
+        "text" : ") -> "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:s13OpaquePointerV",
+        "text" : "OpaquePointer"
+      },
+      {
+        "kind" : "text",
+        "text" : "?"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "WalletCore"
+      }
+    ],
+    "navigatorTitle" : [
+      {
+        "kind" : "identifier",
+        "text" : "TWStoredKeyImportPrivateKeyWithEncryption"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Function",
+    "symbolKind" : "func",
+    "title" : "TWStoredKeyImportPrivateKeyWithEncryption(_:_:_:_:_:)"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "iOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "func"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "TWStoredKeyImportPrivateKeyWithEncryption"
+            },
+            {
+              "kind" : "text",
+              "text" : "("
+            },
+            {
+              "kind" : "externalParam",
+              "text" : "_"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "internalParam",
+              "text" : "privateKey"
+            },
+            {
+              "kind" : "text",
+              "text" : ": "
+            },
+            {
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:SV",
+              "text" : "UnsafeRawPointer"
+            },
+            {
+              "kind" : "text",
+              "text" : ", "
+            },
+            {
+              "kind" : "externalParam",
+              "text" : "_"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "internalParam",
+              "text" : "name"
+            },
+            {
+              "kind" : "text",
+              "text" : ": "
+            },
+            {
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:SV",
+              "text" : "UnsafeRawPointer"
+            },
+            {
+              "kind" : "text",
+              "text" : ", "
+            },
+            {
+              "kind" : "externalParam",
+              "text" : "_"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "internalParam",
+              "text" : "password"
+            },
+            {
+              "kind" : "text",
+              "text" : ": "
+            },
+            {
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:SV",
+              "text" : "UnsafeRawPointer"
+            },
+            {
+              "kind" : "text",
+              "text" : ", "
+            },
+            {
+              "kind" : "externalParam",
+              "text" : "_"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "internalParam",
+              "text" : "coin"
+            },
+            {
+              "kind" : "text",
+              "text" : ": "
+            },
+            {
+              "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TWCoinType",
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "c:@E@TWCoinType",
+              "text" : "TWCoinType"
+            },
+            {
+              "kind" : "text",
+              "text" : ", "
+            },
+            {
+              "kind" : "externalParam",
+              "text" : "_"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "internalParam",
+              "text" : "encryption"
+            },
+            {
+              "kind" : "text",
+              "text" : ": "
+            },
+            {
+              "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TWStoredKeyEncryption",
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "c:@E@TWStoredKeyEncryption",
+              "text" : "TWStoredKeyEncryption"
+            },
+            {
+              "kind" : "text",
+              "text" : ") -> "
+            },
+            {
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:s13OpaquePointerV",
+              "text" : "OpaquePointer"
+            },
+            {
+              "kind" : "text",
+              "text" : "?"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    },
+    {
+      "content" : [
+        {
+          "anchor" : "discussion",
+          "level" : 2,
+          "text" : "Discussion",
+          "type" : "heading"
+        },
+        {
+          "inlineContent" : [
+            {
+              "text" : "\\param privateKey Non-null Block of data private key",
+              "type" : "text"
+            },
+            {
+              "text" : " ",
+              "type" : "text"
+            },
+            {
+              "text" : "\\param name The name of the stored key to import as a non-null string",
+              "type" : "text"
+            },
+            {
+              "text" : " ",
+              "type" : "text"
+            },
+            {
+              "text" : "\\param password Non-null block of data, password of the stored key",
+              "type" : "text"
+            },
+            {
+              "text" : " ",
+              "type" : "text"
+            },
+            {
+              "text" : "\\param coin the coin type",
+              "type" : "text"
+            },
+            {
+              "text" : " ",
+              "type" : "text"
+            },
+            {
+              "text" : "\\param encryption cipher encryption mode",
+              "type" : "text"
+            },
+            {
+              "text" : " ",
+              "type" : "text"
+            },
+            {
+              "text" : "\\note Returned object needs to be deleted with \\TWStoredKeyDelete",
+              "type" : "text"
+            },
+            {
+              "text" : " ",
+              "type" : "text"
+            },
+            {
+              "text" : "\\return Nullptr if the key can’t be imported, the stored key otherwise",
+              "type" : "text"
+            }
+          ],
+          "type" : "paragraph"
+        }
+      ],
+      "kind" : "content"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/walletcore\/twstoredkeyimportprivatekeywithencryption(_:_:_:_:_:)"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    },
+    {
+      "paths" : [
+        "\/documentation\/walletcore\/twstoredkeyimportprivatekeywithencryption(_:_:_:_:_:)"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "occ"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://com.trustwallet.WalletCore/documentation/WalletCore": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "WalletCore",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TWCoinType": {
+  "abstract" : [
+    {
+      "text" : "Coin type for Level 2 of BIP44.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "TWCoinType"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TWCoinType",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "TWCoinType"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "TWCoinType",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/twcointype"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TWData": {
+  "abstract" : [
+    {
+      "text" : "Defines a resizable block of data.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "TWData"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TWData",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "TWData",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/twdata"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TWStoredKeyEncryption": {
+  "abstract" : [
+    {
+      "text" : "Preset encryption kind",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "TWStoredKeyEncryption"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TWStoredKeyEncryption",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "TWStoredKeyEncryption"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "TWStoredKeyEncryption",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/twstoredkeyencryption"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TWStoredKeyImportPrivateKeyWithEncryption(_:_:_:_:_:)": {
+  "abstract" : [
+    {
+      "text" : "Imports a private key.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "TWStoredKeyImportPrivateKeyWithEncryption"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SV",
+      "text" : "UnsafeRawPointer"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SV",
+      "text" : "UnsafeRawPointer"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SV",
+      "text" : "UnsafeRawPointer"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "c:@E@TWCoinType",
+      "text" : "TWCoinType"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "c:@E@TWStoredKeyEncryption",
+      "text" : "TWStoredKeyEncryption"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:s13OpaquePointerV",
+      "text" : "OpaquePointer"
+    },
+    {
+      "kind" : "text",
+      "text" : "?"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TWStoredKeyImportPrivateKeyWithEncryption(_:_:_:_:_:)",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "TWStoredKeyImportPrivateKeyWithEncryption"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "TWStoredKeyImportPrivateKeyWithEncryption(_:_:_:_:_:)",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/twstoredkeyimportprivatekeywithencryption(_:_:_:_:_:)"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TWString": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "TWString"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TWString",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "TWString",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/twstring"
+}
+}, 
+"variantOverrides":[
+  {
+    "patch" : [
+      {
+        "op" : "replace",
+        "path" : "\/identifier\/interfaceLanguage",
+        "value" : "occ"
+      },
+      {
+        "op" : "replace",
+        "path" : "\/metadata\/roleHeading",
+        "value" : "Function"
+      },
+      {
+        "op" : "replace",
+        "path" : "\/metadata\/title",
+        "value" : "TWStoredKeyImportPrivateKeyWithEncryption"
+      },
+      {
+        "op" : "replace",
+        "path" : "\/metadata\/symbolKind",
+        "value" : "func"
+      },
+      {
+        "op" : "replace",
+        "path" : "\/metadata\/fragments",
+        "value" : [
+          {
+            "kind" : "identifier",
+            "text" : "TWStoredKeyImportPrivateKeyWithEncryption"
+          }
+        ]
+      },
+      {
+        "op" : "add",
+        "path" : "\/topicSections",
+        "value" : null
+      },
+      {
+        "op" : "add",
+        "path" : "\/relationshipsSections",
+        "value" : null
+      },
+      {
+        "op" : "add",
+        "path" : "\/seeAlsoSections",
+        "value" : null
+      },
+      {
+        "op" : "replace",
+        "path" : "\/primaryContentSections\/0",
+        "value" : {
+          "declarations" : [
+            {
+              "languages" : [
+                "occ"
+              ],
+              "platforms" : [
+                "iOS"
+              ],
+              "tokens" : [
+                {
+                  "kind" : "keyword",
+                  "text" : "extern"
+                },
+                {
+                  "kind" : "text",
+                  "text" : " "
+                },
+                {
+                  "kind" : "keyword",
+                  "text" : "struct"
+                },
+                {
+                  "kind" : "text",
+                  "text" : " "
+                },
+                {
+                  "kind" : "typeIdentifier",
+                  "preciseIdentifier" : "c:@S@TWStoredKey",
+                  "text" : "TWStoredKey"
+                },
+                {
+                  "kind" : "text",
+                  "text" : " * "
+                },
+                {
+                  "kind" : "identifier",
+                  "text" : "TWStoredKeyImportPrivateKeyWithEncryption"
+                },
+                {
+                  "kind" : "text",
+                  "text" : "("
+                },
+                {
+                  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TWData",
+                  "kind" : "typeIdentifier",
+                  "preciseIdentifier" : "c:TWData.h@T@TWData",
+                  "text" : "TWData"
+                },
+                {
+                  "kind" : "text",
+                  "text" : " * "
+                },
+                {
+                  "kind" : "internalParam",
+                  "text" : "privateKey"
+                },
+                {
+                  "kind" : "text",
+                  "text" : ", "
+                },
+                {
+                  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TWString",
+                  "kind" : "typeIdentifier",
+                  "preciseIdentifier" : "c:TWData.h@T@TWString",
+                  "text" : "TWString"
+                },
+                {
+                  "kind" : "text",
+                  "text" : " * "
+                },
+                {
+                  "kind" : "internalParam",
+                  "text" : "name"
+                },
+                {
+                  "kind" : "text",
+                  "text" : ", "
+                },
+                {
+                  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TWData",
+                  "kind" : "typeIdentifier",
+                  "preciseIdentifier" : "c:TWData.h@T@TWData",
+                  "text" : "TWData"
+                },
+                {
+                  "kind" : "text",
+                  "text" : " * "
+                },
+                {
+                  "kind" : "internalParam",
+                  "text" : "password"
+                },
+                {
+                  "kind" : "text",
+                  "text" : ", "
+                },
+                {
+                  "kind" : "keyword",
+                  "text" : "enum"
+                },
+                {
+                  "kind" : "text",
+                  "text" : " "
+                },
+                {
+                  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TWCoinType",
+                  "kind" : "typeIdentifier",
+                  "preciseIdentifier" : "c:@E@TWCoinType",
+                  "text" : "TWCoinType"
+                },
+                {
+                  "kind" : "text",
+                  "text" : " "
+                },
+                {
+                  "kind" : "internalParam",
+                  "text" : "coin"
+                },
+                {
+                  "kind" : "text",
+                  "text" : ", "
+                },
+                {
+                  "kind" : "keyword",
+                  "text" : "enum"
+                },
+                {
+                  "kind" : "text",
+                  "text" : " "
+                },
+                {
+                  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TWStoredKeyEncryption",
+                  "kind" : "typeIdentifier",
+                  "preciseIdentifier" : "c:@E@TWStoredKeyEncryption",
+                  "text" : "TWStoredKeyEncryption"
+                },
+                {
+                  "kind" : "text",
+                  "text" : " "
+                },
+                {
+                  "kind" : "internalParam",
+                  "text" : "encryption"
+                },
+                {
+                  "kind" : "text",
+                  "text" : ")"
+                }
+              ]
+            }
+          ],
+          "kind" : "declarations"
+        }
+      },
+      {
+        "op" : "replace",
+        "path" : "\/references\/doc:~1~1com.trustwallet.WalletCore~1documentation~1WalletCore~1TWCoinType\/title",
+        "value" : "TWCoinType"
+      },
+      {
+        "op" : "replace",
+        "path" : "\/references\/doc:~1~1com.trustwallet.WalletCore~1documentation~1WalletCore~1TWCoinType\/fragments",
+        "value" : [
+          {
+            "kind" : "identifier",
+            "text" : "TWCoinType"
+          }
+        ]
+      },
+      {
+        "op" : "replace",
+        "path" : "\/references\/doc:~1~1com.trustwallet.WalletCore~1documentation~1WalletCore~1TWStoredKeyEncryption\/title",
+        "value" : "TWStoredKeyEncryption"
+      },
+      {
+        "op" : "replace",
+        "path" : "\/references\/doc:~1~1com.trustwallet.WalletCore~1documentation~1WalletCore~1TWStoredKeyEncryption\/fragments",
+        "value" : [
+          {
+            "kind" : "identifier",
+            "text" : "TWStoredKeyEncryption"
+          }
+        ]
+      },
+      {
+        "op" : "replace",
+        "path" : "\/references\/doc:~1~1com.trustwallet.WalletCore~1documentation~1WalletCore~1TWStoredKeyImportPrivateKeyWithEncryption(_:_:_:_:_:)\/title",
+        "value" : "TWStoredKeyImportPrivateKeyWithEncryption"
+      },
+      {
+        "op" : "replace",
+        "path" : "\/references\/doc:~1~1com.trustwallet.WalletCore~1documentation~1WalletCore~1TWStoredKeyImportPrivateKeyWithEncryption(_:_:_:_:_:)\/fragments",
+        "value" : [
+          {
+            "kind" : "identifier",
+            "text" : "TWStoredKeyImportPrivateKeyWithEncryption"
+          }
+        ]
+      }
+    ],
+    "traits" : [
+      {
+        "interfaceLanguage" : "occ"
+      }
+    ]
+  }
+]
+}

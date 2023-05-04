@@ -1,0 +1,509 @@
+{
+  "abstract" : [
+    {
+      "text" : "Transaction sender & receiver etc.",
+      "type" : "text"
+    }
+  ],
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_MultiversX_Proto_Accounts"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "s:10WalletCore28TW_MultiversX_Proto_AccountsV",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "struct"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "TW_MultiversX_Proto_Accounts"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "WalletCore"
+      }
+    ],
+    "navigatorTitle" : [
+      {
+        "kind" : "identifier",
+        "text" : "TW_MultiversX_Proto_Accounts"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Structure",
+    "symbolKind" : "struct",
+    "title" : "TW_MultiversX_Proto_Accounts"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "iOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "struct"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "TW_MultiversX_Proto_Accounts"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "relationshipsSections" : [
+    {
+      "identifiers" : [
+        "doc:\/\/com.trustwallet.WalletCore\/s28CustomDebugStringConvertibleP",
+        "doc:\/\/com.trustwallet.WalletCore\/SQ",
+        "doc:\/\/com.trustwallet.WalletCore\/SH",
+        "doc:\/\/com.trustwallet.WalletCore\/13SwiftProtobuf7MessageP"
+      ],
+      "kind" : "relationships",
+      "title" : "Conforms To",
+      "type" : "conformsTo"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "topicSections" : [
+    {
+      "identifiers" : [
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_MultiversX_Proto_Accounts\/init()"
+      ],
+      "title" : "Initializers"
+    },
+    {
+      "identifiers" : [
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_MultiversX_Proto_Accounts\/guardian",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_MultiversX_Proto_Accounts\/receiver",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_MultiversX_Proto_Accounts\/receiverUsername",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_MultiversX_Proto_Accounts\/sender",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_MultiversX_Proto_Accounts\/senderNonce",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_MultiversX_Proto_Accounts\/senderUsername",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_MultiversX_Proto_Accounts\/unknownFields"
+      ],
+      "title" : "Instance Properties"
+    },
+    {
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_MultiversX_Proto_Accounts\/Equatable-Implementations",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_MultiversX_Proto_Accounts\/Message-Implementations"
+      ],
+      "title" : "Default Implementations"
+    }
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/walletcore\/tw_multiversx_proto_accounts"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://com.trustwallet.WalletCore/13SwiftProtobuf7MessageP": {
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/13SwiftProtobuf7MessageP",
+  "title" : "SwiftProtobuf.Message",
+  "type" : "unresolvable"
+},
+"doc://com.trustwallet.WalletCore/SH": {
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/SH",
+  "title" : "Swift.Hashable",
+  "type" : "unresolvable"
+},
+"doc://com.trustwallet.WalletCore/SQ": {
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/SQ",
+  "title" : "Swift.Equatable",
+  "type" : "unresolvable"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "WalletCore",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_MultiversX_Proto_Accounts": {
+  "abstract" : [
+    {
+      "text" : "Transaction sender & receiver etc.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "TW_MultiversX_Proto_Accounts"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_MultiversX_Proto_Accounts",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "TW_MultiversX_Proto_Accounts"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "TW_MultiversX_Proto_Accounts",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_multiversx_proto_accounts"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_MultiversX_Proto_Accounts/Equatable-Implementations": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_MultiversX_Proto_Accounts\/Equatable-Implementations",
+  "kind" : "article",
+  "role" : "collectionGroup",
+  "title" : "Equatable Implementations",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_multiversx_proto_accounts\/equatable-implementations"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_MultiversX_Proto_Accounts/Message-Implementations": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_MultiversX_Proto_Accounts\/Message-Implementations",
+  "kind" : "article",
+  "role" : "collectionGroup",
+  "title" : "Message Implementations",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_multiversx_proto_accounts\/message-implementations"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_MultiversX_Proto_Accounts/guardian": {
+  "abstract" : [
+    {
+      "text" : "Guardian address",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "guardian"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_MultiversX_Proto_Accounts\/guardian",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "guardian",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_multiversx_proto_accounts\/guardian"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_MultiversX_Proto_Accounts/init()": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "init"
+    },
+    {
+      "kind" : "text",
+      "text" : "()"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_MultiversX_Proto_Accounts\/init()",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "init()",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_multiversx_proto_accounts\/init()"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_MultiversX_Proto_Accounts/receiver": {
+  "abstract" : [
+    {
+      "text" : "Receiver address",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "receiver"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_MultiversX_Proto_Accounts\/receiver",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "receiver",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_multiversx_proto_accounts\/receiver"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_MultiversX_Proto_Accounts/receiverUsername": {
+  "abstract" : [
+    {
+      "text" : "Receiver username",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "receiverUsername"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_MultiversX_Proto_Accounts\/receiverUsername",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "receiverUsername",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_multiversx_proto_accounts\/receiverusername"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_MultiversX_Proto_Accounts/sender": {
+  "abstract" : [
+    {
+      "text" : "Sender address",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "sender"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_MultiversX_Proto_Accounts\/sender",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "sender",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_multiversx_proto_accounts\/sender"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_MultiversX_Proto_Accounts/senderNonce": {
+  "abstract" : [
+    {
+      "text" : "Nonce of the sender",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "senderNonce"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:s6UInt64V",
+      "text" : "UInt64"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_MultiversX_Proto_Accounts\/senderNonce",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "senderNonce",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_multiversx_proto_accounts\/sendernonce"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_MultiversX_Proto_Accounts/senderUsername": {
+  "abstract" : [
+    {
+      "text" : "Sender username",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "senderUsername"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_MultiversX_Proto_Accounts\/senderUsername",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "senderUsername",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_multiversx_proto_accounts\/senderusername"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_MultiversX_Proto_Accounts/unknownFields": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "unknownFields"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:13SwiftProtobuf14UnknownStorageV",
+      "text" : "UnknownStorage"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_MultiversX_Proto_Accounts\/unknownFields",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "unknownFields",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_multiversx_proto_accounts\/unknownfields"
+},
+"doc://com.trustwallet.WalletCore/s28CustomDebugStringConvertibleP": {
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/s28CustomDebugStringConvertibleP",
+  "title" : "Swift.CustomDebugStringConvertible",
+  "type" : "unresolvable"
+}
+}
+}

@@ -1,0 +1,254 @@
+{
+  "abstract" : [
+    {
+      "text" : "Accounts involved",
+      "type" : "text"
+    }
+  ],
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_MultiversX_Proto_ESDTNFTTransfer"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_MultiversX_Proto_ESDTNFTTransfer\/accounts"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "s:10WalletCore35TW_MultiversX_Proto_ESDTNFTTransferV8accountsAA0c1_d2X_E9_AccountsVvp",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "var"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "accounts"
+      },
+      {
+        "kind" : "text",
+        "text" : ": "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:10WalletCore28TW_MultiversX_Proto_AccountsV",
+        "text" : "TW_MultiversX_Proto_Accounts"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "WalletCore"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Instance Property",
+    "symbolKind" : "property",
+    "title" : "accounts"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "iOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "var"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "accounts"
+            },
+            {
+              "kind" : "text",
+              "text" : ": "
+            },
+            {
+              "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_MultiversX_Proto_Accounts",
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:10WalletCore28TW_MultiversX_Proto_AccountsV",
+              "text" : "TW_MultiversX_Proto_Accounts"
+            },
+            {
+              "kind" : "text",
+              "text" : " { "
+            },
+            {
+              "kind" : "keyword",
+              "text" : "get"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "keyword",
+              "text" : "set"
+            },
+            {
+              "kind" : "text",
+              "text" : " }"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/walletcore\/tw_multiversx_proto_esdtnfttransfer\/accounts"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://com.trustwallet.WalletCore/documentation/WalletCore": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "WalletCore",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_MultiversX_Proto_Accounts": {
+  "abstract" : [
+    {
+      "text" : "Transaction sender & receiver etc.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "TW_MultiversX_Proto_Accounts"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_MultiversX_Proto_Accounts",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "TW_MultiversX_Proto_Accounts"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "TW_MultiversX_Proto_Accounts",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_multiversx_proto_accounts"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_MultiversX_Proto_ESDTNFTTransfer": {
+  "abstract" : [
+    {
+      "text" : "ESDTNFT transfer (transfer NFTs, SFTs and Meta ESDTs).",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "TW_MultiversX_Proto_ESDTNFTTransfer"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_MultiversX_Proto_ESDTNFTTransfer",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "TW_MultiversX_Proto_ESDTNFTTransfer"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "TW_MultiversX_Proto_ESDTNFTTransfer",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_multiversx_proto_esdtnfttransfer"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_MultiversX_Proto_ESDTNFTTransfer/accounts": {
+  "abstract" : [
+    {
+      "text" : "Accounts involved",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "accounts"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10WalletCore28TW_MultiversX_Proto_AccountsV",
+      "text" : "TW_MultiversX_Proto_Accounts"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_MultiversX_Proto_ESDTNFTTransfer\/accounts",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "accounts",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_multiversx_proto_esdtnfttransfer\/accounts"
+}
+}
+}

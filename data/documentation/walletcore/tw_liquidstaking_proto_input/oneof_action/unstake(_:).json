@@ -1,0 +1,272 @@
+{
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_LiquidStaking_Proto_Input",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_LiquidStaking_Proto_Input\/OneOf_Action"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_LiquidStaking_Proto_Input\/OneOf_Action\/unstake(_:)"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "s:10WalletCore28TW_LiquidStaking_Proto_InputV12OneOf_ActionO7unstakeyAeA0c1_de1_F8_UnstakeVcAEmF",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "case"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "unstake"
+      },
+      {
+        "kind" : "text",
+        "text" : "("
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:10WalletCore30TW_LiquidStaking_Proto_UnstakeV",
+        "text" : "TW_LiquidStaking_Proto_Unstake"
+      },
+      {
+        "kind" : "text",
+        "text" : ")"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "WalletCore"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Case",
+    "symbolKind" : "case",
+    "title" : "TW_LiquidStaking_Proto_Input.OneOf_Action.unstake(_:)"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "iOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "case"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "unstake"
+            },
+            {
+              "kind" : "text",
+              "text" : "("
+            },
+            {
+              "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_LiquidStaking_Proto_Unstake",
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:10WalletCore30TW_LiquidStaking_Proto_UnstakeV",
+              "text" : "TW_LiquidStaking_Proto_Unstake"
+            },
+            {
+              "kind" : "text",
+              "text" : ")"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/walletcore\/tw_liquidstaking_proto_input\/oneof_action\/unstake(_:)"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://com.trustwallet.WalletCore/documentation/WalletCore": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "WalletCore",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_LiquidStaking_Proto_Input": {
+  "abstract" : [
+    {
+      "text" : "Message to represent the input for a liquid staking operation",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "TW_LiquidStaking_Proto_Input"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_LiquidStaking_Proto_Input",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "TW_LiquidStaking_Proto_Input"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "TW_LiquidStaking_Proto_Input",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_liquidstaking_proto_input"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_LiquidStaking_Proto_Input/OneOf_Action": {
+  "abstract" : [
+    {
+      "text" : "Oneof field to specify the action: stake, unstake or withdraw",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "enum"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "OneOf_Action"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_LiquidStaking_Proto_Input\/OneOf_Action",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "OneOf_Action"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "TW_LiquidStaking_Proto_Input.OneOf_Action",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_liquidstaking_proto_input\/oneof_action"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_LiquidStaking_Proto_Input/OneOf_Action/unstake(_:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "unstake"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10WalletCore30TW_LiquidStaking_Proto_UnstakeV",
+      "text" : "TW_LiquidStaking_Proto_Unstake"
+    },
+    {
+      "kind" : "text",
+      "text" : ")"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_LiquidStaking_Proto_Input\/OneOf_Action\/unstake(_:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "TW_LiquidStaking_Proto_Input.OneOf_Action.unstake(_:)",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_liquidstaking_proto_input\/oneof_action\/unstake(_:)"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_LiquidStaking_Proto_Unstake": {
+  "abstract" : [
+    {
+      "text" : "Message to represent an unstake operation",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "TW_LiquidStaking_Proto_Unstake"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_LiquidStaking_Proto_Unstake",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "TW_LiquidStaking_Proto_Unstake"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "TW_LiquidStaking_Proto_Unstake",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_liquidstaking_proto_unstake"
+}
+}
+}

@@ -108,7 +108,8 @@
         "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/Curve\/ed25519Blake2bNano",
         "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/Curve\/ed25519ExtendedCardano",
         "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/Curve\/nist256p1",
-        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/Curve\/secp256k1"
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/Curve\/secp256k1",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/Curve\/starkex"
       ],
       "title" : "Enumeration Cases"
     },
@@ -450,6 +451,31 @@
   "title" : "Curve.secp256k1",
   "type" : "topic",
   "url" : "\/documentation\/walletcore\/curve\/secp256k1"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/Curve/starkex": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "starkex"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/Curve\/starkex",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Curve.starkex",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/curve\/starkex"
 },
 "doc://com.trustwallet.WalletCore/s12CaseIterableP": {
   "identifier" : "doc:\/\/com.trustwallet.WalletCore\/s12CaseIterableP",

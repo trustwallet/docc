@@ -109,6 +109,7 @@
     {
       "identifiers" : [
         "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Algorand_Proto_SigningOutput\/encoded",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Algorand_Proto_SigningOutput\/signature",
         "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Algorand_Proto_SigningOutput\/unknownFields"
       ],
       "title" : "Instance Properties"
@@ -275,6 +276,43 @@
   "title" : "init()",
   "type" : "topic",
   "url" : "\/documentation\/walletcore\/tw_algorand_proto_signingoutput\/init()"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Algorand_Proto_SigningOutput/signature": {
+  "abstract" : [
+    {
+      "text" : "Signature in base64.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "signature"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Algorand_Proto_SigningOutput\/signature",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "signature",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_algorand_proto_signingoutput\/signature"
 },
 "doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Algorand_Proto_SigningOutput/unknownFields": {
   "abstract" : [

@@ -108,10 +108,12 @@
     },
     {
       "identifiers" : [
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Filecoin_Proto_SigningInput\/derivation",
         "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Filecoin_Proto_SigningInput\/gasFeeCap",
         "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Filecoin_Proto_SigningInput\/gasLimit",
         "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Filecoin_Proto_SigningInput\/gasPremium",
         "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Filecoin_Proto_SigningInput\/nonce",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Filecoin_Proto_SigningInput\/params",
         "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Filecoin_Proto_SigningInput\/privateKey",
         "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Filecoin_Proto_SigningInput\/to",
         "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Filecoin_Proto_SigningInput\/unknownFields",
@@ -223,6 +225,43 @@
   "title" : "Message Implementations",
   "type" : "topic",
   "url" : "\/documentation\/walletcore\/tw_filecoin_proto_signinginput\/message-implementations"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Filecoin_Proto_SigningInput/derivation": {
+  "abstract" : [
+    {
+      "text" : "Sender address derivation type.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "derivation"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10WalletCore32TW_Filecoin_Proto_DerivationTypeO",
+      "text" : "TW_Filecoin_Proto_DerivationType"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Filecoin_Proto_SigningInput\/derivation",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "derivation",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_filecoin_proto_signinginput\/derivation"
 },
 "doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Filecoin_Proto_SigningInput/gasFeeCap": {
   "abstract" : [
@@ -392,6 +431,43 @@
   "title" : "nonce",
   "type" : "topic",
   "url" : "\/documentation\/walletcore\/tw_filecoin_proto_signinginput\/nonce"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Filecoin_Proto_SigningInput/params": {
+  "abstract" : [
+    {
+      "text" : "Message params.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "params"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10Foundation4DataV",
+      "text" : "Data"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Filecoin_Proto_SigningInput\/params",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "params",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_filecoin_proto_signinginput\/params"
 },
 "doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Filecoin_Proto_SigningInput/privateKey": {
   "abstract" : [

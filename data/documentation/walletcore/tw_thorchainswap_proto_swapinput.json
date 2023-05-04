@@ -110,10 +110,12 @@
       "identifiers" : [
         "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_THORChainSwap_Proto_SwapInput\/affiliateFeeAddress",
         "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_THORChainSwap_Proto_SwapInput\/affiliateFeeRateBp",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_THORChainSwap_Proto_SwapInput\/expirationTime",
         "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_THORChainSwap_Proto_SwapInput\/extraMemo",
         "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_THORChainSwap_Proto_SwapInput\/fromAddress",
         "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_THORChainSwap_Proto_SwapInput\/fromAmount",
-        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_THORChainSwap_Proto_SwapInput\/fromChain",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_THORChainSwap_Proto_SwapInput\/fromAsset",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_THORChainSwap_Proto_SwapInput\/hasFromAsset",
         "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_THORChainSwap_Proto_SwapInput\/hasToAsset",
         "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_THORChainSwap_Proto_SwapInput\/routerAddress",
         "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_THORChainSwap_Proto_SwapInput\/toAddress",
@@ -126,6 +128,7 @@
     },
     {
       "identifiers" : [
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_THORChainSwap_Proto_SwapInput\/clearFromAsset()",
         "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_THORChainSwap_Proto_SwapInput\/clearToAsset()"
       ],
       "title" : "Instance Methods"
@@ -309,6 +312,46 @@
   "type" : "topic",
   "url" : "\/documentation\/walletcore\/tw_thorchainswap_proto_swapinput\/affiliatefeeratebp"
 },
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_THORChainSwap_Proto_SwapInput/clearFromAsset()": {
+  "abstract" : [
+    {
+      "text" : "Clears the value of ",
+      "type" : "text"
+    },
+    {
+      "code" : "fromAsset",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : ". Subsequent reads from it will return its default value.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "clearFromAsset"
+    },
+    {
+      "kind" : "text",
+      "text" : "()"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_THORChainSwap_Proto_SwapInput\/clearFromAsset()",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "clearFromAsset()",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_thorchainswap_proto_swapinput\/clearfromasset()"
+},
 "doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_THORChainSwap_Proto_SwapInput/clearToAsset()": {
   "abstract" : [
     {
@@ -348,6 +391,43 @@
   "title" : "clearToAsset()",
   "type" : "topic",
   "url" : "\/documentation\/walletcore\/tw_thorchainswap_proto_swapinput\/cleartoasset()"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_THORChainSwap_Proto_SwapInput/expirationTime": {
+  "abstract" : [
+    {
+      "text" : "Optional expirationTime, will be now() + 15 min if not set",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "expirationTime"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:s6UInt64V",
+      "text" : "UInt64"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_THORChainSwap_Proto_SwapInput\/expirationTime",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "expirationTime",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_thorchainswap_proto_swapinput\/expirationtime"
 },
 "doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_THORChainSwap_Proto_SwapInput/extraMemo": {
   "abstract" : [
@@ -460,7 +540,7 @@
   "type" : "topic",
   "url" : "\/documentation\/walletcore\/tw_thorchainswap_proto_swapinput\/fromamount"
 },
-"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_THORChainSwap_Proto_SwapInput/fromChain": {
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_THORChainSwap_Proto_SwapInput/fromAsset": {
   "abstract" : [
     {
       "text" : "Source chain",
@@ -478,7 +558,7 @@
     },
     {
       "kind" : "identifier",
-      "text" : "fromChain"
+      "text" : "fromAsset"
     },
     {
       "kind" : "text",
@@ -486,16 +566,61 @@
     },
     {
       "kind" : "typeIdentifier",
-      "preciseIdentifier" : "s:10WalletCore28TW_THORChainSwap_Proto_ChainO",
-      "text" : "TW_THORChainSwap_Proto_Chain"
+      "preciseIdentifier" : "s:10WalletCore28TW_THORChainSwap_Proto_AssetV",
+      "text" : "TW_THORChainSwap_Proto_Asset"
     }
   ],
-  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_THORChainSwap_Proto_SwapInput\/fromChain",
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_THORChainSwap_Proto_SwapInput\/fromAsset",
   "kind" : "symbol",
   "role" : "symbol",
-  "title" : "fromChain",
+  "title" : "fromAsset",
   "type" : "topic",
-  "url" : "\/documentation\/walletcore\/tw_thorchainswap_proto_swapinput\/fromchain"
+  "url" : "\/documentation\/walletcore\/tw_thorchainswap_proto_swapinput\/fromasset"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_THORChainSwap_Proto_SwapInput/hasFromAsset": {
+  "abstract" : [
+    {
+      "text" : "Returns true if ",
+      "type" : "text"
+    },
+    {
+      "code" : "fromAsset",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : " has been explicitly set.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "hasFromAsset"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Sb",
+      "text" : "Bool"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_THORChainSwap_Proto_SwapInput\/hasFromAsset",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "hasFromAsset",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_thorchainswap_proto_swapinput\/hasfromasset"
 },
 "doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_THORChainSwap_Proto_SwapInput/hasToAsset": {
   "abstract" : [

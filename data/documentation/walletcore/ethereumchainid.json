@@ -123,6 +123,7 @@
         "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/EthereumChainID\/fantom",
         "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/EthereumChainID\/gochain",
         "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/EthereumChainID\/heco",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/EthereumChainID\/iotexevm",
         "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/EthereumChainID\/kavaevm",
         "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/EthereumChainID\/kcc",
         "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/EthereumChainID\/klaytn",
@@ -134,6 +135,7 @@
         "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/EthereumChainID\/optimism",
         "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/EthereumChainID\/poa",
         "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/EthereumChainID\/polygon",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/EthereumChainID\/polygonzkevm",
         "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/EthereumChainID\/ronin",
         "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/EthereumChainID\/smartbch",
         "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/EthereumChainID\/smartchain",
@@ -628,6 +630,31 @@
   "type" : "topic",
   "url" : "\/documentation\/walletcore\/ethereumchainid\/init(rawvalue:)"
 },
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/EthereumChainID/iotexevm": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "iotexevm"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/EthereumChainID\/iotexevm",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "EthereumChainID.iotexevm",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/ethereumchainid\/iotexevm"
+},
 "doc://com.trustwallet.WalletCore/documentation/WalletCore/EthereumChainID/kavaevm": {
   "abstract" : [
 
@@ -902,6 +929,31 @@
   "title" : "EthereumChainID.polygon",
   "type" : "topic",
   "url" : "\/documentation\/walletcore\/ethereumchainid\/polygon"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/EthereumChainID/polygonzkevm": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "polygonzkevm"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/EthereumChainID\/polygonzkevm",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "EthereumChainID.polygonzkevm",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/ethereumchainid\/polygonzkevm"
 },
 "doc://com.trustwallet.WalletCore/documentation/WalletCore/EthereumChainID/ronin": {
   "abstract" : [

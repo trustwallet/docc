@@ -98,7 +98,9 @@
     {
       "identifiers" : [
         "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/StoredKey\/init(name:password:)",
-        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/StoredKey\/init(name:password:encryptionLevel:)"
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/StoredKey\/init(name:password:encryption:)",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/StoredKey\/init(name:password:encryptionLevel:)",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/StoredKey\/init(name:password:encryptionLevel:encryption:)"
       ],
       "title" : "Initializers"
     },
@@ -135,8 +137,10 @@
     {
       "identifiers" : [
         "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/StoredKey\/importHDWallet(mnemonic:name:password:coin:)",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/StoredKey\/importHDWalletWithEncryption(mnemonic:name:password:coin:encryption:)",
         "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/StoredKey\/importJSON(json:)",
         "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/StoredKey\/importPrivateKey(privateKey:name:password:coin:)",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/StoredKey\/importPrivateKeyWithEncryption(privateKey:name:password:coin:encryption:)",
         "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/StoredKey\/load(path:)"
       ],
       "title" : "Type Methods"
@@ -1140,6 +1144,140 @@
   "type" : "topic",
   "url" : "\/documentation\/walletcore\/storedkey\/importhdwallet(mnemonic:name:password:coin:)"
 },
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/StoredKey/importHDWalletWithEncryption(mnemonic:name:password:coin:encryption:)": {
+  "abstract" : [
+    {
+      "text" : "Imports an HD wallet.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "static"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "importHDWalletWithEncryption"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "mnemonic"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "name"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "password"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10Foundation4DataV",
+      "text" : "Data"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "coin"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10WalletCore8CoinTypeO",
+      "text" : "CoinType"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "encryption"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10WalletCore19StoredKeyEncryptionO",
+      "text" : "StoredKeyEncryption"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10WalletCore9StoredKeyC",
+      "text" : "StoredKey"
+    },
+    {
+      "kind" : "text",
+      "text" : "?"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/StoredKey\/importHDWalletWithEncryption(mnemonic:name:password:coin:encryption:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "importHDWalletWithEncryption(mnemonic:name:password:coin:encryption:)",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/storedkey\/importhdwalletwithencryption(mnemonic:name:password:coin:encryption:)"
+},
 "doc://com.trustwallet.WalletCore/documentation/WalletCore/StoredKey/importJSON(json:)": {
   "abstract" : [
     {
@@ -1323,6 +1461,140 @@
   "type" : "topic",
   "url" : "\/documentation\/walletcore\/storedkey\/importprivatekey(privatekey:name:password:coin:)"
 },
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/StoredKey/importPrivateKeyWithEncryption(privateKey:name:password:coin:encryption:)": {
+  "abstract" : [
+    {
+      "text" : "Imports a private key.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "static"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "importPrivateKeyWithEncryption"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "privateKey"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10Foundation4DataV",
+      "text" : "Data"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "name"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "password"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10Foundation4DataV",
+      "text" : "Data"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "coin"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10WalletCore8CoinTypeO",
+      "text" : "CoinType"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "encryption"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10WalletCore19StoredKeyEncryptionO",
+      "text" : "StoredKeyEncryption"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10WalletCore9StoredKeyC",
+      "text" : "StoredKey"
+    },
+    {
+      "kind" : "text",
+      "text" : "?"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/StoredKey\/importPrivateKeyWithEncryption(privateKey:name:password:coin:encryption:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "importPrivateKeyWithEncryption(privateKey:name:password:coin:encryption:)",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/storedkey\/importprivatekeywithencryption(privatekey:name:password:coin:encryption:)"
+},
 "doc://com.trustwallet.WalletCore/documentation/WalletCore/StoredKey/init(name:password:)": {
   "abstract" : [
 
@@ -1377,6 +1649,78 @@
   "title" : "init(name:password:)",
   "type" : "topic",
   "url" : "\/documentation\/walletcore\/storedkey\/init(name:password:)"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/StoredKey/init(name:password:encryption:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "init"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "name"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "password"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10Foundation4DataV",
+      "text" : "Data"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "encryption"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10WalletCore19StoredKeyEncryptionO",
+      "text" : "StoredKeyEncryption"
+    },
+    {
+      "kind" : "text",
+      "text" : ")"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/StoredKey\/init(name:password:encryption:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "init(name:password:encryption:)",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/storedkey\/init(name:password:encryption:)"
 },
 "doc://com.trustwallet.WalletCore/documentation/WalletCore/StoredKey/init(name:password:encryptionLevel:)": {
   "abstract" : [
@@ -1449,6 +1793,95 @@
   "title" : "init(name:password:encryptionLevel:)",
   "type" : "topic",
   "url" : "\/documentation\/walletcore\/storedkey\/init(name:password:encryptionlevel:)"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/StoredKey/init(name:password:encryptionLevel:encryption:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "init"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "name"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "password"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10Foundation4DataV",
+      "text" : "Data"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "encryptionLevel"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10WalletCore24StoredKeyEncryptionLevelO",
+      "text" : "StoredKeyEncryptionLevel"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "encryption"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10WalletCore19StoredKeyEncryptionO",
+      "text" : "StoredKeyEncryption"
+    },
+    {
+      "kind" : "text",
+      "text" : ")"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/StoredKey\/init(name:password:encryptionLevel:encryption:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "init(name:password:encryptionLevel:encryption:)",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/storedkey\/init(name:password:encryptionlevel:encryption:)"
 },
 "doc://com.trustwallet.WalletCore/documentation/WalletCore/StoredKey/isMnemonic": {
   "abstract" : [

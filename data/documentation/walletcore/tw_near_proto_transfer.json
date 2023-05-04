@@ -221,7 +221,7 @@
 "doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_NEAR_Proto_Transfer/deposit": {
   "abstract" : [
     {
-      "text" : "amount; uint128 \/ little endian byte order",
+      "text" : "amount; uint128 \/ big endian byte order",
       "type" : "text"
     }
   ],

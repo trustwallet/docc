@@ -95,6 +95,7 @@
     {
       "identifiers" : [
         "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Aptos_Proto_SigningInput\/OneOf_TransactionPayload\/createAccount(_:)",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Aptos_Proto_SigningInput\/OneOf_TransactionPayload\/liquidStakingMessage(_:)",
         "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Aptos_Proto_SigningInput\/OneOf_TransactionPayload\/nftMessage(_:)",
         "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Aptos_Proto_SigningInput\/OneOf_TransactionPayload\/registerToken(_:)",
         "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Aptos_Proto_SigningInput\/OneOf_TransactionPayload\/tokenTransfer(_:)",
@@ -253,6 +254,44 @@
   "title" : "TW_Aptos_Proto_SigningInput.OneOf_TransactionPayload.createAccount(_:)",
   "type" : "topic",
   "url" : "\/documentation\/walletcore\/tw_aptos_proto_signinginput\/oneof_transactionpayload\/createaccount(_:)"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Aptos_Proto_SigningInput/OneOf_TransactionPayload/liquidStakingMessage(_:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "liquidStakingMessage"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10WalletCore28TW_Aptos_Proto_LiquidStakingV",
+      "text" : "TW_Aptos_Proto_LiquidStaking"
+    },
+    {
+      "kind" : "text",
+      "text" : ")"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Aptos_Proto_SigningInput\/OneOf_TransactionPayload\/liquidStakingMessage(_:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "TW_Aptos_Proto_SigningInput.OneOf_TransactionPayload.liquidStakingMessage(_:)",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_aptos_proto_signinginput\/oneof_transactionpayload\/liquidstakingmessage(_:)"
 },
 "doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Aptos_Proto_SigningInput/OneOf_TransactionPayload/nftMessage(_:)": {
   "abstract" : [

@@ -111,6 +111,7 @@
         "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Tron_Proto_SigningInput\/hasTransaction",
         "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Tron_Proto_SigningInput\/privateKey",
         "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Tron_Proto_SigningInput\/transaction",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Tron_Proto_SigningInput\/txID",
         "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Tron_Proto_SigningInput\/unknownFields"
       ],
       "title" : "Instance Properties"
@@ -405,6 +406,43 @@
   "title" : "transaction",
   "type" : "topic",
   "url" : "\/documentation\/walletcore\/tw_tron_proto_signinginput\/transaction"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Tron_Proto_SigningInput/txID": {
+  "abstract" : [
+    {
+      "text" : "For direct sign in Tron, we just have to sign the txId returned by the DApp json payload.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "txID"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Tron_Proto_SigningInput\/txID",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "txID",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_tron_proto_signinginput\/txid"
 },
 "doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Tron_Proto_SigningInput/unknownFields": {
   "abstract" : [

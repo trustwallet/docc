@@ -105,7 +105,8 @@
       "identifiers" : [
         "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Ethereum_Proto_TransactionMode\/UNRECOGNIZED(_:)",
         "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Ethereum_Proto_TransactionMode\/enveloped",
-        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Ethereum_Proto_TransactionMode\/legacy"
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Ethereum_Proto_TransactionMode\/legacy",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Ethereum_Proto_TransactionMode\/userOp"
       ],
       "title" : "Enumeration Cases"
     },
@@ -479,6 +480,34 @@
   "title" : "rawValue",
   "type" : "topic",
   "url" : "\/documentation\/walletcore\/tw_ethereum_proto_transactionmode\/rawvalue-swift.property"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Ethereum_Proto_TransactionMode/userOp": {
+  "abstract" : [
+    {
+      "text" : "EIP4337-compatible UserOperation",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "userOp"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Ethereum_Proto_TransactionMode\/userOp",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "TW_Ethereum_Proto_TransactionMode.userOp",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_ethereum_proto_transactionmode\/userop"
 },
 "doc://com.trustwallet.WalletCore/s12CaseIterableP": {
   "identifier" : "doc:\/\/com.trustwallet.WalletCore\/s12CaseIterableP",

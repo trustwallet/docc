@@ -109,7 +109,8 @@
         "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/PublicKeyType\/nist256p1",
         "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/PublicKeyType\/nist256p1Extended",
         "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/PublicKeyType\/secp256k1",
-        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/PublicKeyType\/secp256k1Extended"
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/PublicKeyType\/secp256k1Extended",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/PublicKeyType\/starkex"
       ],
       "title" : "Enumeration Cases"
     },
@@ -461,6 +462,31 @@
   "title" : "PublicKeyType.secp256k1Extended",
   "type" : "topic",
   "url" : "\/documentation\/walletcore\/publickeytype\/secp256k1extended"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/PublicKeyType/starkex": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "starkex"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/PublicKeyType\/starkex",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "PublicKeyType.starkex",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/publickeytype\/starkex"
 },
 "doc://com.trustwallet.WalletCore/s12CaseIterableP": {
   "identifier" : "doc:\/\/com.trustwallet.WalletCore\/s12CaseIterableP",

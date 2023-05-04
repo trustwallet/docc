@@ -178,6 +178,34 @@
           "name" : "tokenBundle"
         }
       ]
+    },
+    {
+      "content" : [
+        {
+          "anchor" : "discussion",
+          "level" : 2,
+          "text" : "Discussion",
+          "type" : "heading"
+        },
+        {
+          "inlineContent" : [
+            {
+              "text" : "\\deprecated consider using ",
+              "type" : "text"
+            },
+            {
+              "code" : "TWCardanoOutputMinAdaAmount",
+              "type" : "codeVoice"
+            },
+            {
+              "text" : " instead.",
+              "type" : "text"
+            }
+          ],
+          "type" : "paragraph"
+        }
+      ],
+      "kind" : "content"
     }
   ],
   "schemaVersion" : {

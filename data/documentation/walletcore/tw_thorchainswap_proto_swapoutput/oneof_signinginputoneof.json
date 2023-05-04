@@ -102,6 +102,7 @@
       "identifiers" : [
         "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_THORChainSwap_Proto_SwapOutput\/OneOf_SigningInputOneof\/binance(_:)",
         "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_THORChainSwap_Proto_SwapOutput\/OneOf_SigningInputOneof\/bitcoin(_:)",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_THORChainSwap_Proto_SwapOutput\/OneOf_SigningInputOneof\/cosmos(_:)",
         "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_THORChainSwap_Proto_SwapOutput\/OneOf_SigningInputOneof\/ethereum(_:)"
       ],
       "title" : "Enumeration Cases"
@@ -298,6 +299,44 @@
   "title" : "TW_THORChainSwap_Proto_SwapOutput.OneOf_SigningInputOneof.bitcoin(_:)",
   "type" : "topic",
   "url" : "\/documentation\/walletcore\/tw_thorchainswap_proto_swapoutput\/oneof_signinginputoneof\/bitcoin(_:)"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_THORChainSwap_Proto_SwapOutput/OneOf_SigningInputOneof/cosmos(_:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "cosmos"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10WalletCore28TW_Cosmos_Proto_SigningInputV",
+      "text" : "TW_Cosmos_Proto_SigningInput"
+    },
+    {
+      "kind" : "text",
+      "text" : ")"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_THORChainSwap_Proto_SwapOutput\/OneOf_SigningInputOneof\/cosmos(_:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "TW_THORChainSwap_Proto_SwapOutput.OneOf_SigningInputOneof.cosmos(_:)",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_thorchainswap_proto_swapoutput\/oneof_signinginputoneof\/cosmos(_:)"
 },
 "doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_THORChainSwap_Proto_SwapOutput/OneOf_SigningInputOneof/ethereum(_:)": {
   "abstract" : [

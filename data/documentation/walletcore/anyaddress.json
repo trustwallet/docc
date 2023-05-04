@@ -119,6 +119,7 @@
         "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/AnyAddress\/init(publicKey:coin:derivation:)",
         "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/AnyAddress\/init(publicKey:coin:hrp:)",
         "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/AnyAddress\/init(publicKey:coin:ss58Prefix:)",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/AnyAddress\/init(publicKey:filecoinAddressType:)",
         "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/AnyAddress\/init(string:coin:)",
         "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/AnyAddress\/init(string:coin:hrp:)",
         "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/AnyAddress\/init(string:coin:ss58Prefix:)"
@@ -706,6 +707,61 @@
   "title" : "init(publicKey:coin:ss58Prefix:)",
   "type" : "topic",
   "url" : "\/documentation\/walletcore\/anyaddress\/init(publickey:coin:ss58prefix:)"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/AnyAddress/init(publicKey:filecoinAddressType:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "init"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "publicKey"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10WalletCore9PublicKeyC",
+      "text" : "PublicKey"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "filecoinAddressType"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10WalletCore19FilecoinAddressTypeO",
+      "text" : "FilecoinAddressType"
+    },
+    {
+      "kind" : "text",
+      "text" : ")"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/AnyAddress\/init(publicKey:filecoinAddressType:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "init(publicKey:filecoinAddressType:)",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/anyaddress\/init(publickey:filecoinaddresstype:)"
 },
 "doc://com.trustwallet.WalletCore/documentation/WalletCore/AnyAddress/init(string:coin:)": {
   "abstract" : [

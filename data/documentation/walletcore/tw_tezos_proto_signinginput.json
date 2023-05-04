@@ -116,6 +116,7 @@
     },
     {
       "identifiers" : [
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Tezos_Proto_SigningInput\/encodedOperations",
         "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Tezos_Proto_SigningInput\/hasOperationList",
         "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Tezos_Proto_SigningInput\/operationList",
         "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Tezos_Proto_SigningInput\/privateKey",
@@ -281,6 +282,43 @@
   "title" : "clearOperationList()",
   "type" : "topic",
   "url" : "\/documentation\/walletcore\/tw_tezos_proto_signinginput\/clearoperationlist()"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Tezos_Proto_SigningInput/encodedOperations": {
+  "abstract" : [
+    {
+      "text" : "Encoded operation bytes obtained with $RPC_URL\/chains\/main\/blocks\/head\/helpers\/forge\/operations, operation_list will be ignored.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "encodedOperations"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10Foundation4DataV",
+      "text" : "Data"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/TW_Tezos_Proto_SigningInput\/encodedOperations",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "encodedOperations",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/tw_tezos_proto_signinginput\/encodedoperations"
 },
 "doc://com.trustwallet.WalletCore/documentation/WalletCore/TW_Tezos_Proto_SigningInput/hasOperationList": {
   "abstract" : [

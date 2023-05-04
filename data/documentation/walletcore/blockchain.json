@@ -111,7 +111,6 @@
         "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/Blockchain\/cardano",
         "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/Blockchain\/cosmos",
         "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/Blockchain\/decred",
-        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/Blockchain\/elrondNetwork",
         "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/Blockchain\/eos",
         "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/Blockchain\/ethereum",
         "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/Blockchain\/everscale",
@@ -123,6 +122,7 @@
         "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/Blockchain\/icon",
         "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/Blockchain\/ioTeX",
         "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/Blockchain\/kusama",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/Blockchain\/multiversX",
         "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/Blockchain\/nano",
         "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/Blockchain\/near",
         "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/Blockchain\/nebulas",
@@ -137,7 +137,9 @@
         "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/Blockchain\/ronin",
         "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/Blockchain\/solana",
         "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/Blockchain\/stellar",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/Blockchain\/sui",
         "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/Blockchain\/tezos",
+        "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/Blockchain\/theOpenNetwork",
         "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/Blockchain\/theta",
         "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/Blockchain\/thorchain",
         "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/Blockchain\/tron",
@@ -484,31 +486,6 @@
   "type" : "topic",
   "url" : "\/documentation\/walletcore\/blockchain\/decred"
 },
-"doc://com.trustwallet.WalletCore/documentation/WalletCore/Blockchain/elrondNetwork": {
-  "abstract" : [
-
-  ],
-  "fragments" : [
-    {
-      "kind" : "keyword",
-      "text" : "case"
-    },
-    {
-      "kind" : "text",
-      "text" : " "
-    },
-    {
-      "kind" : "identifier",
-      "text" : "elrondNetwork"
-    }
-  ],
-  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/Blockchain\/elrondNetwork",
-  "kind" : "symbol",
-  "role" : "symbol",
-  "title" : "Blockchain.elrondNetwork",
-  "type" : "topic",
-  "url" : "\/documentation\/walletcore\/blockchain\/elrondnetwork"
-},
 "doc://com.trustwallet.WalletCore/documentation/WalletCore/Blockchain/eos": {
   "abstract" : [
 
@@ -821,6 +798,31 @@
   "title" : "Blockchain.kusama",
   "type" : "topic",
   "url" : "\/documentation\/walletcore\/blockchain\/kusama"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/Blockchain/multiversX": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "multiversX"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/Blockchain\/multiversX",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Blockchain.multiversX",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/blockchain\/multiversx"
 },
 "doc://com.trustwallet.WalletCore/documentation/WalletCore/Blockchain/nano": {
   "abstract" : [
@@ -1172,6 +1174,31 @@
   "type" : "topic",
   "url" : "\/documentation\/walletcore\/blockchain\/stellar"
 },
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/Blockchain/sui": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "sui"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/Blockchain\/sui",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Blockchain.sui",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/blockchain\/sui"
+},
 "doc://com.trustwallet.WalletCore/documentation/WalletCore/Blockchain/tezos": {
   "abstract" : [
 
@@ -1196,6 +1223,31 @@
   "title" : "Blockchain.tezos",
   "type" : "topic",
   "url" : "\/documentation\/walletcore\/blockchain\/tezos"
+},
+"doc://com.trustwallet.WalletCore/documentation/WalletCore/Blockchain/theOpenNetwork": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "theOpenNetwork"
+    }
+  ],
+  "identifier" : "doc:\/\/com.trustwallet.WalletCore\/documentation\/WalletCore\/Blockchain\/theOpenNetwork",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Blockchain.theOpenNetwork",
+  "type" : "topic",
+  "url" : "\/documentation\/walletcore\/blockchain\/theopennetwork"
 },
 "doc://com.trustwallet.WalletCore/documentation/WalletCore/Blockchain/theta": {
   "abstract" : [
